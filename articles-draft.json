@@ -1,0 +1,84 @@
+[
+    {
+        "title": "ユウゴウパズル まとめ",
+        "featured": true,
+        "priority": 5,
+        "thumbnail": "img/yugo-puzzle-00.png",
+        "url": "games/yugo-puzzle-00.html",
+        "tags": [
+            "ユウゴウパズル",
+            "ゲーム"
+        ],
+        "datePublished": "2025-03-27",
+        "excerpt": {
+            "short": "",
+            "full": ""
+        },
+        "slug": "",
+        "author": "shizu49"
+    },
+    {
+        "title": "ユウゴウパズル 1-10 🧩 攻略動画",
+        "thumbnail": "img/yugo-puzzle-10.png",
+        "url": "games/yugo-puzzle-10.html",
+        "tags": [
+            "ユウゴウパズル",
+            "ゲ－ム"
+        ],
+        "datePublished": "2025-02-18",
+        "excerpt": {
+            "short": "",
+            "full": ""
+        },
+        "slug": "",
+        "author": "shizu49"
+    },
+    {
+        "title": "ユウゴウパズル 11-20 🧩 攻略動画",
+        "thumbnail": "img/yugo-puzzle-20.png",
+        "url": "games/yugo-puzzle-20.html",
+        "tags": [
+            "ユウゴウパズル",
+            "ゲ－ム"
+        ],
+        "datePublished": "2025-02-18",
+        "excerpt": {
+            "short": "",
+            "full": ""
+        },
+        "slug": "",
+        "author": "shizu49"
+    },
+    {
+        "title": "ユウゴウパズル 21-30 🧩 攻略動画",
+        "thumbnail": "img/yugo-puzzle-30.png",
+        "url": "games/yugo-puzzle-30.html",
+        "tags": [
+            "ユウゴウパズル",
+            "ゲ－ム"
+        ],
+        "datePublished": "2025-02-18",
+        "excerpt": {
+            "short": "",
+            "full": ""
+        },
+        "slug": "",
+        "author": "shizu49"
+    },
+    {
+        "title": "ユウゴウパズル 31-40 🧩 攻略動画",
+        "thumbnail": "img/yugo-puzzle-40.png",
+        "url": "games/yugo-puzzle-40.html",
+        "tags": [
+            "ユウゴウパズル",
+            "ゲ－ム"
+        ],
+        "datePublished": "2025-02-18",
+        "excerpt": {
+            "short": "",
+            "full": ""
+        },
+        "slug": "",
+        "author": "shizu49"
+    }
+]

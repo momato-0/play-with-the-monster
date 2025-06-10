@@ -1,0 +1,388 @@
+body.dark {
+    /* -----　🎨 Color　----- */
+    --my-header-bg: #100d0b;
+    --my-orange: #fd6f6b;
+    --my-lorange: #ffa185;
+    --my-dark-orange: #b02f00;
+    --my-green: #198754;
+    --my-lblue: #c4e0ff;
+    /* body-bg */
+    --surface: #181210;
+    --on-surface: #ede0dc;
+
+    /* -----　✍ Typograpy　　----- */
+    --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    --size-12px: 0.75rem;
+    --size-13px: 0.8125rem;
+    --size-14px: 0.875rem;
+    --size-15px: 0.9375rem;
+    --size-18px: 1.125rem;
+
+    /* -----　　🏠 Base　　　----- */
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+/* ========== 🧭 Navigation ========== */
+nav {
+    background-color: var(--my-header-bg) !important;
+}
+
+nav.s {
+    border-bottom: 1px solid #411515;
+}
+
+nav.l {
+    border-right: 1px solid #411515;
+}
+
+nav.l a {
+    padding: .5rem;
+    min-width: 100%;
+}
+
+nav.l a:hover {
+    border-radius: 30%;
+    background-color: var(--my-dark-orange);
+}
+
+nav.l svg {
+    border-radius: 0;
+}
+
+nav.l span {
+    font-size: var(--size-13px);
+}
+
+/* ==========　 🍖 Main 　========== */
+section.grid {
+    ---gap: 0;
+}
+
+article {
+    display: flex;
+    background: #2a3a4f !important;
+    border: 1px solid #ef7d3c !important;
+    position: relative;
+    height: 120px;
+    overflow: hidden;
+}
+
+.img-unit {
+    position: relative;
+    width: 100px;
+    flex-shrink: 0;
+}
+
+.img-unit2 {
+    width: 120%;
+    padding-top: 120%;
+    height: 0;
+}
+
+.img-unit3 {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.tags-unit {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: calc(6rem * 2 + .5rem);
+}
+
+.tags-unit .chip {
+    font-size: var(--size-12px);
+    font-weight: 400;
+    block-size: 1rem;
+    min-width: 2rem;
+    padding: .3rem;
+    margin: 0;
+    background-color: #6164ff;
+    color: #fff;
+    border: 1px solid #2c2d63;
+}
+
+.text-unit {
+    border-radius: 0;
+    flex: 1 1 auto;
+    margin: .5rem .5rem .5rem 30px;
+}
+
+.text-unit h5 {
+    color: #d1ff28;
+    font-size: var(--size-15px);
+    margin-top: .5rem;
+}
+
+time {
+    text-align: right;
+}
+
+.text-unit p,
+.text-unit time {
+    font-size: var(--size-13px);
+    margin-top: .5rem;
+    overflow: hidden;
+}
+
+.full-text {
+    display: none;
+}
+
+h1,
+h2,
+h3 {
+    display: block;
+    text-align: center;
+}
+
+h1 {
+    font-size: calc(1rem + 1.3vw);
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-size: calc(1rem + .9vw);
+    font-weight: 700;
+    color: #b7ffe0;
+    background-image: radial-gradient(circle, #055733 33%, #2f9fff26);
+    border: 1px solid #00693c;
+    border-radius: .2rem;
+    padding: 0.5em 1em;
+    margin: 4rem auto 1.8rem;
+    /*inline-size: 90vw;*/
+}
+
+.me-3 {
+    margin-right: 1rem;
+}
+
+.mt-5 {
+    margin-top: 2rem;
+}
+
+.fw-bold {
+    font-weight: 700;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+/* ========== 💻 PC ========== */
+@media (min-width: 601px) {
+    section.grid {
+        ---gap: 1rem;
+    }
+
+    article {
+        display: block;
+    }
+
+    .img-unit {
+        width: 100%;
+    }
+
+    .img-unit2 {
+        /* サムネ比率 */
+        width: 100%;
+        padding-top: 100%;
+        height: 0;
+        padding-top: 56.25%;
+    }
+
+    article {
+        height: auto;
+    }
+
+    *+article {
+        margin-block-start: 0;
+    }
+
+    .tags-unit {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.3em;
+        border-radius: 0;
+        max-width: 100%;
+    }
+
+    .tags-unit .chip {
+        font-size: var(--size-14px);
+    }
+
+    .text-unit {
+        margin: .5rem 1rem;
+    }
+
+    .text-unit h5 {
+        font-size: var(--size-18px);
+        margin-top: .5rem;
+    }
+
+    .text-unit p,
+    .text-unit time {
+        font-size: var(--size-15px);
+        margin-top: 1rem;
+    }
+
+    .full-text {
+        display: inline;
+    }
+
+    .me-md-5 {
+        margin-right: 3rem !important;
+    }
+}
+
+.article-link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    inset: 0;
+    border-radius: 30px;
+}
+
+.article-link:hover {
+    background-image: repeating-linear-gradient(53deg, #fe6dff40, #fe6dff40 1px, transparent 1px, transparent 6px)
+}
+
+/* ==========  ========== */
+span {
+    border-radius: 0;
+}
+
+hr {
+    height: 1px;
+    margin: .5rem 0;
+    border: 0;
+    background-color: #ffffff36;
+}
+
+.jel {
+    margin: 0 .25rem;
+    border-radius: 0;
+    vertical-align: -.1rem;
+}
+
+.boya .jel {
+    opacity: 0;
+}
+
+.boya.active .jel {
+    opacity: 1;
+}
+
+details {
+    border: 1px solid #ffffff36;
+    border-radius: .2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+summary {
+    display: list-item;
+    cursor: pointer;
+    font-size: calc(1rem + .1vw);
+    font-weight: bold;
+    padding: 10px;
+    background: #0000003d;
+    border-radius: .2rem;
+}
+
+img.sharp {
+    filter: url(./filter-sharp.svg#unsharp);
+}
+
+.my-yellow,
+.boya.active .my-yellow {
+    color: #ffaf17;
+}
+
+.my-red,
+.boya.active .my-red {
+    color: #ff876d;
+}
+
+.my-blue,
+.boya.active .my-blue {
+    color: #85d7ff;
+}
+
+.my-orange,
+.boya.active .my-orange {
+    color: var(--my-lorange);
+}
+
+.my-green,
+.boya.active .my-green {
+    color: #0bd900;
+}
+
+.my-lblue,
+.boya.active .my-lblue {
+    color: var(--my-lblue);
+}
+
+.my-blue,
+.my-yellow,
+.my-red,
+.my-green,
+.my-orange {
+    margin: 0 .2rem;
+    font-size: 1.1rem;
+}
+
+.num {
+    display: inline-block;
+    width: 2ch;
+    text-align: center;
+}
+
+/* ========== 📝 Txt-contents ========== */
+.txt-content p {
+    font-size: calc(1rem + .05vw);
+    margin: 1.5rem 0;
+}
+
+.txt-content a {
+    display: inline;
+    color: var(--my-lblue);
+    border-bottom: 1px solid var(--my-lblue);
+}
+
+.txt-content a:hover {
+    color: var(--my-lorange);
+    border-bottom: 1px solid var(--my-lorange);
+}
+
+.txt-content ruby {
+    vertical-align: bottom;
+}
+
+.txt-content .mt-5 {
+    margin-top: 4rem;
+}
+
+.talk {
+    padding-left: 1rem;
+    text-indent: -1rem;
+}
+
+.num-2 {
+    font-feature-settings: "palt";
+    font-family: "Noto Sans JP", "Yu Gothic", "メイリオ", sans-serif;
+    letter-spacing: -0.05em;
+}
+
+p.font-small,
+span.font-small {
+    font-size: .8rem;
+}

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>むずかしめ 8（ユウゴウパズル） - 怪物であそぼう</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/beercss@3.4.4/dist/cdn/beer.min.css" />
+    <script type="module" src="https://cdn.jsdelivr.net/npm/beercss@3.4.4/dist/cdn/beer.min.js"></script>
+    <link rel="stylesheet" href="../../style.css" type="text/css">
+    <style>
+        @import url("./yugo-puzzle.css");
+    </style>
+</head>
+
+
+<body class="dark">
+    <h1 class="nowrap">ユウゴウパズル<wbr>🧩むずかしめ 8<br>- 段階的ヒント<wbr>と動画 -</h1>
+
+    <img style="display:none" alt="ユウゴウパズル むずかしめ 8問目  タイトル画像" width="1200" height="675" aria-hidden="true" src="./img/mzm08"/>
+
+    <img class="zukai" src="./img/mzm08-00.svg" alt="ユウゴウパズル むずかしめ 8問目の問題" loading="lazy" width="640" height="362" />
+
+    <h2>考え方 (段階的ヒント)</h2>
+
+    <details>
+        <summary id="hint1">
+            <span class="me-3 me-md-5">1.</span>どんなパズル？
+        </summary>
+
+        <div class="babo">
+            <p>左下の <span class="my-yellow">黄</span><img alt="" aria-hidden="true" class="jel" width="20" height="20" src="./img/yellow-1x1.svg"/>。　これを真ん中でどうにか持ち上げて、右の穴に運ぶパズルだね。</p>
+        </div>
+
+        <img class="zukai" src="./img/mzm08-01.svg" alt="左下の黄色を、右の穴へ集めるパズル。" loading="lazy" width="640" height="362" />
+
+        <div class="babo">
+            <p><img alt="黄" class="jel" width="20" height="20" src="./img/yellow-1x1.svg"/>は１コずつじゃないと、穴から落とせないよ。</p>
+        </div>
+
+        <a title="閉じる" href="#hint1" class="close-details" onclick="document.getElementById('hint1').scrollIntoView({ behavior:'smooth', block:'center'});">
+            <p>close</p>
+        </a>
+        <a title="閉じる" href="#hint1" class="close-details right" onclick="document.getElementById('hint1').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+    </details>
+
+
+    <details>
+        <summary id="hint2">
+            <span class="me-3 me-md-5">2.</span><span class="my-red">赤い串</span>
+        </summary>
+
+        <div class="babo">
+            <p>真ん中の <span class="my-red">赤い串</span> は、上に何か乗るたび 0.5 ずつ下がる仕様。</p>
+        </div>
+
+        <div class="babo">
+            <p>いい感じの高さでストッパーをつけないと、どんどん下がっちゃうね。</p>
+        </div>
+
+        <img class="zukai" src="./img/mzm08-02.svg" alt="赤い串。何か乗るたび0.5ずつ下がる。" loading="lazy" width="640" height="362" />
+
+        <div class="babo mt-5">
+            <p>ちょうどいい高さって、どこだろう？</p>
+        </div>
+
+        <div class="babo">
+            <p>通路と同じ高さだと、屋根に引っかかるのかー。</p>
+        </div>
+
+        <img class="zukai" src="./img/mzm08-03L.svg" alt="通路と同じ高さだと入れない。" loading="lazy" width="280" height="313" style="max-inline-size: 280px;" />
+
+        <div class="babo mt-5">
+            <p>解答： <span class="boya"> 0.5 段下だと、通路にすっぽり入るよ。　この高さが理想！（下図参照）</span></p>
+        </div>
+
+        <img class="zukai dboya" src="./img/mzm08-03R.svg" alt="赤い串を、通路から0.5段下まで下げると、スムーズに黄色が入る（画像では試しやすいように、青で実験）。" loading="lazy" width="280" height="313" style="max-inline-size: 280px;" />
+
+        <a title="閉じる" href="#hint2" class="close-details" onclick="document.getElementById('hint2').scrollIntoView({ behavior:'smooth', block:'center'});">
+            <p>close</p>
+        </a>
+        <a title="閉じる" href="#hint2" class="close-details right" onclick="document.getElementById('hint2').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+    </details>
+
+
+    <details>
+        <summary id="hint3">
+            <span class="me-3 me-md-5">3.</span>登りテク (1)
+        </summary>
+
+        <div class="babo">
+            <p>さて、<img alt="黄" class="jel" width="20" height="20" src="./img/yellow-1x1.svg"/>をどう持ち上げようかな。</p>
+        </div>
+
+        <div class="babo">
+            <p><span class="my-red">赤</span><img alt="" aria-hidden="true" class="jel" width="20" height="20" src="./img/red-1x1.svg"/>で階段を作ってみる？</p>
+        </div>
+
+        <div class="babo">
+            <p>階段か！　<span class="my-red">赤い串</span> の上側とくっつかないように、<img alt="青" class="jel" width="20" height="20" src="./img/blue-1x1.svg"/>を間にはさんで、と⋯⋯</p>
+        </div>
+
+        <img class="zukai" src="./img/mzm08-04.svg" alt="赤い串の上側に触れないよう、青を間にはさむ。" loading="lazy" width="640" height="362" />
+
+        <div class="babo mt-5">
+            <p>わあ、0.5 段なら登れるみたいだね！</p>
+        </div>
+
+        <img class="zukai" src="./img/mzm08-05.svg" alt="黄色は、0.5段の階段なら登れる。" loading="lazy" width="280" height="313" style="max-inline-size: 280px;" />
+
+        <div class="babo mt-5">
+            <p><span class="my-red">赤</span><img alt="" aria-hidden="true" class="jel" width="20" height="20" src="./img/red-1x1.svg"/>がもう１コ余ってるんだよね。　左側にもう１段、追加できないかな。</p>
+        </div>
+
+        <div class="babo">
+            <p>解答： <span class="boya">できるよ！　上段で階段を作ってから、落とせばOK（下図参照）。</span> </p>
+        </div>
+
+        <img class="zukai dboya" src="./img/mzm08-06.svg" alt="上段の赤２コで階段を作ってから、落とす。" loading="lazy" width="640" height="362" />
+
+        <a title="閉じる" href="#hint3" class="close-details" onclick="document.getElementById('hint3').scrollIntoView({ behavior:'smooth', block:'center'});">
+            <p>close</p>
+        </a>
+        <a title="閉じる" href="#hint3" class="close-details right" onclick="document.getElementById('hint3').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+    </details>
+
+
+    <details>
+        <summary id="hint3">
+            <span class="me-3 me-md-5">4.</span>登りテク (2)
+        </summary>
+
+        <img class="zukai" src="./img/mzm08-07.svg" alt="上段の赤２コで階段を作り、左に落としたところ。" loading="lazy" width="640" height="362" />
+
+        <div class="babo">
+            <p>もうちょっとで登れそう！　あと 0.5 段ほしいなー。　それに<img alt="青" class="jel" width="20" height="20" src="./img/blue-1x1.svg"/>も邪魔だね。</p>
+        </div>
+
+        <div class="babo">
+            <p>ほかにも登りテクはないかなあ。</p>
+        </div>
+
+        <div class="babo">
+            <p>ヒント１： <span class=" boya">あるよ！　邪魔な <span class="my-blue">青</span> を使っちゃおう。地形もよく見て。</span></p>
+        </div>
+
+        <div class="babo">
+            <p>ヒント２： <span class=" boya">階段の下にちょうど穴が空いている。　ここに <span class="my-blue">青</span> を入れてみよう。</span></p>
+        </div>
+
+        <div class="babo">
+            <p>解答： スタートからの手順。<span class="boya">　１. <span class="my-blue">青</span>を <span class="my-red">赤い串</span> の上に落とす。　 ２. 上段で <span class="my-red">赤２つ</span> を階段にして、<span class="my-blue">青</span>の上に落とす。　 ３. <span class="my-blue">青</span>を、上に乗った階段ごと左に落とす。　これで<span class="my-blue">青</span>を跳ねさせると、ジャンプによって 0.5 段、階段が持ち上がる！</span></p>
+        </div>
+
+        <div class="babo">
+            <p>あとは <span class="my-yellow">黄</span> ２つを運ぶだけだ。　がんばれー！</p>
+        </div>
+
+        <a title="閉じる" href="#hint3" class="close-details" onclick="document.getElementById('hint3').scrollIntoView({ behavior:'smooth', block:'center'});">
+            <p>close</p>
+        </a>
+        <a title="閉じる" href="#hint3" class="close-details right" onclick="document.getElementById('hint3').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+    </details>
+
+
+    <h2>🎬 攻略動画</h2>
+    <div class="wrap">
+        <div class="wrap2">
+            <img class="thumb"
+      width="480" height="270"
+      alt="ユウゴウパズル むずかしめ 8問目 "
+      src="/s960-e30/xxx.webp"/>
+            <iframe title="ユウゴウパズル むずかしめ 8問目 の解き方 動画" data-src="https://www.youtube.com/embed/mj0glrHL3JY?si=SRvp96rBgT8hFL_E&autoplay=1&mute=1&enablejsapi=1&rel=0" class="iplayer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+
+
+    <div class="yugo-navi">
+        <div class="fuki">
+            <div>　</div>
+        </div>
+        <div class="naiyo">ユウゴウパズル<br><span style="color:#36bfff">Link</span></div>
+        <div>
+            <p><a class="btn" style="background:#0d6efd" href="#">💬 レビュー</a></p>
+            <p>ヒントと攻略：<br>
+                <a class="btn" style="background:#ff5522" href="./yugo-puzzle-01-10.html">1-10</a>
+                <a class="btn" style="background:orange" href="./yugo-puzzle-11-20.html">11-20</a>
+                <a class="btn" style="background:#80af20" href="./yugo-puzzle-21-30.html">21-30</a>
+                <a class="btn" style="background:green" href="./yugo-puzzle-31-40.html">31-40</a>
+            </p>
+            <p class="mzm">むずかしめ<br>
+                <a class="btn" href="./yugo-puzzle-advanced-01.html">1</a>
+                <a class="btn" href="./yugo-puzzle-advanced-02.html">2</a>
+                <a class="btn" href="./yugo-puzzle-advanced-03.html">3</a>
+                <a class="btn" href="./yugo-puzzle-advanced-04.html">4</a>
+                <a class="btn" href="./yugo-puzzle-advanced-05.html">5</a>
+                <a class="btn" href="./yugo-puzzle-advanced-06.html">6</a>
+                <a class="btn" href="./yugo-puzzle-advanced-07.html">7</a>
+                <a class="btn" href="./yugo-puzzle-advanced-08.html">8</a>
+                <a class="btn" href="./yugo-puzzle-advanced-09.html">9</a>
+                <a class="btn" href="./yugo-puzzle-advanced-10.html">10</a>
+                <a class="btn" href="./yugo-puzzle-advanced-11.html">11</a>
+                <a class="btn" href="./yugo-puzzle-advanced-12.html">12</a>
+                <a class="btn" href="./yugo-puzzle-advanced-13.html">13</a>
+                <a class="btn" href="./yugo-puzzle-advanced-14.html">14</a>
+                <a class="btn" href="./yugo-puzzle-advanced-15.html">15</a>
+                <a class="btn" href="./yugo-puzzle-advanced-16.html">16</a>
+                <a class="btn" href="./yugo-puzzle-advanced-17.html">17</a>
+                <a class="btn" href="./yugo-puzzle-advanced-18.html">18</a>
+                <a class="btn" href="./yugo-puzzle-advanced-19.html">19</a>
+                <a class="btn" href="./yugo-puzzle-advanced-20.html">20</a>
+            </p>
+            <p class="zz">むずかしい<br>
+                <a class="btn" href="./yugo-puzzle-hard-01.html">1</a>
+                <a class="btn" href="./yugo-puzzle-hard-02.html">2</a>
+                <a class="btn" href="./yugo-puzzle-hard-03.html">3</a>
+                <a class="btn" href="./yugo-puzzle-hard-04.html">4</a>
+                <a class="btn" href="./yugo-puzzle-hard-05-1.html">5</a>
+                <a class="btn" href="./yugo-puzzle-hard-06.html">6</a>
+                <a class="btn" href="./yugo-puzzle-hard-07.html">7</a>
+                <a class="btn" href="./yugo-puzzle-hard-08.html">8</a>
+                <a class="btn" href="./yugo-puzzle-hard-09.html">9</a>
+                <a class="btn" href="./yugo-puzzle-hard-10.html">10</a>
+            <p style="text-align:right;"><a href="../all-game-list.html">>> 全ゲームリスト</a></p>
+        </div>
+    </div>
+    <script src="./yugo-puzzle.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+[
+    {
+        "title": "📚【木曜日だった男】杯の中の、朝の光をさがして／チェスタトン【とことん解説】",
+        "priority": 5,
+        "thumbnail": "img/thursday-01b.webp",
+        "url": "books/the-man-who-was-thursday-review.html",
+        "tags": [
+            "海外文学",
+            "解説",
+            "本"
+        ],
+        "datePublished": "2016-01-19",
+        "dateModified": "2025-03-31",
+        "excerpt": {
+            "short": "チェスタトンを救った「光」をさがす旅へ。",
+            "full": "名作をやわらかく、とことん深掘り⛏️。 ラスト何が起きた？　杯って？　サタンと戦うのに資格がいる？　ネタバレ込みで、じっくりコトコト読み解きます。"
+        },
+        "slug": "the-man-who-was-thursday-review",
+        "author": "shizu49"
+    },
+    {
+        "title": "【JavaScript】YouTubeのドラフトを一括公開するコード（2025年3月）",
+        "priority": 5,
+        "thumbnail": "img/youtube-draft-publish-00.webp",
+        "url": "others/youtube-draft-publish-script.html",
+        "tags": [
+            "JavaScript",
+            "コード"
+        ],
+        "datePublished": "2025-03-27",
+        "excerpt": {
+            "short": "YouTubeスタジオの「ドラフト」を自動で「公開」に変更！",
+            "full": "動画を一括変換できる JavaScriptコードの紹介。2025年3月更新。"
+        },
+        "slug": "youtube-draft-publish-script",
+        "author": "shizu49"
+    }
+]
