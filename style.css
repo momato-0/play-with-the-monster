@@ -17,6 +17,7 @@ body.dark {
     --size-14px: 0.875rem;
     --size-15px: 0.9375rem;
     --size-18px: 1.125rem;
+    --size-19px: 1.1875rem;
 
     /* -----　　🏠 Base　　　----- */
     font-size: 1rem;
@@ -223,7 +224,7 @@ h2 {
     }
 
     .text-unit h5 {
-        font-size: var(--size-18px);
+        font-size: var(--size-19px);
         margin-top: .5rem;
     }
 
