@@ -147,7 +147,7 @@ h3 {
 }
 
 h1 {
-    font-size: calc(1rem + 1.5vw);
+    font-size: calc(1rem + 1.8vw);
     font-weight: 700;
     margin-bottom: 2rem;
 }
@@ -159,36 +159,43 @@ h3 {
     border-radius: .2rem;
 }
 
-h2::before,
-h3::before {
-    position: absolute;
-    left: 1rem;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
 h2 {
-    font-size: calc(1rem + .9vw);
+    /*font-size: calc(1rem + .9vw);
     color: #b7ffe0;
     background-image: radial-gradient(circle, #055733 33%, #2f9fff26);
     border: 1px solid #00693c;
     padding: .5rem 3rem;
-    margin: 6rem auto 1.8rem;
-    counter-reset: h3-counter;
+    margin: 0 auto 1.8rem;
+    counter-reset: h3-counter;*/
+    font-size: calc(1rem + 1.2vw);
+    color: #a8ffda;
+    padding: 1rem 3rem;
+
+}
+
+h3 {
+    /*font-size: calc(1rem + .6vw);
+    color: #b2e9ff;
+    background-image: radial-gradient(circle, #4e44a3 33%, #5837ff1c);
+    border: 1px solid #5a4fa9;
+    padding: 5px 4rem;
+    margin: 4rem auto 1.8rem;*/
+    font-size: calc(1rem + .6vw);
+    padding: 0 3rem;
+
+}
+
+h2::before,
+h3::before {
+    position: absolute;
+    left: 1rem;
+    margin-top: .2rem;
 }
 
 h2::before {
     counter-increment: h2-counter;
     content: counter(h2-counter)".";
-}
-
-h3 {
-    font-size: calc(1rem + .6vw);
-    color: #b2e9ff;
-    background-image: radial-gradient(circle, #4e44a3 33%, #5837ff1c);
-    border: 1px solid #5a4fa9;
-    padding: 5px 4rem;
-    margin: 4rem auto 1.8rem;
+    top: 1rem;
 }
 
 h3::before {
@@ -196,11 +203,56 @@ h3::before {
     content: counter(h2-counter)"-" counter(h3-counter)".";
 }
 
+.h1-wrapp {
+    aspect-ratio: 2 / 1;
+    background-image: url(../img/h1-cloud.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 3rem;
+}
+
+.h2-wrapp {
+    aspect-ratio: 15 / 3;
+    background-image: url(../img/h2-roll.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    padding: 0 1rem;
+    margin: 10rem 0 2rem;
+    counter-reset: h3-counter;
+}
+
+.h3-wrapp {
+    aspect-ratio: 15 / 2;
+    background-image: url(../img/h3-line.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    padding: 1rem 0 1rem;
+    margin: 10rem 0 2rem;
+}
+
 h4 {
     color: #80d180;
     font-size: calc(1rem + .9vw);
     font-weight: 700;
-    margin: 3rem auto 1.5rem;
+    margin: 4rem auto 1.5rem;
 }
 
 .me-3 {
@@ -326,7 +378,7 @@ img.sharp {
 /* ========== 📝 Txt-content ========== */
 
 .txt-content p {
-    font-size: calc(1rem + .1vw);
+    font-size: calc(1rem + .2vw);
     margin: 1.5rem 0;
 }
 
@@ -389,8 +441,8 @@ blockquote.nocite>p:last-of-type {
 
 .txt-content a {
     display: inline;
-    color: var(--my-blue);
-    border-bottom: 1px solid var(--my-blue);
+    color: #d0ffda;
+    border-bottom: 1px solid #d0ffda9f;
 }
 
 .txt-content a:hover {
@@ -403,7 +455,7 @@ blockquote.nocite>p:last-of-type {
 }
 
 .txt-content .mt-4 {
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 
 .txt-content .mt-5 {
@@ -451,7 +503,12 @@ blockquote.nocite>p:last-of-type {
 
 .font-small,
 p.font-small {
-    font-size: calc(1rem - .1vw);
+    font-size: calc(.8rem + .3vw);
+}
+
+.font-smaller,
+p.font-smaller {
+    font-size: calc(.5rem + .3vw);
 }
 
 .font-large,
@@ -473,20 +530,6 @@ p.font-larger {
     margin-left: auto;
     margin-right: auto;
     background-color: #111;
-}
-
-.h1-wrapper {
-    aspect-ratio: 2 / 1;
-    background-image: url(../img/h1-cloud.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem 3rem;
 }
 
 .babo-unit {
@@ -679,6 +722,11 @@ p.font-larger {
     .boya-zukai {
         inline-size: 75vw;
     }
+
+    .h2-wrapp,
+    .h3-wrapp {
+        padding: 1rem 5rem 0;
+    }
 }
 
 @media only screen and (min-width: 993px) {
@@ -691,8 +739,16 @@ p.font-larger {
         inline-size: 80%;
     }
 
-    .h1-wrapper {
+    .h1-wrapp {
         aspect-ratio: 8 / 1;
         background-size: contain;
+    }
+
+    .h2-wrapp {
+        padding: 4rem 5rem 0;
+    }
+
+    .h3-wrapp {
+        padding: 2rem 5rem 0;
     }
 }
