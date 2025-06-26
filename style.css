@@ -205,7 +205,7 @@ h3::before {
 
 .h1-wrapp {
     aspect-ratio: 2 / 1;
-    background-image: url(../img/h1-cloud.svg);
+    background-image: url(https://momato-0.github.io/play-with-the-monster/img/h1-cloud.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -219,7 +219,7 @@ h3::before {
 
 .h2-wrapp {
     aspect-ratio: 15 / 3;
-    background-image: url(../img/h2-roll.svg);
+    background-image: url(https://momato-0.github.io/play-with-the-monster/img/h2-roll.svg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top;
@@ -235,7 +235,7 @@ h3::before {
 
 .h3-wrapp {
     aspect-ratio: 15 / 2;
-    background-image: url(../img/h3-line.svg);
+    background-image: url(https://momato-0.github.io/play-with-the-monster/img/h3-line.svg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top;
