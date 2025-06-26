@@ -27,7 +27,7 @@ body.dark {
 }
 
 /* ========== 🧭 Navigation ========== */
-nav {
+.menu-nav {
     background-color: var(--my-header-bg) !important;
 }
 

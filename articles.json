@@ -1,6 +1,6 @@
 [
     {
-        "title": "📚【やわらか読み解き】木曜日だった男／チェスタトン",
+        "title": "📚【じっくり読み解く】木曜日だった男／チェスタトン",
         "priority": 5,
         "thumbnail": "img/thursday-01b.webp",
         "url": "books/the-man-who-was-thursday-review.html",
@@ -10,13 +10,13 @@
             "本"
         ],
         "datePublished": "2016-01-19",
-        "dateModified": "2025-03-31",
+        "dateModified": "2025-06-18",
         "excerpt": {
             "short": "チェスタトンを救った「光」をさがす旅へ。",
-            "full": "名作をやわらかく、とことん深掘り⛏️ ラスト何が起きた？　「杯」の意味って？　サタンと戦うのに資格がいる？　じっくりコトコト読み解きます。"
+            "full": "名作をやわらかく、とことん深掘り⛏️　ラスト何が起きた？　「杯」の意味は？　サタンと戦うのに資格がいる？　じっくりコトコト読み解きます。"
         },
         "slug": "the-man-who-was-thursday-review",
-        "author": "shizu49"
+        "author": "momato"
     },
     {
         "title": "【JavaScript】YouTubeのドラフトを一括公開するコード（2025年3月）",
@@ -33,6 +33,6 @@
             "full": "動画を一括変換できる JavaScriptコードの紹介。2025年3月更新。"
         },
         "slug": "youtube-draft-publish-script",
-        "author": "shizu49"
+        "author": "momato"
     }
 ]
