@@ -57,13 +57,13 @@ nav.l span {
     font-size: var(--size-13px);
 }
 
-/* ==========　 🍖 Main 　========== */
+/* ==========　 🍖 main-card 　========== */
 section.grid {
     ---gap: 0;
     /*beer.css reset*/
 }
 
-article {
+.main-card {
     display: flex;
     background: #2a3a4f !important;
     border: 1px solid #ef7d3c !important;
@@ -634,7 +634,7 @@ p.font-larger {
         ---gap: 1rem;
     }
 
-    article {
+    .main-card {
         display: block;
     }
 
@@ -650,11 +650,11 @@ p.font-larger {
         padding-top: 56.25%;
     }
 
-    article {
+    .main-card {
         height: auto;
     }
 
-    *+article {
+    *+.main-card {
         margin-block-start: 0;
     }
 

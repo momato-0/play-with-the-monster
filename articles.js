@@ -7,7 +7,7 @@ async function loadArticles() {
         const displayDate = article.dateModified || article.datePublished;
 
         const cardHTML = `
-    <article class="no-padding border round s12 m6 l4">
+    <article class="main-card no-padding border round s12 m6 l4">
         <div class="img-unit">
             <div class="img-unit2">
                 <img class="img-unit3" src="${article.thumbnail}" alt="${article.title}">
