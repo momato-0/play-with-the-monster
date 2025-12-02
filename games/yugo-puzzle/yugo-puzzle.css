@@ -108,7 +108,7 @@ details {
 }
 
 details[open] {
-  max-height: 300vh;
+  max-height: 500vh;
   padding: .625rem;
 }
 

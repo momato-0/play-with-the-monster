@@ -374,15 +374,25 @@ img.sharp {
     font-size: 1.1rem;
 }
 
+.dash-lblue {
+    filter: brightness(0) saturate(100%) invert(91%) sepia(7%) saturate(5150%) hue-rotate(181deg) brightness(107%) contrast(101%);
+}
+
 
 /* ========== 📝 Txt-content ========== */
 
 .txt-content p {
     font-size: calc(1rem + .2vw);
     margin: 1.5rem 0;
+    letter-spacing: 0.05rem;
+}
+
+.txt-content td p {
+    margin: .5rem 0;
 }
 
 .txt-content p,
+.txt-content li,
 blockquote {
     margin-inline-start: 1rem;
     margin-inline-end: 1rem;
@@ -413,7 +423,10 @@ cite {
 }
 
 cite:before {
-    content: '\2014' '\2014' '\2014' ' ';
+    /*content: '\2014' '\2014' '\2014' ' ';*/
+    content: url("./img/dash.svg");
+    vertical-align: middle;
+    filter: brightness(0) saturate(100%) invert(91%) sepia(7%) saturate(5150%) hue-rotate(181deg) brightness(107%) contrast(101%);
 }
 
 blockquote.nocite>p:last-of-type {
@@ -421,18 +434,22 @@ blockquote.nocite>p:last-of-type {
 }
 
 .lbd {
+    font-size: calc(1rem + .2vw);
     border-left: 5px solid #ffffff2e;
     margin-left: 1em;
-    padding-top: .5rem;
 }
 
 .lbd li {
-    margin-left: 2rem;
     border-bottom: 1px solid #ffffff1f;
+    margin-top: .5rem;
 }
 
 .lbd li:first-of-type p {
     margin-top: 0;
+}
+
+.txt-content li {
+    margin-left: 3rem;
 }
 
 .txt-content li p {

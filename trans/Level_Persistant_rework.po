@@ -1,0 +1,1385 @@
+Rarning -> W になおす
+
+------------------------------------------------------
+[0]
+
+おやおや、見てみろよ！ 侵入者だ！
+
+君は、少し…だらしないね、さっそうと現れた騎士様にしては
+
+少なくとも、ズボンにマスタードのシミがない奴に助けてほしかったな
+
+でも君がこの船を出る唯一の手段かもしれないから、我慢しとく
+
+コックピットに閉じ込められて数週間、この糞コンソールが反応したのはこれが初めて
+
+君が道中、アンカーに何したか知らないけど、それが効いたみたいだ
+
+壁際のもチェックしてくれる？ どうもありがとう
+
+
+------------------------------------------------------
+[1]
+
+やるね
+
+アンカーをシャットダウンしたとは。でも考えてみたら最適解か
+
+あいつらのアンカー設置が、まさかここまで船のシステムに干渉するとは思いもしなかった
+
+そっちの回路、いくつか焼き切っちゃったみたいだね？
+
+ま、おかげで君の区画に完全にアクセス可能になったみたい
+
+会ったばかりだし、散々失礼なこと言ったくせに無茶なお願いするけど
+
+もし君が作業を続けてくれるなら
+
+私はここから生きて脱出できるかも。どうかな？
+
+あ、ドアを開けるね
+
+
+------------------------------------------------------
+[2]
+
+ちなみに私の名前はジュニパー
+
+君は名乗る気がないみたいだから、私がつけてあげるね
+
+フィラメント社の規定だと、忠実なメンバー全員に、色にちなんだコードネームが付与される
+
+でも残念、誰も君に「色はひとつに絞れ」と教えてくれなかったみたい
+
+正直、君の恰好はやや散々な有様。別の方法で名前を考えなきゃ
+
+赤と青はヒーローの色、そして君は私のヒーロー…
+
+でもその色は使用済み。それに悪いけど、君じゃバーミリオンとこの私にはかなわない
+
+そういえば子どもの頃、大好きで何度も読み返した本がある
+
+主人公はプルートっていう、人付き合いが苦手だけど、やたら前向きなクマ。頑張ってはいたね
+
+だから君のことはこう呼ぶことにする。プルート
+
+うん、気に入った
+
+
+------------------------------------------------------
+[3]
+
+数週間独り言だけだった。誰かが聞いてくれるのは本当にいい気分だ
+
+自分がここにいるって肯定されてる感じ。わかる？ 必要なのは聞いてくれる人だったんだ
+
+あいつらが周りにいた頃は…家族みたいだった。あんな感じ、ずいぶん久しぶりだったのに。もう、誰もいない
+
+夢みたい。もしかして全部、現実じゃなかったのかな
+
+君は、本物だよね？ 違ってもいいけど。ただ、お互い正直でいるべきだと思うんだ
+
+
+------------------------------------------------------
+[4]
+
+この船を歩き回るのは、知らない人の家をうろつくようなものだろう
+
+だから私たちの『ブレックファスト・クラブ』を紹介してあげるよ
+
+いわゆる校長先生は、カナリア
+
+ここの調査主任だった
+
+それからママレードとナス。名前のセンスはフィラメント社のせいだから、文句はそっちに言って
+
+船のシステム担当で、すごく頭の切れる連中だよ
+
+あとはバーミリオン。健康管理担当で、食事や運動の面倒を見てくれた
+
+今まで会った中で一番の善人だったな。よりにもよって地球出身だったけど
+
+最後に、植物学者のピスタチオ
+
+ああ、それからもちろんこの私だ。ナビゲーターのね…
+
+
+------------------------------------------------------
+[5]
+
+プルート、君はここに来て一公転も経たないのに、私よりずっとアンカーに詳しいようだ
+
+実際こういうのは私の専門じゃないんだ。操縦に関係ないなら関わりたくもなかった
+
+ま、いい態度じゃないけど
+
+実を言うと、この装置が何するか未だによくわかってない…　なんかのグラフのなんかの上昇値を抑えるためで、重要なんだってさ
+
+そのささやかな副作用として、まさに全システム遠隔アクセス不可となったわけ
+
+な、便利だろ？
+
+
+------------------------------------------------------
+[6]
+
+この船に乗り込んで、最初に気づいたのは何？
+
+私の場合を、教えてあげるよ
+
+匂いだ
+
+こういう船って無菌室みたいなもんだと思ってた
+
+でも違った。まるで刈りたての草みたいな…
+
+何か酸素の再循環と関係があるらしい
+
+金属の箱に閉じ込められてることを、ほんの一瞬でも忘れさせてくれる。大した効果だ
+
+窓の外の果てしない虚空が、すぐ現実に引き戻してくれるけどね
+
+
+------------------------------------------------------
+[7]　　
+
+このコックピットにいる間、ずっと非常用カロリーペーストを食べてる
+
+非常用カロリーペーストに味が何種類あるか知ってる？
+
+2つ
+
+そう、2つしかない
+
+最初、1日おきに違う味を食べればいいと思ったけど、振り返ると間違いだった
+
+今では両方にへどが出る
+
+片方はマンゴー味、マンゴーを知らないけど。でももうひとつは思いつきもしないかな
+
+ヒントはね
+
+そいつは噛まれたら腐りだす
+
+------------------------------------------------------
+[8]
+
+なんだ、うまいじゃないか！
+
+いいぞチーム
+
+アンカーを落とすたび、コンソールに命が吹き込まれる。素晴らしい
+
+今はブリッジのドアが封鎖されてるけど、制御を取り戻せたら、無理やりこじ開けられるかも
+
+そしたら君がここに来て、私を外に出せる。ね？
+
+そううまくいくかわからないけど、『そこに着いたら橋を渡れ』でいい
+
+意味わかる？
+
+う、まあいい、忘れてくれ
+
+
+------------------------------------------------------
+[9]
+
+なあプルート、ずっと思ってたけど、なんでその手なんだ？
+
+ママレードもエンジニア用に似たバイオニック・デバイスを付けてた
+
+まあ、彼のほど頑丈には見えないけど
+
+…君ってスクラップ屋？
+
+ふむ、いや、服装はそうだけど、植民地からこんなに離れて、回収品なんて何もないか
+
+私も腕ひとつ換えたよ、気になってるなら一応
+
+目もね。腕は、母への何か当てつけだった。きっとくだらないことだ
+
+ムカつかせたかった。理由は覚えてない
+
+でも、目は別の話。この目なしでは、今の私はここにいなかった
+
+はは、でも後悔を始めた方がいいのかもね
+
+
+------------------------------------------------------
+[10]
+
+なぜ私たちがこんな所にいたか知りたい？ 記された宇宙の最果てに
+
+我々はジェネシス。人類を新時代へ導き、潜在能力を解放し、種の軌道を永遠へと転じる
+
+全ては、宇宙の最果てから始まる
+
+私をその気にさせた言葉だ
+
+そんな計画に参加したくない奴いる？ 最高だろ？
+
+でも…実際は
+
+見知った全てを放り出し、帰途のない果てまで旅をしませんか？
+
+そこで惑星の居住可能性を評価しましょう
+
+植民地と新時代は、より価値ある人間に任せましょう
+
+…最高だろ？
+
+
+------------------------------------------------------
+[11]
+
+なあ、君のそのズボン。見れば見るほど、着心地いいんだろうなって思う
+
+でなきゃわざわざ着ないだろ？
+
+だよね
+
+残念ながら、オーバーオールはフィラメント社の厳格な服装規定に含まれてないんだ
+
+私が最後にそれ着たの、もう何年も前だな
+
+このフィラメント社の制服、ほんと収納足りないんだよね
+
+
+------------------------------------------------------
+[Intro]
+
+Warning. Approaching vessel
+[Typing on keyboard]
+Signature indicates it's a Filament Corporation Vessel.
+[Typing on keyboard]
+No crew detected.
+Caution advised.
+Minimum distance of 200 nautical miles recommended.
+Rerouting traject....
+[Typing on keyboard]
+Approaching Vessel.
+[Typing on keyboard]
+Docking Request Pending...
+[Typing on keyboard]
+Override Acknowledged.
+Please click all of the images containing an asteroid.
+[Mouse clicking]
+Docking Procedure Initialised
+Three.
+Two.
+One.
+Docking Complete.
+Welcome to your destination.
+
+警告、宇宙船に接近中。
+カタカタ．．．
+発信信号から見ると、フィラメント会社の船だ
+カタカタ．．．
+生命兆候、いっさい検出されていません
+推奨：警戒維持
+推奨：最小距離、二百海里保持。
+航路変更中…
+カタカタ．．．
+宇宙船に接近中。
+カタカタ．．．
+ドッキング要求、接続中…
+カタカタ．．．
+オーバーライド、確認完了
+小惑星を含む写真をクリックしてください。
+カタカタ．．．
+ドッキングプログラム、初期化完了。
+三
+二
+一
+ドッキング完了。
+目的地へようこそ
+
+
+
+警告　宇宙船に接近中
+
+-カタカタ…-
+
+識別信号より　フィラメント社所属と判明
+
+-カタカタ…-
+
+乗組員　検知なし
+
+注意勧告
+
+最低距離　200海里を推奨
+
+航路を再設定…
+
+-カタカタ…-
+
+宇宙船　接近中
+
+-カタカタ…-
+
+ドッキング要求　保留中…
+
+-カタカタ…-
+
+オーバーライド　承認
+
+小惑星を含む写真をクリックして下さい
+
+-カチカチッ-
+
+ドッキングプログラム　初期化完了
+
+3
+
+2
+
+1
+
+ドッキング　完了
+
+目的地へようこそ
+
+
+------------------------------------------------------
+[12]
+
+この船唯一のパイロットで航海士だから、私がキャプテンだと思うだろ？
+
+悲しいかな、違うんだ。フィラメント社の規則は船外にキャプテンを割り当てる。理由はあいつらにしかわからない
+
+私の説はカロリーペースト地獄による反乱対策
+
+私たちのキャプテンは、スワンという
+
+あいにくアンカーのせいで長距離通信がやられたようで、彼女とは連絡が取れない
+
+彼女は頭が切れる。きっとこの窮地から私たちを救い出せたはずだ
+
+おっと、もちろん君もな
+
+
+------------------------------------------------------
+[13]
+
+そうそう、プルート
+
+のそのそ歩き回って、私らの私物をひっくり返すついでに、猫にも気を配ってくれないか？ 最後数えた時は5匹いた
+
+もし君が、こういう船で猫を5匹も飼うなんて不合理だと思うなら、全く同意見だ
+
+アラバスター号にペットが割り当てられた時、手違いがあって、受け取った1匹が偶然妊娠してたんだ
+
+私は猫派じゃない。急に猫が400%増なんて、人生に歓迎できることじゃなかった
+
+それでも、あいつらが無事だといいんだが。傲慢な毛玉どもは大嫌いだが、ピスタチオが本当に可愛がってたからな
+
+
+------------------------------------------------------
+[14]
+
+みんなとは仲良くやれたよ。いい奴らだった
+
+確かに、カナリアは少しきついとこもあって
+
+バーミリオンが見事な仲裁役になってくれた
+
+それに、ナスを部屋から引っ張り出すのはいつも一苦労でさ。それでもみんないい奴らだった
+
+大体ね
+
+ピスタチオは…
+
+この数か月、多くを一緒に過ごした
+
+彼女だけは私を置き去りにしない、絶対に…
+
+
+------------------------------------------------------
+[15]
+
+アンカーの立ち上げに大きく関わったのはママレードだ
+
+君との付き合いは短いが、私から見ると共通点が多そうだね。2人とも同じくらい『おしゃべり』だし
+
+実はさ、到着から数週間後、彼のためにサプライズパーティーを開いたんだ
+
+飾り付けもちゃんとして。大した事じゃないように聞こえるが、ここでは手に入らないんだ。自分らで作るしかなくて…
+
+「自分ら」と言ったけど、その辺はピスタチオが主導した。それにカナリアの奴、性格からは嘘みたいにケーキが焼けるんだ
+
+とんでもなく美味いチョコレートケーキだった。あの夜はみんな最高の時間を過ごしたよ。それが必要だった。特にママレード
+
+船外作業の後、良い状態じゃなかったから
+
+
+------------------------------------------------------
+[16]
+
+ここに来る航海の途中、何か小さいのが船体に衝突したんだ
+
+全員寝てて原因は定かじゃないが、損傷は最小限に見えた。ラッキーだよ、もっと酷い事になってた可能性もある
+
+で、問題の対処に船外作業を計画した
+
+船唯一のエンジニアだ、ママレードがやるしかない。彼は私にバディを頼んだ。経験者だったからね
+
+スーツを着込む間、ママレードが震えてるのがわかった。最初は順調。私も安心させようとしたし、彼も持ちこたえてた
+
+そして、危うく死ぬところだった
+
+
+------------------------------------------------------
+[17]　\nは改行だが、そもそもテキスト幅が狭いので利用しなくてよし
+        29文字で折り返し
+        https://www.youtube.com/watch?v=MLHcR_T1B9Y&ab_channel=KuchiwoTsugumi
+
+
+残念だけど、ママレードの事故はある意味無駄になった
+
+到着してすぐ、船の減衰軌道に気づいた。原因は衝突による損傷と思われるので、修理による解決を期待した
+
+だがだめだった！ 数週間後、また発生した。また、そしてまただ。もうさっぱりわからない
+
+バーミリオンは「ホイール・アライメントが狂った車みたいだな」って。どんな意味だかな
+
+君は、呆れるほど単純な解決策を見落としてないか、不安になった事ある？ あの時の私はそう
+
+そう、コンパネの上に、古い漫画が積み上げてあった。自分のミスに心臓が止まったよ。で、どかしたら変わらず軌道はズレてた。\nほっとした
+
+…いや、まだズレてるんだけどね
+
+
+------------------------------------------------------
+[18]　　issue が欠陥か、問題か　★
+
+
+結局、船がズレる理由は突き止められなかった
+
+少なくとも、私1人では。最終的にカナリアが話を聞き飽きたか、私の心配をしたかで、キャプテンに助言を求めた
+
+私ならしなかったね。でも、答えは出た！ まさかの、この型の船共通の問題だったんだ。何より重要なのは、私のせいじゃなかったって事
+
+キャプテンも素晴らしかった。報告の遅延を責めなかったからね。その点ではいつも頼れる人だったんだよ？ 鉄拳タイプじゃない
+
+小さな善意が大きな違いを生む。ママレードの事故の後、ケーキのために追加の食料を認可したのもキャプテン。彼女は、いい奴なんだ
+
+
+------------------------------------------------------
+[19]
+
+ケーキか。もしこの船がケーキだったら、私は君が心配になってたね
+
+つまり、もう半分まで来てる
+
+でも君が平らげるのは、ママレードとナスが残した、ありとあらゆる面倒ごとだ
+
+不健康と罪悪感のミックス食品じゃなくね
+
+でも、選ぶならやっぱりケーキだよな
+
+そのズボンとファストフードのステッカーを見るに、君もそうじゃないかな
+
+
+------------------------------------------------------
+[20]
+
+はあ…　ここにいると、本当に息が詰まる…
+
+バーミリオンの強制的な運動は賛成したことないけど
+
+今なら、本気で走りたい。脚を伸ばしたいんだ、わかるだろ
+
+冷凍睡眠に比べたら大したことないけどね。ナビゲーターの役目は、みんなが眠ってる間に航路修正することで
+
+軌道維持のため数か月ごと目を覚ましたんだ
+
+今のちっぽけな痛みは、あの時に比べたら、何でもない
+
+私は朝が苦手だけど、早起きに意味をくれたのはこの仕事
+
+
+------------------------------------------------------
+[21]
+
+冷凍睡眠の前に、すべて正常に動くよう、持ち場や装備をチェックする必要があった
+
+もし壊れても、代わりを注文できるわけじゃないからね。でもピスタチオは、全く興味なくて
+
+彼女には特別な植物があったんだ。日常会話になってたから、本当は名前を覚えとくべきなんだが
+
+花が咲くのは10年に1度。ちょうど到着日頃の予定。彼女はすっごくワクワクしてたよ
+
+ピスタチオは、準備時間のほぼ全部を植物にとって完璧な場所と、必需品の確認に費やした。到着したら満開になるようにってね
+
+でも結局、咲くことはなかった。航行中の映像もチェックした。見逃したわけじゃなかった
+
+彼女が花を見れなかったのは、本当に、残念でならない
+
+
+------------------------------------------------------
+[22]
+
+閉じ込められてから、もう何時間も眼下の惑星を見つめてる
+
+飽き飽きすると思うだろ、でも…
+
+言葉じゃ言い表せない何かがある。ただ、私を引き込む
+
+こう思うだろうね、「ま、それが重力の働きさ」 …でも、それ以上のものなんだ
+
+わからない。探査機の話もまだ、君にはしてなかったね
+
+
+------------------------------------------------------
+[23]
+
+探査機の建造は、何週間もかかった。カナリアが指揮だ。ランタン2号って名でね
+
+成功のため、全員に役割が与えられたんだ。私の担当は軌道設計と、降下時の操縦
+
+カナリアが監督してたけど、共同作業はやりがいがあった。これまでの収集データは、惑星がほぼ居住可能と示してたよ
+
+ワクワクした。私たちは人類の次の植民地となる場所へ、まさに着陸しようとしてる、って
+
+うん、お約束通り、打ち上げはうまく行かなかった。いや正確には、打ち上げは順調だった
+
+問題だったのは、着陸だ
+
+
+------------------------------------------------------
+[24]
+
+探査機はセンサーでぎっしり。取れないデータなんて1つもない。でも私たちは、サンプルが欲しかった
+
+計画はこう。探査機が表面に着いたら、渓谷を端から端へ横断。場所はピスタチオが選んだ
+
+道中で様々なサンプルを採取。目的地まで来たら、詰めたカプセルを軌道上へ打ち上げ、回収する
+
+シンプルだろ？
+
+さて、打ち上げだ。大気圏到達までは順調。だけどそこから、探査機は減速どころか、地表に向かって加速していった
+
+私たちにはどうすることもできなかった。墜落すると思った
+
+それは地面をまっすぐ突き抜け、落ちていくように見えた。まだ進み続けた。信号が途絶えたのは、その1分後
+
+カナリアは、突入時の熱でテレメトリあたりがやられたと言ってる
+
+私の推測はこうだ。あいつは、カナリアから逃げるのに必死だったのさ
+
+
+------------------------------------------------------
+[25]
+
+お気づきかもしれないが、このアラバスター号は平均的な深宇宙船より、大量の白鳥の折り紙を積んでいる
+
+その謎を解いてあげよう。折り紙は、ピスタチオが愛する趣味だ。結構上手い。デバイス化した手のおかげかな
+
+最初は色んな種類を折ってたけど、お気に入りは白鳥だった
+
+あらゆる奇妙な場所で私たちが発見し、笑ってるのを、彼女は知ってた。週に何羽も、多彩な白鳥を見舞われるようになったよ
+
+ピスタチオはそんな人間だ。やること全て、人の笑顔のためなんだ
+
+…白鳥たちが、恋しいよ
+
+
+------------------------------------------------------
+[26]
+
+すべての始まりを知りたい？
+
+また、ピスタチオのこと考えてた。すべては彼女からだった。探査機の失敗後、事態は悪化を辿った
+
+機材の断続的な誤作動、軌道の頻繁なズレ。カナリアは、惑星からバラバラな測定値を収集した
+
+そして…　ピスタチオが、消えた。\n逃げたわけじゃない。文字通り、ただ、消えたんだ
+
+彼女の私物はここに残ってる。脱出ポッドもベイにあった。私たちは探して…　そして、見つけた。研究室の床に落ちていた服と
+
+彼女の両手を
+
+
+------------------------------------------------------
+[27]
+
+ピスタチオ失踪とあの惑星の関連に気づいたのは、カナリアだった。探査機の一件以後、彼女は測定項目を追加してたんだ
+
+測定値は異常な増加を更新し続け、失踪を境にぴたりと止まった。…一時的にね
+
+異常値はまた現れた。増加速度は前より速い。脱出の必要があった。もし異常値と失踪に相関性があるなら、私たちは危険に晒されている
+
+こんなに早く長距離航行の支度をしたのは初めてだ
+
+準備万端で臨んだ。が、いざ出発すると、私たちはその重力から逃げられなかった
+
+まるで惑星が、質量を増したかのようだった。エンジンの出力を上げる度、惑星はただ、より強く引き戻した
+
+
+------------------------------------------------------
+[28]
+
+惑星に捕まったと悟り、私たちはキャプテンと緊急会議を開いた
+
+彼女は頼もしく、冷静沈着だった
+
+最初の閃きは、脱出ポッドだ。引力から逃れるのに十分小さいかもしれない
+
+だが彼女は「待て」と告げた。それが、自分らのいる場所を思い出させた。ここは一帯に何もない、宇宙の辺境だ
+
+脱出できても、缶詰での漂流。文明から遠く、食料は最小限、凍眠ポッドもなし。それにもし私が間違ってて、ポッドも引力に捕まったら？
+
+できる事なら、アラバスター号の維持が必要だった。ナスとママレードは閉じ込められたと気づくと、何か作業を始めた
+
+彼らは会議で、キャプテンに提案した。それは「アンカー」と呼ばれた
+
+
+------------------------------------------------------
+[29]
+
+キャプテンの許可を得て、ナスとママレードはアンカー開発に着手した
+
+彼らは私にちゃんと説明しなかった。ピスタチオを奪った、あの魔法の宇宙波を遮断する、とだけ言った
+
+は…。それと、局所的とも。船全体をカバーするには、至る所に設置しなきゃいけない
+
+カナリアは彼らを手伝ってた。走り回り、テストを行い、あれこれ助言した
+
+私は手伝えなかった。私はエンジニアじゃない。科学者でもない。一体何ができる？
+
+正直、手伝いたいとも思わなかった。ピスタチオを失ったばかりで、どうでもよくなってたんだ
+
+
+------------------------------------------------------
+[30]
+
+アンカー設置で船内はバラバラ。パネル、通気口、家具。あの2人からは逃れられない
+
+ケーブルもあちこち這い回ってた。私はいつもそれにつまずき、1番近い奴に八つ当たりした。私が悪い、わかってる
+
+今考えても、私は酷い状態だった。やがてアンカーは船中に蔓延し、残るはブリッジのみ
+
+それは、私もやっと役に立てるって意味だ。自分を奮い立たせ、コックピットに座る。艦内システムに目を配る
+
+アンカーの統合が正常か、確認するんだ。問題なんて起きない。でしょ？
+
+
+------------------------------------------------------
+[31]
+
+彼らがスイッチを入れた時、ドアはもう閉まってた。私は自分の悲劇を決定づけてしまった
+
+コンソールが燃え上がり、ショートした。眩しくて端末のキーが目に焼き付く。おまけにコーヒーまでこぼした
+
+私はブリッジに走って伝えようとした。でもドアは開かない。ひたすら、反応のない解除ボタンを叩き続けた
+
+あの瞬間になって初めて、閉所恐怖症を思い知ったよ
+
+落ち着く必要がある。呼吸を、ゆっくり。ドア越しのバーミリオンの怒鳴り声で、正気を取り戻した。私は、待つことしかできなかった
+
+
+------------------------------------------------------
+[32]
+
+ドアを開けようと、数日費やした。あいつらのしてた事はわからないが、耐えられない騒音だった
+
+こういう調査船のコックピットは、一種の避難所だ。外から開けられず、そして中からアンカー解除もできない
+
+ここにいたのがナスかママレードだったら、違ったかもね
+
+それから数日後、騒音が止まった。…あいつらは、去ってしまった。私は責めない。状況は最悪だったから
+
+いつ、誰が消えるか。知る術はない。チャンスがあれば私も行ってた。だからそう、私は、あいつらを責めない…
+
+
+------------------------------------------------------
+[33]
+
+パネルの光を正確に読めてるなら――それが最近の私の仕事であり、唯一の娯楽だから、読めてなきゃ困るんだが
+
+君は、もうブリッジに入れる
+
+（拍手と歓声）
+
+すまん、抑えきれなくて。ドキドキする！ さあ、ブリッジのドアに来てくれ。こじ開けよう
+
+
+------------------------------------------------------
+[GoToEscapePod]
+
+え？
+
+あれ…行けると思ったのに。くそっ
+
+わかった。見当はついた。よし、君にもうひと仕事やってもらいたい
+
+脱出ポッドへ行き、ブレーカーをリセットするんだ。中に入るコードは：
+
+ブレーカーは、ちょうど角のあたりで…
+
+
+------------------------------------------------------
+[EscapePodRoom]
+
+え…　何…
+
+ああ…そんな…　あいつら、去ってなんかいなかった…
+
+ただ…　いや…
+
+角にあるレバーを、引いてくれ…
+
+ブリッジに　ようこそ…
+
+
+------------------------------------------------------
+[Bridge_000]
+
+ここが『魔法』の現場だ、と言いたいところだが、今の文脈じゃ危険な星から脱出できず、友人も救えない無能のことだな
+
+…私のたったひとつの仕事。そのものだ
+
+まあ、自分の家だと思って、くつろいでくれ。ウイスキーなら、そこら中にある…
+
+
+------------------------------------------------------
+[Bridge_001]
+
+もし違う仕事を選んでたら、自分はどこにいたか、考えたことある？
+
+ここにはいないな、多分。君は、明らかに頭の切れる奴だ。植民地のどこかで大物になれたかもな？
+
+デスクワークに就いてさ。お偉いさん達のためペンを走らせる。今よりもっと安心で、安定してたろう
+
+君だって家族が持てたかもよ
+
+…家族はいないだろ？
+
+
+------------------------------------------------------
+[Bridge_002]
+
+下であれを見た後で、なぜまだ私を助けたいと思える？
+
+立ち去ると思ってた。でも、君はここにいる
+
+しつこい奴だ。君は、しつこいの観念そのものだ
+
+君の立場で、ここまで努力する人間は、そう多くない
+
+君ほど一生懸命な人間も、そう多くない
+
+感謝してる。本心だ。君は善いことをしてる
+
+私も、そうなら良かったのに
+
+
+------------------------------------------------------
+[Bridge_003]
+
+こんな仕事、引き受けなければよかった
+
+辿り着いた先が、こんな所だなんて。でも、…フィラメント社の提示は、ただ、受けるのみ
+
+じゃなきゃ、他にどんな仕事がある？ 少なくとも私は、そう聞いて育った
+
+…まあ君は、適切な話相手じゃないか。ね？
+
+
+------------------------------------------------------
+[Bridge_004]
+
+たぶん、私は、助ける価値のない人間だ
+
+私のやることは、他の誰だってできる
+
+仲間が私を必要とした時、私は役になんて立てなかった
+
+助けられないとわかってたけど、士気を保とうとして、ただ言えることを言ったんだ
+
+今起きている事と同じ
+
+私はここに座り、指示するだけ。君は、ドアの向こうで、行動しているんだ
+
+
+------------------------------------------------------
+[Bridge_005]
+
+おい、見てみろよ。もうあと一歩だ
+
+なあ、私はまだ、君に会う準備ができてなさそうだ。ここまで来るなんて思ってもなくて
+
+運命を受け入れてはいたが、次に何が来るのか。私は覚悟を決めなきゃいけないんだろう
+
+君は本当に、大した奴だ。こんな奴には、会ったことがない。まあまだ、会ってすらないが
+
+最後のアンカーを掴んで、上がってきてくれ
+
+
+------------------------------------------------------
+[EndMonologue]
+
+いいだろう
+
+はあ
+
+難しかった。ずっとね
+
+なぜこんな事する？
+
+一体何考えてたんだ？ フィラメントの船に乗り込むだなんて
+
+君が余計な事に関わらなければ…
+
+私は、頑張っただろ？ あいつらがずっと見てるのに。私は、頑張った
+
+でもこれが結果だ
+
+こうするしかなかった
+
+君なら、わかるだろ？
+
+他に、選択肢がない。私が決めることじゃないんだ
+
+もう行かないと
+
+じゃあね、プルート　-カチッ-
+
+
+------------------------------------------------------
+[BridgeDoorOpen]
+
+The bridge is now open.
+
+艦ブリッジもう開いた。
+
+------------------------------------------------------
+[airlockRight]
+
+Hey! This is where I took my first few steps aboard The Alabaster.
+My first time aboard a FilCorp ship, actually.
+I boarded with Pistachio. We exchanged some small talk while we lugged our stuff up the gangway together.
+We’re both from The Firmament, though we didn’t know each other from before the mission.
+It was only after we arrived here and had a proper chance to talk that we realised we’d actually grown up not far from one another.
+Different schools though.
+
+おお、ここ、私アラバスター号に初めて乗った場所だ！
+実際、フィラメント会社の船に乗るのも初めて。
+あの時、ピスタチオと一緒に喋りながら荷物運んでいた。
+同じスカイステーション出身の同士だけと、任務の前に知り合いではなかった。
+話した後気付いた、彼女が住む場所はうちのすぐ近くにいる、
+違う学校を通ったたけ。
+
+
+------------------------------------------------------
+[atrium]
+
+I love this little seating area down here but I never felt comfortable sitting here for too long. It’s just too exposed for my liking.
+Anyone can look down at you without you knowing. The acoustics here too, they really carry your voice.
+I couldn’t have Canary catching wind of my misadventures.
+By the way, what do you think of this window? I was always pretty indifferent to it, but Pistachio, she hated it.
+Wouldn’t like to sit down here at all. The times we did, she would carefully edge around the window to where she wanted to sit.
+Strangely, a bunch of Pistachio’s stuff would end up down here, right in the middle of the window. But I wouldn’t know anything about that.
+
+
+下にある小っちゃい座り席がとても気に入ってる、でもそこに長く座ると気持ち悪くなっていく。あんな見通しされた感じ嫌いだ。
+知らないうちに誰でもあなたを覗くことができる、しかも音響伝達効果が優れて、聞かされてもおかしくない。
+カナリまで私の不幸をきかされわけにはいかないわ。
+ちなみに、この窓どう思う？私は別に構わないが、ピスタチオはこれが嫌いらしい。
+彼女はどうしてもここに座りたくないだ、いつも窓から慎重に歩き通して、別の処に座り込む。
+それなのに、なんでピスタチオの私物こんな場所に落としたの？この窓の真っ先に。わかんないな。
+
+
+------------------------------------------------------
+[bedroomAubergine]
+
+Woah…  This is crazy, I’ve never been in here before.
+If Canary found out about the state of this place she would flip a...
+Wait, what did he do to the bed?! How did he sleep?
+This man is an enigma…
+I remember hearing about this creature on Earth right, a farm animal, I heard they slept standing up. Maybe Aubergine was the same, he did have augmented legs.
+Come to think about it, I also remember hearing that a common pastime of Earth folk was to tip over these animals while they slept.
+Suddenly I find myself filled with regret, dreaming of what could have been.
+
+うわ…どうにかしてる…ここにきたこと一度もない。
+もしカナリがここの様子を気付いたら、きっと…
+待ってよ、ベッドに何をした？！どう寝る気？
+あいつホントに謎だらけだ…
+確か地球上には一つ立って寝るの動物がいるさ…多分ナスも同じだろうか、あいつのバイオニク足のお陰で。
+地球上の皆、気慰めのためによくその動物が寝ている間に押し倒す、っと聞いた。
+…急にすっごくがっかりなってきた。あの景色をみたくなるのせいで。
+
+------------------------------------------------------
+[bedroomCanary]
+
+Eugh, it’s so empty. Almost clinical. Why is everything lined up like that?
+Just so you’re aware, this is how everyone’s bedroom looked before we moved our stuff in. Minus the fish of course.
+Canary sure loved her fish. I think maybe she related to them on a personal level, you know?
+All cold blooded and scaley, blank expressionless eyes, her mouth doing that thing where it opens and closes all the time but nothing of any value ever comes out?
+Nah. She was alright.
+
+うわー、からっぼ。人が住んでるには見えない。なんて全ての物件があんな風に並べるの？
+この部屋は人が入った前と全く同じだ。当然、あの魚以外。
+カナリはその魚のことめっちゃ気に入ってる。多分、似た者同士の愛情みたいなものだろう、わかる？
+同じ冷血で、冷たい鱗に絡まって、なんの感情もない目を開けて、価値あることを全然言ってないのに口が閉じたり開いたり閉じたり開いたり…
+…それら以外、カナリは結構いいやつだ。
+
+
+
+------------------------------------------------------
+[bedroomJuniper]
+
+Huh? Oh, really? Did you have to come in here? It’s just such a mess. Sorry.
+A messy room never really bothered me. I’ve heard it’s a sign of intelligence but honestly, if that were true I probably wouldn’t be stuck in this damn cockpit.
+Ah, if only I were trapped in there. I still never finished Pocketbook Wrestlers 3. It’s crossed my mind a few times while I’ve been up here.. God knows I’ve got time to finish it now.
+Last time I played I was stuck but I reckon I now know how to get the Paperclip Mask from the Stationary Mountain to unlock the rubber-band belt.
+Hey, maybe when we get outta here we can play something together, we’ll have a lot of time to kill getting back to civilisation.
+I have to warn you though, I’m rather competitive.
+
+は？まじ？下に行ったの？散らかしてすまん。
+散らかした部屋に困らせない、知恵の象徴だと聞いてる。まあほんとの話なら、こんなクッソみたいなコックピットに閉じ込められることもないだろう。
+あーあ、そこに閉じ込められたのが私ならいいのに。私はまた「ポケモンレスラー３」クリアしていないねえ。上にいった時何回も思いついたことがあったけと…こんなに
+前回遊んだ時つんだてっさ、けど今なら静止山脈からクリップ仮面手に入れて、ゴムベルトをアンロックする方法はもう思いついたわ。
+ねえ、ここから離れたら、なんでもいいから一緒に遊んでどう？これから長ーい時間を渡って、文明世界に戻るかもしれない。
+いっておくが、私はすっごく負けず嫌いだぞ。
+
+
+------------------------------------------------------
+[bedroomMarmalade]
+
+It is so cozy in here. A vanilla scented candle would not go amiss in here, would it?
+I used to come here all the time. Marmalade and I, we would come sit in here for hours with the fire on, and just chill, yaknow?
+I don’t know if you’ve noticed this about me, but I’m kinda talkative. He was the opposite, the anti-Juniper if you will.
+I think the time we spent together in here really helped us, or me at least, wind down and deal with being out here for so long.
+
+居心地よいねここ、バニラ味のアロマキャンドルつけても問題ないと思う
+昔よくここに来て、ママレードと火をつけて数時間もボーとして座っている。
+気付いたかどうかがわからない、私はとても能弁だ。ママレードと全然違う。
+彼とここに過ごした時間に助けられたと思う、すくなくとも私が救われた。でないとこんなに長い間で宇宙に平静に居られない。
+
+
+------------------------------------------------------
+[bedroomPistachio]
+
+What? Oh. I, uh, I don’t think I want to talk about this. Not now…  Maybe never.
+
+なに？あ、その、いまそれを話したくない…多分これからもずっと…
+
+
+------------------------------------------------------
+[bedroomVermillion]
+
+Oh, Vermillion. I miss that old man. He just had this, like, warmth, ya know.
+I could tell him about anything and he would just summon wisdom like it was nothing.
+He was from Earth as well, which, I dunno, it’s just nice. I’ve never been there. He actually left Earth for the first time to come on this mission.
+That’s what all the photos are of, his life on earth. I know Pistachio was particularly interested in a photo album of his house.
+She used to sit and flick through it in her downtime. He used to live on the coast, next to an ocean. Can you believe that?
+
+
+ああ、バーミリオン。彼にあいたいです。
+彼となら何でも話してもらえる、素晴らしい知恵の持ち主だ
+彼も地球から来たの。理由がないが、なんとなくそこがいいところだと思う、一度も行ったことないのに。実際、彼も初めて地球を離れてこの任務を遂行しに来た。
+ここにある写真に彼の人生の思い出だ。ピスタチオはそのアルバムにめっちゃ興味深いらしい。
+ピスタチオはよく休憩時間でバーミリオンの部屋に座ってアルバムをみる。磯辺に住んでいたよ。
+
+
+------------------------------------------------------
+[botany_Flower]
+
+Pistachio’s flower… It’s in bloom…
+I can’t believe it. She missed it by a few weeks…
+I just… I… I’m gonna need a few minutes…
+
+
+ピスタチオの花…もう咲いた
+信じられない…たった何週間を待たせば、彼女もこの花を…
+私…だった。…すみません、すごし休憩を…
+
+
+------------------------------------------------------
+[canaryLab]
+
+
+You know, I’m not sure I’ve ever been in here before. This is where Canary spent most of her time.
+I’d like to give you more insight but I have no idea what any of the stuff in here does.
+Of course, you can tell it’s Canary’s space by it’s cleanliness, lack of character, and an abundance of fish.
+Have you ever wondered about the fish? Of course you have. It’s weird, right? All of the fish on the ship are here on Canary’s request.
+
+
+来たことあるかどうかわからない。カナリは大分の時間もにここに過ごしていた。
+もっと情報を教えてあげる気分がやまやまですが、ここのものは何なのか私もさっぱりわからない。
+でもこれだけを言ってる、もしとある部屋がきちんと片付けられて、無個性な上に沢山の魚をかいていたら、あれは間違いなくカナリの個室だ。
+魚に好奇心？もちろんあったわよ。カナリに要求されて船にある全部の魚がここにあつめてきてって、おかしいだろう？
+
+
+------------------------------------------------------
+[CargoBay]
+
+
+Look at all this stuff. This is basically the interstellar equivalent of living out of your suitcase.
+Say, did you know that FilCorp sent us away with Equinox brand tea? I didn’t even know that people actively chose to buy that stuff, let alone by the crate.
+Look, I don’t want to sound like a snob and say that brand names are always better, but when it comes to tea, they obviously are, right?
+
+
+これを見よう。短期旅行してるみたいなもの。
+ねえ、知ってる？出発前に分けてもらたお茶は「春分」だぞ。これを買いたい人はないとおもうわ、ましてや箱ごとに。
+そんなこと言ってのがちょっとあれなんだが、お茶ならブランド品の方がずっと
+
+
+------------------------------------------------------
+[crewAnnex]
+
+
+The amount of coffee consumed here is unfathomable.
+It was here that Canary would lead our morning briefings following the mandatory workout session.
+You know, it’s interesting, all this technology and we’ve never really improved on an honest cup of coffee.
+ure we have plenty of ways to make you feel less tired, all of which are far more effective than coffee. Yet, here we are, still drinking the stuff.
+I think it’s in the ritual of it all. There’s comfort in it. Let me tell you, whenever I had a coffee in my hand, there wasn’t a thing Canary could say to irritate me.
+She knew it, too. Clever really.\r
+
+
+ここに数え切れない程のコーヒーが飲まされた。
+毎日の強制鍛錬が終わった後、ここでカナリはモーニング会議を開催する
+言ってみればお恥ずかしいこと、必要な技術が揃ってるのに、正真正銘のコーヒーなんで一度でも出来なかった。
+元気を出させる方法なら幾つかある、しかもコーヒーよりよっぼと効くんだ。っが、ここにコーヒーを飲むのほうがいいと、皆そう思う
+儀式みたいなものさ、人の気持ちを慰めための。一杯のコーヒーさえあれば、カナリがどんなに言われても怒らない。
+彼女もそれを分かってる、気が利く奴だぜ。
+
+
+------------------------------------------------------
+[engineAnnex]
+
+This thing is where the ship’s fuel is stored before it’s piped into the reactor next door.
+It’s lightweight and super-efficient, or so I’m told.
+My job is to fly this ship, not top it up.
+Personally though, I think it looks a little bit like a sad bear.
+See what I mean? Those raised bits sticking out of the sides sort of look like eyebrows, and the bit at the front is like his-
+No? Not seeing it? Hmm. Alright then.
+
+
+パイプによって隣の原子炉に入る前に、燃料がここに溜め込んでる。
+軽くのうちに効率的、そう言われてる。
+私の仕事は船の燃料補給ではなく、それを運転することだ。
+ここだけの話、私はあれを悲しい熊に見える。
+ほらあれ、横から立てた部分は眉毛、前の部分は…
+ええ？見えない？まあいいわ…
+
+
+------------------------------------------------------
+[engineRoom]
+
+You’ve found it… The Alabaster’s best kept secret.
+The most exclusive bar this side of the The Firmament. You’re now one of only three people that know of its existence.
+Introducing, Space Drink made by our very own Mr Marmalade!
+Light and fruity, inspired by both the condiment that is his namesake, and unwanted food from around The Alabaster.
+This is the best way to get a little morning buzz without eating into those all valuable FilCorp reward credits.
+Try one if you like, but save at least a couple for me.
+
+
+見つけたぞ、アラバスター号にある最大の機密を…
+フィルマメン宇宙ステーション外、最も独特なバー！その存在を知る三人中の一員になる君に、おめでとう！
+本店トップお勧め！ママレードさん特製、スペースドリンク！
+爽やかでフルーティー、ママレードさんと同名な調味料とアラバスター号に見付かった余った食材からインスピレーションを得て調製した飲み物。
+朝から元気いっぱいのベスト秘訣！しかもフィラメント会社ポイントを要らない。
+気に入ったなら飲んでみて。但し私のぶんを残してくれよ。
+
+
+------------------------------------------------------
+[gamesRoom]
+
+It was me that put the request in for these old machines.
+They take me back to being a teenager. I get so wrapped up in the nostalgia of it all.
+I used to bike down to the arcade after school most days. There was this one kid, who went by: RED.
+She held the high score on practically every machine in there. Greedy, I know.
+I set out to beat her at my favourites. Spent a lot of time and pocket change trying too.
+Never managed it though. For some reason it really stuck with me.
+I figured that with all of the spare time I would have out here, I could take another shot at getting those scores. Get some closure on that front.
+Well it took a few weeks but I finally came out on top. It felt amazing.
+Then Aubergine walked in the next day and bumped me back to 2nd, which did not.
+
+
+この旧式ゲーム機を船に運んでくるを提案したのは私だ。
+こいつらを見ると少年時代のことを思い出してきた、いーやー懐かしいねえ。
+以前、放課後よく自転車帰りの途中でゲーセンに寄り道して遊ぶことをした。そこには「RED」の子がいた。
+ゲーセンにあるゲームたちの最高記録の持ち主は全部あの子。貪欲くてしょうがない子だねぇ。
+ おれが大好きなゲームに彼女を倒すてめ、沢山な時間と小遣いをかかった。
+でも一度も成功しなかった、何故だかわからない、それが胸の中にかかえた重くて巨大な石となっていく。
+ここに居るのも暇だし、最高得点を再チャレンジしようか、心の石も卸してくるかもしれない
+何週間の時間をかかってようやく成功した。とても不思議な感覚だ。
+次の日、ナスが入って私を二番目にしてあげるつもりだが、失敗した。
+
+
+------------------------------------------------------
+[gravityRoom]
+
+Ah, so you’ve discovered our source of gravity. Nifty, huh?
+It’s fairly common to see big ships like ours create artificial gravity by spinning, but not us. No, we have fancy gravity.
+It just sits there doing it’s thing, and then everything goes nicely downwards, as it should. \r
+Of course, the one main drawback to a system like this, is that while it’s pretty hard to stop a ship from spinning, it’s remarkably easy to hit a button labeled “off”.
+I was on a delivery job before joining FilCorp, where someone, not me, turned off the gravity one morning, as a sort of ship-wide prank.
+It was chaos. Stuff everywhere, the hold was a mess. It caused a lot more damage than I- uh, they, intended.
+So don’t touch anything.
+
+
+あっ、重力源見つかちゃった。綺麗ですよね？
+普通、うちみたいに大きな宇宙船の重力は回転によって作られるもんなんだけど、うちにはそうじゃない、他の重力源がある。
+ほっとけば船内のものは普通に床に落ちてくる。
+でもこのシステムに大きな欠点がある、船の回転を止まるには大変だが、閉じるボタンを押すとは相当容易い。
+フィラメント会社に入る前貨車の運転手をやっていた。ある朝のことだ、私じゃない誰かさんがからかうつもりで重力システムを閉じた。
+結局は大混乱だ、貨物が飛び回って、倉庫もめちゃくちゃになった。船は私の…いや、彼の予想外のダメージを受けた。
+だから、ここにあるものを勝手に触れるな。
+
+
+------------------------------------------------------
+[greenhouse]
+
+I, too, was taken aback by the air in here. I’ve never felt air that was, well, wet, before,
+breathing feels…  different.\r
+Right now it probably feels a little uncomfortable, maybe a bit much. But once you leave the greenhouse, you’ll quickly realise that all other air has been selling you short your whole life.
+As if it’s missing key ingredients, like a cake without icing.
+In the same way that a delicious, icing clad cake spoils all future un-iced cakes, the air in here, it ruins the air in the rest of the ship.
+You see, the thing with cake is that once you have that first special one with that moist, fluffy sponge, a gooey, fruity jam center, and then the icing. Both soft and crunchy, decorative yet delicious…
+I err, where was I again? I lost myself for a moment there.
+
+私最初にきた時もびっくりした、こんなしっとりした空気見たこともない。
+呼吸した感覚すら全然…違う。
+今にはちょっと、いや、とても気持ち悪いかもしれない。温室から離れたらすぐ空気が悪くて息ができなくなる。
+なにか肝心な部分が足りない、まるで砂糖を入れなかったケーキみたいに。
+空気と同じ、アイシングをたっぷり降りかかった美味しいケーキ一つで、他の普通なケーキはダメになるわ。
+しっとりしてふわふわなスポンジ、中にはドロドロなジャム、表面に甘ーいアイシング…かっりとした同時に柔らかい、見た目だけではなく味も…
+えっと、どこに話しただっけ？ちょっとうっかりしてだ。
+
+
+------------------------------------------------------
+[gym]
+
+Look, I understand the importance of keeping fit. I do, really. But Vermillion’s mandatory daily workouts were a burden on my soul.
+We had to wear these wristbands that would track how far we’d run on any given day and relay our progress back to Vermillion. Naturally, I endeavoured to find a shortcut.
+Initially I just tried to cram all of my week’s quota into a single day, leaving me with 6 days off. Genius, right?
+I just about managed it, but Vermillion told me that not only was that borderline dangerous, it was “Just not how this works.”
+Anyway, I eventually found a use for those cats I was telling you about. Turns out they get around quite a bit, so I just attached my wristband to the most excitable one and forgot about it for a while.
+It took Vermillion longer than I’m comfortable admitting to work out what I’d done.
+
+わかるわかる、健康を保つのが一大事、本当にわかる。でもバーミリオンの強制鍛錬は私にとって魂の鎖だ！
+この腕バンドを無理やりにつけさせられた、こいつは私たちが毎日何キロ走ったことを記録して、バーミリオンに報告する。
+最初、一週間の運動を一日でやり終わったら、残された日に休憩ができる。いいアイデアだろう？
+もう少しで完成したどころだったのに、バーミリオンが私を止めた。こんなやり方じゃ、危ない上に「運動の意味なんてないです！」っとか、説教された。
+しかし、お陰でやっとあの猫ちゃんたちの使い方を思いついた。一番活発な子猫の首に腕バンドをつければよい。それからしばらくの間猫のことを完全に忘れた。
+バーミリオンが気づいたのも随分後のこと、そのせいですっごく怒られた。
+
+
+------------------------------------------------------
+[kitchen]
+
+I’ve never been much into food, eating was just something I did out of necessity.
+That was until Vermillion started cooking for us. He cooked this one thing, he called it a roast.
+It was meat, chicken, if I remember correctly, and some vegetables.
+It was all cooked together, in an oven. And to top off this madness, we then covered it all in a delicious, brown liquid.
+Apparently, it’s a big thing in some places on Earth. And my god… I see why…
+
+食事に対しての興味なんてほぼゼロです。食事するのは只の生理現象。
+その印象はバーミリオンの飯を食べた以降完全に覆された。彼が「焼き肉」と言うものを作りました。
+覚え違えないなら確か鶏の焼肉、しかも野菜も加わった。
+全部の食材を丸ごとオープンに入れて焼ける。何よりあの美味しくてたまらない茶色の液体、それを肉に絡んで食べる。
+地球上のある地域でとても流行ってる食品らしい。ああ、不思議、食べたあとようやくその理由を分かったわ。
+
+
+------------------------------------------------------
+[library]
+
+The thing about working in space, and you probably get this too,
+is that with time, space gets kinda... boring. The wonder fades…
+Everyone I’ve worked with has said the same, except Marmalade.
+He would sit by the window over there for hours, looking through the telescopes and drawing any new constellations he saw.
+He had a sketchbook full of them. They are quite amazing.\r
+The telescopes were Canary’s. She would get a bit wound up when Marmalade tweaked the settings for his own purposes.
+Although, I think even she enjoyed looking through his drawings. Maybe she was even a little proud that they were a product of her telescopes.
+
+宇宙での仕事について、君もそんな感じがあるかもしれない。
+時間の経過と共に、宇宙も段々…つまらなくなる。例の新鮮感はどんどん消えていく…
+一緒に仕事したヤツみんなそう言ってる。ママレード以外ね。
+そこの窓に何時間も座り込み、望遠鏡から星座を観察して描かれる。
+観察した星座を全部描かれたスケッチブックがいる、とても綺麗です。
+望遠鏡はカナリからもらったものだそうだ。星座を観察するたび、ママレードは望遠鏡のことを調整する、すのせいでカナリは「かなり」怒ってる。
+まあ怒ったそうに見えるけど、実際のところカナリは結構誇り高いとおもうよ。なにしろ彼女の望遠鏡があったらこそのスケッチだからね。
+
+
+------------------------------------------------------
+[livingRoom]
+
+Ah, the war room, or at least that’s what we called it after our first Games Night.
+I knew it was a bad idea bringing Smash, Muddle, Scrub on board. I just couldn’t help myself.
+When we arrived, and I got to know the others, I just knew it would be something to behold…
+The first games night resulted in a ship wide silence for 2 days, email communication only. We agreed to ban the game after that.
+Despite this, every time Games Night would come around, we’d start playing something different, like Indigestion or Please no, not the melon,
+and then always end up going back to Smash, Muddle, Scrub.
+
+あの部屋のことを作戦会議室と、初めてのゲームナイトからそう呼ばれている。。
+ルール違反のが分かってる、それでも我慢きれず「スマッシュ＆スクラップ」を船に持って来た。
+しかし、みんなと馴れ合ってからすぐわかった、持って来ること間違いなく正解だった。
+初めてのゲームナイトが終わったあとの丸まる二日、船内のみんなはメイル以外の会話するのが一切なし。その後、二度とそのゲームをやらないっと、一致に決定した。
+ゲームナイトを開催するたび、念のため、みんなはいつも「インダイジェスト」とか、「ノー·ザー·メロン」とか、別のゲームを遊ぶつもりですけど、
+でも結局、また「スマッシュ＆スクラップ」をやり始まる。
+
+
+------------------------------------------------------
+[medbay]
+
+You know Pluto, I think I’ve spent enough time in this room to last me a lifetime.
+I was betrayed by my own appendix of all things.
+I mean, the two of us never had a particularly notable relationship, but we coexisted happily. Or so I thought.
+I was bed-bound for over a week, with nothing to do except suffer through Vermillion’s ancient music taste.
+I suppose I shouldn’t be too hard on the old guy though. He did save my life.
+
+
+この部屋に閉じ込められたことを一生もわすれない。
+虫垂に裏切られた！
+虫垂炎になる前に、ずっとあいつとの関係は結構いいだと思った。どうやらそう考えるのは私しかいない。
+病気でベットに一週間以上寝込んだ、バーミリオンのクラシック音楽を聴くこと以外の娯楽はいっさいなしになあ！
+でも命の恩人にああでもないこうでもないことうるさく言うのは確かよくない、反省します。
+
+
+
+------------------------------------------------------
+[mez]
+
+Hey, you found my hideaway. Cozy, huh?
+Me and Pistachio would grab some blankets and sit up here to watch films after work. I brought my whole collection of tapes on board with me.
+I swear we watched Crow Division like a thousand times. The second one, though. Everyone knows the first one is trash.
+Sometimes, if we were too lazy to get up and change the tape, we’d just sit and watch the terminal logo bounce around the screen.
+Pistachio claimed that one time she saw it hit the corner, but I’m pretty sure she was lying.
+
+私の秘密の部屋、見つけ出したね。居心地いいだろう。
+仕事が終わったら、いつもピスタチオとここに座り込みながら映画をみるんだ。持っていた全部のビデオテープを船に持ってきた。
+「ガラス軍団」何回見たのかもうわからない、無論第二作です。前作最低ぐらいのことを誰でも知ってる。
+ときに二人ともビデオテープを替えたくない、そしたらここにボーとして、画面にあるマークが飛び回わってるのを見る。
+
+
+------------------------------------------------------
+[pool]
+
+Right.. I need you to bear with me for a second because I’ve got to vent here.
+When we were all selected for this mission, we could submit requests for things we wanted to have onboard. These requests would be evaluated on costs and necessity and whatnot.
+Now, The Filament Corporation were pretty accommodating on the matter, but there was one thing I requested that got denied. I wanted a dance floor. You know, one of the ones with all of the coloured tiles and flashing lights.
+Now I know, a little unreasonable, it was a long shot, but think about the morale benefits. Unsurprisingly, my request was denied. Whatever, I was fine with it.
+But then I get on board and find that they’ve given Canary AN ENTIRE POOL. Now, I know what you're thinking, “isn’t a pool just a hole in the ground”.
+And well, you’re right, it is just a hole in the ground. A hole containing 400 gallons of water! Do you know how heavy that is?
+Heavier than a dance floor! And you can’t spill a dance floor!
+
+すみませんが、ここ、ちょっと怒りたいどころだから我慢してください。
+任務に選ばれるとき、好きなだけ船に添えたい物資と機設を申請して、コーストと必要性を評価されるっと聞いてる。
+大分のおねだりはフィラメント会社からまんぞくされたが、一つだけが却下された——ダンスフロアを増設したい、カラフルしかもイルミネーションつきのヤツ。
+非実際的なことだとわかる、同意される可能性がない。でもこれがあればみんなの士気も上がるでしょう。結果的に却下されるのも当然だけと、まあどうでもいいよ。
+でもさあ、船に登った時、奴らがカナリにプールを作ってあげたのを見た！「地上に穴をあけりゃいいんだろう」っとかかんがえてるだろう。
+そうよ穴よ、しかも中には４００カロン以上の水が注ぎ込んでる！どれだけ重いのかわかる？
+ダンスフロアよりずっと重い！しかも水をあちこちに散らかして！。
+
+
+------------------------------------------------------
+[serverRoom]
+
+Ah, you found Aubergine’s cave. If he wasn’t hidden away in his room, you could be sure to find him here.
+I don’t know how he possibly sat in such a warm dimly lit room all day and ever got anything done. Sounds like optimal napping conditions to me.
+That said it’s probably hard to sleep with Canary constantly looming over you. She was always on his back about how messy this place was. Something about health and safety.
+I think it may have been the exposed wiring and piles of debris. Personally I think it has a certain charm to it. A kind of organized chaos.
+I can respect that.
+
+
+おお、ナスの隠し穴見つけたね。もし彼が部屋にいないなら、必ずここに隠していたはつ。
+こんな暖かくて暗いどこでよく一日中も引きこもって仕事ができるね、私にとっては最高の寝る場なのに。
+とか言って、カナリに毎日毎日念仏のようにごちゃごちゃ言われたら、眠りたくないになるのも当然。いつも「散らかしてる」とか、「安全性を気を付け」とか、「体にどく」とか、散々言われた。
+多分あのむき出しの電線と山のような雑物のせいでしょうか。でもここには独特な魅力があると思う、なんかこう、混乱の中に秩序がある。
+私ならわかる。
+
+------------------------------------------------------
+[showers]
+
+You know, I’ve been aboard a few ships with pretty dire issues in the shower department.
+The Alabaster is not one of them. We’ve got it all, good water pressure, dials that actually perform as advertised and a seemingly endless supply of hot water.
+I’m sure you can appreciate that, as a traveller yourself? I mean, your ship is pretty compact, I bet your shower is tiny.
+You, uh, you have a shower, right? I’m going to choose to believe that you do.
+
+以前、他の宇宙船にシャワーを浴びた時、いろいろ大変な問題があってさあ。
+でもそんな問題がアラバスター号にいない、設備が揃ったし、水圧も問題なし、ＣＭと同じぐらいの蛇口、どんな時にも絶えることがないお湯。
+旅行者のあなたならきっとわかるでしょう？君の船があんなに小っちゃいだし、きっとシャワー室もめっちゃ小っちゃいでしょう？
+えっと、シャワー室くらいあるよね？ねえ？
+
+------------------------------------------------------
+[suitRoom]
+
+You may have noticed a few of these space suits are missing a limb or two.
+FilCorp were nice enough to provide us with personalized suits that are cut off around our augmentations.
+It’s so we can make better use of them outside of the ship. Pretty cool, huh?
+Aubergine wasn’t pleased about how much his resembled a one-piece swimsuit. It’s a look, for sure, but I think he rocked it.
+
+気付いたかもしれません、このスーツの中に、幾つか腕や足がないヤツがある。
+フィラメント会社から思い込めて作ったカスタムスーツだ、バイオニク義肢の部分全部取り除いてくれた。
+そうすると、船外でもより良く義肢たちを使えることになった。かっけーでしょう？
+でもナスがすごーく嫌なんだ、あいつ、自分のスーツがスク水のように見えるとか言って、まあ実際から見ればそうなるが、カッコイイにしか見えないと思う。
+
+
+------------------------------------------------------
+[SurgeryRoom]
+
+It’s a little bit terrifying, isn't it? Hard to believe that putting yourself through this thing could actually fix you.
+It was this large metal cylinder that had the honor of separating me from my appendix.
+I asked Vermillion if I could keep it after the surgery, like in a jar or something, but he just sighed and didn’t answer me. Classic Vermillion.
+I think that in the end, this room was gutted for spare parts to help construct the anchors, so it won’t be up and running any time soon.
+On a completely unrelated note, how are you feeling? Well? You’re feeling well, right? Good.
+
+怖いに見えるでしょう？こいつの中からくぐり抜けたら病気を直してくれるとか、とても信じ固いだろう。
+こいつのお陰で、虫垂切除術を完成された。
+術後バーミリオンに聞いた、虫垂を缶とかに保存してくれないって、彼らしいに何も答えずに、たたため息をついた。
+この部屋にある備品は全部アンカーの作りになっ、しばらくの間再開することにならないでしょう。
+いきなりですが、今、どんな感じ？また行ける？いけるか？ならいいけど。
+
+
+------------------------------------------------------
+[warehouse]
+
+How anyone finds anything in this place is beyond me, the boxes are barely distinguishable.
+This is where stuff from the cargo bay lives after it’s unpacked. You wouldn’t believe some of the stuff I’ve found on these shelves. Sometimes I would come in here and pop a box open just for the excitement of seeing what’s in it.
+Obviously I found plenty of boxes filled with staples or sticky-notes, but occasionally I would stumble on something great. I did, however, once open up a box that seemed damaged.
+It was some plant of Pistachio’s, and get this, it had teeth… It was trying to get out…
+She assured me it wouldn’t have gotten anywhere but I’m still glad I stumbled across it when I did.
+
+どうやってこんな処から必要なものを見つかるのが全くわからない。この箱たち、皆同じように見える。
+倉庫にある荷物は開封されたあとここに置いておくことになる。棚から何を見つかったのが絶対に思いつかない。暇な時よくここに来て箱を開ける。
+たまにあげた箱にあるのはたたのホチキスの針と便箋しかないが、たまには素敵なものが入っている。でも一回、一つ壊れそうな箱をあげたら
+なかにあるのはピスタチオのとある植物だ、牙を入って箱から逃げ出したいて…
+彼女から、その植物はどこにも行かないと保証してるげと、まあこういうのも一種のサプライスだろう、結構楽しみにしていた。
+
+
+------------------------------------------------------
+[workshopBig]
+
+This is where we built the anchors.
+I say we, Marmalade and Aubergine handled that.
+One of the few advantages of being so far from civilisation is that we’re pretty equipped to manufacture spare parts for when stuff breaks.
+Within reason of course.
+I’m told building the anchors was pretty straight forward. It was the machine in the back corner that used to crank them out.
+
+ここは私達がアンカーを作る場所だ。
+私達っとか言いたけれと、実際やっていたのはママレードとナスだけ。
+文明世界から離れ離れになる唯一のどくは、なにかが壊れた時、直ぐに完全な設備によって備品の作ることができる。
+もちろん、合理的な範囲内でね。
+アンカーの作り方はとても簡単だと言ってた。隅っこにある機械を見たのか？あれを使ってアンカーを作った。
+
+
+------------------------------------------------------
+[workshopSmall]
+
+This is the second Lantern-2 probe we began working on after the failure of the first.
+I suggested we call it the Lantern-3, but Canary… you know.
+We never did finish it though. It was around the time that everything went south. It’s too bad it never launched, it had some pretty nifty features.
+I still don’t understand what happened to the first one but I feel somewhat responsible, seeing as I was the pilot, and the failure was its lack of landing.
+Still, it behaved so weirdly. I don’t feel like there was anything I could have done to land that thing.
+
+これは二番目の「ランタン二号」探知機、一号が墜落した後作られたんだ。
+ランタン三号と呼ばれた方がいいじゃないかって提案したげと、まあカナリが…わかるよね？
+とか言っても、作り上げたとは言い切れない。おおよそあの頃から、いろいろ面倒なことになってきた。探知機に面白い機能を増加したのに、発射するのが一度もなかった。実に残念です。
+ランタン一号に何があったのか分からないげと、それが私の責任だと思う、だって私はパイロットなんだ、着陸してないからこその探知機墜落でしょう？
+でもどう頑張っても、あのおかしい探知機の着陸なんて無理の話だと思う。
+
+------------------------------------------------------

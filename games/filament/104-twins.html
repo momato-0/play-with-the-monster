@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fillament - 怪物であそぼう</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/beercss@3.4.4/dist/cdn/beer.min.css" />
+    <script type="module" src="https://cdn.jsdelivr.net/npm/beercss@3.4.4/dist/cdn/beer.min.js"></script>
+    <link rel="stylesheet" href="../../style.css" type="text/css">
+    <link rel="stylesheet" href="../yugo-puzzle/yugo-puzzle.css" type="text/css">
+</head>
+
+
+<body class="dark">
+    <div id="global-nav"></div>
+    <main class="responsive txt-content">
+        <p>Fillament 攻略ガイド　>　104 - エアーロック</p>
+        <h1><span class="latin">104</span> - エアーロック</h1>
+
+        <p>
+            ジュニパー「アラバスター号の中で最初に乗った場所」<br>
+            右側に続く、ふたごの小部屋がエアーロックの扉らしい。ピスタチオと一緒に荷物を積み込んだ思い出を披露する。<br>
+            「任務に就くまで知らなかったが、実はピスタチオは近所に住んでいた」</p>
+
+        <ul class="lbd">
+            <li>謎 1 - 白い端末</li>
+            <li>謎 2 - 部屋</li>
+            <li>謎 3 - 白い端末 2</li>
+            <li>コレクション 1 - <span class="latin">TCG</span>カード</li>
+            <li>コレクション 2 - アーカイブ</li>
+        </ul>
+
+        <h2 class="mt-5">謎 1 - 白い端末</h2>
+        <h2 class="mt-5">謎 2 - 部屋</h2>
+        <h2 class="mt-5 nobr">コレクション 1<wbr> - <span class="latin">TCG</span>カード</h2>
+        <h2 class="mt-5 nobr">コレクション 2<wbr> - アーカイブ</h2>
+        <h2 class="mt-5">謎 3 - 白い端末 2</h2>
+        <details>
+            <summary id="hint1">
+                <span class="me-3 me-md-5"> </span><img src="./img/filament-mark.svg" alt="" aria-hidden="true" width="13" height="16" class="jel" style="width: auto; height: 20px; vertical-align: -.2em;"> ナゾはどこ？
+            </summary>
+            <p>
+                白い端末。<br>
+                付箋にマークがあるが、よく見ると<b class="my-lblue">左の<span class="latin">LED</span>機器にもマークがある</b>。
+            </p>
+            <img class="zukai mt-5" src="./img/104-pc-1.webp" alt="" loading="lazy" width="1000" height="562" />
+
+            <a title="閉じる" href="#hint1" class="close-details" onclick="document.getElementById('hint1').scrollIntoView({ behavior:'smooth', block:'center'});">
+                <p>close</p>
+            </a><a title="閉じる" href="#hint1" class="close-details right" onclick="document.getElementById('hint1').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+        </details>
+
+        <details>
+            <summary id="hint2">
+                <span class="me-3 me-md-5"> </span>ヒント
+            </summary>
+            <p>
+                <span class="latin">LED</span>の下の<b class="my-lblue">抵抗器</b>に注目。
+                ちょうど<span class="latin">16</span>個あるようだ。
+            </p>
+            <img class="zukai mt-5" src="./104-resistors/104-resister-1.webp" alt="抵抗器のスクリーンショット" loading="lazy" width="837" height="837" />
+
+            <a title="閉じる" href="#hint2" class="close-details" onclick="document.getElementById('hint2').scrollIntoView({ behavior:'smooth', block:'center'});">
+                <p>close</p>
+            </a><a title="閉じる" href="#hint2" class="close-details right" onclick="document.getElementById('hint2').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+        </details>
+
+        <details>
+            <summary id="hint3">
+                <span class="me-3 me-md-5"> </span>くわしい解き方
+            </summary>
+
+            <p>
+                抵抗器に<span class="latin">4</span>本の色つき帯がついている。<br>
+                <b class="my-lblue">カラーコード</b>といい、抵抗値を色で表すものらしい：
+            </p>
+            <img class="zukai" style="max-inline-size: 500px;" src="./104-resistors/resistor-color-code-1.svg" alt="左から一桁目、二桁目、乗算値、誤差の値を色で表す。" width="434" height="351">
+
+            <p>
+                色と数字の対応はこちらを参考にした：　<a href="https://www.mouser.jp/technical-resources/conversion-calculators/resistor-color-code-calculator" target="_blank">抵抗器のカラーコード計算機</a>
+            </p>
+            <p class="mt-4">
+                では、謎をよく見てみよう。<br>
+                わかりやすいようカラーコードを図にしてみた：
+            </p>
+
+            <img class="zukai" style="max-inline-size: 1000px;" src="./104-resistors/resistor-color-code-2.svg" alt="問題のカラーコードをわかりやすくした図。" width="987" height="322">
+
+            <p>
+                抵抗器は一般的に、<b class="my-lblue">少し離れた帯が右端</b>になる。<br>
+                この向きで抵抗値を計算しようとしたが、どうもうまくいかない。
+            </p>
+            <ul class="lbd mt-4">
+                <li>
+                    <p>
+                        黒黒<span style="background: #314ad6; padding: 0 .2em; vertical-align: 0;">青</span>黒、黒黒<span style="color:#111;background: #c2c466; padding: 0 .2em; vertical-align: 0;">黄</span>黒、黒黒<span style="background: #237b4f; padding: 0 .2em; vertical-align: 0;">緑</span>黒、とかけ算の帯がカラフルになる。
+                        しかし、黒黒（<span class="latin">00</span>）に何をかけても答えは<span class="latin">0</span>。
+                        <span class="latin">0</span>がたくさん並ぶことになってしまう。
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        ひとつだけ、誤差の帯が茶色。
+                        「<span class="latin">±1%</span>」の意味だが、値としてどう捉えればいいのか。
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        実際の抵抗器は、両端が黒にならない。
+                    </p>
+                </li>
+            </ul>
+            <p class="mt-4">
+                ということで、抵抗値を計算するのではなく、あくまで<span class="my-lblue">色と数字の対応のみ参考にする</span>と考えた。
+            </p>
+            <p>
+                色を数字におきかえると：
+            </p>
+
+            <img class="zukai" style="max-inline-size: 1000px;" src="./104-resistors/resistor-color-code-3.svg" alt="色を数値になおした図。" width="987" height="387">
+
+            <p>
+                <span class="latin">0</span>から小さい順に番号をつけていくと、どうやら答えらしくなってきた。
+            </p>
+            <p class="mt-4">
+                ここでわからなかったのが　<span class="nobr">黒黒<span style="background: #7e4917; padding: 0 .2em; vertical-align: 0;">茶茶</span></span>の扱い。<br>
+                ぶっちゃけ、いろいろ試したらこれが<span class="latin">10</span>番目にくるのが正解だったのだが、理由を考えてみる。
+            </p>
+            <ul class="lbd">
+                <li>
+                    <p>
+                        もしかしたらこの抵抗器は<b class="my-lblue"><span class="latin">4</span>バンドではなく、<span class="latin">5</span>バンド</b>なのかもしれない。
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <b class="my-lblue"><span class="latin">1-3</span>ケタ目が数値を表し、<span class="latin">4</span>ケタ目がかけ算</b>なのか？
+                    </p>
+                </li>
+            </ul>
+
+            <p class="mt-4">
+                ⋯⋯ということで、やっぱり計算は必要だった説。<br>
+                図にすると：
+            </p>
+
+            <img class="zukai" style="max-inline-size: 1000px;" src="./104-resistors/resistor-color-code-4.svg" alt="計算しなおした図。" width="987" height="387">
+
+            <p>
+                <span class="latin">16</span>進数になおして：
+            </p>
+            <p class="center-align latin">
+                <b class="latin my-lblue">1845　ea9b　6327　fd0c</b>
+            </p>
+            <p class="mt-4">
+                もっとスマートな解き方があるのかもしれないけど、私はこう解いたよーということで。<br>
+                試行錯誤の跡でした！
+            </p>
+
+            <a title="閉じる" href="#hint3" class="close-details" onclick="document.getElementById('hint3').scrollIntoView({ behavior:'smooth', block:'center'});">
+                <p>close</p>
+            </a><a title="閉じる" href="#hint3" class="close-details right" onclick="document.getElementById('hint3').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+        </details>
+
+        <details>
+            <summary id="hint4">
+                <span class="me-3 me-md-5"> </span>答え
+            </summary>
+            <p class="center-align"><b class="latin my-lblue">1845　ea9b　6327　fd0c</b></p>
+            <img class="zukai" style="max-inline-size: 500px;" src="./104-resistors/104-resister-2.webp" alt="抵抗器のスクリーンショット" loading="lazy" width="500" height="281" />
+
+            <a title="閉じる" href="#hint4" class="close-details" onclick="document.getElementById('hint4').scrollIntoView({ behavior:'smooth', block:'center'});">
+                <p>close</p>
+            </a><a title="閉じる" href="#hint4" class="close-details right" onclick="document.getElementById('hint4').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+        </details>
+
+        <details>
+            <summary id="hint5">
+                <span class="me-3 me-md-5"> </span>解除されるログ
+            </summary>
+            <p class="center-align">損害　>　<span class="my-lblue">人間の経験の面では....</span></p>
+
+            <a title="閉じる" href="#hint5" class="close-details" onclick="document.getElementById('hint5').scrollIntoView({ behavior:'smooth', block:'center'});">
+                <p>close</p>
+            </a><a title="閉じる" href="#hint5" class="close-details right" onclick="document.getElementById('hint5').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+        </details>
+
+    </main>
+
+    <footer class="center-align">
+        <small>&copy; 2025 怪物であそぼう</small>
+    </footer>
+    <style>
+        h2 {
+            border: 1px solid #a8ffda99;
+            background-color: #00000045;
+            text-align: left;
+        }
+
+        h2::before {
+            content: "";
+        }
+
+        h4 {
+            color: #a8ffda;
+            margin-left: 1rem;
+        }
+
+        .latin {
+            font-size: 1.1em;
+            letter-spacing: 0.18em;
+            margin-left: .2em;
+            vertical-align: baseline;
+        }
+
+        .close-details p {
+            top: -.3rem;
+            right: 0.7rem;
+        }
+    </style>
+    <script src="../../global.js"></script>
+</body>
+
+</html>
