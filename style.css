@@ -5,6 +5,7 @@ body.dark {
     --my-lorange: #ffa185;
     --my-dark-orange: #b02f00;
     --my-green: #198754;
+    --my-lgreen: #8de589;
     --my-blue: #a8fcff;
     --my-lblue: #c4e0ff;
     /* body-bg */
@@ -188,7 +189,7 @@ h3 {
 h2::before,
 h3::before {
     position: absolute;
-    left: 1rem;
+    left: 2rem;
     margin-top: .2rem;
 }
 
