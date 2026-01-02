@@ -5,7 +5,7 @@ body.dark {
     --my-lorange: #ffa185;
     --my-dark-orange: #b02f00;
     --my-green: #198754;
-    --my-lgreen: #8de589;
+    --my-lgreen: #d5ffd3;
     --my-blue: #a8fcff;
     --my-lblue: #c4e0ff;
     /* body-bg */
@@ -365,6 +365,10 @@ img.sharp {
     color: #ffd7bf;
 }
 
+.my-lgreen {
+    color: var(--my-lgreen);
+}
+
 .my-blue,
 .my-yellow,
 .my-red,
@@ -379,13 +383,21 @@ img.sharp {
     filter: brightness(0) saturate(100%) invert(91%) sepia(7%) saturate(5150%) hue-rotate(181deg) brightness(107%) contrast(101%);
 }
 
+.pankuz a {
+    color: var(--my-lgreen);
+}
 
 /* ========== 📝 Txt-content ========== */
 
+.txt-content button {
+    font-size: calc(1rem + .2vw);
+}
+
 .txt-content p {
     font-size: calc(1rem + .2vw);
-    margin: 1.5rem 0;
+    margin: 1.8rem 0;
     letter-spacing: 0.05rem;
+    line-height: 2.3rem;
 }
 
 .txt-content td p {
@@ -440,21 +452,28 @@ blockquote.nocite>p:last-of-type {
     margin-left: 1em;
 }
 
-.lbd li {
+.lbd li,
+.bd li {
     border-bottom: 1px solid #ffffff1f;
-    margin-top: .5rem;
+    margin-top: 0 .5rem;
 }
 
-.lbd li:first-of-type p {
+.lbd li:first-of-type p,
+.bd li:first-of-type p {
     margin-top: 0;
+}
+
+p.lbd {
+    padding-left: 1.5em;
 }
 
 .txt-content li {
     margin-left: 3rem;
+    padding: .5em;
 }
 
 .txt-content li p {
-    margin: .8rem 1rem .8rem 0;
+    margin: 1.5rem 0 1.5rem .5rem;
 }
 
 .txt-content a {
@@ -521,12 +540,12 @@ blockquote.nocite>p:last-of-type {
 
 .font-small,
 p.font-small {
-    font-size: calc(.8rem + .3vw);
+    font-size: calc(.8rem + .2vw);
 }
 
 .font-smaller,
 p.font-smaller {
-    font-size: calc(.5rem + .3vw);
+    font-size: .8rem;
 }
 
 .font-large,
@@ -647,6 +666,7 @@ p.font-larger {
 
 
 /* ========== 💻 PC & Media ========== */
+/* M & L */
 @media only screen and (min-width: 601px) {
     section.grid {
         ---gap: 1rem;
@@ -714,14 +734,13 @@ p.font-larger {
     blockquote {
         padding: .5rem 0 .5rem 1.5rem;
     }
-
-    .txt-content li p {
-        margin-left: 2rem;
-    }
 }
 
+/* S */
 @media only screen and (max-width: 600px) {
-    main.responsive {
+
+    main.responsive,
+    .pankuz {
         padding-block-start: 5rem;
     }
 
@@ -729,11 +748,21 @@ p.font-larger {
     .boya-zukai {
         inline-size: 100%;
     }
+
+    .tooltip.max {
+        position: fixed;
+        left: 50%;
+        transform: translate(-50%, -100%);
+        max-width: 90vw;
+    }
 }
 
+/* M */
 @media only screen and (min-width: 601px) and (max-width: 992px) {
-    main.responsive {
-        padding-inline-start: 6rem;
+
+    main.responsive,
+    .pankuz {
+        padding-inline-start: 5rem;
     }
 
     .zukai,
@@ -747,8 +776,11 @@ p.font-larger {
     }
 }
 
+/* L */
 @media only screen and (min-width: 993px) {
-    main.responsive {
+
+    main.responsive,
+    .pankuz {
         padding-inline-start: 6rem;
     }
 

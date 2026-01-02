@@ -4,6 +4,20 @@ fetch('https://momato-0.github.io/play-with-the-monster/nav.html')
         document.getElementById('global-nav').innerHTML = html;
     });
 
+// tooltip mobile
+const mq = window.matchMedia('(max-width: 600px)');
+
+document.querySelectorAll('.chip').forEach(chip => {
+    const tip = chip.querySelector('.tooltip');
+
+    chip.addEventListener('mouseenter', () => {
+        if (!mq.matches) return;
+
+        const r = chip.getBoundingClientRect();
+        tip.style.top = `${r.top}px`;
+    });
+});
+
 // <details> close
 document.addEventListener("click", (event) => {
     const target = event.target.closest(".close-details");
