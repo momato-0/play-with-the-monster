@@ -256,6 +256,7 @@ h4 {
     margin: 4rem auto 1.5rem;
 }
 
+/*
 .me-3 {
     margin-right: 1rem;
 }
@@ -270,7 +271,7 @@ h4 {
 
 .nowrap {
     white-space: nowrap;
-}
+}*/
 
 .article-link {
     position: absolute;
@@ -297,7 +298,7 @@ hr {
 }
 
 .jel {
-    margin: 0 .25rem;
+    margin: 0 .3rem;
     border-radius: 0;
     vertical-align: -.1rem;
 }
@@ -315,6 +316,64 @@ details {
     border-radius: .2rem;
     margin-left: auto;
     margin-right: auto;
+    transition: max-height 0.3s, padding 0.3s;
+    overflow: hidden;
+    position: relative;
+}
+
+details[open] {
+    max-height: 1000vh;
+    padding: .625rem;
+}
+
+details[data-visited="true"] summary {
+    color: #caffb4;
+}
+
+/* ======= Close Button ======= */
+.close-details {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 3.2rem;
+    height: 3.2rem;
+    clip-path: polygon(0 100%, 100% 100%, 0 0);
+    background-color: #055935;
+    color: #acffa3;
+    border-bottom: 0 !important;
+}
+
+.close-details:hover {
+    background-color: #f46013;
+}
+
+.close-details.right {
+    left: auto;
+    right: 0;
+    clip-path: polygon(100% 0, 100% 100%, 0 100%);
+}
+
+.close-details p {
+    rotate: 45deg;
+    font-size: small;
+    position: relative;
+    top: .5rem;
+    right: .5rem;
+    text-align: center;
+}
+
+/*spacer*/
+details>*:nth-last-child(3) {
+    margin-bottom: 3.2rem;
+}
+
+details h4,
+details h5 {
+    margin-left: 0.5em;
+}
+
+.color-change details:nth-child(2n) {
+    background-color: #99757511;
 }
 
 summary {
@@ -369,6 +428,10 @@ img.sharp {
     color: var(--my-lgreen);
 }
 
+.my-pink {
+    color: #ebabff;
+}
+
 .my-blue,
 .my-yellow,
 .my-red,
@@ -383,29 +446,41 @@ img.sharp {
     filter: brightness(0) saturate(100%) invert(91%) sepia(7%) saturate(5150%) hue-rotate(181deg) brightness(107%) contrast(101%);
 }
 
+.pankuz p {
+    margin-top: 0;
+    margin-left: 0;
+
+}
+
 .pankuz a {
     color: var(--my-lgreen);
 }
 
 /* ========== 📝 Txt-content ========== */
 
-.txt-content button {
+button {
     font-size: calc(1rem + .2vw);
+    font-weight: 400 !important;
 }
 
-.txt-content p {
-    font-size: calc(1rem + .2vw);
+:is(.button, button):not(.chip):hover,
+:is(.button, button):not(.chip):hover {
+    border-radius: .5rem !important;
+}
+
+p {
+    font-size: calc(1rem + .25vw);
     margin: 1.8rem 0;
     letter-spacing: 0.05rem;
     line-height: 2.3rem;
 }
 
-.txt-content td p {
+td p {
     margin: .5rem 0;
 }
 
-.txt-content p,
-.txt-content li,
+p,
+li,
 blockquote {
     margin-inline-start: 1rem;
     margin-inline-end: 1rem;
@@ -428,6 +503,10 @@ blockquote>p:last-of-type {
     margin-bottom: 0;
 }
 
+blockquote.nocite>p:last-of-type {
+    margin-bottom: 1rem;
+}
+
 cite {
     display: block;
     text-align: right;
@@ -442,12 +521,8 @@ cite:before {
     filter: brightness(0) saturate(100%) invert(91%) sepia(7%) saturate(5150%) hue-rotate(181deg) brightness(107%) contrast(101%);
 }
 
-blockquote.nocite>p:last-of-type {
-    margin-bottom: 1rem;
-}
-
 .lbd {
-    font-size: calc(1rem + .2vw);
+    font-size: calc(1rem + .25vw);
     border-left: 5px solid #ffffff2e;
     margin-left: 1em;
 }
@@ -467,36 +542,40 @@ p.lbd {
     padding-left: 1.5em;
 }
 
-.txt-content li {
+li {
     margin-left: 3rem;
     padding: .5em;
 }
 
-.txt-content li p {
-    margin: 1.5rem 0 1.5rem .5rem;
+li p {
+    margin: 1rem 0 1rem .5rem;
 }
 
-.txt-content a {
+p a {
     display: inline;
     color: #d0ffda;
     border-bottom: 1px solid #d0ffda9f;
 }
 
-.txt-content a:hover {
+p a:hover {
     color: var(--my-lorange);
     border-bottom: 1px solid var(--my-lorange);
 }
 
-.txt-content ruby {
+ruby {
     vertical-align: 0;
 }
 
-.txt-content .mt-4 {
+.mt-4 {
     margin-top: 3rem;
 }
 
-.txt-content .mt-5 {
+.mt-5 {
     margin-top: 4rem;
+}
+
+.mb-5 {
+    margin-bottom: 4rem;
 }
 
 .talk {
@@ -520,27 +599,23 @@ p.lbd {
     border-radius: .5rem;
 }
 
-.txt-content b,
-.txt-content strong {
+b,
+strong {
     font-weight: 700;
-    padding: 0 3px;
 }
 
-.b-strong,
-.txt-content strong {
-    color: #a79cff;
+strong {
+    color: #c8b0ff;
     background: #00000075;
     border-radius: 0;
-}
-
-.txt-content strong {
-    font-size: calc(1rem + .5vw);
-    vertical-align: -1px;
+    vertical-align: 0;
+    letter-spacing: 0.1rem;
+    margin: 0 3px;
 }
 
 .font-small,
 p.font-small {
-    font-size: calc(.8rem + .2vw);
+    font-size: calc(.9rem + .2vw);
 }
 
 .font-smaller,
@@ -558,11 +633,35 @@ p.font-larger {
     font-size: calc(1rem + .6vw);
 }
 
+.chip {
+    vertical-align: text-bottom;
+    border: 0;
+    padding: 0 4px !important;
+    margin: 0 2px;
+    block-size: 1rem;
+    min-inline-size: 1rem;
+    background: url("../../img/comment.svg") no-repeat center;
+}
+
+.tooltip.max {
+    white-space: nowrap;
+    font-size: .9rem;
+    text-align: left;
+    z-index: 101;
+    padding: .5em;
+    inline-size: auto;
+}
+
+.tooltip.max p {
+    font-size: .9rem;
+    margin: .8rem 0;
+    line-height: 1.2rem;
+}
+
 .zukai {
     margin-top: .625rem;
     border-radius: .2rem;
     block-size: auto;
-
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -761,7 +860,7 @@ p.font-larger {
 @media only screen and (min-width: 601px) and (max-width: 992px) {
 
     main.responsive,
-    .pankuz {
+    .pankuz p {
         padding-inline-start: 5rem;
     }
 
@@ -780,7 +879,7 @@ p.font-larger {
 @media only screen and (min-width: 993px) {
 
     main.responsive,
-    .pankuz {
+    .pankuz p {
         padding-inline-start: 6rem;
     }
 

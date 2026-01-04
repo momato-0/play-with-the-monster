@@ -26,6 +26,7 @@ document.addEventListener("click", (event) => {
         target.closest("details")?.removeAttribute("open");
     }
 });
+
 // <summary> visited
 document.addEventListener("DOMContentLoaded", () => {
     document.querySelectorAll("details").forEach(details => {
@@ -34,6 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 });
+
 // thumb click -> loading Youtube
 document.querySelectorAll(".thumb").forEach(thumb =>
     thumb.addEventListener("click", () => {
@@ -44,6 +46,7 @@ document.querySelectorAll(".thumb").forEach(thumb =>
         }
     })
 );
+
 // Link Gradation
 const gradients = {
     ".mkj": [154, 89.4, 18.4, 309, 22.5, 44.5, "+"],
@@ -61,6 +64,7 @@ Object.entries(gradients).forEach(([selector, [hs, ss, ls, he, se, le, mode]]) =
         btn.style.backgroundColor = `hsl(${h}, ${s}%, ${l}%)`;
     });
 });
+
 // boya txt and img
 document.querySelectorAll('.boya').forEach(boya => {
     const imgSibling = boya.parentElement.parentElement.nextElementSibling;
