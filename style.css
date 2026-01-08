@@ -615,7 +615,7 @@ strong {
 
 .font-small,
 p.font-small {
-    font-size: calc(.8rem + .2vw);
+    font-size: calc(.9rem + .1vw);
 }
 
 .font-smaller,
@@ -644,17 +644,16 @@ p.font-larger {
 }
 
 .tooltip.max {
-    white-space: nowrap;
     font-size: .9rem;
     text-align: left;
     z-index: 101;
-    padding: .5em .5rem 1rem;
-    inline-size: auto;
+    padding: .5rem .5rem 1rem;
+    inline-size: 17em;
 }
 
 .tooltip.max p {
     font-size: .9rem;
-    margin: 0;
+    margin: .5rem 0 0;
     line-height: 1.2rem;
 }
 
@@ -663,11 +662,11 @@ p.font-larger {
     display: block;
     text-align: center;
     font-size: .5rem;
-    margin: .1rem 0;
+    margin: 0;
 }
 
-.tip-hr p:nth-child(2n) {
-    margin-top: .5rem;
+.tip-hr p.no-hr::before {
+    content: "";
 }
 
 .zukai {
