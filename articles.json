@@ -1,5 +1,24 @@
 [
     {
+        "title": "🎮【FILAMENT】全訳 ＆ 完全攻略ガイド",
+        "priority": 5,
+        "thumbnail": "games/filament/img/thumb.jpg",
+        "url": "games/filament/filament-guide.html",
+        "tags": [
+            "ゲーム",
+            "パズル",
+            "解説"
+        ],
+        "datePublished": "2026-01-08",
+        "dateModified": "2026-01-08",
+        "excerpt": {
+            "short": "難解パズル『Filament』の真実を追え！",
+            "full": "言葉にかかる二重三重の意味、《糸 フィラメント》に絡めとられた行間を解きほぐす。ギリシャ神話のアリアドネ、置き去りにされた色彩豊かな地球の記憶。ディストピアの果てに彼女の「救い」はあったのか？"
+        },
+        "slug": "filament-guide",
+        "author": "momato"
+    },
+    {
         "title": "📚【じっくり読み解く】木曜日だった男／チェスタトン",
         "priority": 5,
         "thumbnail": "books/thursday-01b.webp",
@@ -13,7 +32,7 @@
         "dateModified": "2025-06-18",
         "excerpt": {
             "short": "チェスタトンを救った「光」をさがす旅へ。",
-            "full": "名作をやわらかく、とことん深掘り⛏️　ラスト何が起きた？　「杯」の意味は？　サタンと戦うのに資格がいる？　じっくりコトコト読み解きます。"
+            "full": "名作をやわらかく、とことん深掘り。最後に起きたことは何？　「杯」の意味って？　サタンと戦うのに資格がいるの？　じっくりコトコト読み解きます！"
         },
         "slug": "the-man-who-was-thursday-review",
         "author": "momato"

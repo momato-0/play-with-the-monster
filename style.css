@@ -460,7 +460,6 @@ img.sharp {
 
 button {
     font-size: calc(1rem + .2vw);
-    font-weight: 400 !important;
 }
 
 :is(.button, button):not(.chip):hover,
@@ -469,7 +468,7 @@ button {
 }
 
 p {
-    font-size: calc(1rem + .25vw);
+    font-size: calc(1rem + .2vw);
     margin: 1.8rem 0;
     letter-spacing: 0.05rem;
     line-height: 2.3rem;
@@ -636,11 +635,9 @@ p.font-larger {
 .chip {
     vertical-align: text-bottom;
     border: 0;
-    padding: 0 4px !important;
     margin: 0 2px;
     block-size: 1rem;
     min-inline-size: 1rem;
-    background: url("../../img/comment.svg") no-repeat center;
 }
 
 .tooltip.max {
@@ -652,7 +649,7 @@ p.font-larger {
 }
 
 .tooltip.max p {
-    font-size: .9rem;
+    font-size: .88rem;
     margin: .5rem 0 0;
     line-height: 1.2rem;
 }
