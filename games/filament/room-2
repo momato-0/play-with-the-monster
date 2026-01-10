@@ -62,15 +62,10 @@
                         <img src="../../img/trans.png" class="s-icon" width="18" height="18">
                     </div>
 
-                    <div class="s5 m8 l8 nobr">00　エアーロック 右</div>
+                    <div class="s5 m8 l8 nobr">00　</div>
                 </summary>
                 <blockquote class="nocite">
-                    <p>あ！　ここは、私がアラバスターに乗って、最初の数歩を踏みしめた場所だ。<br>
-                        実は、フィラメント社の船に乗るのも初めてでさ。</p>
-                    <p> ピスタチオと一緒に乗り込んだんだ。荷物抱えてタラップを上がりながら、少し世間話したっけな。</p>
-                    <p> ふたりとも<span class="my-pink">ファーマメント出身</span>なんだけど、任務前は互いを知らなかった。<br>
-                        ここに着いて、じっくり話す機会があって初めて気づいたんだ。実は、そんな遠くないとこで育ったってね。</p>
-                    <p>学校は別だったけど。</p>
+                    <p></p>
                 </blockquote>
                 <a title="閉じる" href="#room-0" class="close-details" onclick="document.getElementById('room-0').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
@@ -86,15 +81,10 @@
                         <img src="../../img/trans.png" class="s-icon" width="18" height="18">
                     </div>
 
-                    <div class="s5 m8 l8 nobr">01　中庭</div>
+                    <div class="s5 m8 l8 nobr">01　</div>
                 </summary>
                 <blockquote class="nocite">
-                    <p>このちょっとした休憩スペース、大好きなんだけど、長居はケツがそわそわしたな。<br>開放的すぎて。</p>
-                    <p>誰かが見下ろしてても気づかないし、音響もさ、声がよく響くんだ。<br>
-                        カナリアに私の失態を聞きつけられるのは勘弁だからな。</p>
-                    <p>ところで、この窓どう思う？<br>私にはどうでもよかったけど、ピスタチオは大嫌いだった。</p>
-                    <p>座るの嫌がってたよ。<br>座るとしても、窓を避けるようにそっと端っこを歩いてたっけ。</p>
-                    <p>奇妙なことに、ピスタチオの私物がよくこの、窓のど真ん中に置かれてたりした。<br>私は何も知らないけどね。</p>
+                    <p></p>
                 </blockquote>
                 <a title="閉じる" href="#room-1" class="close-details" onclick="document.getElementById('room-1').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
@@ -107,19 +97,13 @@
                     <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18"></div>
                     <div class="s3 m3 l3">
                         <img src="../../img/trans.png" class="s-icon" width="18" height="18">
-                        <img src="../../img/pencil.svg" class="s-icon" width="18" height="18">
+                        <img src="../../img/trans.png" class="s-icon" width="18" height="18">
                     </div>
 
-                    <div class="s5 m8 l8 nobr">02　ナスの寝室<wbr><span class="my-lblue font-small">　／牛倒し</span></div>
+                    <div class="s5 m8 l8 nobr">02　</div>
                 </summary>
                 <blockquote class="nocite">
-                    <p>うわっ… こりゃヤバい、ここに入るのは初めて。<br>
-                        カナリアがこの惨状を見つけたら、ブチ切れて…</p>
-                    <p>待て、あいつベッドに何したんだ！？　どう寝てたんだよ？</p>
-                    <p>この男、謎だ。</p>
-                    <p>そういや、地球にはウシって生物がいるってね。<br>家畜で、立ったまま寝るらしい。<br>ナスも同じだったのか。足、デバイスだし。</p>
-                    <p class="my-pink">地球人は気晴らしに、寝てるそいつを突き飛ばして遊ぶんだと。</p>
-                    <p>猛烈に後悔してきた。<br>ナスにやってたらどうなってたかな、想像しちゃうな。</p>
+                    <p></p>
                 </blockquote>
                 <a title="閉じる" href="#room-2" class="close-details" onclick="document.getElementById('room-2').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
@@ -135,18 +119,10 @@
                         <img src="../../img/trans.png" class="s-icon" width="18" height="18">
                     </div>
 
-                    <div class="s5 m8 l8 nobr">03　カナリアの寝室</div>
+                    <div class="s5 m8 l8 nobr">03　</div>
                 </summary>
                 <blockquote class="nocite">
-                    <p>うげ、虚無。まるで病院だ。なんで全部こんなに整列してんだ？
-
-                        一応言っとくと、私たちが荷物を運び込む前は、みんなこんな感じの部屋だった。もちろん、魚は別だけど。
-
-                        カナリアは確かにあの魚を愛してたよ。たぶん、個人的なレベルで親近感を持ってたんじゃないか？
-
-                        冷血でウロコまみれ、虚ろで無表情な目。いつもパクパク開閉してるくせに、価値あるものは何ひとつ出てこない口、とかな？
-
-                        …冗談だよ。彼女は悪い奴じゃなかった。</p>
+                    <p></p>
                 </blockquote>
                 <a title="閉じる" href="#room-3" class="close-details" onclick="document.getElementById('room-3').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
@@ -162,20 +138,10 @@
                         <img src="../../img/trans.png" class="s-icon" width="18" height="18">
                     </div>
 
-                    <div class="s5 m8 l8 nobr">04　ジュニパーの寝室</div>
+                    <div class="s5 m8 l8 nobr">04　</div>
                 </summary>
                 <blockquote class="nocite">
-                    <p>あ？　おっと、マジか？　入らなきゃいけなかったか？　散らかってるよ。悪いね。
-
-                        散らかってんの、気にならないんだよな。「知性の表れ」だの聞いたことあるけど、それが本当ならこんな糞コックピットに閉じ込められてないだろ。
-
-                        あー、でもそっちだったらな。「ポケットブック・レスラーズ3」クリアしてないんだ。何度か頭をよぎったよ… 神に誓って、時間は腐るほどあったんでね。
-
-                        最後詰んだけど、今ならステーショナリー・マウンテンからペーパークリップ・マスク入手後ラバーバンド・ベルトをアンロックする方法がわかったかも。
-
-                        なあ、脱出したら一緒にゲームでもしよう。文明圏に戻るまで、死ぬほど時間あるだろうし。
-
-                        言っとくけど、私はかなり負けず嫌いだ。</p>
+                    <p></p>
                 </blockquote>
                 <a title="閉じる" href="#room-4" class="close-details" onclick="document.getElementById('room-4').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
@@ -191,16 +157,10 @@
                         <img src="../../img/trans.png" class="s-icon" width="18" height="18">
                     </div>
 
-                    <div class="s5 m8 l8 nobr">05　ママレードの寝室</div>
+                    <div class="s5 m8 l8 nobr">05　</div>
                 </summary>
                 <blockquote class="nocite">
-                    <p>ここはすっごく居心地いいんだ。バニラの香りのキャンドルなんかあったら、似合いすぎてヤバいよな？
-
-                        よく来てたよ。ママレードと私で、暖炉をつけて何時間も座り込んで。ただ、ダラダラ過ごしてた。わかるだろ？
-
-                        気づいてるかもだけど、私って結構お喋りなんだよ。でも彼は正反対でね、アンチ・ジュニパーと言っていいくらい。
-
-                        ここで一緒に過ごした時間は、私たち… 少なくとも私には、本当に役立ったと思う。リラックスと、こんな遠くまで来てしまったストレスの対処に。</p>
+                    <p></p>
                 </blockquote>
                 <a title="閉じる" href="#room-5" class="close-details" onclick="document.getElementById('room-5').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
@@ -216,10 +176,10 @@
                         <img src="../../img/trans.png" class="s-icon" width="18" height="18">
                     </div>
 
-                    <div class="s5 m8 l8 nobr">06　ピスタチオの寝室</div>
+                    <div class="s5 m8 l8 nobr">06　</div>
                 </summary>
                 <blockquote class="nocite">
-                    <p>え？　ああ…。私は… その話はしたくないと思う。今は…、たぶん、もう二度と。</p>
+                    <p></p>
                 </blockquote>
                 <a title="閉じる" href="#room-6" class="close-details" onclick="document.getElementById('room-6').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
@@ -231,22 +191,14 @@
                 <summary class="grid small-space" id="room-7">
                     <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18"></div>
                     <div class="s3 m3 l3">
-                        <img src="../../img/earth.svg" class="s-icon" width="18" height="18">
+                        <img src="../../img/trans.png" class="s-icon" width="18" height="18">
                         <img src="../../img/trans.png" class="s-icon" width="18" height="18">
                     </div>
 
-                    <div class="s5 m8 l8 nobr">07　バーミリオンの寝室</div>
+                    <div class="s5 m8 l8 nobr">07　</div>
                 </summary>
                 <blockquote class="nocite">
-                    <p>ああ、バーミリオン…。爺さん、会いたいな。彼には何ていうか、温かみがあってさ。
-
-                        何でも話せたし、何でもないことみたいに知恵を授けてくれるんだ。
-
-                        それに、地球出身だった。なんか、いいよな。私は行ったことないけどさ。この任務のために、彼は生まれて初めて地球を離れたんだ。
-
-                        写真は全部、彼の地球での人生。ピスタチオが特に興味持ったのは、彼の家の写真アルバムだった。
-
-                        暇な時に座って、パラパラめくってたよ。彼は沿岸、海のすぐそばに住んでたんだって。信じられる？</p>
+                    <p></p>
                 </blockquote>
                 <a title="閉じる" href="#room-7" class="close-details" onclick="document.getElementById('room-7').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
@@ -262,14 +214,10 @@
                         <img src="../../img/trans.png" class="s-icon" width="18" height="18">
                     </div>
 
-                    <div class="s5 m8 l8 nobr">08　ピスタチオの花</div>
+                    <div class="s5 m8 l8 nobr">08　</div>
                 </summary>
                 <blockquote class="nocite">
-                    <p>ピスタチオの花が… 咲いてる…。
-
-                        信じられない。あと数週間だったのに、見られなかった…。
-
-                        わたし、私は…。　少し、時間をくれ。</p>
+                    <p></p>
                 </blockquote>
                 <a title="閉じる" href="#room-8" class="close-details" onclick="document.getElementById('room-8').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
@@ -281,18 +229,14 @@
                 <summary class="grid small-space" id="room-9">
                     <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18"></div>
                     <div class="s3 m3 l3">
-                        <img src="../../img/earth.svg" class="s-icon" width="18" height="18">
+                        <img src="../../img/trans.png" class="s-icon" width="18" height="18">
                         <img src="../../img/trans.png" class="s-icon" width="18" height="18">
                     </div>
 
-                    <div class="s5 m8 l8 nobr">09　貨物室<wbr><span class="my-lblue font-small">　／お茶</span></div>
+                    <div class="s5 m8 l8 nobr">09　</div>
                 </summary>
                 <blockquote class="nocite">
-                    <p>見て、この荷物の山。これじゃ星間規模で、着の身着のまま生活してるようなもんだ。
-
-                        な、知ってた？　フィラメント社が持たせたお茶、エキノックス・ブランド。こんなもん箱買いどころか、買う輩がいるのかって。
-
-                        いいか、私もブランド名で良し悪しを言う、気取ったヤツは嫌だ。でもお茶に関しては例外なんだよ。そうだろ？</p>
+                    <p></p>
                 </blockquote>
                 <a title="閉じる" href="#room-9" class="close-details" onclick="document.getElementById('room-9').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
@@ -308,20 +252,10 @@
                         <img src="../../img/trans.png" class="s-icon" width="18" height="18">
                     </div>
 
-                    <div class="s5 m8 l8 nobr">10　居住区画<wbr><span class="my-lblue font-small">　／コーヒー</span></div>
+                    <div class="s5 m8 l8 nobr">10　</div>
                 </summary>
                 <blockquote class="nocite">
-                    <p>ここで消費されるコーヒーの量は、計り知れない。
-
-                        強制トレーニングの後、カナリアが朝の打ち合わせを開いてたのはここ。
-
-                        面白いよな。これだけテクノロジーが進んでも結局、正統なコーヒー一杯を超えられなかった。
-
-                        たしかに、疲れをとる方法は山ほどあるし、どれもコーヒーよりずっと効果的だ。でも我々は、未だにこれを飲んでる。
-
-                        儀式みたいなもんだよね。そこに安心感があるんだ。コーヒーを手に収めてる私は、カナリアに何言われようがイラつかなかった。
-
-                        彼女もそれをわかってたよ。実に賢い。</p>
+                    <p></p>
                 </blockquote>
                 <a title="閉じる" href="#room-10" class="close-details" onclick="document.getElementById('room-10').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
@@ -333,24 +267,14 @@
                 <summary class="grid small-space" id="room-11">
                     <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18"></div>
                     <div class="s3 m3 l3">
-                        <img src="../../img/earth.svg" class="s-icon" width="18" height="18">
+                        <img src="../../img/trans.png" class="s-icon" width="18" height="18">
                         <img src="../../img/trans.png" class="s-icon" width="18" height="18">
                     </div>
 
-                    <div class="s5 m8 l8 nobr">11　エンジン区画<wbr><span class="my-lblue font-small">　／クマ</span></div>
+                    <div class="s5 m8 l8 nobr">11　</div>
                 </summary>
                 <blockquote class="nocite">
-                    <p>ここは船の燃料を貯蔵しておくとこで、隣のリアクターに送られるんだ。
-
-                        軽量で超効率的。 と、聞いた。
-
-                        私の仕事は船を飛ばすことで、燃料補給じゃないし。
-
-                        でも個人的にこれ、「悲しげなクマ」に見えると思うんだ。
-
-                        ほら、どう？　側面からの盛り上がりが眉で、正面のがそいつの…
-
-                        …ダメ？　そうは見えない？　ふーん。ま、いいや。</p>
+                    <p></p>
                 </blockquote>
                 <a title="閉じる" href="#room-11" class="close-details" onclick="document.getElementById('room-11').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
@@ -366,20 +290,10 @@
                         <img src="../../img/trans.png" class="s-icon" width="18" height="18">
                     </div>
 
-                    <div class="s5 m8 l8 nobr">12　エンジンルーム<wbr><span class="my-lblue font-small">　／BAR</span></div>
+                    <div class="s5 m8 l8 nobr">12　</div>
                 </summary>
                 <blockquote class="nocite">
-                    <p>見つけたか… アラバスター号、最大の秘密を。
-
-                        ファーマメントからこっち側じゃ、最も特別な会員制バーだ。君は今、その存在を知るたった3人のうち1人になった。
-
-                        紹介しよう、スペース・ドリンク！　我らが Mr.ママレード謹製だ。
-
-                        軽やかでフルーティー。インスピレーションの源泉は彼の名を冠した薬味と、アラバスターの余り物。
-
-                        こいつはフィラメント社の貴重な報酬クレジットに手を付けず、朝から軽く一杯やるのに最高の手段なのさ。
-
-                        好きなら試してみな。でも少なくとも2、3杯は残しといてくれよ。</p>
+                    <p></p>
                 </blockquote>
                 <a title="閉じる" href="#room-12" class="close-details" onclick="document.getElementById('room-12').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
@@ -392,29 +306,13 @@
                     <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18"></div>
                     <div class="s3 m3 l3">
                         <img src="../../img/trans.png" class="s-icon" width="18" height="18">
-                        <img src="../../img/pencil.svg" class="s-icon" width="18" height="18">
+                        <img src="../../img/trans.png" class="s-icon" width="18" height="18">
                     </div>
 
-                    <div class="s5 m8 l8 nobr">13　娯楽室</div>
+                    <div class="s5 m8 l8 nobr">13　</div>
                 </summary>
                 <blockquote class="nocite">
-                    <p>この古いゲーム機をリクエストしたの、私なんだ。
-
-                        10代の頃を思い出すんだよ。ノスタルジーに浸っちまう。
-
-                        放課後毎日、自転車でゲーセンに通ってたな。「RED」と名乗るヤツがいてさ。
-
-                        彼女はそこの全台で、ハイスコアを誇った。欲深いだろ？
-
-                        私は得意なゲームで倒そうと決めて、時間も小遣いもつぎ込んだ。
-
-                        結局、一度も勝てなかったよ。それがずっと心に引っかかってたんだ。
-
-                        ここじゃ暇だけはたっぷりあるから、当時のスコアに再挑戦できると思ってね。雪辱を果たせるって。
-
-                        で、数週間かかったけど、ついにトップに立った。最高の気分だったね。
-
-                        そしたら次の日、ナスがふらっと来て、私を2位に叩き落とした。さいあく。</p>
+                    <p></p>
                 </blockquote>
                 <a title="閉じる" href="#room-13" class="close-details" onclick="document.getElementById('room-13').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
@@ -430,22 +328,10 @@
                         <img src="../../img/trans.png" class="s-icon" width="18" height="18">
                     </div>
 
-                    <div class="s5 m8 l8 nobr">14　重力</div>
+                    <div class="s5 m8 l8 nobr">14　</div>
                 </summary>
                 <blockquote class="nocite">
-                    <p>へえ、重力の源を発見したってわけか。イカすだろ？
-
-                        デカい船はふつう船体を回転して重力を作るが、ここは違う。そう、うちは高級な重力なんだ。
-
-                        こいつがただそこにいるだけで、万物は然るべき場所、下へと綺麗に向かう。
-
-                        ただし、大きな欠点がひとつあってね。回転を止めるのと違って、オフと書かれたボタンを押すのは驚くほど簡単だ。
-
-                        フィラメントに入る前は配送の仕事をしてたんだが、ある朝、私じゃない誰かが、イタズラでそれをやらかした。
-
-                        大混乱だ。物がそこら中に浮かんで、貨物室はめちゃくちゃ。私… じゃないそいつが意図したより、ずっと大きな損害が出ちまった。
-
-                        だから、何にも触るなよ。</p>
+                    <p></p>
                 </blockquote>
                 <a title="閉じる" href="#room-14" class="close-details" onclick="document.getElementById('room-14').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
@@ -457,26 +343,14 @@
                 <summary class="grid small-space" id="room-15">
                     <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18"></div>
                     <div class="s3 m3 l3">
-                        <img src="../../img/earth.svg" class="s-icon" width="18" height="18">
+                        <img src="../../img/trans.png" class="s-icon" width="18" height="18">
                         <img src="../../img/trans.png" class="s-icon" width="18" height="18">
                     </div>
 
-                    <div class="s5 m8 l8 nobr">15　温室</div>
+                    <div class="s5 m8 l8 nobr">15　</div>
                 </summary>
                 <blockquote class="nocite">
-                    <p>私も、この空気には度肝を抜かれた。湿った？　空気は、初めてでさ。
-
-                        息する感覚も …違うよな。
-
-                        今は不快に感じるかもね、やりすぎだって。でも温室を出れば、すぐ気づくよ。ほかの空気は全部手抜きだ。
-
-                        大事な材料が欠けてるみたいにね。アイシングのないケーキ。
-
-                        美味いアイシング付きケーキが、未来のアイシングなしケーキを全て台無しにするように、ここの空気は、船のほかの空気をダメにしちまうんだ。
-
-                        わかるだろ、ケーキってのはさ、一度あの特別なやつを食べたら最後なんだよ。しっとりふわふわのスポンジに、トロトロでフルーティーなジャムが真ん中に入ってて、それにアイシング。柔らかいのにシャリっとして、飾り付けも綺麗なのに美味しくて…
-
-                        あれ、どこまで… 何の話。我を忘れちゃった。</p>
+                    <p></p>
                 </blockquote>
                 <a title="閉じる" href="#room-15" class="close-details" onclick="document.getElementById('room-15').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
@@ -492,20 +366,10 @@
                         <img src="../../img/trans.png" class="s-icon" width="18" height="18">
                     </div>
 
-                    <div class="s5 m8 l8 nobr">16　ジム</div>
+                    <div class="s5 m8 l8 nobr">16　</div>
                 </summary>
                 <blockquote class="nocite">
-                    <p>いいか、健康維持は大切だ。本当に。でもバーミリオンの強制トレーニングの日課は、魂の重荷だった。
-
-                        毎日どれだけ走ったか、進捗を送信するリストバンドを着けさせられた。当然、私はショートカットを探したわけだ。
-
-                        最初は、1週間分のノルマを1日でやろうとした。週6日休み。天才だろ？
-
-                        なんとかやり遂げたが、バーミリオンに言われた。危険だし、そういう仕組みじゃないってな。
-
-                        最終的に、以前話した猫どもの使い道を見つけたんだ。よくうろちょろするから、リストバンドを一番元気な奴にくっつけて、しばらく忘れることにしたのさ。
-
-                        バーミリオンが気づくまで、ここで正直に話すのは気まずいほどの時間が流れた。</p>
+                    <p></p>
                 </blockquote>
                 <a title="閉じる" href="#room-16" class="close-details" onclick="document.getElementById('room-16').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
@@ -517,22 +381,14 @@
                 <summary class="grid small-space" id="room-17">
                     <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18"></div>
                     <div class="s3 m3 l3">
-                        <img src="../../img/earth.svg" class="s-icon" width="18" height="18">
+                        <img src="../../img/trans.png" class="s-icon" width="18" height="18">
                         <img src="../../img/trans.png" class="s-icon" width="18" height="18">
                     </div>
 
-                    <div class="s5 m8 l8 nobr">17　キッチン</div>
+                    <div class="s5 m8 l8 nobr">17　</div>
                 </summary>
                 <blockquote class="nocite">
-                    <p>私はこれまで食に興味なくて、必要だからやってるだけのことだった。
-
-                        バーミリオンが私らに料理を作り始めるまではね。彼はそれを「ロースト」と呼んでた。
-
-                        肉、確か鶏肉だったと思う。それに野菜がいくらか。
-
-                        全部オーブンで調理されててさ。で、狂気の沙汰にとどめを刺すように、丸ごと極上の茶色い液体で覆っちまうんだ。
-
-                        地球のある地域じゃ大人気らしい。なるほどね… 理由は十分堪能したよ。</p>
+                    <p></p>
                 </blockquote>
                 <a title="閉じる" href="#room-17" class="close-details" onclick="document.getElementById('room-17').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
@@ -548,22 +404,10 @@
                         <img src="../../img/trans.png" class="s-icon" width="18" height="18">
                     </div>
 
-                    <div class="s5 m8 l8 nobr">18　図書室</div>
+                    <div class="s5 m8 l8 nobr">18　</div>
                 </summary>
                 <blockquote class="nocite">
-                    <p>宇宙で働くってのは、君もそうだと思うけど。
-
-                        時間が経つと、宇宙ってのがその… 退屈になってくるんだ。感動が薄れてく。
-
-                        一緒に働いた奴らはみんな言ってたよ。ママレードを除いては。
-
-                        彼はあの窓際に何時間も座っては、望遠鏡を覗き込んで、新しい星座をスケッチしてた。
-
-                        スケッチブックはそれで埋め尽くされてたな。見事なもんだ。
-
-                        望遠鏡はカナリアのだけどね。ママレードが設定をいじると、彼女はピリピリしてたっけ。
-
-                        もっとも、彼女もスケッチを内心楽しんでたと思う。ひょっとしたら、自分の望遠鏡が生んだ作品だって、誇りに思ってたのかもな。</p>
+                    <p></p>
                 </blockquote>
                 <a title="閉じる" href="#room-18" class="close-details" onclick="document.getElementById('room-18').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
@@ -579,20 +423,10 @@
                         <img src="../../img/trans.png" class="s-icon" width="18" height="18">
                     </div>
 
-                    <div class="s5 m8 l8 nobr">19　リビングルーム</div>
+                    <div class="s5 m8 l8 nobr">19　</div>
                 </summary>
                 <blockquote class="nocite">
-                    <p>ああ、作戦室だ。少なくとも最初のゲームナイトの後からは、そう呼んでる。
-
-                        『スマッシュ・マドル・スクラブ』を船に持ち込むのは、マズいとわかってた。でも、我慢できなかったんだ。
-
-                        ここに着いて他の奴らと知り合った時、これはとんでもないことになるって確信した。
-
-                        最初のゲームナイトの結果は、2日間の船全体の沈黙。連絡はメールのみ。その後、あのゲームの全面禁止に同意した。
-
-                        ゲームナイトが来るたび、『消化不良』とか『やめて、メロンだけは』とか、最初は別ゲーやるんだけど…
-
-                        最後はいつも『スマッシュ・マドル・スクラブ』が始まるんだよな。</p>
+                    <p></p>
                 </blockquote>
                 <a title="閉じる" href="#room-19" class="close-details" onclick="document.getElementById('room-19').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
@@ -608,18 +442,10 @@
                         <img src="../../img/trans.png" class="s-icon" width="18" height="18">
                     </div>
 
-                    <div class="s5 m8 l8 nobr">20　医務室</div>
+                    <div class="s5 m8 l8 nobr">20　</div>
                 </summary>
                 <blockquote class="nocite">
-                    <p>プルート、私はこの部屋で、もう一生分の時間を過ごしたと思うよ。
-
-                        よりにもよって、自分の虫垂に裏切られるとはな。
-
-                        私たち二人は特に目立った関係じゃなかったけど、幸せに共存してたんだ。少なくとも、私はそう思ってた。
-
-                        おかげで1週間以上、バーミリオンの時代遅れな音楽に耐えるだけのベッド生活さ。
-
-                        ま、あの爺さんを悪く言うべきじゃないんだけど。命を救われたんだから。</p>
+                    <p></p>
                 </blockquote>
                 <a title="閉じる" href="#room-20" class="close-details" onclick="document.getElementById('room-20').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
@@ -631,22 +457,14 @@
                 <summary class="grid small-space" id="room-21">
                     <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18"></div>
                     <div class="s3 m3 l3">
-                        <img src="../../img/earth.svg" class="s-icon" width="18" height="18">
+                        <img src="../../img/trans.png" class="s-icon" width="18" height="18">
                         <img src="../../img/trans.png" class="s-icon" width="18" height="18">
                     </div>
 
-                    <div class="s5 m8 l8 nobr">21　Mez</div>
+                    <div class="s5 m8 l8 nobr">21　</div>
                 </summary>
                 <blockquote class="nocite">
-                    <p>お、私の隠れ家を見つけたね。居心地いいだろ？
-
-                        私とピスタチオは仕事のあと毛布を持ってきて、ここに座って映画を観てた。ビデオテープのコレクションを全部、船に持ち込んだからな。
-
-                        『クロウ・ディヴィジョン』は千回くらい観たよ。2の方な。1がゴミなのはみんな知ってる。
-
-                        立ち上がってテープ交換がめんどすぎて、端末のロゴが画面で揺れるのをただ眺めてたこともあった。
-
-                        ピスタチオは、一度だけロゴが角に当たるのを見たって言い張ってたけど。たぶん嘘だと思うね。</p>
+                    <p></p>
                 </blockquote>
                 <a title="閉じる" href="#room-21" class="close-details" onclick="document.getElementById('room-21').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
@@ -658,26 +476,14 @@
                 <summary class="grid small-space" id="room-22">
                     <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18"></div>
                     <div class="s3 m3 l3">
-                        <img src="../../img/earth.svg" class="s-icon" width="18" height="18">
+                        <img src="../../img/trans.png" class="s-icon" width="18" height="18">
                         <img src="../../img/trans.png" class="s-icon" width="18" height="18">
                     </div>
 
-                    <div class="s5 m8 l8 nobr">22　プール</div>
+                    <div class="s5 m8 l8 nobr">22　</div>
                 </summary>
                 <blockquote class="nocite">
-                    <p>よし… ちょっと付き合ってくれ。愚痴らないと気が済まない。
-
-                        私らがこの任務に選ばれた時、船に欲しいものをリクエストできたんだ。費用や必要性で考慮される。
-
-                        フィラメント社はかなり融通を利かせてくれたんだが、私のダンスフロアは却下された。欲しかったんだよ、カラフルなタイルと、ライトがピカピカ光るやつ。
-
-                        ダメ元ではあった。士気向上を考えたらワンチャン。案の定、リクエストは却下された。まあいいさ、それで構わなかったんだ。
-
-                        ところがだ。船に乗ったら、カナリアにはプールを丸々ひとつ与えてた！ 君はこう考えてるね？　「プールなんてただの穴だろ」って。
-
-                        その通りさ、ただの穴だ。400ガロンもの水が入った穴！　それがどれだけ重いかわかるか！？
-
-                        ダンスフロアよりずっと重い！　それにダンスフロアはこぼれたりしない！</p>
+                    <p></p>
                 </blockquote>
                 <a title="閉じる" href="#room-22" class="close-details" onclick="document.getElementById('room-22').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
@@ -693,7 +499,7 @@
                         <img src="../../img/trans.png" class="s-icon" width="18" height="18">
                     </div>
 
-                    <div class="s5 m8 l8 nobr">23　サーバールーム</div>
+                    <div class="s5 m8 l8 nobr">23　</div>
                 </summary>
                 <blockquote class="nocite">
                     <p></p>
@@ -712,7 +518,7 @@
                         <img src="../../img/trans.png" class="s-icon" width="18" height="18">
                     </div>
 
-                    <div class="s5 m8 l8 nobr">24　シャワー室</div>
+                    <div class="s5 m8 l8 nobr">24　</div>
                 </summary>
                 <blockquote class="nocite">
                     <p></p>
@@ -727,11 +533,11 @@
                 <summary class="grid small-space" id="room-25">
                     <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18"></div>
                     <div class="s3 m3 l3">
-                        <img src="../../img/earth.svg" class="s-icon" width="18" height="18">
+                        <img src="../../img/trans.png" class="s-icon" width="18" height="18">
                         <img src="../../img/trans.png" class="s-icon" width="18" height="18">
                     </div>
 
-                    <div class="s5 m8 l8 nobr">25　更衣室</div>
+                    <div class="s5 m8 l8 nobr">25　</div>
                 </summary>
                 <blockquote class="nocite">
                     <p></p>
@@ -750,7 +556,7 @@
                         <img src="../../img/trans.png" class="s-icon" width="18" height="18">
                     </div>
 
-                    <div class="s5 m8 l8 nobr">26　手術室</div>
+                    <div class="s5 m8 l8 nobr">26　</div>
                 </summary>
                 <blockquote class="nocite">
                     <p></p>
@@ -769,7 +575,7 @@
                         <img src="../../img/trans.png" class="s-icon" width="18" height="18">
                     </div>
 
-                    <div class="s5 m8 l8 nobr">27　倉庫</div>
+                    <div class="s5 m8 l8 nobr">27　</div>
                 </summary>
                 <blockquote class="nocite">
                     <p></p>
@@ -788,7 +594,7 @@
                         <img src="../../img/trans.png" class="s-icon" width="18" height="18">
                     </div>
 
-                    <div class="s5 m8 l8 nobr">28　作業場 大</div>
+                    <div class="s5 m8 l8 nobr">28　</div>
                 </summary>
                 <blockquote class="nocite">
                     <p></p>
@@ -807,7 +613,7 @@
                         <img src="../../img/trans.png" class="s-icon" width="18" height="18">
                     </div>
 
-                    <div class="s5 m8 l8 nobr">29　作業場 小</div>
+                    <div class="s5 m8 l8 nobr">29　</div>
                 </summary>
                 <blockquote class="nocite">
                     <p></p>
@@ -834,6 +640,306 @@
                 <a title="閉じる" href="#room-30" class="close-details" onclick="document.getElementById('room-30').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
                 </a><a title="閉じる" href="#room-30" class="close-details right" onclick="document.getElementById('room-30').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+            </details>
+
+
+
+            <details>
+                <summary class="grid small-space" id="room-31">
+                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18"></div>
+                    <div class="s3 m3 l3">
+                        <img src="../../img/trans.png" class="s-icon" width="18" height="18">
+                        <img src="../../img/trans.png" class="s-icon" width="18" height="18">
+                    </div>
+
+                    <div class="s5 m8 l8 nobr">31　</div>
+                </summary>
+                <blockquote class="nocite">
+                    <p></p>
+                </blockquote>
+                <a title="閉じる" href="#room-31" class="close-details" onclick="document.getElementById('room-31').scrollIntoView({ behavior:'smooth', block:'center'});">
+                    <p>close</p>
+                </a><a title="閉じる" href="#room-31" class="close-details right" onclick="document.getElementById('room-31').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+            </details>
+
+
+
+            <details>
+                <summary class="grid small-space" id="room-32">
+                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18"></div>
+                    <div class="s3 m3 l3">
+                        <img src="../../img/trans.png" class="s-icon" width="18" height="18">
+                        <img src="../../img/trans.png" class="s-icon" width="18" height="18">
+                    </div>
+
+                    <div class="s5 m8 l8 nobr">32　</div>
+                </summary>
+                <blockquote class="nocite">
+                    <p></p>
+                </blockquote>
+                <a title="閉じる" href="#room-32" class="close-details" onclick="document.getElementById('room-32').scrollIntoView({ behavior:'smooth', block:'center'});">
+                    <p>close</p>
+                </a><a title="閉じる" href="#room-32" class="close-details right" onclick="document.getElementById('room-32').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+            </details>
+
+
+
+            <details>
+                <summary class="grid small-space" id="room-33">
+                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18"></div>
+                    <div class="s3 m3 l3">
+                        <img src="../../img/trans.png" class="s-icon" width="18" height="18">
+                        <img src="../../img/trans.png" class="s-icon" width="18" height="18">
+                    </div>
+
+                    <div class="s5 m8 l8 nobr">33　</div>
+                </summary>
+                <blockquote class="nocite">
+                    <p></p>
+                </blockquote>
+                <a title="閉じる" href="#room-33" class="close-details" onclick="document.getElementById('room-33').scrollIntoView({ behavior:'smooth', block:'center'});">
+                    <p>close</p>
+                </a><a title="閉じる" href="#room-33" class="close-details right" onclick="document.getElementById('room-33').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+            </details>
+
+
+
+            <details>
+                <summary class="grid small-space" id="room-34">
+                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18"></div>
+                    <div class="s3 m3 l3">
+                        <img src="../../img/trans.png" class="s-icon" width="18" height="18">
+                        <img src="../../img/trans.png" class="s-icon" width="18" height="18">
+                    </div>
+
+                    <div class="s5 m8 l8 nobr">34　</div>
+                </summary>
+                <blockquote class="nocite">
+                    <p></p>
+                </blockquote>
+                <a title="閉じる" href="#room-34" class="close-details" onclick="document.getElementById('room-34').scrollIntoView({ behavior:'smooth', block:'center'});">
+                    <p>close</p>
+                </a><a title="閉じる" href="#room-34" class="close-details right" onclick="document.getElementById('room-34').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+            </details>
+
+
+
+            <details>
+                <summary class="grid small-space" id="room-35">
+                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18"></div>
+                    <div class="s3 m3 l3">
+                        <img src="../../img/trans.png" class="s-icon" width="18" height="18">
+                        <img src="../../img/trans.png" class="s-icon" width="18" height="18">
+                    </div>
+
+                    <div class="s5 m8 l8 nobr">35　</div>
+                </summary>
+                <blockquote class="nocite">
+                    <p></p>
+                </blockquote>
+                <a title="閉じる" href="#room-35" class="close-details" onclick="document.getElementById('room-35').scrollIntoView({ behavior:'smooth', block:'center'});">
+                    <p>close</p>
+                </a><a title="閉じる" href="#room-35" class="close-details right" onclick="document.getElementById('room-35').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+            </details>
+
+
+
+            <details>
+                <summary class="grid small-space" id="room-36">
+                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18"></div>
+                    <div class="s3 m3 l3">
+                        <img src="../../img/trans.png" class="s-icon" width="18" height="18">
+                        <img src="../../img/trans.png" class="s-icon" width="18" height="18">
+                    </div>
+
+                    <div class="s5 m8 l8 nobr">36　</div>
+                </summary>
+                <blockquote class="nocite">
+                    <p></p>
+                </blockquote>
+                <a title="閉じる" href="#room-36" class="close-details" onclick="document.getElementById('room-36').scrollIntoView({ behavior:'smooth', block:'center'});">
+                    <p>close</p>
+                </a><a title="閉じる" href="#room-36" class="close-details right" onclick="document.getElementById('room-36').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+            </details>
+
+
+
+            <details>
+                <summary class="grid small-space" id="room-37">
+                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18"></div>
+                    <div class="s3 m3 l3">
+                        <img src="../../img/trans.png" class="s-icon" width="18" height="18">
+                        <img src="../../img/trans.png" class="s-icon" width="18" height="18">
+                    </div>
+
+                    <div class="s5 m8 l8 nobr">37　</div>
+                </summary>
+                <blockquote class="nocite">
+                    <p></p>
+                </blockquote>
+                <a title="閉じる" href="#room-37" class="close-details" onclick="document.getElementById('room-37').scrollIntoView({ behavior:'smooth', block:'center'});">
+                    <p>close</p>
+                </a><a title="閉じる" href="#room-37" class="close-details right" onclick="document.getElementById('room-37').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+            </details>
+
+
+
+            <details>
+                <summary class="grid small-space" id="room-38">
+                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18"></div>
+                    <div class="s3 m3 l3">
+                        <img src="../../img/trans.png" class="s-icon" width="18" height="18">
+                        <img src="../../img/trans.png" class="s-icon" width="18" height="18">
+                    </div>
+
+                    <div class="s5 m8 l8 nobr">38　</div>
+                </summary>
+                <blockquote class="nocite">
+                    <p></p>
+                </blockquote>
+                <a title="閉じる" href="#room-38" class="close-details" onclick="document.getElementById('room-38').scrollIntoView({ behavior:'smooth', block:'center'});">
+                    <p>close</p>
+                </a><a title="閉じる" href="#room-38" class="close-details right" onclick="document.getElementById('room-38').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+            </details>
+
+
+
+            <details>
+                <summary class="grid small-space" id="room-39">
+                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18"></div>
+                    <div class="s3 m3 l3">
+                        <img src="../../img/trans.png" class="s-icon" width="18" height="18">
+                        <img src="../../img/trans.png" class="s-icon" width="18" height="18">
+                    </div>
+
+                    <div class="s5 m8 l8 nobr">39　</div>
+                </summary>
+                <blockquote class="nocite">
+                    <p></p>
+                </blockquote>
+                <a title="閉じる" href="#room-39" class="close-details" onclick="document.getElementById('room-39').scrollIntoView({ behavior:'smooth', block:'center'});">
+                    <p>close</p>
+                </a><a title="閉じる" href="#room-39" class="close-details right" onclick="document.getElementById('room-39').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+            </details>
+
+
+
+            <details>
+                <summary class="grid small-space" id="room-40">
+                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18"></div>
+                    <div class="s3 m3 l3">
+                        <img src="../../img/trans.png" class="s-icon" width="18" height="18">
+                        <img src="../../img/trans.png" class="s-icon" width="18" height="18">
+                    </div>
+
+                    <div class="s5 m8 l8 nobr">40　</div>
+                </summary>
+                <blockquote class="nocite">
+                    <p></p>
+                </blockquote>
+                <a title="閉じる" href="#room-40" class="close-details" onclick="document.getElementById('room-40').scrollIntoView({ behavior:'smooth', block:'center'});">
+                    <p>close</p>
+                </a><a title="閉じる" href="#room-40" class="close-details right" onclick="document.getElementById('room-40').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+            </details>
+
+
+
+            <details>
+                <summary class="grid small-space" id="room-41">
+                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18"></div>
+                    <div class="s3 m3 l3">
+                        <img src="../../img/trans.png" class="s-icon" width="18" height="18">
+                        <img src="../../img/trans.png" class="s-icon" width="18" height="18">
+                    </div>
+
+                    <div class="s5 m8 l8 nobr">41　</div>
+                </summary>
+                <blockquote class="nocite">
+                    <p></p>
+                </blockquote>
+                <a title="閉じる" href="#room-41" class="close-details" onclick="document.getElementById('room-41').scrollIntoView({ behavior:'smooth', block:'center'});">
+                    <p>close</p>
+                </a><a title="閉じる" href="#room-41" class="close-details right" onclick="document.getElementById('room-41').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+            </details>
+
+
+
+            <details>
+                <summary class="grid small-space" id="room-42">
+                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18"></div>
+                    <div class="s3 m3 l3">
+                        <img src="../../img/trans.png" class="s-icon" width="18" height="18">
+                        <img src="../../img/trans.png" class="s-icon" width="18" height="18">
+                    </div>
+
+                    <div class="s5 m8 l8 nobr">42　</div>
+                </summary>
+                <blockquote class="nocite">
+                    <p></p>
+                </blockquote>
+                <a title="閉じる" href="#room-42" class="close-details" onclick="document.getElementById('room-42').scrollIntoView({ behavior:'smooth', block:'center'});">
+                    <p>close</p>
+                </a><a title="閉じる" href="#room-42" class="close-details right" onclick="document.getElementById('room-42').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+            </details>
+
+
+
+            <details>
+                <summary class="grid small-space" id="room-43">
+                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18"></div>
+                    <div class="s3 m3 l3">
+                        <img src="../../img/trans.png" class="s-icon" width="18" height="18">
+                        <img src="../../img/trans.png" class="s-icon" width="18" height="18">
+                    </div>
+
+                    <div class="s5 m8 l8 nobr">43　</div>
+                </summary>
+                <blockquote class="nocite">
+                    <p></p>
+                </blockquote>
+                <a title="閉じる" href="#room-43" class="close-details" onclick="document.getElementById('room-43').scrollIntoView({ behavior:'smooth', block:'center'});">
+                    <p>close</p>
+                </a><a title="閉じる" href="#room-43" class="close-details right" onclick="document.getElementById('room-43').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+            </details>
+
+
+
+            <details>
+                <summary class="grid small-space" id="room-44">
+                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18"></div>
+                    <div class="s3 m3 l3">
+                        <img src="../../img/trans.png" class="s-icon" width="18" height="18">
+                        <img src="../../img/trans.png" class="s-icon" width="18" height="18">
+                    </div>
+
+                    <div class="s5 m8 l8 nobr">44　</div>
+                </summary>
+                <blockquote class="nocite">
+                    <p></p>
+                </blockquote>
+                <a title="閉じる" href="#room-44" class="close-details" onclick="document.getElementById('room-44').scrollIntoView({ behavior:'smooth', block:'center'});">
+                    <p>close</p>
+                </a><a title="閉じる" href="#room-44" class="close-details right" onclick="document.getElementById('room-44').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+            </details>
+
+
+
+            <details>
+                <summary class="grid small-space" id="room-45">
+                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18"></div>
+                    <div class="s3 m3 l3">
+                        <img src="../../img/trans.png" class="s-icon" width="18" height="18">
+                        <img src="../../img/trans.png" class="s-icon" width="18" height="18">
+                    </div>
+
+                    <div class="s5 m8 l8 nobr">45　</div>
+                </summary>
+                <blockquote class="nocite">
+                    <p></p>
+                </blockquote>
+                <a title="閉じる" href="#room-45" class="close-details" onclick="document.getElementById('room-45').scrollIntoView({ behavior:'smooth', block:'center'});">
+                    <p>close</p>
+                </a><a title="閉じる" href="#room-45" class="close-details right" onclick="document.getElementById('room-45').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
 
         </div>

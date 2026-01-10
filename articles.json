@@ -7,7 +7,11 @@
         "tags": [
             "ゲーム",
             "パズル",
-            "解説"
+            "考察"
+        ],
+        "categories": [
+            "ゲーム",
+            "パズル"
         ],
         "datePublished": "2026-01-08",
         "dateModified": "2026-01-08",
@@ -24,9 +28,13 @@
         "thumbnail": "books/thursday-01b.webp",
         "url": "books/the-man-who-was-thursday-review.html",
         "tags": [
+            "本",
             "海外文学",
-            "解説",
-            "本"
+            "考察"
+        ],
+        "categories": [
+            "本",
+            "海外文学"
         ],
         "datePublished": "2016-01-19",
         "dateModified": "2025-06-18",
@@ -44,6 +52,10 @@
         "url": "others/youtube-draft-publish-script.html",
         "tags": [
             "JavaScript",
+            "コード"
+        ],
+        "categories": [
+            "その他",
             "コード"
         ],
         "datePublished": "2025-03-27",
