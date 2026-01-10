@@ -161,29 +161,15 @@ h3 {
 }
 
 h2 {
-    /*font-size: calc(1rem + .9vw);
-    color: #b7ffe0;
-    background-image: radial-gradient(circle, #055733 33%, #2f9fff26);
-    border: 1px solid #00693c;
-    padding: .5rem 3rem;
-    margin: 0 auto 1.8rem;
-    counter-reset: h3-counter;*/
     font-size: calc(1rem + 1.2vw);
     color: #a8ffda;
     padding: 1rem 3rem;
-
+    z-index: 1;
 }
 
 h3 {
-    /*font-size: calc(1rem + .6vw);
-    color: #b2e9ff;
-    background-image: radial-gradient(circle, #4e44a3 33%, #5837ff1c);
-    border: 1px solid #5a4fa9;
-    padding: 5px 4rem;
-    margin: 4rem auto 1.8rem;*/
     font-size: calc(1rem + .6vw);
     padding: 0 3rem;
-
 }
 
 h2::before,
@@ -197,6 +183,11 @@ h2::before {
     counter-increment: h2-counter;
     content: counter(h2-counter)".";
     top: 1rem;
+}
+
+h2.no-count::before,
+h3.no-count::before {
+    content: ""
 }
 
 h3::before {
@@ -218,7 +209,7 @@ h3::before {
     padding: 2rem 3rem;
 }
 
-.h2-wrapp {
+/*.h2-wrapp {
     aspect-ratio: 15 / 3;
     background-image: url(https://momato-0.github.io/play-with-the-monster/img/h2-roll.svg);
     background-size: contain;
@@ -232,6 +223,29 @@ h3::before {
     padding: 0 1rem;
     margin: 10rem 0 2rem;
     counter-reset: h3-counter;
+}*/
+
+.h2-wrapp {
+    aspect-ratio: 15 / 3;
+    position: relative;
+    margin: 10rem 0 2rem;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    counter-reset: h3-counter;
+}
+
+.h2-wrapp::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url(https://momato-0.github.io/play-with-the-monster/img/h2-roll.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    z-index: 0;
 }
 
 .h3-wrapp {
