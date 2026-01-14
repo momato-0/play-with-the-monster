@@ -475,6 +475,10 @@ td p {
     margin: .5rem 0;
 }
 
+blockquote p {
+    margin: 1.8rem .5rem 1.8rem 0;
+}
+
 p,
 li,
 blockquote,

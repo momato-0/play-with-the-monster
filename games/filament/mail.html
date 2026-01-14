@@ -4,66 +4,14 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>メール - 怪物であそぼう</title>
+    <title>メール 1週目 - 怪物であそぼう</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/beercss@3.4.4/dist/cdn/beer.min.css" />
     <script type="module" src="https://cdn.jsdelivr.net/npm/beercss@3.4.4/dist/cdn/beer.min.js"></script>
     <link rel="stylesheet" href="../../style.css" type="text/css">
+    <link rel="stylesheet" href="mail.css" type="text/css">
     <style>
-        .s1.m1.l1 img {
-            filter: invert(1);
-            left: -3px;
-            inline-size: 16px;
-            block-size: 16px;
-        }
-
-        button.responsive.large {
-            margin-bottom: 5px;
-        }
-
-        .yugo-navi p {
-            margin: 0.8rem 1rem 0.8rem;
-        }
-
-        .yugo-navi .btn {
-            display: inline-block;
-            margin: .1rem;
-            padding: .25rem .75rem;
-            color: #fff;
-            font-weight: 700 !important;
-            text-align: center;
-            text-decoration: none;
-            border: 1px solid transparent;
-            border-radius: .25rem;
-            cursor: pointer;
-        }
-
-        .yugo-navi .btn:hover {
-            filter: brightness(0.8);
-            color: #fff;
-        }
-
-        .col-v {
-            color: hsl(9, 86%, 62%);
-        }
-
-        .col-j {
-            color: hsl(197, 100%, 62%)
-        }
-
-        .col-p {
-            color: hsl(115, 63%, 62%)
-        }
-
-        .col-m {
-            color: hsl(36, 100%, 62%)
-        }
-
-        .col-c {
-            color: hsl(61, 100%, 62%)
-        }
-
-        .col-a {
-            color: hsl(278, 100%, 62%)
+        table td {
+            font-size: 1rem;
         }
     </style>
 </head>
@@ -80,7 +28,7 @@
 
         <!-- title -->
         <div class="h1-wrapp">
-            <h1>FILAMENT<br><span style="color: #c9b7ff;">メール １週目</span></h1>
+            <h1>FILAMENT<br><span style="color: #c9b7ff;">メール 1週目</span></h1>
 
         </div>
 
@@ -104,18 +52,20 @@
 
         <!-- messages -->
         <div class="color-change">
+
+
             <details class="mt-4">
-                <summary class="grid small-space" id="mail-0">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18"></div>
+                <summary class="grid small-space" id="thread-0">
+                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
                     <div class="s3 m3 l3">
                         TFC
                     </div>
 
-                    <div class="s5 m8 l8 nobr">0　フィラメント社登録通知書</div>
+                    <div class="s5 m8 l8 nobr">0　TFCメンバー登録通知書</div>
                 </summary>
                 <blockquote class="nocite">
                     <p>忠実なるメンバーへ,</p>
-                    <p>フィラメント社（The Filament Corporation――以下TFC）は、[乗組員] としてあなたの登録が完了したことをお知らせします。</p>
+                    <p>フィラメント社（The Filament Corporation、以下TFC）は、[乗組員] としてあなたの登録が完了したことをお知らせします。</p>
                     <p>あなたは [アラバスター] 号の [パイロット] に任命されました。</p>
                     <p>士気と効率を高めるため、TFCは従業員に対し、鮮明に色分けされた備品、ジャンプスーツ、及び名前を支給します。</p>
                     <p>あなたの色は [青] です。<br>
@@ -135,83 +85,47 @@
                         <th>色</th>
                     </tr>
                     <tr>
-                        <td>
-                            <p>カナリア</p>
-                        </td>
-                        <td>
-                            <p>Chief Science Officer<br>主任科学士官</p>
-                        </td>
-                        <td>
-                            <p>黄</p>
-                        </td>
+                        <td>カナリア</td>
+                        <td>Chief Science Officer<br>主任科学士官</td>
+                        <td>黄</td>
                     </tr>
                     <tr>
-                        <td>
-                            <p>バーミリオン</p>
-                        </td>
-                        <td>
-                            <p>Wellbeing Officer<br>健康管理官</p>
-                        </td>
-                        <td>
-                            <p>赤</p>
-                        </td>
+                        <td>バーミリオン</td>
+                        <td>Wellbeing Officer<br>健康管理官</td>
+                        <td>赤</td>
                     </tr>
                     <tr>
-                        <td>
-                            <p>ピスタチオ</p>
-                        </td>
-                        <td>
-                            <p>Botanist<br>植物学者</p>
-                        </td>
-                        <td>
-                            <p>緑</p>
-                        </td>
+                        <td>ピスタチオ</td>
+                        <td>Botanist<br>植物学者</td>
+                        <td>緑</td>
                     </tr>
                     <tr>
-                        <td>
-                            <p>ジュニパー</p>
-                        </td>
-                        <td>
-                            <p>Pirot<br>パイロット</p>
-                        </td>
-                        <td>
-                            <p>青</p>
-                        </td>
+                        <td>ジュニパー</td>
+                        <td>Pirot<br>パイロット</td>
+                        <td>青</td>
                     </tr>
                     <tr>
-                        <td>
-                            <p>ママレード</p>
-                        </td>
-                        <td>
-                            <p>Engineer<br>機関士</p>
-                        </td>
-                        <td>
-                            <p>オレンジ</p>
-                        </td>
+                        <td>ママレード</td>
+                        <td>Engineer<br>機関士</td>
+                        <td>オレンジ</td>
                     </tr>
                     <tr>
-                        <td>
-                            <p>ナス</p>
-                        </td>
-                        <td>
-                            <p>Technician<br>システム技術者</p>
-                        </td>
-                        <td>
-                            <p>紫</p>
-                        </td>
+                        <td>ナス</td>
+                        <td>Technician<br>システム技術者</td>
+                        <td>紫</td>
                     </tr>
                 </table>
 
 
-                <a title="閉じる" href="#mail-0" class="close-details" onclick="document.getElementById('mail-0').scrollIntoView({ behavior:'smooth', block:'center'});">
+                <a title="閉じる" href="#thread-0" class="close-details" onclick="document.getElementById('thread-0').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
-                </a><a title="閉じる" href="#mail-0" class="close-details right" onclick="document.getElementById('mail-0').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+                </a><a title="閉じる" href="#thread-0" class="close-details right" onclick="document.getElementById('thread-0').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
 
 
             <details>
-                <summary class="grid small-space" id="mail-1">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18"></div>
+                <summary class="grid small-space" id="thread-1">
+                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
                     <div class="s3 m3 l3">
                         Alabaster System
                     </div>
@@ -222,570 +136,908 @@
                     <p>ようこそ,</p>
                     <p>目的地に到着しました。フィラメント社の調査では、乗組員は24時間周期を「曜日」という形式で参照すると、より効率的に機能する事が分かっています。本日は水曜日です。曜日は7日で1周し、以降順次進行します。</p>
                 </blockquote>
-                <a title="閉じる" href="#mail-1" class="close-details" onclick="document.getElementById('mail-1').scrollIntoView({ behavior:'smooth', block:'center'});">
+                <a title="閉じる" href="#thread-1" class="close-details" onclick="document.getElementById('thread-1').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
-                </a><a title="閉じる" href="#mail-1" class="close-details right" onclick="document.getElementById('mail-1').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+                </a><a title="閉じる" href="#thread-1" class="close-details right" onclick="document.getElementById('thread-1').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
 
 
             <details>
-                <summary class="grid small-space" id="mail-2">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18"></div>
+                <summary class="grid small-space" id="thread-2">
+                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
                     <div class="s3 m3 l3">
                         Swan
                     </div>
 
                     <div class="s5 m8 l8 nobr">1-2　幸運を祈る！</div>
                 </summary>
-                <blockquote class="nocite">
+                <blockquote class="nocite lbd-s">
                     <p>その日は来た。数多の人々による長年の尽力が、君達をそこに導いたのだ。既知の宇宙の最果て、種の軌道を永遠へと転じる問いに、答えを出すために。友よ、大胆であれ。そして我々を、新時代へ導け！</p>
                     <p>私はスワン。アラバスター号の構造外キャプテンに任命されました。ご存知の通り、フィラメント社はキャプテンの権限を乗組員に与えず、作戦司令室のメンバーに責任移譲する方式を好みます。私がそのメンバーです。アラバスター号の指揮は、私の唯一の任務となります。従って、私はいつでも連絡可能であり、あなた方全員と緊密に連携していくつもりです。</p>
                     <p>幸運を祈ります！ あなた方が落ち着いた頃に、また連絡します。</p>
                     <p>スワン</p>
                 </blockquote>
-                <a title="閉じる" href="#mail-2" class="close-details" onclick="document.getElementById('mail-2').scrollIntoView({ behavior:'smooth', block:'center'});">
+                <a title="閉じる" href="#thread-2" class="close-details" onclick="document.getElementById('thread-2').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
-                </a><a title="閉じる" href="#mail-2" class="close-details right" onclick="document.getElementById('mail-2').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+                </a><a title="閉じる" href="#thread-2" class="close-details right" onclick="document.getElementById('thread-2').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
 
 
             <details>
-                <summary class="grid small-space" id="mail-3">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18"></div>
+                <summary class="grid small-space" id="thread-3">
+                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
                     <div class="s3 m3 l3">
-                        <span class="col-v">V</span>
+                        <span class="col-v">Ｖ</span> <span class="col-m">Ｍ</span>
                     </div>
 
-                    <div class="s5 m8 l8 nobr">1-3　「朝食抜きに善は成されず」- J.P.J.シモンズ</div>
+                    <div class="s5 m8 l8 nobr">1-3　「朝食の欠けた日に、善き成果なし」- J.P.J.シモンズ</div>
                 </summary>
-                <blockquote class="nocite">
+                <blockquote class="nocite lbd-v">
                     <p>やあ、皆さん,</p>
                     <p>我々は長い眠りから目覚めたばかりだ。コールドスリープの後遺症から速やかに回復するためにも、高カロリーの食事が極めて重要になる。今、全員分の特別な食事を用意しているよ。1時間ほどでできるだろう。これは乗組員の健康に関わる問題なので、出席は義務とする。もっとも、美味しい朝食以上に過酷な義務なんて、いくらでも思いつくがね。</p>
                     <p>ではまた後で,</p>
                     <p>バーミリオン</p>
                 </blockquote>
-                <blockquote>
-                    <p>*---------------------------*<br>
-                        「朝食への招待ほど、最高の第一印象はない」- ママレード, アラバスター号にて, 1983頃</p>
+                <blockquote class="nocite lbd-m">
+                    <p>「朝食への招待ほど、良き第一印象はなし」- ママレード, アラバスター号にて, 1983頃</p>
                     <p>率直に、今まで食べた中で最高の朝食だった！ 本当に感謝。ひとつ貸しができたな！</p>
                     <p>M</p>
                 </blockquote>
-                <a title="閉じる" href="#mail-3" class="close-details" onclick="document.getElementById('mail-3').scrollIntoView({ behavior:'smooth', block:'center'});">
+                <a title="閉じる" href="#thread-3" class="close-details" onclick="document.getElementById('thread-3').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
-                </a><a title="閉じる" href="#mail-3" class="close-details right" onclick="document.getElementById('mail-3').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+                </a><a title="閉じる" href="#thread-3" class="close-details right" onclick="document.getElementById('thread-3').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
 
 
             <details>
-                <summary class="grid small-space" id="mail-4">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18"></div>
+                <summary class="grid small-space" id="thread-4">
+                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
                     <div class="s3 m3 l3">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="">
+                        <span class="col-v">Ｖ</span>
                     </div>
 
-                    <div class="s5 m8 l8 nobr">04　</div>
+                    <div class="s5 m8 l8 nobr">1-4　強制健康診断</div>
                 </summary>
-                <blockquote class="nocite">
-                    <p></p>
+                <blockquote class="nocite lbd-v">
+                    <p>やあ、皆さん,</p>
+                    <p>忙しいだろうが、全員今から36時間以内に、総合健康診断を受けに来てほしい。これは最重要事項だ。TFCのガイドラインは、到着後72時間以内を推奨している。診断自体は45分もかからないはずだ。コールドスリープによる異常な副作用がないか、確認するだけだからね。なお規則によれば、72時間以内に完了しなかった場合、広範囲の全身スキャンと体腔検査が必須になる… とだけ、言っておこう。</p>
+                    <p>私が作った規則ではない。頼むから診察に来てほしい、お互いのために。</p>
+                    <p>バーミリオン</p>
                 </blockquote>
-                <a title="閉じる" href="#mail-4" class="close-details" onclick="document.getElementById('mail-4').scrollIntoView({ behavior:'smooth', block:'center'});">
+
+                <a title="閉じる" href="#thread-4" class="close-details" onclick="document.getElementById('thread-4').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
-                </a><a title="閉じる" href="#mail-4" class="close-details right" onclick="document.getElementById('mail-4').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+                </a><a title="閉じる" href="#thread-4" class="close-details right" onclick="document.getElementById('thread-4').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+            </details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- 2 -->
+
+            <details class="mt-4">
+                <summary class="grid small-space" id="thread-5">
+                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
+                    <div class="s3 m3 l3">
+                        <span class="col-a">Ａ</span> <span class="col-j">Ｊ</span>
+                    </div>
+
+                    <div class="s5 m8 l8 nobr">2-1a　バイオニック・デバイスの維持・修復</div>
+                </summary>
+                <blockquote class="nocite lbd-a">
+                    <p>おはよう,</p>
+                    <p>一応、皆に伝えておこう。俺はデバイスのメンテナンスと、機能向上を施す資格を持っている。コールドスリープの影響で、デバイスがやや不調をきたす（あるいは、完全に停止する）というのは、珍しい話じゃない。何か心配なことがあれば声をかけてくれ。</p>
+                    <p>ナス</p>
+                </blockquote>
+                <blockquote class="nocite lbd-j">
+                    <p>やあ、ナス,</p>
+                    <p>心配させたくないけど、両目が機能してないみたい。1時間前から視界が点滅し始めて、今は目の前の手すら見えない。そっちに行きたいが、知っての通り見えなくてさ。</p>
+                    <p>ジュニパー</p>
+                </blockquote>
+                <blockquote class="nocite lbd-a">
+                    <p>ジュニパー、深刻だ。すぐ君を診る必要がある。どこにいる？ 近くに、俺の作業場まで連れてきてくれる人はいないか？ バーミリオンにも頼るべきだな。</p>
+                </blockquote>
+                <blockquote class="nocite lbd-j">
+                    <p>ふふ、引っかかったな。</p>
+                </blockquote>
+
+                <a title="閉じる" href="#thread-5" class="close-details" onclick="document.getElementById('thread-5').scrollIntoView({ behavior:'smooth', block:'center'});">
+                    <p>close</p>
+                </a><a title="閉じる" href="#thread-5" class="close-details right" onclick="document.getElementById('thread-5').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
 
 
             <details>
-                <summary class="grid small-space" id="mail-5">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18"></div>
+                <summary class="grid small-space" id="thread-5b">
+                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
                     <div class="s3 m3 l3">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="">
+                        <span class="col-a">Ａ</span> <span class="col-p">Ｐ</span>
                     </div>
-
-                    <div class="s5 m8 l8 nobr">05　</div>
+                    <div class="s5 m8 l8 nobr">2-1b　〃</div>
                 </summary>
-                <blockquote class="nocite">
-                    <p></p>
+                <blockquote class="nocite lbd-a">
+                    <p>おはよう,</p>
+                    <p>一応、皆に伝えておこう。俺はデバイスのメンテナンスと、機能向上を施す資格を持っている。コールドスリープの影響で、デバイスがやや不調をきたす（あるいは、完全に停止する）というのは、珍しい話じゃない。何か心配なことがあれば声をかけてくれ。</p>
+                    <p>ナス</p>
                 </blockquote>
-                <a title="閉じる" href="#mail-5" class="close-details" onclick="document.getElementById('mail-5').scrollIntoView({ behavior:'smooth', block:'center'});">
+                <blockquote class="nocite lbd-p">
+                    <p>やあ！</p>
+                    <p>今朝は両手を診てくれて、改めてありがとう。すごく楽になった！ 動きが完全に戻るまでたったの数時間、今はもう新品同然だよ。とにかく、サボテンがちゃんとお礼になったらいいんだけど。時々、お水をあげるの忘れないでね！</p>
+                    <p>ピスタチオ</p>
+                </blockquote>
+
+                <a title="閉じる" href="#thread-5b" class="close-details" onclick="document.getElementById('thread-5b').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
-                </a><a title="閉じる" href="#mail-5" class="close-details right" onclick="document.getElementById('mail-5').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+                </a><a title="閉じる" href="#thread-5b" class="close-details right" onclick="document.getElementById('thread-5b').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
 
 
             <details>
-                <summary class="grid small-space" id="mail-6">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18"></div>
+                <summary class="grid small-space" id="thread-6">
+                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
                     <div class="s3 m3 l3">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="">
+                        <span class="col-m">Ｍ</span> <span class="col-c">Ｃ</span>
                     </div>
 
-                    <div class="s5 m8 l8 nobr">06　</div>
+                    <div class="s5 m8 l8 nobr">2-2a　最重要メンテナンス</div>
                 </summary>
-                <blockquote class="nocite">
-                    <p></p>
+                <blockquote class="nocite lbd-m">
+                    <p>やあみんな,</p>
+                    <p>手短に。みんな新居に慣れようとしてるとこだよな。</p>
+                    <p>どうやらここまでの航行は、聞いてたほど順調じゃなかったらしい。心配はいらないが、当面俺は船のコアシステムの損傷評価で忙しくなる。</p>
+                    <p>だから数日間、メンテ依頼は最重要、だけで頼む。それが終われば、俺はいつでもあんたらのもんだ。</p>
+                    <p>M</p>
                 </blockquote>
-                <a title="閉じる" href="#mail-6" class="close-details" onclick="document.getElementById('mail-6').scrollIntoView({ behavior:'smooth', block:'center'});">
+                <blockquote class="nocite lbd-c">
+                    <p>こんにちは、ママレード,</p>
+                    <p>情報共有をありがとうございます。相談があるのですが、それほど重要度は高くありません。明日どこかで立ち寄ってもらえますか？</p>
+                    <p>カナリア</p>
+                </blockquote>
+
+                <a title="閉じる" href="#thread-6" class="close-details" onclick="document.getElementById('thread-6').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
-                </a><a title="閉じる" href="#mail-6" class="close-details right" onclick="document.getElementById('mail-6').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+                </a><a title="閉じる" href="#thread-6" class="close-details right" onclick="document.getElementById('thread-6').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
 
 
             <details>
-                <summary class="grid small-space" id="mail-7">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18"></div>
+                <summary class="grid small-space" id="thread-6b">
+                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
                     <div class="s3 m3 l3">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="">
+                        <span class="col-m">Ｍ</span> <span class="col-a">Ａ</span>
                     </div>
 
-                    <div class="s5 m8 l8 nobr">07　</div>
+                    <div class="s5 m8 l8 nobr">2-2b　〃</div>
                 </summary>
-                <blockquote class="nocite">
-                    <p></p>
+                <blockquote class="nocite lbd-m">
+                    <p>やあみんな,</p>
+                    <p>手短に。みんな新居に慣れようとしてるとこだよな。</p>
+                    <p>どうやらここまでの航行は、聞いてたほど順調じゃなかったらしい。心配はいらないが、当面俺は船のコアシステムの損傷評価で忙しくなる。</p>
+                    <p>だから数日間、メンテ依頼は最重要、だけで頼む。それが終われば、俺はいつでもあんたらのもんだ。</p>
+                    <p>M</p>
                 </blockquote>
-                <a title="閉じる" href="#mail-7" class="close-details" onclick="document.getElementById('mail-7').scrollIntoView({ behavior:'smooth', block:'center'});">
+                <blockquote class="nocite lbd-a">
+                    <p>よう、週の頭に話したOSの件を大体片付けているところだ。手伝いが必要なら声をかけてくれ。</p>
+                </blockquote>
+                <blockquote class="nocite lbd-m">
+                    <p>どうも！ そうさせてもらう。</p>
+                </blockquote>
+                <a title="閉じる" href="#thread-6b" class="close-details" onclick="document.getElementById('thread-6b').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
-                </a><a title="閉じる" href="#mail-7" class="close-details right" onclick="document.getElementById('mail-7').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+                </a><a title="閉じる" href="#thread-6b" class="close-details right" onclick="document.getElementById('thread-6b').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
 
 
             <details>
-                <summary class="grid small-space" id="mail-8">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18"></div>
+                <summary class="grid small-space" id="thread-7">
+                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
                     <div class="s3 m3 l3">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="">
+                        <span class="col-m">Ｍ</span> <span class="col-a">Ａ</span>
                     </div>
 
-                    <div class="s5 m8 l8 nobr">08　</div>
+                    <div class="s5 m8 l8 nobr">2-3　エンジンの非致命的システムエラー</div>
                 </summary>
-                <blockquote class="nocite">
-                    <p></p>
+                <blockquote class="nocite lbd-m">
+                    <p>やあ、ナス,</p>
+                    <p>エンジン作業は終わって稼働済みなんだが、ログに出力されるエラーがひとつだけ、どうしても直せない：</p>
+                    <p>"system_nav_auto: lost connection to secondary pilot controller. Redirecting data to primary controller. Caution: system load above normal. Monitor closely "</p>
+                    <p>これを調べてもらえないか？</p>
+                    <p>M</p>
                 </blockquote>
-                <a title="閉じる" href="#mail-8" class="close-details" onclick="document.getElementById('mail-8').scrollIntoView({ behavior:'smooth', block:'center'});">
+                <blockquote class="nocite lbd-a">
+                    <p>おはよう、M,</p>
+                    <p>見てみた。エンジン制御ソフトの問題だったようだ。全エンジンシステムにパッチを配布したから、これで解決するだろう。また同じことが起きたら教えてくれ。</p>
+                    <p>ナス</p>
+                </blockquote>
+                <a title="閉じる" href="#thread-7" class="close-details" onclick="document.getElementById('thread-7').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
-                </a><a title="閉じる" href="#mail-8" class="close-details right" onclick="document.getElementById('mail-8').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+                </a><a title="閉じる" href="#thread-7" class="close-details right" onclick="document.getElementById('thread-7').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
 
 
             <details>
-                <summary class="grid small-space" id="mail-9">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18"></div>
+                <summary class="grid small-space" id="thread-8">
+                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
                     <div class="s3 m3 l3">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="">
+                        <span class="col-j">Ｊ</span> <span class="col-v">Ｖ</span>
                     </div>
 
-                    <div class="s5 m8 l8 nobr">09　</div>
+                    <div class="s5 m8 l8 nobr">2-4　コールドスリープの副作用</div>
                 </summary>
-                <blockquote class="nocite">
-                    <p></p>
+                <blockquote class="nocite lbd-j">
+                    <p>やあバーミリオン,</p>
+                    <p>コールドスリープの副作用でいつも以上にクソ野郎になる傾向ってある？ カナリアの小言に頭がイカれそう。</p>
+                    <p>よろしく,</p>
+                    <p>ジュニパー</p>
                 </blockquote>
-                <a title="閉じる" href="#mail-9" class="close-details" onclick="document.getElementById('mail-9').scrollIntoView({ behavior:'smooth', block:'center'});">
+                <blockquote class="nocite lbd-v">
+                    <p>やあ、ジュニパー,</p>
+                    <p>今のところ、コールドスリープと同僚への敵意増大との間に相関を示す、査読済みの論文は存在しないね。だが関係改善とケーキ消費量との間に相関を示す、民間の論理は存在する。</p>
+                    <p>さあ、ケーキを焼きたまえ！</p>
+                </blockquote>
+                <a title="閉じる" href="#thread-8" class="close-details" onclick="document.getElementById('thread-8').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
-                </a><a title="閉じる" href="#mail-9" class="close-details right" onclick="document.getElementById('mail-9').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+                </a><a title="閉じる" href="#thread-8" class="close-details right" onclick="document.getElementById('thread-8').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
 
 
             <details>
-                <summary class="grid small-space" id="mail-10">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18"></div>
+                <summary class="grid small-space" id="thread-9">
+                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
                     <div class="s3 m3 l3">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="">
+                        <span class="col-m">Ｍ</span> <span class="col-j">Ｊ</span>
                     </div>
 
-                    <div class="s5 m8 l8 nobr">10　</div>
+                    <div class="s5 m8 l8 nobr">2-5　航法システムのメンテ</div>
                 </summary>
-                <blockquote class="nocite">
-                    <p></p>
+                <blockquote class="nocite lbd-m">
+                    <p>ようジュニパー,</p>
+                    <p>航法システムを見ておいたが、全部問題なく使えるはずだ。時間がある時自分でもざっと目を通して、他にも必要なら教えてくれ。</p>
+                    <p>じゃあな,</p>
+                    <p>M</p>
                 </blockquote>
-                <a title="閉じる" href="#mail-10" class="close-details" onclick="document.getElementById('mail-10').scrollIntoView({ behavior:'smooth', block:'center'});">
+                <blockquote class="nocite lbd-j">
+                    <p>了解、サンキュー！ 何かあったら知らせるよ。</p>
+                    <p>ジュニパー</p>
+                </blockquote>
+                <a title="閉じる" href="#thread-9" class="close-details" onclick="document.getElementById('thread-9').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
-                </a><a title="閉じる" href="#mail-10" class="close-details right" onclick="document.getElementById('mail-10').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+                </a><a title="閉じる" href="#thread-9" class="close-details right" onclick="document.getElementById('thread-9').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
 
 
             <details>
-                <summary class="grid small-space" id="mail-11">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18"></div>
+                <summary class="grid small-space" id="thread-10">
+                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
                     <div class="s3 m3 l3">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="">
+                        <span class="col-c">Ｃ</span> <span class="col-j">Ｊ</span>
                     </div>
 
-                    <div class="s5 m8 l8 nobr">11　</div>
+                    <div class="s5 m8 l8 nobr">2-6　航行報告</div>
                 </summary>
-                <blockquote class="nocite">
-                    <p></p>
+                <blockquote class="nocite lbd-c">
+                    <p>こんにちは、ジュニパー,</p>
+                    <p>軌道安定のため行った調整内容と、今後7日の予定航路を送信できますか？</p>
+                    <p>よろしくね,</p>
+                    <p>カナリア</p>
                 </blockquote>
-                <a title="閉じる" href="#mail-11" class="close-details" onclick="document.getElementById('mail-11').scrollIntoView({ behavior:'smooth', block:'center'});">
+                <blockquote class="nocite lbd-j">
+                    <p>やあ、カナリア,</p>
+                    <p>添付ファイルをご確認下さい。</p>
+                    <p>ジュニパー</p>
+                </blockquote>
+                <a title="閉じる" href="#thread-10" class="close-details" onclick="document.getElementById('thread-10').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
-                </a><a title="閉じる" href="#mail-11" class="close-details right" onclick="document.getElementById('mail-11').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+                </a><a title="閉じる" href="#thread-10" class="close-details right" onclick="document.getElementById('thread-10').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+            </details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- 3 -->
+
+            <details class="mt-4">
+                <summary class="grid small-space" id="thread-11">
+                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
+                    <div class="s3 m3 l3">
+                        <span class="col-c">Ｃ</span>
+                    </div>
+
+                    <div class="s5 m8 l8 nobr">3-1　調査手順について一言</div>
+                </summary>
+                <blockquote class="nocite lbd-c">
+                    <p>皆さん、お早うございます,</p>
+                    <p>拠点のメンテナンスは順調で、来週半ば（SA9）から調査開始予定です。皆さんの役割と調査手順を再確認するには、今が絶好の機会でしょう（これは担当によらず全乗組員にとって重要です。何といっても、調査船ですから）。</p>
+                    <p>参考までに、司令室提供の調査手順ガイドライン全文を添付しましたので、目を通しておいて下さい。また、調査責任者として私が皆さんに常時遵守してもらいたい手順を、簡潔かつ包括的にリストにまとめました。</p>
+                    <p>質問があればお知らせ下さい。後ほどテストを行います。</p>
+                    <p>カナリア</p>
+                </blockquote>
+                <a title="閉じる" href="#thread-11" class="close-details" onclick="document.getElementById('thread-11').scrollIntoView({ behavior:'smooth', block:'center'});">
+                    <p>close</p>
+                </a><a title="閉じる" href="#thread-11" class="close-details right" onclick="document.getElementById('thread-11').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
 
 
             <details>
-                <summary class="grid small-space" id="mail-12">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18"></div>
+                <summary class="grid small-space" id="thread-12">
+                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
                     <div class="s3 m3 l3">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="">
+                        <span class="col-j">Ｊ</span> <span class="col-p">Ｐ</span>
                     </div>
 
-                    <div class="s5 m8 l8 nobr">12　</div>
+                    <div class="s5 m8 l8 nobr">3-2　頼み</div>
                 </summary>
-                <blockquote class="nocite">
-                    <p></p>
+                <blockquote class="nocite lbd-j">
+                    <p>ようピスタチオ,</p>
+                    <p>クイズ！ 仮に誰かが、エタノール系飲料の過剰摂取で吐き気と頭痛に苦しんでるとしたら、どんな自家製飲料をお勧めする？</p>
+                    <p>ジュニパー </p>
                 </blockquote>
-                <a title="閉じる" href="#mail-12" class="close-details" onclick="document.getElementById('mail-12').scrollIntoView({ behavior:'smooth', block:'center'});">
+                <blockquote class="nocite lbd-p">
+                    <p>やあ、ジューン,</p>
+                    <p>それはえっと、簡単じゃないなあ… 温室に来て、一緒に答えを考えない？</p>
+                    <p>ピスタチオ</p>
+                </blockquote>
+                <a title="閉じる" href="#thread-12" class="close-details" onclick="document.getElementById('thread-12').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
-                </a><a title="閉じる" href="#mail-12" class="close-details right" onclick="document.getElementById('mail-12').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+                </a><a title="閉じる" href="#thread-12" class="close-details right" onclick="document.getElementById('thread-12').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
 
 
             <details>
-                <summary class="grid small-space" id="mail-13">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18"></div>
+                <summary class="grid small-space" id="thread-13">
+                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
                     <div class="s3 m3 l3">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="">
+                        <span class="col-v">Ｖ</span>
                     </div>
 
-                    <div class="s5 m8 l8 nobr">13　</div>
+                    <div class="s5 m8 l8 nobr">3-3　ご協力感謝！ それでは強制運動政権についてのお時間です</div>
                 </summary>
-                <blockquote class="nocite">
-                    <p></p>
+                <blockquote class="nocite lbd-v">
+                    <p>皆も承知だろうが、任務期間中は健康維持が不可欠。これは、君たちの身体、そして精神の健康維持をあらゆる面で助け、もちろん私の仕事も楽にするものだ。</p>
+                    <p>君たちには1日2時間、1時間のセッションを2回に分けて行う、運動の義務がある。楽しんでできるよう内容は柔軟に対応するが、さらに指導が必要なら喜んで手伝うよ。</p>
+                    <p>全ての運動記録は、本部に送信されるとのこと,</p>
+                    <p>バーミリオン</p>
                 </blockquote>
-                <a title="閉じる" href="#mail-13" class="close-details" onclick="document.getElementById('mail-13').scrollIntoView({ behavior:'smooth', block:'center'});">
+                <a title="閉じる" href="#thread-13" class="close-details" onclick="document.getElementById('thread-13').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
-                </a><a title="閉じる" href="#mail-13" class="close-details right" onclick="document.getElementById('mail-13').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+                </a><a title="閉じる" href="#thread-13" class="close-details right" onclick="document.getElementById('thread-13').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
 
 
             <details>
-                <summary class="grid small-space" id="mail-14">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18"></div>
+                <summary class="grid small-space" id="thread-14">
+                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
                     <div class="s3 m3 l3">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="">
+                        <span class="col-v">Ｖ</span> <span class="col-c">Ｃ</span>
                     </div>
 
-                    <div class="s5 m8 l8 nobr">14　</div>
+                    <div class="s5 m8 l8 nobr">3-4　お茶を</div>
                 </summary>
-                <blockquote class="nocite">
-                    <p></p>
+                <blockquote class="nocite lbd-v">
+                    <p>こんにちは、カナリア,</p>
+                    <p>これから階下まで、皆のお茶かコーヒーを淹れに行くんだが、何かいるかね？</p>
                 </blockquote>
-                <a title="閉じる" href="#mail-14" class="close-details" onclick="document.getElementById('mail-14').scrollIntoView({ behavior:'smooth', block:'center'});">
+                <blockquote class="nocite lbd-c">
+                    <p>こんにちは、バーミリオン,</p>
+                    <p>カモミールティーがあれば最高です。ありがとうございます。</p>
+                    <p>カナリア</p>
+                </blockquote>
+                <a title="閉じる" href="#thread-14" class="close-details" onclick="document.getElementById('thread-14').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
-                </a><a title="閉じる" href="#mail-14" class="close-details right" onclick="document.getElementById('mail-14').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+                </a><a title="閉じる" href="#thread-14" class="close-details right" onclick="document.getElementById('thread-14').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+            </details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- 4 -->
+
+            <details class="mt-4">
+                <summary class="grid small-space" id="thread-15">
+                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
+                    <div class="s3 m3 l3">
+                        <span class="col-m">Ｍ</span> <span class="col-j">Ｊ</span>
+                    </div>
+
+                    <div class="s5 m8 l8 nobr">4-1　船外活動申請</div>
+                </summary>
+                <blockquote class="nocite lbd-m">
+                    <p>おはようジュニパー,</p>
+                    <p>航行中、船体が少し損傷したようだ。心配するほどじゃないが、将来深刻な問題にならないよう、今のうちに点検・対処しておくべきだろう。俺の代わりに、来週の船外活動の申請を出してくれないか？</p>
+                    <p>ちなみに、訓練以来初めての船外活動だ。何年前だったかは聞くなよ。よければ、君に付き添ってもらえるとありがたいんだが。</p>
+                    <p>そんなわけで、返事よろしくな。</p>
+                    <p>じゃ,</p>
+                    <p>M</p>
+                </blockquote>
+                <blockquote class="nocite lbd-j">
+                    <p>よう、M,</p>
+                    <p>本部に申請は送っておいた。承認されない理由はないと思う。返事が来たら知らせるよ。参加できるなら光栄だ！</p>
+                    <p>ジュニパー</p>
+                </blockquote>
+                <a title="閉じる" href="#thread-15" class="close-details" onclick="document.getElementById('thread-15').scrollIntoView({ behavior:'smooth', block:'center'});">
+                    <p>close</p>
+                </a><a title="閉じる" href="#thread-15" class="close-details right" onclick="document.getElementById('thread-15').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
 
 
             <details>
-                <summary class="grid small-space" id="mail-15">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18"></div>
+                <summary class="grid small-space" id="thread-16">
+                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
                     <div class="s3 m3 l3">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="">
+                        <span class="col-j">Ｊ</span> <span class="col-s">Ｓ</span>
                     </div>
 
-                    <div class="s5 m8 l8 nobr">15　</div>
+                    <div class="s5 m8 l8 nobr">4-2　船外活動申請</div>
                 </summary>
-                <blockquote class="nocite">
-                    <p></p>
+                <blockquote class="nocite lbd-j">
+                    <p>アホイ、キャプテン,</p>
+                    <p>航行中の軽微な損傷に対処するため、船外活動申請書と、ママレードによる損傷評価書を添付しました。</p>
+                    <p>よろしくお願いします,</p>
+                    <p>ジュニパー</p>
                 </blockquote>
-                <a title="閉じる" href="#mail-15" class="close-details" onclick="document.getElementById('mail-15').scrollIntoView({ behavior:'smooth', block:'center'});">
+                <blockquote class="nocite lbd-s">
+                    <p>アホイ、ジュニパー（初めて聞きました…）</p>
+                    <p>申請書に目を通しました。SA13、0900からの船外活動を承認します。</p>
+                </blockquote>
+                <a title="閉じる" href="#thread-16" class="close-details" onclick="document.getElementById('thread-16').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
-                </a><a title="閉じる" href="#mail-15" class="close-details right" onclick="document.getElementById('mail-15').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+                </a><a title="閉じる" href="#thread-16" class="close-details right" onclick="document.getElementById('thread-16').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
 
 
             <details>
-                <summary class="grid small-space" id="mail-16">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18"></div>
+                <summary class="grid small-space" id="thread-17">
+                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
                     <div class="s3 m3 l3">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="">
+                        <span class="col-m">Ｍ</span> <span class="col-c">Ｃ</span>
                     </div>
 
-                    <div class="s5 m8 l8 nobr">16　</div>
+                    <div class="s5 m8 l8 nobr">4-3a　最重要メンテ終了、協力ありがとう。さあ、どんと来い！</div>
                 </summary>
-                <blockquote class="nocite">
-                    <p></p>
+                <blockquote class="nocite lbd-m">
+                    <p>やあみんな,</p>
+                    <p>コアシステムの復旧作業中、依頼保留ありがとな。作業は完了だ、あとは来週予定してる小修理の船外活動だけ。だから、当分俺はあんたらのもんだ！ 何かメンテ依頼があれば送ってくれ。至急取りかかる。</p>
+                    <p>そんじゃ,</p>
+                    <p>M</p>
                 </blockquote>
-                <a title="閉じる" href="#mail-16" class="close-details" onclick="document.getElementById('mail-16').scrollIntoView({ behavior:'smooth', block:'center'});">
+                <blockquote class="nocite lbd-c">
+                    <p>お早うございます、ママレード,</p>
+                    <p>分光分析装置の較正に、ご協力いただけると助かります。</p>
+                    <p>カナリア</p>
+                </blockquote>
+                <blockquote class="nocite lbd-m">
+                    <p>今上がってるよ。</p>
+                    <p>M</p>
+                </blockquote>
+
+                <a title="閉じる" href="#thread-17" class="close-details" onclick="document.getElementById('thread-17').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
-                </a><a title="閉じる" href="#mail-16" class="close-details right" onclick="document.getElementById('mail-16').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+                </a><a title="閉じる" href="#thread-17" class="close-details right" onclick="document.getElementById('thread-17').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
 
 
             <details>
-                <summary class="grid small-space" id="mail-17">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18"></div>
+                <summary class="grid small-space" id="thread-17b">
+                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
                     <div class="s3 m3 l3">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="">
+                        <span class="col-m">Ｍ</span> <span class="col-p">Ｐ</span>
                     </div>
 
-                    <div class="s5 m8 l8 nobr">17　</div>
+                    <div class="s5 m8 l8 nobr">4-3b　〃</div>
                 </summary>
-                <blockquote class="nocite">
-                    <p></p>
+                <blockquote class="nocite lbd-m">
+                    <p>やあみんな,</p>
+                    <p>コアシステムの復旧作業中、依頼保留ありがとな。作業は完了だ、あとは来週予定してる小修理の船外活動だけ。だから、当分俺はあんたらのもんだ！ 何かメンテ依頼があれば送ってくれ。至急取りかかる。</p>
+                    <p>そんじゃ,</p>
+                    <p>M</p>
                 </blockquote>
-                <a title="閉じる" href="#mail-17" class="close-details" onclick="document.getElementById('mail-17').scrollIntoView({ behavior:'smooth', block:'center'});">
+                <blockquote class="nocite lbd-p">
+                    <p>やあ、M,</p>
+                    <p>あなたの専門知識でもこの、花嫌いのがっかり植物を直すのって無理だよね！</p>
+                    <p>返事ちょうだい,</p>
+                    <p>ピスタチオ</p>
+                </blockquote>
+                <blockquote class="nocite lbd-m">
+                    <p>はは、後で顔を出すよ。俺にできる事を見てみよう。</p>
+                </blockquote>
+                <a title="閉じる" href="#thread-17b" class="close-details" onclick="document.getElementById('thread-17b').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
-                </a><a title="閉じる" href="#mail-17" class="close-details right" onclick="document.getElementById('mail-17').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+                </a><a title="閉じる" href="#thread-17b" class="close-details right" onclick="document.getElementById('thread-17b').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
 
 
             <details>
-                <summary class="grid small-space" id="mail-18">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18"></div>
+                <summary class="grid small-space" id="thread-18">
+                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
                     <div class="s3 m3 l3">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="">
+                        <span class="col-p">Ｐ</span> <span class="col-a">Ａ</span>
                     </div>
 
-                    <div class="s5 m8 l8 nobr">18　</div>
+                    <div class="s5 m8 l8 nobr">4-4　カメラ映像</div>
                 </summary>
-                <blockquote class="nocite">
-                    <p></p>
+                <blockquote class="nocite lbd-p">
+                    <p>やあナス,</p>
+                    <p>コールドスリープ中の温室のカメラ映像って、手に入らない？ 花が咲いてるはずの植物があって、見逃したかどうか絶対知りたくて。</p>
+                    <p>お願い！</p>
+                    <p>ピスタチオ</p>
                 </blockquote>
-                <a title="閉じる" href="#mail-18" class="close-details" onclick="document.getElementById('mail-18').scrollIntoView({ behavior:'smooth', block:'center'});">
+                <blockquote class="nocite lbd-a">
+                    <p>やあ、ピスタチオ,</p>
+                    <p>ああ、あの伝説の「咲かずの花」か。</p>
+                    <p>コールドスリープ中は、航行時の映像を全て保存している訳じゃないんだ。無人部屋の退屈な映像ばかりだからな。だが、12時間毎に30秒の短いクリップならある。君が求める情報はほぼそれで得られるはず。間違っていたら訂正してくれ、植物は専門外だから。作業が終わり次第、アクセス方法を教えるよ。</p>
+                    <p>ナス</p>
+                </blockquote>
+                <blockquote class="nocite lbd-p">
+                    <p>うん！ ありがとう！</p>
+                    <p>ピスタチオ</p>
+                </blockquote>
+                <a title="閉じる" href="#thread-18" class="close-details" onclick="document.getElementById('thread-18').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
-                </a><a title="閉じる" href="#mail-18" class="close-details right" onclick="document.getElementById('mail-18').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+                </a><a title="閉じる" href="#thread-18" class="close-details right" onclick="document.getElementById('thread-18').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+            </details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- 5 -->
+
+            <details class="mt-4">
+                <summary class="grid small-space" id="thread-19">
+                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
+                    <div class="s3 m3 l3">
+                        <span class="col-j">Ｊ</span> <span class="col-m">Ｍ</span>
+                    </div>
+
+                    <div class="s5 m8 l8 nobr">5-1　喋りすぎだろ！ 聞き疲れたわ！</div>
+                </summary>
+                <blockquote class="nocite lbd-j">
+                    <p>てのは冗談で、昨夜はすげー楽しかった。またやろう！</p>
+                    <p>ジュニパー</p>
+                </blockquote>
+                <a title="閉じる" href="#thread-19" class="close-details" onclick="document.getElementById('thread-19').scrollIntoView({ behavior:'smooth', block:'center'});">
+                    <p>close</p>
+                </a><a title="閉じる" href="#thread-19" class="close-details right" onclick="document.getElementById('thread-19').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
 
 
             <details>
-                <summary class="grid small-space" id="mail-19">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18"></div>
+                <summary class="grid small-space" id="thread-20">
+                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
                     <div class="s3 m3 l3">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="">
+                        <span class="col-v">Ｖ</span>
                     </div>
 
-                    <div class="s5 m8 l8 nobr">19　</div>
+                    <div class="s5 m8 l8 nobr">5-2　船員日誌</div>
                 </summary>
-                <blockquote class="nocite">
-                    <p></p>
+                <blockquote class="nocite lbd-v">
+                    <p>やあ、皆さん,</p>
+                    <p>メールの集中砲火が続いてすまない。安心してくれ、私の仕事の大半は、任務開始時に集中しているんだ。来週以降は減るだろう。</p>
+                    <p>思い出してほしいのだが、端末への日誌記録が強く推奨されている。少なくとも週に1度。日誌は、君だけのものだ。他の誰も読まない。孤立環境にいる船員の精神衛生については、広範な研究が行われてきた。良好な精神を保つ最良の行動2つは、次のとおりだ。ひとつは、資格を持つ専門家（つまり私だね）に気持ちを打ち明けること。もうひとつは、何を感じたか書き留める習慣をつけることだ。形式は自由。これだけは何度でも強調するが、日誌は、君のためにある。他の誰のためでもない。</p>
+                    <p>何か必要なことや、話したいことがあれば、いつでも声をかけてほしい。</p>
+                    <p>バーミリオン</p>
                 </blockquote>
-                <a title="閉じる" href="#mail-19" class="close-details" onclick="document.getElementById('mail-19').scrollIntoView({ behavior:'smooth', block:'center'});">
+                <a title="閉じる" href="#thread-20" class="close-details" onclick="document.getElementById('thread-20').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
-                </a><a title="閉じる" href="#mail-19" class="close-details right" onclick="document.getElementById('mail-19').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+                </a><a title="閉じる" href="#thread-20" class="close-details right" onclick="document.getElementById('thread-20').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
 
 
             <details>
-                <summary class="grid small-space" id="mail-20">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18"></div>
+                <summary class="grid small-space" id="thread-21">
+                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
                     <div class="s3 m3 l3">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="">
+                        <span class="col-c">Ｃ</span>
                     </div>
 
-                    <div class="s5 m8 l8 nobr">20　</div>
+                    <div class="s5 m8 l8 nobr">5-3　職場のエチケットについて注意喚起</div>
                 </summary>
-                <blockquote class="nocite">
-                    <p></p>
+                <blockquote class="nocite lbd-c">
+                    <p>皆さん、お早うございます,</p>
+                    <p>業務開始にあたり全乗組員に、ご自身及び他者の作業場において、TFCのガイドラインを尊重していただくようお願い致します。どなたかが3階の廊下を、泥つきの、しかも裸足で歩き回ったことに、気づいております。</p>
+                    <p>プロ意識と配慮に欠けた行動です。</p>
+                    <p>よろしくお願いします,</p>
+                    <p>カナリア</p>
                 </blockquote>
-                <a title="閉じる" href="#mail-20" class="close-details" onclick="document.getElementById('mail-20').scrollIntoView({ behavior:'smooth', block:'center'});">
+                <a title="閉じる" href="#thread-21" class="close-details" onclick="document.getElementById('thread-21').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
-                </a><a title="閉じる" href="#mail-20" class="close-details right" onclick="document.getElementById('mail-20').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+                </a><a title="閉じる" href="#thread-21" class="close-details right" onclick="document.getElementById('thread-21').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
 
 
             <details>
-                <summary class="grid small-space" id="mail-21">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18"></div>
+                <summary class="grid small-space" id="thread-22">
+                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
                     <div class="s3 m3 l3">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="">
+                        <span class="col-j">Ｊ</span> <span class="col-p">Ｐ</span>
                     </div>
 
-                    <div class="s5 m8 l8 nobr">21　</div>
+                    <div class="s5 m8 l8 nobr">5-4　[件名なし]</div>
                 </summary>
-                <blockquote class="nocite">
-                    <p></p>
+                <blockquote class="nocite lbd-j">
+                    <p>「しかも裸足で」</p>
+                    <p>完全にバレてるじゃん、はは。</p>
                 </blockquote>
-                <a title="閉じる" href="#mail-21" class="close-details" onclick="document.getElementById('mail-21').scrollIntoView({ behavior:'smooth', block:'center'});">
+                <blockquote class="nocite lbd-p">
+                    <p>うぅ… 仕事が終わったら、話しに行ってくる。</p>
+                </blockquote>
+                <a title="閉じる" href="#thread-22" class="close-details" onclick="document.getElementById('thread-22').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
-                </a><a title="閉じる" href="#mail-21" class="close-details right" onclick="document.getElementById('mail-21').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+                </a><a title="閉じる" href="#thread-22" class="close-details right" onclick="document.getElementById('thread-22').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
 
 
             <details>
-                <summary class="grid small-space" id="mail-22">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18"></div>
+                <summary class="grid small-space" id="thread-23">
+                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
                     <div class="s3 m3 l3">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="">
+                        <span class="col-c">Ｃ</span> <span class="col-s">Ｓ</span>
                     </div>
 
-                    <div class="s5 m8 l8 nobr">22　</div>
+                    <div class="s5 m8 l8 nobr">5-5　調査手順の会議要請</div>
                 </summary>
-                <blockquote class="nocite">
-                    <p></p>
+                <blockquote class="nocite lbd-c">
+                    <p>こんにちは、キャプテン,</p>
+                    <p>調査手順のガイドラインに関して、今夜、勤務時間内での正式な会議要請を提出致します。詳細な資料を複数配布したにもかかわらず、多くの問い合わせを受けています。特筆すべき懸念は、あるメンバーが一部概念の理解に苦労している点です。来週に先立ち、全員が十分準備を整えられるよう、徹底したいのです。</p>
+                    <p>よろしくお願い致します,</p>
+                    <p>カナリア</p>
                 </blockquote>
-                <a title="閉じる" href="#mail-22" class="close-details" onclick="document.getElementById('mail-22').scrollIntoView({ behavior:'smooth', block:'center'});">
+                <blockquote class="nocite lbd-s">
+                    <p>こんにちは、カナリア,</p>
+                    <p>賢明な判断です。乗組員のスケジュールを変更しておきます。引き続き良い仕事を。</p>
+                    <p>スワン</p>
+                </blockquote>
+                <a title="閉じる" href="#thread-23" class="close-details" onclick="document.getElementById('thread-23').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
-                </a><a title="閉じる" href="#mail-22" class="close-details right" onclick="document.getElementById('mail-22').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+                </a><a title="閉じる" href="#thread-23" class="close-details right" onclick="document.getElementById('thread-23').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
 
 
             <details>
-                <summary class="grid small-space" id="mail-23">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18"></div>
+                <summary class="grid small-space" id="thread-24">
+                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
                     <div class="s3 m3 l3">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="">
+                        <span class="col-p">Ｐ</span> <span class="col-j">Ｊ</span>
                     </div>
 
-                    <div class="s5 m8 l8 nobr">23　</div>
+                    <div class="s5 m8 l8 nobr">5-6　セーブルが心配</div>
                 </summary>
-                <blockquote class="nocite">
-                    <p></p>
+                <blockquote class="nocite lbd-p">
+                    <p>やあみんな,</p>
+                    <p>気づいた人いるかな、着いてからセーブルがずっとぐったりしてる。少し心配で。しばらく、みんなも気にかけてもらえる？ ちゃんとご飯と水があって、快適にしてるかとか、見てあげてほしいんだ。</p>
+                    <p>よろしくね,</p>
+                    <p>ピスタチオ</p>
                 </blockquote>
-                <a title="閉じる" href="#mail-23" class="close-details" onclick="document.getElementById('mail-23').scrollIntoView({ behavior:'smooth', block:'center'});">
+                <blockquote class="nocite lbd-j">
+                    <p>ピスタチオのメッセージが来たとき、ちょうどママレードと一緒でさ。セーブルを世話する当番表を作ったらどうかって話してた。報告会の後で集まって決めないか？ 1945とかどう？</p>
+                    <p>ジュニパー</p>
+                </blockquote>
+                <a title="閉じる" href="#thread-24" class="close-details" onclick="document.getElementById('thread-24').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
-                </a><a title="閉じる" href="#mail-23" class="close-details right" onclick="document.getElementById('mail-23').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+                </a><a title="閉じる" href="#thread-24" class="close-details right" onclick="document.getElementById('thread-24').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+            </details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- 6 -->
+
+            <details class="mt-4">
+                <summary class="grid small-space" id="thread-25">
+                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
+                    <div class="s3 m3 l3">
+                        <span class="col-c">Ｃ</span>
+                    </div>
+
+                    <div class="s5 m8 l8 nobr">6-1　[要出席] 調査手順の会議</div>
+                </summary>
+                <blockquote class="nocite lbd-c">
+                    <p>皆さん、こんにちは,</p>
+                    <p>週の初めにお渡しした調査手順のガイドラインについて、多数の質問を受け取りました。各質問に個別対応するのではなく、本日の業務終了後、1時間の会議を行いたいと思います。本部も同意し、皆さんのスケジュールを変更して時間を確保しました。この会議は出席義務があります。</p>
+                    <p>では後ほど,</p>
+                    <p>カナリア</p>
+                </blockquote>
+                <a title="閉じる" href="#thread-25" class="close-details" onclick="document.getElementById('thread-25').scrollIntoView({ behavior:'smooth', block:'center'});">
+                    <p>close</p>
+                </a><a title="閉じる" href="#thread-25" class="close-details right" onclick="document.getElementById('thread-25').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
 
 
             <details>
-                <summary class="grid small-space" id="mail-24">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18"></div>
+                <summary class="grid small-space" id="thread-26">
+                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
                     <div class="s3 m3 l3">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="">
+                        <span class="col-p">Ｐ</span> <span class="col-j">Ｊ</span>
                     </div>
 
-                    <div class="s5 m8 l8 nobr">24　</div>
+                    <div class="s5 m8 l8 nobr">6-2　FW: [要出席] 調査手順の会議</div>
                 </summary>
-                <blockquote class="nocite">
-                    <p></p>
+                <blockquote class="nocite lbd-p">
+                    <p>"皆さん、こんにちは,</p>
+                    <p>週の初めにお渡しした調査手順のガイドラインについて、多数の質問を受け取りました。各質問に個別対応するのではなく、本日の業務終了後、1時間の会議を行いたいと思います。本部も同意し、皆さんのスケジュールを変更して時間を確保しました。この会議は出席義務があります。</p>
+                    <p>では後ほど,</p>
+                    <p>カナリア"</p>
+                    <p>*----------------------------------------*<br>
+                        絶対に君のせい。</p>
                 </blockquote>
-                <a title="閉じる" href="#mail-24" class="close-details" onclick="document.getElementById('mail-24').scrollIntoView({ behavior:'smooth', block:'center'});">
+                <blockquote class="nocite lbd-j">
+                    <p>あー、うん、今メール見た。ちょっとやりすぎた。でも罰じゃないね、なんと本部公認の、ありがたい交流時間なわけ。</p>
+                </blockquote>
+                <blockquote class="nocite lbd-p">
+                    <p>君ってほんとバカ。</p>
+                </blockquote>
+                <a title="閉じる" href="#thread-26" class="close-details" onclick="document.getElementById('thread-26').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
-                </a><a title="閉じる" href="#mail-24" class="close-details right" onclick="document.getElementById('mail-24').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+                </a><a title="閉じる" href="#thread-26" class="close-details right" onclick="document.getElementById('thread-26').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
 
 
             <details>
-                <summary class="grid small-space" id="mail-25">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18"></div>
+                <summary class="grid small-space" id="thread-27">
+                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
                     <div class="s3 m3 l3">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="">
+                        <span class="col-a">Ａ</span>
                     </div>
 
-                    <div class="s5 m8 l8 nobr">25　</div>
+                    <div class="s5 m8 l8 nobr">6-3　OSのアップデート</div>
                 </summary>
-                <blockquote class="nocite">
-                    <p></p>
+                <blockquote class="nocite lbd-a">
+                    <p>やあ、皆,</p>
+                    <p>サーバと端末の稼働用OSを定期アップデートする。本日午後から夕方にかけて、接続が断続的に途切れる可能性がある。データ消失のリスクはない。不便をかけるが、すまない。</p>
+                    <p>新しいOSには、いくつか新機能が追加された。詳細は今週中に説明する。</p>
+                    <p>よろしく,</p>
+                    <p>ナス</p>
                 </blockquote>
-                <a title="閉じる" href="#mail-25" class="close-details" onclick="document.getElementById('mail-25').scrollIntoView({ behavior:'smooth', block:'center'});">
+                <a title="閉じる" href="#thread-27" class="close-details" onclick="document.getElementById('thread-27').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
-                </a><a title="閉じる" href="#mail-25" class="close-details right" onclick="document.getElementById('mail-25').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+                </a><a title="閉じる" href="#thread-27" class="close-details right" onclick="document.getElementById('thread-27').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
 
 
             <details>
-                <summary class="grid small-space" id="mail-26">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18"></div>
+                <summary class="grid small-space" id="thread-28">
+                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
                     <div class="s3 m3 l3">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="">
+                        <span class="col-c">Ｃ</span> <span class="col-p">Ｐ</span>
                     </div>
 
-                    <div class="s5 m8 l8 nobr">26　</div>
+                    <div class="s5 m8 l8 nobr">6-4　研究室の整頓・清掃</div>
                 </summary>
-                <blockquote class="nocite">
-                    <p></p>
+                <blockquote class="nocite lbd-c">
+                    <p>ピスタチオ,</p>
+                    <p>たった今、なんと私の研究室で、短いトゲのある植物につまずきました。狭い場所での生活と勤務は苦労があるでしょうが、植物は特別指定エリアに置いていただけると大変助かります。都合の良い、なるべく早い時間に、この植物を回収して下さい。</p>
+                    <p>カナリア</p>
                 </blockquote>
-                <a title="閉じる" href="#mail-26" class="close-details" onclick="document.getElementById('mail-26').scrollIntoView({ behavior:'smooth', block:'center'});">
+                <blockquote class="nocite lbd-p">
+                    <p>こんにちはカナリア,</p>
+                    <p>それはサボテンで、謝罪の品だよ。お世話は簡単だけど、もし要らないなら気にしないで。会議の前に取りに行こうか？</p>
+                    <p>ピスタチオ</p>
+                </blockquote>
+                <blockquote class="nocite lbd-c">
+                    <p>ピスタチオ,</p>
+                    <p>やはり、私が持っておくことにします。最適な育て方の資料があれば、ぜひ教えていただけますか。</p>
+                    <p>カナリア</p>
+                </blockquote>
+                <a title="閉じる" href="#thread-28" class="close-details" onclick="document.getElementById('thread-28').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
-                </a><a title="閉じる" href="#mail-26" class="close-details right" onclick="document.getElementById('mail-26').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+                </a><a title="閉じる" href="#thread-28" class="close-details right" onclick="document.getElementById('thread-28').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
 
 
             <details>
-                <summary class="grid small-space" id="mail-27">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18"></div>
+                <summary class="grid small-space" id="thread-29">
+                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
                     <div class="s3 m3 l3">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="">
+                        <span class="col-j">Ｊ</span> <span class="col-m">Ｍ</span>
                     </div>
 
-                    <div class="s5 m8 l8 nobr">27　</div>
+                    <div class="s5 m8 l8 nobr">6-5　下心ありのお世辞メール</div>
                 </summary>
-                <blockquote class="nocite">
-                    <p></p>
+                <blockquote class="nocite lbd-j">
+                    <p>こないだの夜、スケッチを見たけどマジですごいな。絵、描けるんだ！ 今みんなにゲームナイトを計画しててさ（まだ秘密）、船を飾るポスターを描いてくれない？</p>
+                    <p>返事くれ,</p>
+                    <p>ジュニパー</p>
                 </blockquote>
-                <a title="閉じる" href="#mail-27" class="close-details" onclick="document.getElementById('mail-27').scrollIntoView({ behavior:'smooth', block:'center'});">
+                <blockquote class="nocite lbd-m">
+                    <p>いいぜ！ 具体的にどんな感じにしたいか、今夜にでも話そう。2、3日でできると思う。</p>
+                    <p>M</p>
+                </blockquote>
+                <a title="閉じる" href="#thread-29" class="close-details" onclick="document.getElementById('thread-29').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
-                </a><a title="閉じる" href="#mail-27" class="close-details right" onclick="document.getElementById('mail-27').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+                </a><a title="閉じる" href="#thread-29" class="close-details right" onclick="document.getElementById('thread-29').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
 
 
-            <details>
-                <summary class="grid small-space" id="mail-28">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- 7 -->
+
+            <details class="mt-4">
+                <summary class="grid small-space" id="thread-30">
+                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
                     <div class="s3 m3 l3">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="">
+                        <span class="col-a">Ａ</span> <span class="col-m">Ｍ</span>
                     </div>
 
-                    <div class="s5 m8 l8 nobr">28　</div>
+                    <div class="s5 m8 l8 nobr">7-1　グラインダーある？</div>
                 </summary>
-                <blockquote class="nocite">
-                    <p></p>
+                <blockquote class="nocite lbd-a">
+                    <p>やあ、ママレード,</p>
+                    <p>今やってる作業で必要でな。どこかに転がってないか？</p>
+                    <p>よろしく,</p>
+                    <p>ナス</p>
                 </blockquote>
-                <a title="閉じる" href="#mail-28" class="close-details" onclick="document.getElementById('mail-28').scrollIntoView({ behavior:'smooth', block:'center'});">
-                    <p>close</p>
-                </a><a title="閉じる" href="#mail-28" class="close-details right" onclick="document.getElementById('mail-28').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
-            </details>
-
-
-            <details>
-                <summary class="grid small-space" id="mail-29">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18"></div>
-                    <div class="s3 m3 l3">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="">
-                    </div>
-
-                    <div class="s5 m8 l8 nobr">29　</div>
-                </summary>
-                <blockquote class="nocite">
-                    <p></p>
+                <blockquote class="nocite lbd-m">
+                    <p>ああ、持ってる。作業場に寄ってくれ。用意しとく。</p>
+                    <p>M</p>
                 </blockquote>
-                <a title="閉じる" href="#mail-29" class="close-details" onclick="document.getElementById('mail-29').scrollIntoView({ behavior:'smooth', block:'center'});">
+                <a title="閉じる" href="#thread-30" class="close-details" onclick="document.getElementById('thread-30').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
-                </a><a title="閉じる" href="#mail-29" class="close-details right" onclick="document.getElementById('mail-29').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
-            </details>
-
-
-            <details>
-                <summary class="grid small-space" id="mail-30">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18"></div>
-                    <div class="s3 m3 l3">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="">
-                    </div>
-
-                    <div class="s5 m8 l8 nobr">30　</div>
-                </summary>
-                <blockquote class="nocite">
-                    <p></p>
-                </blockquote>
-                <a title="閉じる" href="#mail-30" class="close-details" onclick="document.getElementById('mail-30').scrollIntoView({ behavior:'smooth', block:'center'});">
-                    <p>close</p>
-                </a><a title="閉じる" href="#mail-30" class="close-details right" onclick="document.getElementById('mail-30').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+                </a><a title="閉じる" href="#thread-30" class="close-details right" onclick="document.getElementById('thread-30').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
 
         </div>
