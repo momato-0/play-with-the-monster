@@ -293,13 +293,49 @@ hr {
     height: 1px;
     margin: .5rem 0;
     border: 0;
-    background-color: #ffffff36;
+    background-color: #ffffff33;
 }
 
 .jel {
     margin: 0 .3rem;
     border-radius: 0;
     vertical-align: -.1rem;
+}
+
+.boya {
+    background: #666;
+}
+
+.boya,
+.boya span {
+    color: transparent;
+    user-select: none;
+}
+
+.boya.active {
+    background: none;
+}
+
+.boya.active,
+.boya.active span {
+    color: hsl(14.12deg 32.08% 93%);
+    user-select: text;
+    cursor: default;
+}
+
+.boya-wrap {
+    margin-left: 1rem;
+}
+
+.dboya,
+.boya-zukai {
+    display: block;
+    filter: brightness(0) saturate(100%) invert(5%) sepia(5%) saturate(5271%) hue-rotate(170deg) brightness(89%) contrast(91%);
+}
+
+.dboya:hover,
+.boya-zukai.active {
+    filter: brightness(1);
 }
 
 .boya .jel {
@@ -467,7 +503,7 @@ button {
 p {
     font-size: calc(1rem + .2vw);
     margin: 1.8rem 0;
-    letter-spacing: 0.05rem;
+    letter-spacing: .02rem;
     line-height: 2.3rem;
 }
 
@@ -516,7 +552,6 @@ cite {
 }
 
 cite:before {
-    /*content: '\2014' '\2014' '\2014' ' ';*/
     content: url("./img/dash.svg");
     vertical-align: middle;
     filter: brightness(0) saturate(100%) invert(91%) sepia(7%) saturate(5150%) hue-rotate(181deg) brightness(107%) contrast(101%);
@@ -530,13 +565,29 @@ cite:before {
 
 .lbd li,
 .bd li {
-    border-bottom: 1px solid #ffffff1f;
-    margin-top: 0 .5rem;
+    border-bottom: 1px solid #ffffff33;
+    margin-top: 0.5rem;
 }
 
-.lbd li:first-of-type p,
-.bd li:first-of-type p {
+ul.lbd+li p:first-of-type,
+ul.bd+li p:first-of-type,
+ol.lbd+li p:first-of-type,
+ol.bd+li p:first-of-type {
     margin-top: 0;
+}
+
+summary+div.grid,
+summary+div.grid p:first-of-type,
+summary+* li:first-of-type {
+    margin-top: 0;
+}
+
+summary+* li:first-of-type {
+    padding-top: 0;
+}
+
+details>*:nth-child(2) {
+    margin-top: 2rem !important;
 }
 
 p.lbd {
@@ -545,7 +596,7 @@ p.lbd {
 
 li {
     margin-left: 3rem;
-    padding: .5em;
+    padding: .5em 0;
 }
 
 li p {
@@ -568,11 +619,11 @@ ruby {
 }
 
 .mt-4 {
-    margin-top: 4rem;
+    margin-top: 2em !important;
 }
 
 .mt-5 {
-    margin-top: 5rem;
+    margin-top: 3em !important;
 }
 
 .mb-5 {
@@ -676,6 +727,15 @@ p.font-larger {
     margin-left: auto;
     margin-right: auto;
     background-color: #111;
+}
+
+.mini-icon {
+    margin: 0 3px;
+    filter: invert(1);
+}
+
+.emoji {
+    vertical-align: -3px;
 }
 
 .babo-unit {

@@ -153,44 +153,6 @@ details .babo:nth-of-type(6) {
   text-align: center;
 }
 
-/* ----- 解答 ----- */
-
-.boya {
-  background: #11171d;
-}
-
-.boya,
-.boya span {
-  color: transparent;
-  user-select: none;
-}
-
-.boya.active {
-  background: none;
-}
-
-.boya.active,
-.boya.active span {
-  color: hsl(14.12deg 32.08% 93%);
-  user-select: text;
-  cursor: default;
-}
-
-.boya-wrap {
-  margin-left: 1rem;
-}
-
-.dboya,
-.boya-zukai {
-  display: block;
-  filter: brightness(0) saturate(100%) invert(5%) sepia(5%) saturate(5271%) hue-rotate(170deg) brightness(89%) contrast(91%);
-}
-
-.dboya:hover,
-.boya-zukai.active {
-  filter: brightness(1);
-}
-
 @media (hover: none) {
   .yg_nv {
     margin: 5rem 0;

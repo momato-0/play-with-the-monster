@@ -75,7 +75,7 @@
 
 
         <div class="h3-wrapp">
-            <h3>TABLE</h3>
+            <h3>アコーディオン</h3>
         </div>
         <div class="color-change"><!--互い違いの色-->
             <details>
@@ -161,6 +161,33 @@
                 </td>
             </tr>
         </table>
+
+        <!-- もくじ -->
+        <nav class="mokuji fixed">
+            <button data-ui="#dialog" aria-label="もくじ" title="もくじ" class="circle center middle">
+                <svg class="responsive" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmarks" viewBox="0 0 16 16">
+					<path d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5zm2-1a1 1 0 0 0-1 1v10.566l3.723-2.482a.5.5 0 0 1 .554 0L11 14.566V4a1 1 0 0 0-1-1z" />
+					<path d="M4.268 1H12a1 1 0 0 1 1 1v11.768l.223.148A.5.5 0 0 0 14 13.5V2a2 2 0 0 0-2-2H6a2 2 0 0 0-1.732 1" />
+				</svg>
+            </button>
+        </nav>
+        <dialog id="dialog">
+            <h5 class="small center-align">もくじ</h5>
+            <p><a href="#thread-01">1.　めんどうな検索</a></p>
+            <p><a href="#thread-02">2.　回収</a></p>
+            <p><a href="#thread-03">3.　版画</a></p>
+            <p><a href="#thread-04">4.　コピーの呪いを解け</a></p>
+            <p><a href="#thread-05">5.　フランクの正体と、新生の意味</a></p>
+            <p><a href="#thread-06">6.　あなたが持ってきたこの絵</a></p>
+            <p><a href="#thread-07">7.　ハイマーの未報告</a></p>
+            <p><a href="#thread-08">8.　なぜ閉鎖？</a></p>
+            <p><a href="#thread-09">9.　『わたしを離さないで』との違い</a></p>
+            <p><a href="#thread-10">10.　エルゴード文学</a></p>
+            <p><a href="#thread-11">11.　おまけ：　時系列</a></p>
+        </dialog>
+
+
+
     </main>
 
     <div class="h3-wrapp no-count">
@@ -174,8 +201,7 @@
     </footer>
 
     <script src="../../global.js"></script>
-    <style>
-    </style>
+
 </body>
 
 </html>
