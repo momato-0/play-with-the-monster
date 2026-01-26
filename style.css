@@ -602,12 +602,20 @@ ruby {
     vertical-align: 0;
 }
 
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
 .mt-4 {
-    margin-top: 2em !important;
+    margin-top: 48pt !important;
 }
 
 .mt-5 {
-    margin-top: 3em !important;
+    margin-top: 80pt !important;
 }
 
 .mb-5 {
