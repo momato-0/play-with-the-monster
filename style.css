@@ -901,6 +901,12 @@ p.font-larger {
         font-size: calc(1rem + .16vw);
     }
 
+    .attention-wrapper {
+        display: block;
+        position: relative;
+        block-size: 5rem;
+    }
+
 }
 
 /* S */
