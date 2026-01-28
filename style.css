@@ -272,6 +272,13 @@ span {
     border-radius: 0;
 }
 
+a,
+b,
+i,
+span {
+    vertical-align: unset;
+}
+
 hr {
     height: 1px;
     margin: .5rem 0;
@@ -282,7 +289,7 @@ hr {
 .jel {
     margin: 0 .3rem;
     border-radius: 0;
-    vertical-align: -.1rem;
+    vertical-align: -3px;
 }
 
 .boya {
@@ -484,14 +491,20 @@ button {
 }
 
 p {
-
     margin: 1.8rem 0;
     letter-spacing: .02rem;
-    line-height: 2.3rem;
 }
 
 td p {
     margin: .5rem 0;
+}
+
+li p {
+    margin: 0;
+}
+
+li p+p {
+    margin-top: 1rem;
 }
 
 blockquote p {
@@ -542,19 +555,17 @@ cite:before {
 
 .lbd {
     border-left: 5px solid #ffffff2e;
-    margin-left: 1em;
+    margin-left: 1rem;
 }
 
 .lbd li,
 .bd li {
     border-bottom: 1px solid #ffffff33;
-    margin-top: 0.5rem;
 }
 
-ul.lbd+li p:first-of-type,
-ul.bd+li p:first-of-type,
-ol.lbd+li p:first-of-type,
-ol.bd+li p:first-of-type {
+:is(ul, ol) li p:first-of-type,
+:is(ul, ol) ul li p:first-of-type,
+:is(ul, ol) ol li p:first-of-type {
     margin-top: 0;
 }
 
@@ -566,25 +577,21 @@ summary+h4 {
     margin-top: 0;
 }
 
-summary+* li:first-of-type {
-    padding-top: 0;
-}
-
 details>*:nth-child(2) {
     margin-top: 2.6rem !important;
 }
 
 p.lbd {
-    padding-left: 1.5em;
+    padding-left: 1.5rem;
 }
 
 li {
     margin-left: 2.2rem;
-    padding: .5em 0;
+    padding: 1rem 0 1rem .5rem;
 }
 
-li p {
-    margin: 1rem 0 1rem .5rem;
+li:first-of-type {
+    padding-top: 0;
 }
 
 p a {
@@ -610,16 +617,20 @@ ruby {
     margin-top: 0;
 }
 
+.mt-3 {
+    margin-top: 24pt !important;
+}
+
 .mt-4 {
-    margin-top: 48pt !important;
+    margin-top: 32pt !important;
 }
 
 .mt-5 {
-    margin-top: 80pt !important;
+    margin-top: 48pt !important;
 }
 
 .mb-5 {
-    margin-bottom: 4rem;
+    margin-bottom: 48pt;
 }
 
 .talk {
@@ -667,6 +678,11 @@ p.font-smaller {
     font-size: .8rem;
 }
 
+p.font-small,
+p.font-smaller {
+    line-height: 1.6;
+}
+
 .font-large,
 p.font-large {
     font-size: calc(1rem + .3vw);
@@ -696,7 +712,7 @@ p.font-larger {
 .tooltip.max p {
     font-size: .88rem;
     margin: .5rem 0 0;
-    line-height: 1.2rem;
+    line-height: 1.2;
 }
 
 .tip-hr p:nth-child(2n+3)::before {
@@ -785,7 +801,6 @@ p.font-larger {
     color: hsl(14.12deg 32.08% 93%);
     margin: 0;
     padding: 0;
-    line-height: 1.8;
 }
 
 .mokuji,
@@ -897,8 +912,10 @@ p.font-larger {
     }
 
     p,
-    ul {
+    :is(ul, ol) li {
         font-size: calc(1rem + .16vw);
+        line-height: 2;
+        letter-spacing: .02rem;
     }
 }
 
