@@ -700,6 +700,7 @@ p.font-larger {
     z-index: 101;
     padding: .5rem .5rem 1rem;
     inline-size: 17em;
+    inset-inline-start: -5em;
 }
 
 .tooltip.max p {
