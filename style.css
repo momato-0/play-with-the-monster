@@ -491,7 +491,7 @@ button {
 }
 
 p {
-    margin: 1.8rem 0;
+    margin: 1.5rem 0;
     letter-spacing: .45px;
 }
 
@@ -609,12 +609,17 @@ ruby {
     vertical-align: 0;
 }
 
-.mb-0 {
+.mb-0,
+p:has(+blockquote.mt-1) {
     margin-bottom: 0;
 }
 
 .mt-0 {
     margin-top: 0;
+}
+
+.mt-1 {
+    margin-top: .5rem !important;
 }
 
 .mt-3 {
@@ -663,7 +668,9 @@ strong {
 }
 
 .font-small,
-p.font-small {
+p.font-small,
+blockquote.font-small p,
+:is(ul.font-small, ol.font-small) li {
     font-size: calc(.9rem + .14vw);
 }
 
@@ -673,7 +680,9 @@ p.font-smaller {
 }
 
 p.font-small,
-p.font-smaller {
+p.font-smaller,
+blockquote.font-small p,
+:is(ul.font-small, ol.font-small) li {
     line-height: 1.8;
 }
 
