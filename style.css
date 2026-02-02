@@ -7,7 +7,7 @@ body.dark {
     --my-green: #198754;
     --my-lgreen: #d5ffd3;
     --my-blue: #a8fcff;
-    --my-lblue: #c4e0ff;
+    --my-lblue: #d3e8ff;
     /* body-bg */
     --surface: #181210;
     --on-surface: #ede0dc;
@@ -453,7 +453,7 @@ img.sharp {
 }
 
 .my-pink {
-    color: #ebabff;
+    color: #ffcef8;
 }
 
 .my-blue,
@@ -523,7 +523,7 @@ blockquote {
     border-left: 5px solid var(--my-lblue);
     margin-bottom: 1.5rem;
     margin-top: 1.5rem;
-    padding: .5rem 0 .5rem 1rem;
+    padding: .3rem 0 .3rem 1rem;
     color: var(--my-lblue);
     background-color: #00000045;
 }
@@ -543,7 +543,7 @@ blockquote.nocite>p:last-of-type {
 cite {
     display: block;
     text-align: right;
-    font-size: var(--size-14px);
+    font-size: var(--size-13px);
     margin-right: 1rem;
 }
 
@@ -659,7 +659,7 @@ strong {
 }
 
 strong {
-    color: #c8b0ff;
+    color: #ffae8e;
     background: #00000075;
     border-radius: 0;
     vertical-align: 0;
@@ -669,7 +669,7 @@ strong {
 
 .font-small,
 p.font-small,
-blockquote.font-small p,
+:is(blockquote.font-small, div.font-small) p,
 :is(ul.font-small, ol.font-small) li {
     font-size: calc(.9rem + .14vw);
 }
@@ -713,7 +713,7 @@ p.font-larger {
 }
 
 .tooltip.max p {
-    font-size: var(--size-14px);
+    font-size: var(--size-13px);
     margin: .5rem 0 0;
     line-height: 1.5;
     letter-spacing: 0;
@@ -912,7 +912,7 @@ p.font-larger {
     }
 
     blockquote {
-        padding: .5rem 0 .5rem 1.5rem;
+        padding: .3rem 0 .3rem 1.5rem;
     }
 
     p,
