@@ -7,7 +7,8 @@ body.dark {
     --my-green: #198754;
     --my-lgreen: #d5ffd3;
     --my-blue: #a8fcff;
-    --my-lblue: #d3e8ff;
+    --my-lblue: #d2fafd;
+    --my-lblue-l: #bcffe0;
     /* body-bg */
     --surface: #181210;
     --on-surface: #ede0dc;
@@ -452,8 +453,14 @@ img.sharp {
     color: var(--my-lgreen);
 }
 
-.my-pink {
-    color: #ffcef8;
+.my-b {
+    color: var(--my-lblue-l);
+    background-color: #00000082;
+}
+
+span.my-b {
+    margin: 0 3px;
+    padding: 0 3px;
 }
 
 .my-blue,
@@ -660,11 +667,12 @@ strong {
 
 strong {
     color: #ffae8e;
-    background: #00000075;
+    background: #00000082;
     border-radius: 0;
     vertical-align: 0;
-    letter-spacing: 0.1rem;
+    letter-spacing: 1px;
     margin: 0 3px;
+    padding: 0 3px;
 }
 
 .font-small,
