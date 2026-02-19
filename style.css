@@ -25,6 +25,7 @@ body.dark {
     /* -----　　🏠 Base　　　----- */
     font-size: 1rem;
     line-height: 1.6;
+    letter-spacing: 0.06em;
     counter-reset: h2-counter;
 }
 
@@ -499,7 +500,6 @@ button {
 
 p {
     margin: 1.5rem 0;
-    letter-spacing: .45px;
 }
 
 td p {
@@ -670,7 +670,6 @@ strong {
     background: #00000082;
     border-radius: 0;
     vertical-align: 0;
-    letter-spacing: 1px;
     margin: 0 3px;
     padding: 0 3px;
 }
@@ -679,7 +678,7 @@ strong {
 p.font-small,
 :is(blockquote.font-small, div.font-small) p,
 :is(ul.font-small, ol.font-small) li {
-    font-size: calc(.9rem + .15vw);
+    font-size: calc(.9rem + .12vw);
 }
 
 .font-smaller,
