@@ -23,7 +23,7 @@ body.dark {
     --size-19px: 1.1875rem;
 
     /* -----　　🏠 Base　　　----- */
-    font-size: 1rem;
+    font-size: clamp(.65rem, calc(.7rem + 1vw), 1.1rem);
     line-height: 1.6;
     letter-spacing: 0.06em;
     counter-reset: h2-counter;
@@ -405,11 +405,16 @@ details h5 {
 summary {
     display: list-item;
     cursor: pointer;
-    font-size: calc(1rem + .1vw);
     font-weight: 700;
     padding: 10px;
     background: #0000003d;
     border-radius: .2rem;
+}
+
+/*beer.css*/
+summary.grid,
+.gap-small {
+    ---gap: .3rem;
 }
 
 img.sharp {
@@ -525,6 +530,8 @@ table {
     margin-inline-start: 1rem;
     margin-inline-end: 1rem;
 }
+
+
 
 blockquote {
     border-left: 5px solid var(--my-lblue);
@@ -678,7 +685,8 @@ strong {
 p.font-small,
 :is(blockquote.font-small, div.font-small) p,
 :is(ul.font-small, ol.font-small) li {
-    font-size: calc(.9rem + .12vw);
+    /*font-size: calc(.9rem + .12vw);*/
+    font-size: clamp(.65rem, calc(.65rem + .8vw), .95rem);
 }
 
 .font-smaller,

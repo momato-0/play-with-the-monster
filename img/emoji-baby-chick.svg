@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 36 36"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="emoji-baby-chick.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="17.716953"
+     inkscape:cx="13.546347"
+     inkscape:cy="15.691186"
+     inkscape:current-layer="svg4" />
+  <path
+     fill="#f4900c"
+     d="m 7.0583929,16.560244 c 0,1.755727 2.0916132,2.119162 -0.5425056,2.119162 -2.6330592,0 -6.3574871,-1.059581 -6.3574871,-2.119162 0,-1.059581 1.6169209,-3.178744 4.2510397,-3.178744 2.6341189,0 2.648953,1.423018 2.648953,3.178744 z"
+     id="path1"
+     style="stroke-width:1;fill:#ffb901;fill-opacity:1" />
+  <path
+     fill="#ffcc4d"
+     d="m 35.354508,18.017169 c -1.421958,0 -8.374929,4.887847 -12.241341,-5.69525 -0.0053,-0.01483 -0.01271,-0.02543 -0.01907,-0.04026 C 22.081134,8.6229215 19.05815,5.8044356 15.28816,5.0881587 l -0.03921,-0.044503 c 2.27492,-1.4590433 2.922325,-0.3750918 2.922325,-1.1983863 0,-1.2492463 -2.207109,-1.3806344 -4.238325,0.012715 -2.031218,-1.3933493 -4.2383252,-1.2619612 -4.2383252,-0.012715 0,0.8063412 0.6177362,-0.220393 2.7792812,1.1062027 -5.1230747,0.4693944 -9.1367683,4.7734132 -9.1367683,10.0193999 0,4.744805 3.2878804,8.712937 7.7063333,9.776756 1.06276,4.419513 5.030892,7.706334 9.776756,7.706334 4.188524,0 7.347136,-1.777977 9.525635,-4.237265 0.588067,-0.663298 0.117614,0.637867 0.892167,0.249001 4.492625,-2.259027 5.475916,-10.448529 4.116473,-10.448529 z"
+     id="path3"
+     style="stroke-width:1;fill:#fcff65;fill-opacity:1" />
+  <circle
+     fill="#662113"
+     cx="11.284002"
+     cy="13.911291"
+     r="1.8151443"
+     id="circle3"
+     style="fill:#222222;fill-opacity:1;stroke-width:1" />
+  <path
+     fill="#ffac33"
+     d="m 21.148703,16.560244 c 0,0 -2.119162,10.595812 10.595812,10.595812 1.059581,0 0,2.119162 -4.238325,2.119162 -4.238325,0 -10.594751,-5.297906 -7.417068,-11.655393 0.670715,-1.34037 1.059581,-1.059581 1.059581,-1.059581 z"
+     id="path4"
+     style="stroke-width:1;fill:#ffb901;fill-opacity:1" />
+</svg>

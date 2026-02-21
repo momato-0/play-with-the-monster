@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 36 36"
+   version="1.1"
+   id="svg2"
+   sodipodi:docname="emoji-cloud.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="namedview2"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="12.527778"
+     inkscape:cx="25.543237"
+     inkscape:cy="30.811529"
+     inkscape:current-layer="svg2" />
+  <path
+     id="path1"
+     style="fill:#67e5ff;fill-opacity:1"
+     d="M 13.721691,7.8162244 C -0.81953163,2.2935055 -3.6716287,20.168622 5.0876351,23.034463 1.0674422,30.811144 13.697543,38.931193 19.237147,28.073599 23.952885,38.369189 39.036494,31.221928 33.318615,22.845521 38.594592,19.954539 35.158181,11.012354 29.841797,12.345703 31.488352,-0.42304114 15.816147,-0.35952982 13.721691,7.8162244 Z"
+     sodipodi:nodetypes="cccccc" />
+</svg>

@@ -9,11 +9,6 @@
     <script type="module" src="https://cdn.jsdelivr.net/npm/beercss@3.4.4/dist/cdn/beer.min.js"></script>
     <link rel="stylesheet" href="../../style.css" type="text/css">
     <link rel="stylesheet" href="mail.css" type="text/css">
-    <style>
-        table td {
-            font-size: 1rem;
-        }
-    </style>
 </head>
 
 <body class="dark">
@@ -23,19 +18,15 @@
         <p class="font-smaller"><a href="../../index.html">HOME</a> > <a href="filament-guide.html">FILAMENT</a> > メール</p>
     </header>
 
-
     <main class="responsive">
-
         <!-- title -->
         <div class="h1-wrapp">
             <h1>FILAMENT<br><span style="color: #c9b7ff;">メール 1週目</span></h1>
-
         </div>
-
 
         <!-- btn -->
         <div class="yugo-navi center-align mt-4">
-            <p class="zz">週：<br>
+            <p class="zz font-small">週：<br>
                 <a class="btn" href="mail.html">1</span></a>
                 <a class="btn" href="mail-week-02.html">2</a>
                 <a class="btn" href="mail-week-03.html">3</a>
@@ -50,18 +41,28 @@
             </p>
         </div>
 
+        <div class="grid gap-small font-small center" style="max-inline-size: 80%; border: 1px solid #ffffff75; border-radius: .2rem; padding: .5rem;">
+            <div class="s12 m6 l4"><img class="emoji" src="../../img/emoji-baby-chick.svg" width="16" height="16" alt="カナリア"> …… カナリア</div>
+            <div class="s12 m6 l4"><img class="emoji" src="../../img/emoji-red-crayon.svg" width="16" height="16" alt="バーミリオン"> …… バーミリオン</div>
+            <div class="s12 m6 l4"><img class="emoji" src="../../img/emoji-cloud.svg" width="16" height="16" alt="ジュニパー"> …… ジュニパー</div>
+            <div class="s12 m6 l4"><img class="emoji" src="../../img/emoji-leaf.svg" width="16" height="16" alt="ピスタチオ"> …… ピスタチオ</div>
+            <div class="s12 m6 l4"><img class="emoji" src="../../img/emoji-orange.svg" width="16" height="16" alt="ママレード"> …… ママレード</div>
+            <div class="s12 m6 l4"><img class="emoji" src="../../img/emoji-aubergine.svg" width="16" height="16" alt="ナス"> …… ナス</div>
+            <div class="s12 m6 l4"><img class="emoji" src="../../img/emoji-swan.svg" width="16" height="16" alt="スワン"> …… スワン</div>
+            <div class="s12 m6 l4"><img class="mini-icon emoji" src="../../img/infinity.svg" width="14" height="14" alt="all"> …… 全員へ発信</div>
+        </div>
+
         <!-- messages -->
         <div class="color-change">
 
-
+            <!-- #region @@@1 -->
             <details class="mt-4">
-                <summary class="grid small-space" id="thread-0">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        TFC
+                <summary class="grid" id="thread-0">
+                    <div class="s10 m2 l2 sender">
+                        TFC<img class="mini-icon emoji" src="../../img/infinity.svg" width="14" height="14" alt="all">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">0　TFCメンバー登録通知書</div>
+                    <div class="s2 m2 l1 nobr ship-day">0</div>
+                    <div class="s12 m6 l7 subject">TFCメンバー登録通知書</div>
                 </summary>
                 <blockquote class="nocite">
                     <p>忠実なるメンバーへ,</p>
@@ -78,44 +79,35 @@
                     <p>乗船を歓迎します！</p>
                     <p>フィラメント社</p>
                 </blockquote>
-                <table class="border mt-4">
-                    <tr>
-                        <th>コードネーム</th>
-                        <th>役職</th>
-                        <th>色</th>
-                    </tr>
-                    <tr>
-                        <td>カナリア</td>
-                        <td>Chief Science Officer<br>主任科学士官</td>
-                        <td>黄</td>
-                    </tr>
-                    <tr>
-                        <td>バーミリオン</td>
-                        <td>Wellbeing Officer<br>健康管理官</td>
-                        <td>赤</td>
-                    </tr>
-                    <tr>
-                        <td>ピスタチオ</td>
-                        <td>Botanist<br>植物学者</td>
-                        <td>緑</td>
-                    </tr>
-                    <tr>
-                        <td>ジュニパー</td>
-                        <td>Pirot<br>パイロット</td>
-                        <td>青</td>
-                    </tr>
-                    <tr>
-                        <td>ママレード</td>
-                        <td>Engineer<br>機関士</td>
-                        <td>オレンジ</td>
-                    </tr>
-                    <tr>
-                        <td>ナス</td>
-                        <td>Technician<br>システム技術者</td>
-                        <td>紫</td>
-                    </tr>
-                </table>
-
+                <div class="grid gap-small mt-4 mb-5 font-small" style="margin-inline-start:1rem; margin-inline-end: 1rem;">
+                    <div class="s12 m4 l4"><b class="my-lblue">コードネーム</b></div>
+                    <div class="s12 m4 l4"><b class="my-lblue">役職</b></div>
+                    <div class="s12 m4 l4"><b class="my-lblue">色</b></div>
+                    <hr class="s12 m12 l12">
+                    <div class="s12 m4 l4">カナリア</div>
+                    <div class="s12 m4 l4">Chief Science Officer<br>主任科学士官</div>
+                    <div class="s12 m4 l4">黄</div>
+                    <hr class="s12 m12 l12">
+                    <div class="s12 m4 l4">バーミリオン</div>
+                    <div class="s12 m4 l4">Wellbeing Officer<br>健康管理官</div>
+                    <div class="s12 m4 l4">赤</div>
+                    <hr class="s12 m12 l12">
+                    <div class="s12 m4 l4">ピスタチオ</div>
+                    <div class="s12 m4 l4">Botanist<br>植物学者</div>
+                    <div class="s12 m4 l4">緑</div>
+                    <hr class="s12 m12 l12">
+                    <div class="s12 m4 l4">ジュニパー</div>
+                    <div class="s12 m4 l4">Pirot<br>パイロット</div>
+                    <div class="s12 m4 l4">青</div>
+                    <hr class="s12 m12 l12">
+                    <div class="s12 m4 l4">ママレード</div>
+                    <div class="s12 m4 l4">Engineer<br>機関士</div>
+                    <div class="s12 m4 l4">オレンジ</div>
+                    <hr class="s12 m12 l12">
+                    <div class="s12 m4 l4">ナス</div>
+                    <div class="s12 m4 l4">Technician<br>システム技術者</div>
+                    <div class="s12 m4 l4">紫</div>
+                </div>
 
                 <a title="閉じる" href="#thread-0" class="close-details" onclick="document.getElementById('thread-0').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
@@ -124,13 +116,12 @@
 
 
             <details>
-                <summary class="grid small-space" id="thread-1">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        Alabaster System
+                <summary class="grid" id="thread-1">
+                    <div class="s10 m2 l2 sender">
+                        Alabaster System<img class="mini-icon emoji" src="../../img/infinity.svg" width="14" height="14" alt="all">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">1-1　[返信不可] 到着通知</div>
+                    <div class="s2 m2 l1 nobr ship-day">1<span class="ship-day-sub">-1</span></div>
+                    <div class="s12 m6 l7 subject">[返信不可] 到着通知</div>
                 </summary>
                 <blockquote class="nocite">
                     <p>ようこそ,</p>
@@ -143,13 +134,12 @@
 
 
             <details>
-                <summary class="grid small-space" id="thread-2">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        Swan
+                <summary class="grid" id="thread-2">
+                    <div class="s10 m2 l2 sender">
+                        <img crass="mini-icon emoji" src="../../img/emoji-swan.svg" width="16" height="16" alt="スワン"><img class="mini-icon emoji" src="../../img/infinity.svg" width="14" height="14" alt="all">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">1-2　幸運を祈る！</div>
+                    <div class="s2 m2 l1 nobr ship-day">1<span class="ship-day-sub">-2</span></div>
+                    <div class="s12 m6 l7 subject">幸運を祈る！</div>
                 </summary>
                 <blockquote class="nocite lbd-s">
                     <p>その日は来た。数多の人々による長年の尽力が、君達をそこに導いたのだ。既知の宇宙の最果て、種の軌道を永遠へと転じる問いに、答えを出すために。友よ、大胆であれ。そして我々を、新時代へ導け！</p>
@@ -164,13 +154,12 @@
 
 
             <details>
-                <summary class="grid small-space" id="thread-3">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <span class="col-v">Ｖ</span> <span class="col-m">Ｍ</span>
+                <summary class="grid" id="thread-3">
+                    <div class="s10 m2 l2 sender">
+                        <img crass="mini-icon emoji" src="../../img/emoji-red-crayon.svg" width="16" height="16" alt="バーミリオン"> <img crass="mini-icon emoji" src="../../img/emoji-orange.svg" width="16" height="16" alt="ママレード"><img class="mini-icon emoji" src="../../img/infinity.svg" width="14" height="14" alt="all">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">1-3　「朝食の欠けた日に、善き成果なし」- J.P.J.シモンズ</div>
+                    <div class="s2 m2 l1 nobr ship-day">1<span class="ship-day-sub">-3</span></div>
+                    <div class="s12 m6 l7 subject">「朝食の欠けた日に、善き成果なし」- J.P.J.シモンズ</div>
                 </summary>
                 <blockquote class="nocite lbd-v">
                     <p>やあ、皆さん,</p>
@@ -190,13 +179,12 @@
 
 
             <details>
-                <summary class="grid small-space" id="thread-4">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <span class="col-v">Ｖ</span>
+                <summary class="grid" id="thread-4">
+                    <div class="s10 m2 l2 sender">
+                        <img crass="mini-icon emoji" src="../../img/emoji-red-crayon.svg" width="16" height="16" alt="バーミリオン"><img class="mini-icon emoji" src="../../img/infinity.svg" width="14" height="14" alt="all">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">1-4　強制健康診断</div>
+                    <div class="s2 m2 l1 nobr ship-day">1<span class="ship-day-sub">-4</span></div>
+                    <div class="s12 m6 l7 subject">強制健康診断</div>
                 </summary>
                 <blockquote class="nocite lbd-v">
                     <p>やあ、皆さん,</p>
@@ -209,30 +197,17 @@
                     <p>close</p>
                 </a><a title="閉じる" href="#thread-4" class="close-details right" onclick="document.getElementById('thread-4').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
+            <!-- #endregion -->
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-            <!-- 2 -->
-
+            <!-- #region @@@2 -->
             <details class="mt-4">
-                <summary class="grid small-space" id="thread-5">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <span class="col-a">Ａ</span> <span class="col-j">Ｊ</span>
+                <summary class="grid" id="thread-5">
+                    <div class="s10 m2 l2 sender">
+                        <img crass="mini-icon emoji" src="../../img/emoji-aubergine.svg" width="16" height="16" alt="ナス"> <img crass="mini-icon emoji" src="../../img/emoji-cloud.svg" width="16" height="16" alt="ジュニパー"><img class="mini-icon emoji" src="../../img/infinity.svg" width="14" height="14" alt="all">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">2-1a　バイオニック・デバイスの維持・修復</div>
+                    <div class="s2 m2 l1 nobr ship-day">2<span class="ship-day-sub">-1a</span></div>
+                    <div class="s12 m6 l7 subject">バイオニック・デバイスの維持・修復</div>
                 </summary>
                 <blockquote class="nocite lbd-a">
                     <p>おはよう,</p>
@@ -250,6 +225,7 @@
                 <blockquote class="nocite lbd-j">
                     <p>ふふ、引っかかったな。</p>
                 </blockquote>
+                <p>※ ゲームでは、最後のジュニパーのセリフが紫色になっている。原文verでもそうなので、たぶんゲームのミス。</p>
 
                 <a title="閉じる" href="#thread-5" class="close-details" onclick="document.getElementById('thread-5').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
@@ -258,12 +234,12 @@
 
 
             <details>
-                <summary class="grid small-space" id="thread-5b">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <span class="col-a">Ａ</span> <span class="col-p">Ｐ</span>
+                <summary class="grid" id="thread-5b">
+                    <div class="s10 m2 l2 sender">
+                        <img crass="mini-icon emoji" src="../../img/emoji-aubergine.svg" width="16" height="16" alt="ナス"> <img crass="mini-icon emoji" src="../../img/emoji-leaf.svg" width="16" height="16" alt="ピスタチオ">
                     </div>
-                    <div class="s5 m8 l8 nobr">2-1b　〃</div>
+                    <div class="s2 m2 l1 nobr ship-day">2<span class="ship-day-sub">-1b</span></div>
+                    <div class="s12 m6 l7 subject">〃</div>
                 </summary>
                 <blockquote class="nocite lbd-a">
                     <p>おはよう,</p>
@@ -283,13 +259,12 @@
 
 
             <details>
-                <summary class="grid small-space" id="thread-6">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <span class="col-m">Ｍ</span> <span class="col-c">Ｃ</span>
+                <summary class="grid" id="thread-6">
+                    <div class="s10 m2 l2 sender">
+                        <img crass="mini-icon emoji" src="../../img/emoji-orange.svg" width="16" height="16" alt="ママレード"> <img crass="mini-icon emoji" src="../../img/emoji-baby-chick.svg" width="16" height="16" alt="カナリア"><img class="mini-icon emoji" src="../../img/infinity.svg" width="14" height="14" alt="all">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">2-2a　最重要メンテナンス</div>
+                    <div class="s2 m2 l1 nobr ship-day">2<span class="ship-day-sub">-2a</span></div>
+                    <div class="s12 m6 l7 subject">最重要メンテナンス</div>
                 </summary>
                 <blockquote class="nocite lbd-m">
                     <p>やあみんな,</p>
@@ -311,13 +286,12 @@
 
 
             <details>
-                <summary class="grid small-space" id="thread-6b">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <span class="col-m">Ｍ</span> <span class="col-a">Ａ</span>
+                <summary class="grid" id="thread-6b">
+                    <div class="s10 m2 l2 sender">
+                        <img crass="mini-icon emoji" src="../../img/emoji-orange.svg" width="16" height="16" alt="ママレード"> <img crass="mini-icon emoji" src="../../img/emoji-aubergine.svg" width="16" height="16" alt="ナス">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">2-2b　〃</div>
+                    <div class="s2 m2 l1 nobr ship-day">2<span class="ship-day-sub">-2b</span></div>
+                    <div class="s12 m6 l7 subject">〃</div>
                 </summary>
                 <blockquote class="nocite lbd-m">
                     <p>やあみんな,</p>
@@ -339,13 +313,12 @@
 
 
             <details>
-                <summary class="grid small-space" id="thread-7">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <span class="col-m">Ｍ</span> <span class="col-a">Ａ</span>
+                <summary class="grid" id="thread-7">
+                    <div class="s10 m2 l2 sender">
+                        <img crass="mini-icon emoji" src="../../img/emoji-orange.svg" width="16" height="16" alt="ママレード"> <img crass="mini-icon emoji" src="../../img/emoji-aubergine.svg" width="16" height="16" alt="ナス">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">2-3　エンジンの非致命的システムエラー</div>
+                    <div class="s2 m2 l1 nobr ship-day">2<span class="ship-day-sub">-3</span></div>
+                    <div class="s12 m6 l7 subject">エンジンの非致命的システムエラー</div>
                 </summary>
                 <blockquote class="nocite lbd-m">
                     <p>やあ、ナス,</p>
@@ -366,13 +339,12 @@
 
 
             <details>
-                <summary class="grid small-space" id="thread-8">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <span class="col-j">Ｊ</span> <span class="col-v">Ｖ</span>
+                <summary class="grid" id="thread-8">
+                    <div class="s10 m2 l2 sender">
+                        <img crass="mini-icon emoji" src="../../img/emoji-cloud.svg" width="16" height="16" alt="ジュニパー"> <img crass="mini-icon emoji" src="../../img/emoji-red-crayon.svg" width="16" height="16" alt="バーミリオン">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">2-4　コールドスリープの副作用</div>
+                    <div class="s2 m2 l1 nobr ship-day">2<span class="ship-day-sub">-4</span></div>
+                    <div class="s12 m6 l7 subject">コールドスリープの副作用</div>
                 </summary>
                 <blockquote class="nocite lbd-j">
                     <p>やあバーミリオン,</p>
@@ -392,13 +364,12 @@
 
 
             <details>
-                <summary class="grid small-space" id="thread-9">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <span class="col-m">Ｍ</span> <span class="col-j">Ｊ</span>
+                <summary class="grid" id="thread-9">
+                    <div class="s10 m2 l2 sender">
+                        <img crass="mini-icon emoji" src="../../img/emoji-orange.svg" width="16" height="16" alt="ママレード"> <img crass="mini-icon emoji" src="../../img/emoji-cloud.svg" width="16" height="16" alt="ジュニパー">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">2-5　航法システムのメンテ</div>
+                    <div class="s2 m2 l1 nobr ship-day">2<span class="ship-day-sub">-5</span></div>
+                    <div class="s12 m6 l7 subject">航法システムのメンテ</div>
                 </summary>
                 <blockquote class="nocite lbd-m">
                     <p>ようジュニパー,</p>
@@ -417,13 +388,12 @@
 
 
             <details>
-                <summary class="grid small-space" id="thread-10">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <span class="col-c">Ｃ</span> <span class="col-j">Ｊ</span>
+                <summary class="grid" id="thread-10">
+                    <div class="s10 m2 l2 sender">
+                        <img crass="mini-icon emoji" src="../../img/emoji-baby-chick.svg" width="16" height="16" alt="カナリア"> <img crass="mini-icon emoji" src="../../img/emoji-cloud.svg" width="16" height="16" alt="ジュニパー">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">2-6　航行報告</div>
+                    <div class="s2 m2 l1 nobr ship-day">2<span class="ship-day-sub">-6</span></div>
+                    <div class="s12 m6 l7 subject">航行報告</div>
                 </summary>
                 <blockquote class="nocite lbd-c">
                     <p>こんにちは、ジュニパー,</p>
@@ -440,31 +410,17 @@
                     <p>close</p>
                 </a><a title="閉じる" href="#thread-10" class="close-details right" onclick="document.getElementById('thread-10').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
+            <!-- #endregion -->
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <!-- 3 -->
-
+            <!-- #region @@@3 -->
             <details class="mt-4">
-                <summary class="grid small-space" id="thread-11">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <span class="col-c">Ｃ</span>
+                <summary class="grid" id="thread-11">
+                    <div class="s10 m2 l2 sender">
+                        <img crass="mini-icon emoji" src="../../img/emoji-baby-chick.svg" width="16" height="16" alt="カナリア"><img class="mini-icon emoji" src="../../img/infinity.svg" width="14" height="14" alt="all">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">3-1　調査手順について一言</div>
+                    <div class="s2 m2 l1 nobr ship-day">3<span class="ship-day-sub">-1</span></div>
+                    <div class="s12 m6 l7 subject">調査手順について一言</div>
                 </summary>
                 <blockquote class="nocite lbd-c">
                     <p>皆さん、お早うございます,</p>
@@ -480,13 +436,12 @@
 
 
             <details>
-                <summary class="grid small-space" id="thread-12">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <span class="col-j">Ｊ</span> <span class="col-p">Ｐ</span>
+                <summary class="grid" id="thread-12">
+                    <div class="s10 m2 l2 sender">
+                        <img crass="mini-icon emoji" src="../../img/emoji-cloud.svg" width="16" height="16" alt="ジュニパー"> <img crass="mini-icon emoji" src="../../img/emoji-leaf.svg" width="16" height="16" alt="ピスタチオ">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">3-2　頼み</div>
+                    <div class="s2 m2 l1 nobr ship-day">3<span class="ship-day-sub">-2</span></div>
+                    <div class="s12 m6 l7 subject">頼み</div>
                 </summary>
                 <blockquote class="nocite lbd-j">
                     <p>ようピスタチオ,</p>
@@ -505,13 +460,12 @@
 
 
             <details>
-                <summary class="grid small-space" id="thread-13">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <span class="col-v">Ｖ</span>
+                <summary class="grid" id="thread-13">
+                    <div class="s10 m2 l2 sender">
+                        <img crass="mini-icon emoji" src="../../img/emoji-red-crayon.svg" width="16" height="16" alt="バーミリオン"><img class="mini-icon emoji" src="../../img/infinity.svg" width="14" height="14" alt="all">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">3-3　ご協力に感謝！ では強制運動政権についてお時間を拝借</div>
+                    <div class="s2 m2 l1 nobr ship-day">3<span class="ship-day-sub">-3</span></div>
+                    <div class="s12 m6 l7 subject">ご協力に感謝！ では強制運動政権についてお時間を拝借</div>
                 </summary>
                 <blockquote class="nocite lbd-v">
                     <p>皆も承知だろうが、任務期間中は健康維持が不可欠。これは、君たちの身体、そして精神の健康維持をあらゆる面で助け、もちろん私の仕事も楽にするものだ。</p>
@@ -526,13 +480,12 @@
 
 
             <details>
-                <summary class="grid small-space" id="thread-14">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <span class="col-v">Ｖ</span> <span class="col-c">Ｃ</span>
+                <summary class="grid" id="thread-14">
+                    <div class="s10 m2 l2 sender">
+                        <img crass="mini-icon emoji" src="../../img/emoji-red-crayon.svg" width="16" height="16" alt="バーミリオン"> <img crass="mini-icon emoji" src="../../img/emoji-baby-chick.svg" width="16" height="16" alt="カナリア">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">3-4　お茶を</div>
+                    <div class="s2 m2 l1 nobr ship-day">3<span class="ship-day-sub">-4</span></div>
+                    <div class="s12 m6 l7 subject">お茶を</div>
                 </summary>
                 <blockquote class="nocite lbd-v">
                     <p>こんにちは、カナリア,</p>
@@ -547,31 +500,17 @@
                     <p>close</p>
                 </a><a title="閉じる" href="#thread-14" class="close-details right" onclick="document.getElementById('thread-14').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
+            <!-- #endregion -->
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <!-- 4 -->
-
+            <!-- #region @@@4 -->
             <details class="mt-4">
-                <summary class="grid small-space" id="thread-15">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <span class="col-m">Ｍ</span> <span class="col-j">Ｊ</span>
+                <summary class="grid" id="thread-15">
+                    <div class="s10 m2 l2 sender">
+                        <img crass="mini-icon emoji" src="../../img/emoji-orange.svg" width="16" height="16" alt="ママレード"> <img crass="mini-icon emoji" src="../../img/emoji-cloud.svg" width="16" height="16" alt="ジュニパー">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">4-1　船外活動申請</div>
+                    <div class="s2 m2 l1 nobr ship-day">4<span class="ship-day-sub">-1</span></div>
+                    <div class="s12 m6 l7 subject">船外活動申請</div>
                 </summary>
                 <blockquote class="nocite lbd-m">
                     <p>おはようジュニパー,</p>
@@ -593,13 +532,12 @@
 
 
             <details>
-                <summary class="grid small-space" id="thread-16">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <span class="col-j">Ｊ</span> <span class="col-s">Ｓ</span>
+                <summary class="grid" id="thread-16">
+                    <div class="s10 m2 l2 sender">
+                        <img crass="mini-icon emoji" src="../../img/emoji-cloud.svg" width="16" height="16" alt="ジュニパー"> <img crass="mini-icon emoji" src="../../img/emoji-swan.svg" width="16" height="16" alt="スワン">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">4-2　船外活動申請</div>
+                    <div class="s2 m2 l1 nobr ship-day">4<span class="ship-day-sub">-2</span></div>
+                    <div class="s12 m6 l7 subject">船外活動申請</div>
                 </summary>
                 <blockquote class="nocite lbd-j">
                     <p>アホイ、キャプテン,</p>
@@ -611,6 +549,7 @@
                     <p>アホイ、ジュニパー（初めて聞きました…）</p>
                     <p>申請書に目を通しました。SA13、0900からの船外活動を承認します。</p>
                 </blockquote>
+
                 <a title="閉じる" href="#thread-16" class="close-details" onclick="document.getElementById('thread-16').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
                 </a><a title="閉じる" href="#thread-16" class="close-details right" onclick="document.getElementById('thread-16').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
@@ -618,13 +557,12 @@
 
 
             <details>
-                <summary class="grid small-space" id="thread-17">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <span class="col-m">Ｍ</span> <span class="col-c">Ｃ</span>
+                <summary class="grid" id="thread-17">
+                    <div class="s10 m2 l2 sender">
+                        <img crass="mini-icon emoji" src="../../img/emoji-orange.svg" width="16" height="16" alt="ママレード"> <img crass="mini-icon emoji" src="../../img/emoji-baby-chick.svg" width="16" height="16" alt="カナリア"><img class="mini-icon emoji" src="../../img/infinity.svg" width="14" height="14" alt="all">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">4-3a　最重要メンテ終了、協力ありがとう。さあ、どんと来い！</div>
+                    <div class="s2 m2 l1 nobr ship-day">4<span class="ship-day-sub">-3a</span></div>
+                    <div class="s12 m6 l7 subject">最重要メンテ終了、協力ありがとう。さあ、どんと来い！</div>
                 </summary>
                 <blockquote class="nocite lbd-m">
                     <p>やあみんな,</p>
@@ -649,13 +587,12 @@
 
 
             <details>
-                <summary class="grid small-space" id="thread-17b">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <span class="col-m">Ｍ</span> <span class="col-p">Ｐ</span>
+                <summary class="grid" id="thread-17b">
+                    <div class="s10 m2 l2 sender">
+                        <img crass="mini-icon emoji" src="../../img/emoji-orange.svg" width="16" height="16" alt="ママレード"> <img crass="mini-icon emoji" src="../../img/emoji-leaf.svg" width="16" height="16" alt="ピスタチオ">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">4-3b　〃</div>
+                    <div class="s2 m2 l1 nobr ship-day">4<span class="ship-day-sub">-3b</span></div>
+                    <div class="s12 m6 l7 subject">〃</div>
                 </summary>
                 <blockquote class="nocite lbd-m">
                     <p>やあみんな,</p>
@@ -672,6 +609,7 @@
                 <blockquote class="nocite lbd-m">
                     <p>はは、後で顔を出すよ。俺にできる事を見てみよう。</p>
                 </blockquote>
+
                 <a title="閉じる" href="#thread-17b" class="close-details" onclick="document.getElementById('thread-17b').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
                 </a><a title="閉じる" href="#thread-17b" class="close-details right" onclick="document.getElementById('thread-17b').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
@@ -679,13 +617,12 @@
 
 
             <details>
-                <summary class="grid small-space" id="thread-18">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <span class="col-p">Ｐ</span> <span class="col-a">Ａ</span>
+                <summary class="grid" id="thread-18">
+                    <div class="s10 m2 l2 sender">
+                        <img crass="mini-icon emoji" src="../../img/emoji-leaf.svg" width="16" height="16" alt="ピスタチオ"> <img crass="mini-icon emoji" src="../../img/emoji-aubergine.svg" width="16" height="16" alt="ナス">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">4-4　カメラ映像</div>
+                    <div class="s2 m2 l1 nobr ship-day">4<span class="ship-day-sub">-4</span></div>
+                    <div class="s12 m6 l7 subject">カメラ映像</div>
                 </summary>
                 <blockquote class="nocite lbd-p">
                     <p>やあナス,</p>
@@ -703,35 +640,23 @@
                     <p>うん！ ありがとう！</p>
                     <p>ピスタチオ</p>
                 </blockquote>
+
                 <a title="閉じる" href="#thread-18" class="close-details" onclick="document.getElementById('thread-18').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
                 </a><a title="閉じる" href="#thread-18" class="close-details right" onclick="document.getElementById('thread-18').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
+            <!-- #endregion -->
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <!-- 5 -->
+            <!-- #region @@@5 -->
 
             <details class="mt-4">
-                <summary class="grid small-space" id="thread-19">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <span class="col-j">Ｊ</span> <span class="col-m">Ｍ</span>
+                <summary class="grid" id="thread-19">
+                    <div class="s10 m2 l2 sender">
+                        <img crass="mini-icon emoji" src="../../img/emoji-cloud.svg" width="16" height="16" alt="ジュニパー"> <img crass="mini-icon emoji" src="../../img/emoji-orange.svg" width="16" height="16" alt="ママレード">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">5-1　喋りすぎだろ！ 聞き疲れたわ！</div>
+                    <div class="s2 m2 l1 nobr ship-day">5<span class="ship-day-sub">-1</span></div>
+                    <div class="s12 m6 l7 subject">喋りすぎだろ！ 聞き疲れたわ！</div>
                 </summary>
                 <blockquote class="nocite lbd-j">
                     <p>てのは冗談で、昨夜はすげー楽しかった。またやろう！</p>
@@ -744,13 +669,12 @@
 
 
             <details>
-                <summary class="grid small-space" id="thread-20">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <span class="col-v">Ｖ</span>
+                <summary class="grid" id="thread-20">
+                    <div class="s10 m2 l2 sender">
+                        <img crass="mini-icon emoji" src="../../img/emoji-red-crayon.svg" width="16" height="16" alt="バーミリオン"><img class="mini-icon emoji" src="../../img/infinity.svg" width="14" height="14" alt="all">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">5-2　船員日誌</div>
+                    <div class="s2 m2 l1 nobr ship-day">5<span class="ship-day-sub">-2</span></div>
+                    <div class="s12 m6 l7 subject">船員日誌</div>
                 </summary>
                 <blockquote class="nocite lbd-v">
                     <p>やあ、皆さん,</p>
@@ -766,13 +690,12 @@
 
 
             <details>
-                <summary class="grid small-space" id="thread-21">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <span class="col-c">Ｃ</span>
+                <summary class="grid" id="thread-21">
+                    <div class="s10 m2 l2 sender">
+                        <img crass="mini-icon emoji" src="../../img/emoji-baby-chick.svg" width="16" height="16" alt="カナリア"><img class="mini-icon emoji" src="../../img/infinity.svg" width="14" height="14" alt="all">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">5-3　職場のエチケットについて注意喚起</div>
+                    <div class="s2 m2 l1 nobr ship-day">5<span class="ship-day-sub">-3</span></div>
+                    <div class="s12 m6 l7 subject">職場のエチケットについて注意喚起</div>
                 </summary>
                 <blockquote class="nocite lbd-c">
                     <p>皆さん、お早うございます,</p>
@@ -788,13 +711,12 @@
 
 
             <details>
-                <summary class="grid small-space" id="thread-22">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <span class="col-j">Ｊ</span> <span class="col-p">Ｐ</span>
+                <summary class="grid" id="thread-22">
+                    <div class="s10 m2 l2 sender">
+                        <img crass="mini-icon emoji" src="../../img/emoji-cloud.svg" width="16" height="16" alt="ジュニパー"> <img crass="mini-icon emoji" src="../../img/emoji-leaf.svg" width="16" height="16" alt="ピスタチオ">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">5-4　[件名なし]</div>
+                    <div class="s2 m2 l1 nobr ship-day">5<span class="ship-day-sub">-4</span></div>
+                    <div class="s12 m6 l7 subject">[件名なし]</div>
                 </summary>
                 <blockquote class="nocite lbd-j">
                     <p>「しかも裸足で」</p>
@@ -810,13 +732,12 @@
 
 
             <details>
-                <summary class="grid small-space" id="thread-23">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <span class="col-c">Ｃ</span> <span class="col-s">Ｓ</span>
+                <summary class="grid" id="thread-23">
+                    <div class="s10 m2 l2 sender">
+                        <img crass="mini-icon emoji" src="../../img/emoji-baby-chick.svg" width="16" height="16" alt="カナリア"> <img crass="mini-icon emoji" src="../../img/emoji-swan.svg" width="16" height="16" alt="スワン">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">5-5　調査手順の会議要請</div>
+                    <div class="s2 m2 l1 nobr ship-day">5<span class="ship-day-sub">-5</span></div>
+                    <div class="s12 m6 l7 subject">調査手順の会議要請</div>
                 </summary>
                 <blockquote class="nocite lbd-c">
                     <p>こんにちは、キャプテン,</p>
@@ -836,13 +757,12 @@
 
 
             <details>
-                <summary class="grid small-space" id="thread-24">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <span class="col-p">Ｐ</span> <span class="col-j">Ｊ</span>
+                <summary class="grid" id="thread-24">
+                    <div class="s10 m2 l2 sender">
+                        <img crass="mini-icon emoji" src="../../img/emoji-leaf.svg" width="16" height="16" alt="ピスタチオ"> <img crass="mini-icon emoji" src="../../img/emoji-cloud.svg" width="16" height="16" alt="ジュニパー"><img class="mini-icon emoji" src="../../img/infinity.svg" width="14" height="14" alt="all">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">5-6　セーブルが心配</div>
+                    <div class="s2 m2 l1 nobr ship-day">5<span class="ship-day-sub">-6</span></div>
+                    <div class="s12 m6 l7 subject">セーブルが心配</div>
                 </summary>
                 <blockquote class="nocite lbd-p">
                     <p>やあみんな,</p>
@@ -858,31 +778,17 @@
                     <p>close</p>
                 </a><a title="閉じる" href="#thread-24" class="close-details right" onclick="document.getElementById('thread-24').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
+            <!-- #endregion -->
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <!-- 6 -->
-
+            <!-- #region @@@6 -->
             <details class="mt-4">
-                <summary class="grid small-space" id="thread-25">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <span class="col-c">Ｃ</span>
+                <summary class="grid" id="thread-25">
+                    <div class="s10 m2 l2 sender">
+                        <img crass="mini-icon emoji" src="../../img/emoji-baby-chick.svg" width="16" height="16" alt="カナリア"><img class="mini-icon emoji" src="../../img/infinity.svg" width="14" height="14" alt="all">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">6-1　[要出席] 調査手順の会議</div>
+                    <div class="s2 m2 l1 nobr ship-day">6<span class="ship-day-sub">-1</span></div>
+                    <div class="s12 m6 l7 subject">[要出席] 調査手順の会議</div>
                 </summary>
                 <blockquote class="nocite lbd-c">
                     <p>皆さん、こんにちは,</p>
@@ -890,6 +796,7 @@
                     <p>では後ほど,</p>
                     <p>カナリア</p>
                 </blockquote>
+
                 <a title="閉じる" href="#thread-25" class="close-details" onclick="document.getElementById('thread-25').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
                 </a><a title="閉じる" href="#thread-25" class="close-details right" onclick="document.getElementById('thread-25').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
@@ -897,13 +804,12 @@
 
 
             <details>
-                <summary class="grid small-space" id="thread-26">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <span class="col-p">Ｐ</span> <span class="col-j">Ｊ</span>
+                <summary class="grid" id="thread-26">
+                    <div class="s10 m2 l2 sender">
+                        <img crass="mini-icon emoji" src="../../img/emoji-leaf.svg" width="16" height="16" alt="ピスタチオ"> <img crass="mini-icon emoji" src="../../img/emoji-cloud.svg" width="16" height="16" alt="ジュニパー">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">6-2　FW: [要出席] 調査手順の会議</div>
+                    <div class="s2 m2 l1 nobr ship-day">6<span class="ship-day-sub">-2</span></div>
+                    <div class="s12 m6 l7 subject">FW: [要出席] 調査手順の会議</div>
                 </summary>
                 <blockquote class="nocite lbd-p">
                     <p>"皆さん、こんにちは,</p>
@@ -919,6 +825,7 @@
                 <blockquote class="nocite lbd-p">
                     <p>君ってほんとバカ。</p>
                 </blockquote>
+
                 <a title="閉じる" href="#thread-26" class="close-details" onclick="document.getElementById('thread-26').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
                 </a><a title="閉じる" href="#thread-26" class="close-details right" onclick="document.getElementById('thread-26').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
@@ -926,13 +833,12 @@
 
 
             <details>
-                <summary class="grid small-space" id="thread-27">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <span class="col-a">Ａ</span>
+                <summary class="grid" id="thread-27">
+                    <div class="s10 m2 l2 sender">
+                        <img crass="mini-icon emoji" src="../../img/emoji-aubergine.svg" width="16" height="16" alt="ナス"><img class="mini-icon emoji" src="../../img/infinity.svg" width="14" height="14" alt="all">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">6-3　OSのアップデート</div>
+                    <div class="s2 m2 l1 nobr ship-day">6<span class="ship-day-sub">-3</span></div>
+                    <div class="s12 m6 l7 subject">OSのアップデート</div>
                 </summary>
                 <blockquote class="nocite lbd-a">
                     <p>やあ、皆,</p>
@@ -941,6 +847,7 @@
                     <p>よろしく,</p>
                     <p>ナス</p>
                 </blockquote>
+
                 <a title="閉じる" href="#thread-27" class="close-details" onclick="document.getElementById('thread-27').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
                 </a><a title="閉じる" href="#thread-27" class="close-details right" onclick="document.getElementById('thread-27').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
@@ -948,13 +855,12 @@
 
 
             <details>
-                <summary class="grid small-space" id="thread-28">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <span class="col-c">Ｃ</span> <span class="col-p">Ｐ</span>
+                <summary class="grid" id="thread-28">
+                    <div class="s10 m2 l2 sender">
+                        <img crass="mini-icon emoji" src="../../img/emoji-baby-chick.svg" width="16" height="16" alt="カナリア"> <img crass="mini-icon emoji" src="../../img/emoji-leaf.svg" width="16" height="16" alt="ピスタチオ">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">6-4　研究室の整頓・清掃</div>
+                    <div class="s2 m2 l1 nobr ship-day">6<span class="ship-day-sub">-4</span></div>
+                    <div class="s12 m6 l7 subject">研究室の整頓・清掃</div>
                 </summary>
                 <blockquote class="nocite lbd-c">
                     <p>ピスタチオ,</p>
@@ -971,6 +877,7 @@
                     <p>やはり、私が持っておくことにします。最適な育て方の資料があれば、ぜひ教えていただけますか。</p>
                     <p>カナリア</p>
                 </blockquote>
+
                 <a title="閉じる" href="#thread-28" class="close-details" onclick="document.getElementById('thread-28').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
                 </a><a title="閉じる" href="#thread-28" class="close-details right" onclick="document.getElementById('thread-28').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
@@ -978,13 +885,12 @@
 
 
             <details>
-                <summary class="grid small-space" id="thread-29">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <span class="col-j">Ｊ</span> <span class="col-m">Ｍ</span>
+                <summary class="grid" id="thread-29">
+                    <div class="s10 m2 l2 sender">
+                        <img crass="mini-icon emoji" src="../../img/emoji-cloud.svg" width="16" height="16" alt="ジュニパー"> <img crass="mini-icon emoji" src="../../img/emoji-orange.svg" width="16" height="16" alt="ママレード">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">6-5　下心ありのお世辞メール</div>
+                    <div class="s2 m2 l1 nobr ship-day">6<span class="ship-day-sub">-5</span></div>
+                    <div class="s12 m6 l7 subject">下心ありのお世辞メール</div>
                 </summary>
                 <blockquote class="nocite lbd-j">
                     <p>こないだの夜、スケッチを見たけどマジですごいな。絵、描けるんだ！ 今みんなにゲームナイトを計画しててさ（まだ秘密）、船を飾るポスターを描いてくれない？</p>
@@ -995,35 +901,23 @@
                     <p>いいぜ！ 具体的にどんな感じにしたいか、今夜にでも話そう。2、3日でできると思う。</p>
                     <p>M</p>
                 </blockquote>
+
                 <a title="閉じる" href="#thread-29" class="close-details" onclick="document.getElementById('thread-29').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
                 </a><a title="閉じる" href="#thread-29" class="close-details right" onclick="document.getElementById('thread-29').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
+            <!-- #endregion -->
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <!-- 7 -->
+            <!-- #region @@@7 -->
 
             <details class="mt-4">
-                <summary class="grid small-space" id="thread-30">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <span class="col-a">Ａ</span> <span class="col-m">Ｍ</span>
+                <summary class="grid" id="thread-30">
+                    <div class="s10 m2 l2 sender">
+                        <img crass="mini-icon emoji" src="../../img/emoji-aubergine.svg" width="16" height="16" alt="ナス"> <img crass="mini-icon emoji" src="../../img/emoji-orange.svg" width="16" height="16" alt="ママレード">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">7-1　グラインダーある？</div>
+                    <div class="s2 m2 l1 nobr ship-day">7<span class="ship-day-sub">-1</span></div>
+                    <div class="s12 m6 l7 subject">グラインダーある？</div>
                 </summary>
                 <blockquote class="nocite lbd-a">
                     <p>やあ、ママレード,</p>
@@ -1035,11 +929,29 @@
                     <p>ああ、持ってる。作業場に寄ってくれ。用意しとく。</p>
                     <p>M</p>
                 </blockquote>
+
                 <a title="閉じる" href="#thread-30" class="close-details" onclick="document.getElementById('thread-30').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
                 </a><a title="閉じる" href="#thread-30" class="close-details right" onclick="document.getElementById('thread-30').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
+            <!-- #endregion -->
 
+        </div>
+        <!-- btn -->
+        <div class="yugo-navi center-align mt-4">
+            <p class="zz font-small">週：<br>
+                <a class="btn" href="mail.html">1</span></a>
+                <a class="btn" href="mail-week-02.html">2</a>
+                <a class="btn" href="mail-week-03.html">3</a>
+                <a class="btn" href="mail-week-04.html">4</a>
+                <a class="btn" href="mail-week-05.html">5</a>
+                <a class="btn" href="mail-week-06.html">6</a>
+                <a class="btn" href="mail-week-07.html">7</a>
+                <a class="btn" href="mail-week-08.html">8</a>
+                <a class="btn" href="mail-week-09.html">9</a>
+                <a class="btn" href="mail-week-10.html">10</a>
+                <a class="btn" href="mail-week-11.html">11</a>
+            </p>
         </div>
     </main>
 
