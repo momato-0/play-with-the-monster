@@ -44,9 +44,7 @@
 
          .sender,
          .ship-day {
-             display: inline;
              font-size: var(--size-13px);
-             max-height: 1lh;
              overflow: hidden;
              margin: auto 0;
          }
@@ -55,7 +53,20 @@
              font-weight: 500;
          }
 
+         .big-bd {
+             border-radius: .2rem;
+             border: 2px solid #ffffff75;
+         }
+
+
          /*-- colors --*/
+         .member-icons {
+             max-inline-size: 80%;
+             border: 1px solid #ffffff75;
+             border-radius: .2rem;
+             padding: .5rem;
+         }
+
          .lbd-v {
              border-left: 5px solid hsl(0, 100%, 61%);
          }

@@ -8,7 +8,7 @@ body.dark {
     --my-lgreen: #d5ffd3;
     --my-blue: #a8fcff;
     --my-lblue: #d2fafd;
-    --my-lblue-l: #bcffe0;
+    --my-lblue-l: #a1ffc5;
     /* body-bg */
     --surface: #181210;
     --on-surface: #ede0dc;
@@ -24,7 +24,7 @@ body.dark {
 
     /* -----　　🏠 Base　　　----- */
     font-size: clamp(.65rem, calc(.7rem + 1vw), 1.1rem);
-    line-height: 1.6;
+    line-height: 1.8;
     letter-spacing: 0.06em;
     counter-reset: h2-counter;
 }
@@ -398,6 +398,7 @@ details h5 {
     margin-left: .5rem;
 }
 
+
 .color-change details:nth-child(2n) {
     background-color: #99757511;
 }
@@ -755,13 +756,23 @@ p.font-larger {
     background-color: #111;
 }
 
-.mini-icon {
+.mini-icon,
+.dash {
     margin: 0 .4rem;
+}
+
+.mini-icon,
+.han {
     filter: invert(1);
 }
 
 .emoji {
     vertical-align: -3px;
+}
+
+.dash {
+    inline-size: 2em;
+    block-size: 1em;
 }
 
 .babo-unit {

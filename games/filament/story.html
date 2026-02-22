@@ -31,7 +31,8 @@
 
         .title-i {
             vertical-align: -3px;
-            padding: 0 2px;
+            padding: 0;
+            margin: 0;
             inline-size: 26px;
             block-size: 26px;
         }
@@ -78,49 +79,65 @@
             font-weight: 400;
             border-color: #7b5fbf;
         }
+
+        .member-icons {
+            max-inline-size: 80%;
+            border: 1px solid #ffffff75;
+            border-radius: .2rem;
+            padding: .5rem;
+        }
+
+        .str-num {
+            font-size: var(--size-13px);
+            font-weight: 500;
+            margin: auto 0;
+        }
+
+        .str-title {
+            margin: auto 0;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
     </style>
 </head>
 
 
 <body class="dark">
     <div id="global-nav"></div>
-
-
     <header class="fixed pankuz">
         <p class="font-smaller"><a href="../../index.html">HOME</a> > <a href="filament-guide.html">FILAMENT</a> > ストーリー＆解説</p>
     </header>
-
 
     <main class="responsive">
         <div class="h1-wrapp nobr">
             <h1>FILAMENT<br><span style="color: #c9b7ff;">ストーリー<wbr>・解説</span></h1>
         </div>
+        <p class="my-orange center-align mt-3">※ 解説はストーリー・メール・日誌など、すべて含んだネタバレがあります。</p>
 
-        <p class="my-orange center-align mt-3">※ 解説はストーリー・メール・日誌など、すべて込みのネタバレがあります。</p>
-
-        <p class="font-small">
-            <img src="../../img/star.svg" width="16" height="16" alt="スター">：だいじ<br>
-            <img src="../../img/earth.svg" width="16" height="16" alt="地球">：地球に関係<br>
-            <img src="../../img/anchor.svg" width="16" height="16" alt="宇宙">：宇宙／大地のテーマ<br>
-            <img src="../../img/pencil.svg" width="16" height="16" alt="鉛筆">：ほか、コメントあり
-        </p>
-        <p class="font-small">※ TFC ＝ フィラメント社</p>
+        <div class="grid gap-small font-small center member-icons">
+            <div class="s12 m6 l4"><img src="../../img/star.svg" width="16" height="16" alt="スター">：だいじ</div>
+            <div class="s12 m6 l4"><img src="../../img/earth.svg" width="16" height="16" alt="地球">：地球に関係</div>
+            <div class="s12 m6 l4"><img src="../../img/anchor.svg" width="16" height="16" alt="宇宙">：宇宙／大地のテーマ</div>
+            <div class="s12 m6 l4"><img src="../../img/pencil.svg" width="16" height="16" alt="鉛筆">：ほか、コメントあり</div>
+            <div class="s12 m6 l4">※ TFC ＝ フィラメント社</div>
+        </div>
 
 
         <div class="color-change">
 
             <!-- #region @@@0 -->
             <details class="mt-4">
-                <summary class="grid small-space" id="thread-00">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
+                <summary class="grid" id="thread-00">
+                    <div class="s2 m2 l1 str-num">#00</div>
+                    <div class="s7 m7 l8 nobr str-title">イントロ</div>
+                    <div class="s3 m3 l3 nobr">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
+                        <wbr>
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                     </div>
 
-                    <div class="s5 m8 l8 nobr">00　イントロ</div>
                 </summary>
                 <blockquote class="nocite">
                     <p>警告　宇宙船に接近中<br>
@@ -157,15 +174,16 @@
 
             <!-- #region @@@1 -->
             <details>
-                <summary class="grid small-space" id="thread-01">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
+                <summary class="grid" id="thread-01">
+                    <div class="s2 m2 l1 str-num">#01</div>
+                    <div class="s7 m7 l8 nobr str-title">区画にて ①</div>
+                    <div class="s3 m3 l3 nobr">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
+                        <wbr>
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                     </div>
-                    <div class="s5 m8 l8 nobr">01　区画にて ①</div>
                 </summary>
                 <blockquote class="nocite">
                     <p>おやおや、見てみろよ！ 侵入者だ！</p>
@@ -182,16 +200,16 @@
 
             <!-- #region @@@2 -->
             <details>
-                <summary class="grid small-space" id="thread-02">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
+                <summary class="grid" id="thread-02">
+                    <div class="s2 m2 l1 str-num">#02</div>
+                    <div class="s7 m7 l8 nobr str-title">区画にて ②</div>
+                    <div class="s3 m3 l3 nobr">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
+                        <wbr>
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">02　区画にて ②</div>
                 </summary>
                 <blockquote class="nocite">
                     <p>へえ、やるじゃん。素質あるよ君。<br>完全にシャットダウンか、考えてみたら最適解だ。</p>
@@ -209,15 +227,17 @@
 
             <!-- #region @@@3 -->
             <details>
-                <summary class="grid small-space" id="thread-03">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
+                <summary class="grid" id="thread-03">
+                    <div class="s2 m2 l1 str-num">#03</div>
+                    <div class="s7 m7 l8 nobr str-title">名前</div>
+                    <div class="s3 m3 l3 nobr">
                         <img src="../../img/star.svg" class="title-i" width="18" height="18" alt="スター">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
+                        <wbr>
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                     </div>
-                    <div class="s5 m8 l8 nobr">03　名前</div>
+
                 </summary>
                 <blockquote class="nocite">
                     <p>ちなみに、私の名前はジュニパー。<br>君は名乗る気ないみたいだし、私がつけてあげるよ。</p>
@@ -260,15 +280,16 @@
 
             <!-- #region @@@4 -->
             <details>
-                <summary class="grid small-space" id="thread-04">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
+                <summary class="grid" id="thread-04">
+                    <div class="s2 m2 l1 str-num">#04</div>
+                    <div class="s7 m7 l8 nobr str-title">船員たち ①　<wbr><span class="my-lblue font-small">／自分はここにいる</span></div>
+                    <div class="s3 m3 l3 nobr">
                         <img src="../../img/star.svg" class="title-i" width="18" height="18" alt="スター">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
+                        <wbr>
                         <img src="../../img/anchor.svg" class="title-i" width="18" height="18" alt="宇宙">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                     </div>
-                    <div class="s5 m8 l8 nobr">04　船員たち ①<wbr><span class="my-lblue font-small">　／自分はここにいる</span></div>
                 </summary>
                 <blockquote class="nocite">
                     <p>数週間、独り言だけだった。<br>誰かが聞いてくれるのは、本当にいい気分だ。</p>
@@ -283,7 +304,7 @@
 
                 <h4>ぐらつく足を地面に<img class="jel-2" src="../../img/anchor.svg" width="18" height="18" alt="宇宙／大地のテーマ"></h4>
                 <blockquote class="lbd nocite font-small">
-                    <p>all I needed was an audience to feel a little more <span class="my-b">grounded</span>.<br>ぐらつく足を地面に繋ぐのは、観客だったんだ。<br><span class="font-smaller thought">※ ここは音声が早くて、訳をかなり短く削ってる。</span></p>
+                    <p>all I needed was an audience to feel a little more <span class="my-b">grounded</span>.<br>ぐらつく足を地面に繋ぐのは、観客だったんだ。</p>
                 </blockquote>
 
                 <p>grounded［地に足を付ける／精神的に落ち着く］<br>船を大地に繋ぐアンカー、そして<span class="my-b">ピスタチオが裸足で土を踏む</span>のを思い出す単語。<button class="chip ch-k">
@@ -322,17 +343,17 @@
 
             <!-- #region @@@5 -->
             <details>
-                <summary class="grid small-space" id="thread-05">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
+                <summary class="grid" id="thread-05">
+                    <div class="s2 m2 l1 str-num">#05</div>
+                    <div class="s7 m7 l8 nobr str-title">船員たち ②　<wbr><span class="my-lblue font-small">／ブレックファスト・クラブ</span></div>
+                    <div class="s3 m3 l3 nobr">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/earth.svg" class="title-i" width="18" height="18" alt="地球">
+                        <wbr>
                         <img src="../../img/anchor.svg" class="title-i" width="18" height="18" alt="宇宙">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
 
                     </div>
-
-                    <div class="s5 m8 l8 nobr">05　船員たち ②<wbr><span class="my-lblue font-small">　／ブレックファスト・<wbr>クラブ</span></div>
                 </summary>
                 <blockquote class="nocite">
                     <p>この船を歩き回るのは、知らない人の家をうろつくようなもんだろ？<br>だから、私たちの『ブレックファスト・クラブ』を紹介してあげるよ。</p>
@@ -373,16 +394,16 @@
 
             <!-- #region @@@6 -->
             <details>
-                <summary class="grid small-space" id="thread-06">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
+                <summary class="grid" id="thread-06">
+                    <div class="s2 m2 l1 str-num">#06</div>
+                    <div class="s7 m7 l8 nobr str-title">アンカー</div>
+                    <div class="s3 m3 l3 nobr">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
+                        <wbr>
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/pencil.svg" class="title-i" width="18" height="18" alt="鉛筆">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">06　アンカー</div>
                 </summary>
                 <blockquote class="nocite">
                     <p>プルート、君はここに来てまだ1公転も経たないのに、私よりずっとアンカーに詳しいね。</p>
@@ -422,17 +443,17 @@
 
             <!-- #region @@@7 -->
             <details>
-                <summary class="grid small-space" id="thread-07">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
+                <summary class="grid" id="thread-07">
+                    <div class="s2 m2 l1 str-num">#07</div>
+                    <div class="s7 m7 l8 nobr str-title">乗船　<wbr><span class="my-lblue font-small">／刈りたての草</span></div>
+                    <div class="s3 m3 l3 nobr">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/earth.svg" class="title-i" width="18" height="18" alt="地球">
+                        <wbr>
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
 
                     </div>
-
-                    <div class="s5 m8 l8 nobr">07　乗船<wbr><span class="my-lblue font-small">　／刈りたての草</span></div>
                 </summary>
                 <blockquote class="nocite">
                     <p>この船に乗り込んで、最初に気づいたのは何だった？<br>
@@ -458,16 +479,18 @@
 
             <!-- #region @@@8 -->
             <details>
-                <summary class="grid small-space" id="thread-08">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
+                <summary class="grid" id="thread-08">
+                    <div class="s2 m2 l1 str-num">#08</div>
+                    <div class="s7 m7 l8 nobr str-title">カロリーペースト　<wbr><span class="my-lblue font-small">／メシマズ</span></div>
+                    <div class="s3 m3 l3 nobr">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/earth.svg" class="title-i" width="18" height="18" alt="地球">
+                        <wbr>
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
 
                     </div>
-                    <div class="s5 m8 l8 nobr">08　カロリーペースト<wbr><span class="my-lblue font-small">　／メシマズ</span></div>
+
                 </summary>
                 <blockquote class="nocite">
                     <p>コックピットにいる間、ずっと非常用カロリーペーストを食べてる。<br>非常用ペーストに、味が何種類あるか知ってる？</p>
@@ -503,15 +526,15 @@
 
                 <p>まずはそう読める。<br>で、ものすごく難しいのだが、どうやらさらに皮肉が掛かっているようだ。</p>
 
-                <p class="mt-4">私は、彼女が地球出身だと睨んでいる。そしてかなりの皮肉屋だ。<br>彼女は<strong>「飯が本当にマズい」</strong>と言いたい。それを前提にセリフを読むと、こうなる：</p>
+                <p class="mt-4">私は、彼女が地球出身だと睨んでいる。そしてかなりの皮肉屋だ。<br>彼女は<strong>「ペーストが本当にマズい」</strong>と言いたい。それを前提にセリフを読むと、こうなる：</p>
 
                 <ul class="lbd font-small my-lblue">
                     <li>両方にヘドが出る　　……どっちもマズい</li>
-                    <li>マンゴーみたいな味、マンゴーを知らないけど　　……<span class="my-b">こんな変な味の "マンゴー" は知らないけどね</span></li>
-                    <li>食われたと知るや腐りだす　　……<span class="my-b">これは食べ物じゃない。腐ってるならまだいいよ、もっと酷い、得体の知れないゲテモノだ</span></li>
+                    <li>マンゴーみたいな味、マンゴーを知らないけど　　……<span class="my-b">こんな変な味の "マンゴー" は知らないけど</span></li>
+                    <li>食われたと知るや腐りだす　　……<span class="my-b">これは食べ物じゃない。腐ってるならまだいい、もっと酷い、得体の知れないゲテモノだ</span></li>
                 </ul>
 
-                <p class="mt-4">地球出身者にとって宇宙飯がマズいのは、破損ファイルからもわかる：</p>
+                <p class="mt-4">ペーストどころか、地球出身者にとっては宇宙飯自体がマズい。それは破損ファイルがヒントになる：</p>
                 <ul class="lbd font-small my-lblue">
                     <li>【破損 15】チョコレート・ブラウニー<button class="chip">
                             <div class="tooltip max">
@@ -526,7 +549,7 @@
                             </div>
                         </button></li>
                 </ul>
-                <p>宇宙出身者は、得体の知れない合成品まみれのご飯でも美味しく食べている。そもそも地球の味を知らない。</p>
+                <p>宇宙出身者は、得体の知れない合成品まみれのご飯でも美味しく食べている。比較対象となる、地球の味を知らないからだ。</p>
 
                 <h4>本当の話</h4>
                 <p>これだけ実感をこめて<strong>「マズい！！！」</strong>と言うんだから、これは彼女の体験談。<br>彼女はいま、閉鎖空間でヘドを吐きながらペーストを食べ続けている。</p>
@@ -544,16 +567,16 @@
 
             <!-- #region @@@9 -->
             <details>
-                <summary class="grid small-space" id="thread-09">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
+                <summary class="grid" id="thread-09">
+                    <div class="s2 m2 l1 str-num">#09</div>
+                    <div class="s7 m7 l8 nobr str-title">前進　<wbr><span class="my-lblue font-small">／は、橋？</span></div>
+                    <div class="s3 m3 l3 nobr">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/earth.svg" class="title-i" width="18" height="18" alt="地球">
+                        <wbr>
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">09　前進<wbr><span class="my-lblue font-small">　／は、橋？</span></div>
                 </summary>
                 <blockquote class="nocite">
                     <p>なんだよ、成果出てるじゃないか！<br>ゴー、チーム。<br>君がアンカーをひとつ止めるたび、私の端末に命が吹き込まれてく。すごいことだ。<br>今はブリッジのドアが封鎖されてるけど、制御を取り戻せたら、無理やりこじ開けられるかも。<br>そしたら君がここに来て、私を外に出せる。だろ？</p>
@@ -619,17 +642,17 @@
 
             <!-- #region @@@10 -->
             <details>
-                <summary class="grid small-space" id="thread-10">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
+                <summary class="grid" id="thread-10">
+                    <div class="s2 m2 l1 str-num">#10</div>
+                    <div class="s7 m7 l8 nobr str-title">バイオニック<wbr>・デバイス</div>
+                    <div class="s3 m3 l3 nobr">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
+                        <wbr>
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/pencil.svg" class="title-i" width="18" height="18" alt="鉛筆">
 
                     </div>
-
-                    <div class="s5 m8 l8 nobr">10　バイオニック<wbr>・デバイス</div>
                 </summary>
                 <blockquote class="nocite">
                     <p>なあプルート、ずっと思ってたけど、なんでその腕なんだ？</p>
@@ -665,17 +688,17 @@
 
             <!-- #region @@@11 -->
             <details>
-                <summary class="grid small-space" id="thread-11">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
+                <summary class="grid" id="thread-11">
+                    <div class="s2 m2 l1 str-num">#11</div>
+                    <div class="s7 m7 l8 nobr str-title">任務　<wbr><span class="my-lblue font-small">／使い捨て</span></div>
+                    <div class="s3 m3 l3 nobr">
                         <img src="../../img/star.svg" class="title-i" width="18" height="18" alt="スター">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
+                        <wbr>
                         <img src="../../img/anchor.svg" class="title-i" width="18" height="18" alt="宇宙">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
 
                     </div>
-
-                    <div class="s5 m8 l8 nobr">11　任務<wbr><span class="my-lblue font-small">　／使い捨て</span></div>
                 </summary>
                 <blockquote class="nocite">
                     <p>なぜ私たちがこんな所にいたか知りたい？<br>記録上の、宇宙の最果てに。</p>
@@ -783,17 +806,17 @@
 
             <!-- #region @@@12 -->
             <details>
-                <summary class="grid small-space" id="thread-12">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
+                <summary class="grid" id="thread-12">
+                    <div class="s2 m2 l1 str-num">#12</div>
+                    <div class="s7 m7 l8 nobr str-title">ツナギ</div>
+                    <div class="s3 m3 l3 nobr">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/earth.svg" class="title-i" width="18" height="18" alt="地球">
+                        <wbr>
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
 
                     </div>
-
-                    <div class="s5 m8 l8 nobr">12　ツナギ</div>
                 </summary>
                 <blockquote class="nocite">
                     <p>なあ、君のツナギ。見れば見るほど、着心地いいんだろうなって思う。<br>
@@ -824,17 +847,17 @@
 
             <!-- #region @@@13 -->
             <details>
-                <summary class="grid small-space" id="thread-13">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
+                <summary class="grid" id="thread-13">
+                    <div class="s2 m2 l1 str-num">#13</div>
+                    <div class="s7 m7 l8 nobr str-title">キャプテン ①　<wbr><span class="my-lblue font-small">／なぜ船外に？</span></div>
+                    <div class="s3 m3 l3 nobr">
                         <img src="../../img/star.svg" class="title-i" width="18" height="18" alt="スター">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
+                        <wbr>
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
 
                     </div>
-
-                    <div class="s5 m8 l8 nobr">13　キャプテン ①<wbr><span class="my-lblue font-small">　／なぜ船外に？</span></div>
                 </summary>
                 <blockquote class="nocite">
                     <p>この船唯一のパイロットで航海士だから、私がキャプテンと思うだろ？</p>
@@ -895,17 +918,17 @@
 
             <!-- #region @@@14 -->
             <details>
-                <summary class="grid small-space" id="thread-14">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
+                <summary class="grid" id="thread-14">
+                    <div class="s2 m2 l1 str-num">#14</div>
+                    <div class="s7 m7 l8 nobr str-title">猫</div>
+                    <div class="s3 m3 l3 nobr">
                         <img src="../../img/star.svg" class="title-i" width="18" height="18" alt="スター">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
+                        <wbr>
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
 
                     </div>
-
-                    <div class="s5 m8 l8 nobr">14　猫</div>
                 </summary>
                 <blockquote class="nocite">
                     <p>そうそう、プルート。<br>のそのそ歩き回って、私らの私物をひっくり返すついでに、猫にも気を配ってくれない？<br>最後数えた時は5匹いた。</p>
@@ -939,17 +962,17 @@
 
             <!-- #region @@@15 -->
             <details>
-                <summary class="grid small-space" id="thread-15">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
+                <summary class="grid" id="thread-15">
+                    <div class="s2 m2 l1 str-num">#15</div>
+                    <div class="s7 m7 l8 nobr str-title">ピスタチオ ①</div>
+                    <div class="s3 m3 l3 nobr">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
+                        <wbr>
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/pencil.svg" class="title-i" width="18" height="18" alt="鉛筆">
 
                     </div>
-
-                    <div class="s5 m8 l8 nobr">15　ピスタチオ ①</div>
                 </summary>
                 <blockquote class="nocite">
                     <p>みんなとは仲良くやれたよ。いい奴らだった。</p>
@@ -983,17 +1006,17 @@
 
             <!-- #region @@@16 -->
             <details>
-                <summary class="grid small-space" id="thread-16">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
+                <summary class="grid" id="thread-16">
+                    <div class="s2 m2 l1 str-num">#16</div>
+                    <div class="s7 m7 l8 nobr str-title">ママレードの誕生日　<wbr><span class="my-lblue font-small">／チョコレートケーキ</span></div>
+                    <div class="s3 m3 l3 nobr">
                         <img src="../../img/star.svg" class="title-i" width="18" height="18" alt="スター">
                         <img src="../../img/earth.svg" class="title-i" width="18" height="18" alt="地球">
+                        <wbr>
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
 
                     </div>
-
-                    <div class="s5 m8 l8 nobr">16　ママレードの誕生日<wbr><span class="my-lblue font-small">　／チョコレートケーキ</span></div>
                 </summary>
                 <blockquote class="nocite">
                     <p>アンカーの稼働に大きく貢献したのはママレードだ。</p>
@@ -1063,17 +1086,17 @@
 
             <!-- #region @@@17 -->
             <details>
-                <summary class="grid small-space" id="thread-17">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
+                <summary class="grid" id="thread-17">
+                    <div class="s2 m2 l1 str-num">#17</div>
+                    <div class="s7 m7 l8 nobr str-title">船外活動</div>
+                    <div class="s3 m3 l3 nobr">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
+                        <wbr>
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/pencil.svg" class="title-i" width="18" height="18" alt="鉛筆">
 
                     </div>
-
-                    <div class="s5 m8 l8 nobr">17　船外活動</div>
                 </summary>
                 <blockquote class="nocite">
                     <p>ここに来る航海の途中、何か小さいのが船体に衝突したんだ。</p>
@@ -1103,15 +1126,17 @@
 
             <!-- #region @@@18 -->
             <details>
-                <summary class="grid small-space" id="thread-18">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
+                <summary class="grid" id="thread-18">
+                    <div class="s2 m2 l1 str-num">#18</div>
+                    <div class="s7 m7 l8 nobr str-title">軌道減衰</div>
+                    <div class="s3 m3 l3 nobr">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/earth.svg" class="title-i" width="18" height="18" alt="地球">
+                        <wbr>
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/pencil.svg" class="title-i" width="18" height="18" alt="鉛筆">
                     </div>
-                    <div class="s5 m8 l8 nobr">18　軌道減衰</div>
+
                 </summary>
                 <blockquote class="nocite">
                     <p>残念だが、ママレードの事故はある意味無駄になった。</p>
@@ -1145,17 +1170,17 @@
 
             <!-- #region @@@19 -->
             <details>
-                <summary class="grid small-space" id="thread-19">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
+                <summary class="grid" id="thread-19">
+                    <div class="s2 m2 l1 str-num">#19</div>
+                    <div class="s7 m7 l8 nobr str-title">キャプテン ②　<wbr><span class="my-lblue font-small">／いい奴？</span></div>
+                    <div class="s3 m3 l3 nobr">
                         <img src="../../img/star.svg" class="title-i" width="18" height="18" alt="スター">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
+                        <wbr>
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
 
                     </div>
-
-                    <div class="s5 m8 l8 nobr">19　キャプテン ②<wbr><span class="my-lblue font-small">　／いい奴？</span></div>
                 </summary>
                 <blockquote class="nocite">
                     <p>結局、船がズレる理由は突き止められなかった。<br>少なくとも、私ひとりでは。<br>最終的にカナリアが話を聞き飽きたか、私の心配をしたかで、キャプテンに助言を求めた。</p>
@@ -1190,16 +1215,16 @@
 
             <!-- #region @@@20 -->
             <details>
-                <summary class="grid small-space" id="thread-20">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
+                <summary class="grid" id="thread-20">
+                    <div class="s2 m2 l1 str-num">#20</div>
+                    <div class="s7 m7 l8 nobr str-title">半分　<wbr><span class="my-lblue font-small">／ケーキ大好き</span></div>
+                    <div class="s3 m3 l3 nobr">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
+                        <wbr>
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/pencil.svg" class="title-i" width="18" height="18" alt="鉛筆">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">20　半分<wbr><span class="my-lblue font-small">　／ケーキ大好き</span></div>
                 </summary>
                 <blockquote class="nocite">
                     <p>ケーキか。もしこの船がケーキだったら、私は君が心配になってたね。<br>つまり、もう半分まで食べてる。</p>
@@ -1228,17 +1253,17 @@
 
             <!-- #region @@@21 -->
             <details>
-                <summary class="grid small-space" id="thread-21">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
+                <summary class="grid" id="thread-21">
+                    <div class="s2 m2 l1 str-num">#21</div>
+                    <div class="s7 m7 l8 nobr str-title">コールドスリープ　<wbr><span class="my-lblue font-small">／朝</span></div>
+                    <div class="s3 m3 l3 nobr">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
+                        <wbr>
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/pencil.svg" class="title-i" width="18" height="18" alt="鉛筆">
 
                     </div>
-
-                    <div class="s5 m8 l8 nobr">21　コールドスリープ<wbr><span class="my-lblue font-small">　／朝</span></div>
                 </summary>
                 <blockquote class="nocite">
                     <p>はあ…　この缶詰状態は、本当に息が詰まる…。</p>
@@ -1291,16 +1316,16 @@
 
             <!-- #region @@@22 -->
             <details>
-                <summary class="grid small-space" id="thread-22">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
+                <summary class="grid" id="thread-22">
+                    <div class="s2 m2 l1 str-num">#22</div>
+                    <div class="s7 m7 l8 nobr str-title">12年目の開花　<wbr><span class="my-lblue font-small">／咲いてる？</span></div>
+                    <div class="s3 m3 l3 nobr">
                         <img src="../../img/star.svg" class="title-i" width="18" height="18" alt="スター">
                         <img src="../../img/earth.svg" class="title-i" width="18" height="18" alt="地球">
+                        <wbr>
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">22　12年目の開花<wbr><span class="my-lblue font-small">　／咲いてる？</span></div>
                 </summary>
                 <blockquote class="nocite">
                     <p>みんなでコールドスリープに入る前を覚えてるよ。</p>
@@ -1366,12 +1391,12 @@
                         </div>
                     </button>、できない。だって自分が彼らの命運を握ってたのに。<span class="my-b">はっきり言って無神経だ。</span>
                 </p>
-                <p>彼女にとってはすべて<ruby>他人<rt>ひと</rt></ruby>事。<br>船員たちの現実を、監視カメラを通して<span class="my-b">ドラマかリアリティショー</span>のように観ていた。<br>ピスタチオに感情移入した彼女は、結末を見て感傷に浸りたかった。<br>だから、都合のいいようにエンディングを作りだしたのだ。</p>
+                <p>彼女にとってはすべて<ruby>他人<rt>ひと</rt></ruby>事。<br>船員たちの現実を、監視カメラを通して<span class="my-b">ドラマかリアリティショー</span>のように観ていた。<br>ピスタチオに感情移入した彼女は、泣いて感傷に浸りたかった。<br>だから、都合のいいようにエンディングを作りだしたのだ。</p>
 
 
-                <h4>日誌も検閲</h4>
+                <h4>日誌も盗み見</h4>
                 <p>たぶん、彼女はメールだけじゃなく船員たちの日誌も読んでいる。</p>
-                <p>メールに花名はない。船員たちが喋ってても聞こえない。<br>日誌を読んでないなら、コールドスリープ前後の映像と、航行時間との兼ね合いで<span class="my-b">「十数年で咲く花」</span>と導いたことになる。でももしかしたら400年に1度の開花かもしれないし、準備段階で植物が何年経過してるかわからないにしては、踏み込んだ推測だ。</p>
+                <p>メールに花名はない。船員たちの雑談は聞こえない。<br>日誌を読んでないなら、コールドスリープ前後の映像と、航行時間から<span class="my-b">「十数年で咲く花」</span>と導いたことになる。でも400年に1度の開花かもしれないし、準備段階で植物が何年経過してるかわからないにしては、踏み込んだ推測だ。</p>
                 <p>日誌にはほかにも、鉄拳、放射線スパイク、カロリーペーストの第3の味…… 彼女のセリフと被る部分がある。<br>はっきりとは言えないけど、たぶん読んでると思う。</p>
 
 
@@ -1384,16 +1409,16 @@
 
             <!-- #region @@@23 -->
             <details>
-                <summary class="grid small-space" id="thread-23">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
+                <summary class="grid" id="thread-23">
+                    <div class="s2 m2 l1 str-num">#23</div>
+                    <div class="s7 m7 l8 nobr str-title">惑星 ①</div>
+                    <div class="s3 m3 l3 nobr">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
+                        <wbr>
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">23　惑星 ①</div>
                 </summary>
                 <blockquote class="nocite">
                     <p>閉じ込められてから、何時間もあの惑星を見下ろしてることがあるんだ。<br>飽き飽きすると思うだろ、でも今も…</p>
@@ -1411,16 +1436,16 @@
 
             <!-- #region @@@24 -->
             <details>
-                <summary class="grid small-space" id="thread-24">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
+                <summary class="grid" id="thread-24">
+                    <div class="s2 m2 l1 str-num">#24</div>
+                    <div class="s7 m7 l8 nobr str-title">探査機</div>
+                    <div class="s3 m3 l3 nobr">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
+                        <wbr>
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">24　探査機</div>
                 </summary>
                 <blockquote class="nocite">
                     <p>探査機の建造は、何週間もかかった。<br>指揮を執るのはカナリアだ。ランタン2号って名でね。</p>
@@ -1441,17 +1466,17 @@
 
             <!-- #region @@@25 -->
             <details>
-                <summary class="grid small-space" id="thread-25">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
+                <summary class="grid" id="thread-25">
+                    <div class="s2 m2 l1 str-num">#25</div>
+                    <div class="s7 m7 l8 nobr str-title">惑星 ②　<wbr><span class="my-lblue font-small">／地面を突き抜け</span></div>
+                    <div class="s3 m3 l3 nobr">
                         <img src="../../img/star.svg" class="title-i" width="18" height="18" alt="スター">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
+                        <wbr>
                         <img src="../../img/anchor.svg" class="title-i" width="18" height="18" alt="宇宙">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
 
                     </div>
-
-                    <div class="s5 m8 l8 nobr">25　惑星 ②<wbr><span class="my-lblue font-small">　／地面を突き抜け</span></div>
                 </summary>
                 <blockquote class="nocite">
                     <p>探査機にはあらゆる機材が詰め込まれた。取れないデータなんてひとつもない。<br>でも私たちは、それ以上を求めた。<br>サンプルが欲しかったんだ。</p>
@@ -1493,16 +1518,16 @@
 
             <!-- #region @@@26 -->
             <details>
-                <summary class="grid small-space" id="thread-26">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
+                <summary class="grid" id="thread-26">
+                    <div class="s2 m2 l1 str-num">#26</div>
+                    <div class="s7 m7 l8 nobr str-title">ピスタチオ ②　<wbr><span class="my-lblue font-small">／カラフルな白鳥</span></div>
+                    <div class="s3 m3 l3 nobr">
                         <img src="../../img/star.svg" class="title-i" width="18" height="18" alt="スター">
                         <img src="../../img/earth.svg" class="title-i" width="18" height="18" alt="地球">
+                        <wbr>
                         <img src="../../img/anchor.svg" class="title-i" width="18" height="18" alt="宇宙">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">26　ピスタチオ ②<wbr><span class="my-lblue font-small">　／カラフルな白鳥</span></div>
                 </summary>
                 <blockquote class="nocite">
                     <p>君も旅の中で、それなりの数の船に乗ってきたろ。</p>
@@ -1523,7 +1548,7 @@
                             <p><b>【メール 5週】ジュニパー<br>　RE:あのさ…</b></p>
                             <p class="talk">「次、置くなと言った場所に、可愛くてちっちゃな折り鶴を、あと1羽でも見つけたら…」</p>
                         </div>
-                    </button><br>日本人にも馴染み深い<strong>「折り鶴」</strong>"origami cranes" だ。
+                    </button><br>日本人にも馴染み深い<strong>「折り鶴」</strong>origami cranes だ。
                 </p>
                 <p>彼女はメールを検閲してる<button class="chip">
                         <div class="tooltip max">
@@ -1531,11 +1556,10 @@
                             <p class="talk">「あり得ないタイミングを考えると、...内部通信にもアクセスがあると考えるのが妥当です」</p>
                             <p class="talk">　カナリア</p>
                         </div>
-                    </button>ので、折り鶴なのは知っている。<br><span class="my-b">なぜか、わざわざウソをついている。</span>
+                    </button>ので、折り鶴なのは知っている。<br>なぜか、わざわざウソをついている。
                 </p>
                 <p>白鳥ってのも、皮肉を手玉に取る彼女にしては安直な発想。<br><span class="my-b">「<ruby>白鳥<rt>スワン</rt></ruby> ＝ 私はスワン」</span>という答えをチラつかせてる。</p>
-                <p>終盤、#42以降。<br>彼女は、こことは比べ物にならないほど難しい「行間読み」を仕掛ける。<br>雰囲気も切迫感があって、まるで違う。</p>
-                <p>たぶんこの時の彼女は、純粋に<span class="my-b">クイズを仕掛けて遊んでるだけ</span>なんじゃないかな。</p>
+                <p>終盤、#42以降。<br>彼女は、こことは比べ物にならないほど難しい「行間読み」を仕掛ける。<br>だからここの彼女は、単純に<span class="my-b">匂わせてからかってるだけ</span>なんじゃないかな。</p>
 
 
                 <h4>大きさや色とりどり<img class="jel-2" src="../../img/anchor.svg" width="18" height="18" alt="宇宙／大地のテーマ"></h4>
@@ -1555,55 +1579,60 @@
                 </p>
                 <p>どちらも、もう彼女の手が届くことはない。</p>
                 <p class="mt-4">
-                    ここでは、<span class="my-b">宇宙／大地のテーマ</span><button class="chip">
-                        <div class="tooltip max">
-                            <p><b>宇宙</b></p>
-                            <p class="talk">　未知、見知ったものがない、<br>頼る術がない、不安、虚無</p>
-                            <p><b>大地</b></p>
-                            <p class="talk">　既知、見慣れたもの、<br>頼れる、安心、存在の肯定</p>
-                        </div>
-                    </button>と、<span class="my-b">見捨てのテーマ</span><button class="chip">
-                        <div class="tooltip max tip-hr">
-                            <p><b>#05　船員たち 2</b></p>
-                            <p class="talk">『ブレックファスト・クラブ』は見捨てられた者たちが結ぶ絆。</p>
-                            <p><b>#11　任務</b></p>
-                            <p class="talk">「植民地と新時代は、使い捨てじゃない価値ある人間に任せましょう」</p>
-                            <p><b>#15　ピスタチオ 1</b></p>
-                            <p class="talk">「彼女だけは私を置き去りにしない」</p>
-                            <p><b>#33　見捨てられて</b></p>
-                            <p class="talk">「あいつらは…、去ってしまった。私は責めない」</p>
-                            <p><b>#40　ブリッジ 2</b></p>
-                            <p class="talk">「絶対に立ち去ると思ってた。でも、君はここにいる」</p>
-                        </div>
-                    </button>がつながっている：
+                    #11をヒントに、<span class="my-b">見捨てのテーマ</span>と<span class="my-b">宇宙／大地のテーマ</span>で読み替えれば、彼女がいま置かれている状況が見えてくる：
                 </p>
                 <blockquote class="lbd nocite mt-1">
-                    <p>
-                        見知った全てを放り出し、宇宙の果てに至る。<button class="chip ch-k">
+                    <p class="font-small" style="margin-bottom: 0;">
+                        #11　見知った全てを放り出し、宇宙の果てへ辿り着いた<button class="chip">
                             <div class="tooltip max">
                                 <p><b>#11　任務　</b></p>
                                 <p class="talk">「見知った全てを放り出し、帰途のない果てまで旅をしませんか？」</p>
                             </div>
-                        </button><br>＝ 過去を見捨てて、彼女はこの孤独なポジションに就いた。
+                        </button>
+                    </p>
+                    <p style="margin-top: .5em;">＝ <strong>彼女は過去を見捨てて<button class="chip">
+                                <div class="tooltip max tip-hr">
+                                    <p>見捨てのテーマ。</p>
+                                    <p></p>
+                                    <p><b>#05　船員たち 2</b></p>
+                                    <p class="talk">『ブレックファスト・クラブ』は見捨てられた者たちが結ぶ絆。</p>
+                                    <p><b>#11　任務</b></p>
+                                    <p class="talk">「植民地と新時代は、使い捨てじゃない価値ある人間に任せましょう」</p>
+                                    <p><b>#15　ピスタチオ 1</b></p>
+                                    <p class="talk">「彼女だけは私を置き去りにしない」</p>
+                                    <p><b>#33　見捨てられて</b></p>
+                                    <p class="talk">「あいつらは…、去ってしまった。私は責めない」</p>
+                                    <p><b>#40　ブリッジ 2</b></p>
+                                    <p class="talk">「絶対に立ち去ると思ってた。でも、君はここにいる」</p>
+                                </div>
+                            </button>、この孤独なポジションに就いた<button class="chip">
+                                <div class="tooltip max">
+                                    <p>宇宙／大地のテーマ。</p>
+                                    <p><b>宇宙</b></p>
+                                    <p class="talk">　未知、見知ったものがない、<br>頼る術がない、不安、虚無</p>
+                                    <p><b>大地</b></p>
+                                    <p class="talk">　既知、見慣れたもの、<br>頼れる、安心、存在の肯定</p>
+                                </div>
+                            </button></strong>
                     </p>
                 </blockquote>
                 <p>「色とりどりの白鳥たちが恋しい」と言って彼女が思い描くのは、置いてきた過去の自分なのかもしれない。</p>
 
-                <p class="mt-4" style="margin-bottom: 0;">
+                <p class="mt-4">
                     逆にプレイヤーは、#03でも「着てる色多すぎ」とイヤミを言われる：
-                <blockquote class="lbd nocite">
+                <blockquote class="lbd nocite mt-1 font-small">
                     <p>でも残念、誰も君に「色はひとつに絞れ」と教えてあげなかったみたい。（略）<br>
 
                         赤と青はヒーローの色、そして君は私のヒーロー…<br>
                         でもそのふたつは使用済。</p>
                 </blockquote>
                 <p>
-                    はぐれ者の<ruby>冥王星<rt>プルート</rt></ruby>よろしく、<strong>プレイヤーは、TFCの主義に<ruby>与<rt>くみ</rt></ruby>しない</strong>。
+                    はぐれ者の<ruby>冥王星<rt>プルート</rt></ruby>よろしく、<strong>プレイヤーは、TFCの主義に<ruby>与<rt>くみ</rt></ruby>しない。</strong>
                 </p>
 
 
                 <h4>白鳥の知識<img class="jel-2" src="../../img/earth.svg" width="18" height="18" alt="地球"></h4>
-                <p>彼女は監視カメラで見た折り紙の形と、メールの "origami cranes" から "swan" を思いついた。<br>"swan" が<span class="my-b">首がスッとしてる大きな鳥</span>だってことは、知識としてありそう。</p>
+                <p>彼女は監視カメラで見た折り紙の形と、メールの文面 "origami cranes" から swan［白鳥］を思いついた。<br>swan が<span class="my-b">首がスッとしてる大きな鳥</span>だってことは、知識としてありそう。</p>
                 <p>宇宙コロニーでは動物も希少。<button class="chip ch-k">
                         <div class="tooltip max">
                             <p><b>【破損 9】ミシェルへ…</b></p>
@@ -1623,16 +1652,16 @@
 
             <!-- #region @@@27 -->
             <details>
-                <summary class="grid small-space" id="thread-27">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
+                <summary class="grid" id="thread-27">
+                    <div class="s2 m2 l1 str-num">#27</div>
+                    <div class="s7 m7 l8 nobr str-title">始まり　<wbr><span class="my-lblue font-small">／ピスタチオ失踪</span></div>
+                    <div class="s3 m3 l3 nobr">
                         <img src="../../img/star.svg" class="title-i" width="18" height="18" alt="スター">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
+                        <wbr>
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">27　始まり<wbr><span class="my-lblue font-small">　／ピスタチオ失踪</span></div>
                 </summary>
                 <blockquote class="nocite">
                     <p>なぜこんな事になったか知りたい？</p>
@@ -1690,16 +1719,16 @@
 
             <!-- #region @@@28 -->
             <details>
-                <summary class="grid small-space" id="thread-28">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
+                <summary class="grid" id="thread-28">
+                    <div class="s2 m2 l1 str-num">#28</div>
+                    <div class="s7 m7 l8 nobr str-title">カナリアの測定　<wbr><span class="my-lblue font-small">／惑星から脱出</span></div>
+                    <div class="s3 m3 l3 nobr">
                         <img src="../../img/star.svg" class="title-i" width="18" height="18" alt="スター">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
+                        <wbr>
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">28　カナリアの測定<wbr><span class="my-lblue font-small">　／惑星から脱出</span></div>
                 </summary>
                 <blockquote class="nocite">
                     <p>ピスタチオの失踪と、あの惑星の関連にまず気づいたのは、カナリアだった。<br>探査機の一件から、測定頻度を大幅に増やしてたんだ。</p>
@@ -1746,16 +1775,16 @@
 
             <!-- #region @@@29 -->
             <details>
-                <summary class="grid small-space" id="thread-29">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
+                <summary class="grid" id="thread-29">
+                    <div class="s2 m2 l1 str-num">#29</div>
+                    <div class="s7 m7 l8 nobr str-title">キャプテン ③　<wbr><span class="my-lblue font-small">／脱出ポッド</span></div>
+                    <div class="s3 m3 l3 nobr">
                         <img src="../../img/star.svg" class="title-i" width="18" height="18" alt="スター">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
+                        <wbr>
                         <img src="../../img/anchor.svg" class="title-i" width="18" height="18" alt="宇宙">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">29　キャプテン ③<wbr><span class="my-lblue font-small">　／脱出ポッド</span></div>
                 </summary>
                 <blockquote class="nocite">
                     <p>惑星に捕まったと悟り、私たちはキャプテンと緊急会議を開いた。<br>彼女は相変わらず頼もしかったよ。冷静沈着だった。</p>
@@ -1822,16 +1851,16 @@
 
             <!-- #region @@@30 -->
             <details>
-                <summary class="grid small-space" id="thread-30">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
+                <summary class="grid" id="thread-30">
+                    <div class="s2 m2 l1 str-num">#30</div>
+                    <div class="s7 m7 l8 nobr str-title">アンカー建造</div>
+                    <div class="s3 m3 l3 nobr">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
+                        <wbr>
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/pencil.svg" class="title-i" width="18" height="18" alt="鉛筆">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">30　アンカー建造</div>
                 </summary>
                 <blockquote class="nocite">
                     <p>キャプテンの許可を得て、ナスとママレードはアンカー開発に着手した。</p>
@@ -1860,16 +1889,16 @@
 
             <!-- #region @@@31 -->
             <details>
-                <summary class="grid small-space" id="thread-31">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
+                <summary class="grid" id="thread-31">
+                    <div class="s2 m2 l1 str-num">#31</div>
+                    <div class="s7 m7 l8 nobr str-title">アンカー設置</div>
+                    <div class="s3 m3 l3 nobr">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
+                        <wbr>
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">31　アンカー設置</div>
                 </summary>
                 <blockquote class="nocite">
                     <p>アンカー設置で船内はぐちゃぐちゃ。<br>パネル、通気口、家具。誰もあのふたりからは逃れられない。</p>
@@ -1889,16 +1918,16 @@
 
             <!-- #region @@@32 -->
             <details>
-                <summary class="grid small-space" id="thread-32">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
+                <summary class="grid" id="thread-32">
+                    <div class="s2 m2 l1 str-num">#32</div>
+                    <div class="s7 m7 l8 nobr str-title">スイッチ ON　<wbr><span class="my-lblue font-small">／叫び声</span></div>
+                    <div class="s3 m3 l3 nobr">
                         <img src="../../img/star.svg" class="title-i" width="18" height="18" alt="スター">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
+                        <wbr>
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">32　スイッチ ON<wbr><span class="my-lblue font-small">　／叫び声</span></div>
                 </summary>
                 <blockquote class="nocite">
                     <p>スイッチが入った時、ドアはもう閉まってた。<br>私の運命は、そこで決まった。</p>
@@ -1961,16 +1990,16 @@
 
             <!-- #region @@@33 -->
             <details>
-                <summary class="grid small-space" id="thread-33">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
+                <summary class="grid" id="thread-33">
+                    <div class="s2 m2 l1 str-num">#33</div>
+                    <div class="s7 m7 l8 nobr str-title">見捨てられて　<wbr><span class="my-lblue font-small">／騒音</span></div>
+                    <div class="s3 m3 l3 nobr">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
+                        <wbr>
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/pencil.svg" class="title-i" width="18" height="18" alt="鉛筆">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">33　見捨てられて<wbr><span class="my-lblue font-small">　／騒音</span></div>
                 </summary>
                 <blockquote class="nocite">
                     <p>ドアを開けようと、数日を費やした。<br>あいつらがやってた事はわからないが、耐えられない騒音だった。</p>
@@ -1994,16 +2023,16 @@
 
             <!-- #region @@@34 -->
             <details>
-                <summary class="grid small-space" id="thread-34">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
+                <summary class="grid" id="thread-34">
+                    <div class="s2 m2 l1 str-num">#34</div>
+                    <div class="s7 m7 l8 nobr str-title">ドア開通</div>
+                    <div class="s3 m3 l3 nobr">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
+                        <wbr>
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">34　ドア開通</div>
                 </summary>
                 <blockquote class="nocite">
                     <p>このパネルの光の読み方が合ってるなら… いや、合ってなきゃ困る。<br>それが私の仕事で、ここ数週間で唯一の娯楽だったんだから。</p>
@@ -2022,16 +2051,16 @@
 
             <!-- #region @@@35 -->
             <details>
-                <summary class="grid small-space" id="thread-35">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
+                <summary class="grid" id="thread-35">
+                    <div class="s2 m2 l1 str-num">#35</div>
+                    <div class="s7 m7 l8 nobr str-title">もうひと仕事</div>
+                    <div class="s3 m3 l3 nobr">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
+                        <wbr>
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">35　もうひと仕事</div>
                 </summary>
                 <blockquote class="nocite">
                     <p>え？<br>あれ… 行けると思ったのに。クソッ。</p>
@@ -2049,16 +2078,16 @@
 
             <!-- #region @@@36 -->
             <details>
-                <summary class="grid small-space" id="thread-36">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
+                <summary class="grid" id="thread-36">
+                    <div class="s2 m2 l1 str-num">#36</div>
+                    <div class="s7 m7 l8 nobr str-title">脱出ポッド　<wbr><span class="my-lblue font-small">／もう、誰もいない</span></div>
+                    <div class="s3 m3 l3 nobr">
                         <img src="../../img/star.svg" class="title-i" width="18" height="18" alt="スター">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
+                        <wbr>
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">36　脱出ポッド<wbr><span class="my-lblue font-small">　／もう、誰もいない</span></div>
                 </summary>
                 <blockquote class="nocite">
                     <p>ブレーカーは、ちょうど角のあたりに…、</p>
@@ -2117,15 +2146,16 @@
 
             <!-- #region @@@37 -->
             <details>
-                <summary class="grid small-space" id="thread-37">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
+                <summary class="grid" id="thread-37">
+                    <div class="s2 m2 l1 str-num">#37</div>
+                    <div class="s7 m7 l8 nobr str-title">ブリッジ開通</div>
+                    <div class="s3 m3 l3 nobr">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
+                        <wbr>
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                     </div>
-                    <div class="s5 m8 l8 nobr">37　ブリッジ開通</div>
                 </summary>
                 <blockquote class="nocite">
                     <p>ブリッジが開いたよ。</p>
@@ -2139,16 +2169,16 @@
 
             <!-- #region @@@38 -->
             <details>
-                <summary class="grid small-space" id="thread-38">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
+                <summary class="grid" id="thread-38">
+                    <div class="s2 m2 l1 str-num">#38</div>
+                    <div class="s7 m7 l8 nobr str-title">ようこそ私の城へ　<wbr><span class="my-lblue font-small">／魔法使い</span></div>
+                    <div class="s3 m3 l3 nobr">
                         <img src="../../img/star.svg" class="title-i" width="18" height="18" alt="スター">
                         <img src="../../img/earth.svg" class="title-i" width="18" height="18" alt="地球">
+                        <wbr>
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">38　ようこそ私の城へ<wbr><span class="my-lblue font-small">　／魔法使い</span></div>
                 </summary>
                 <blockquote class="nocite">
                     <p>…ようこそ、ブリッジへ。</p>
@@ -2235,16 +2265,16 @@
 
             <!-- #region @@@39 -->
             <details>
-                <summary class="grid small-space" id="thread-39">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
+                <summary class="grid" id="thread-39">
+                    <div class="s2 m2 l1 str-num">#39</div>
+                    <div class="s7 m7 l8 nobr str-title">ブリッジ ①　<wbr><span class="my-lblue font-small">／家族いないだろ？</span></div>
+                    <div class="s3 m3 l3 nobr">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
+                        <wbr>
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/pencil.svg" class="title-i" width="18" height="18" alt="鉛筆">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">39　ブリッジ ①<wbr><span class="my-lblue font-small">　／家族いないだろ？</span></div>
                 </summary>
                 <blockquote class="nocite">
                     <p>別の仕事を選んでたら、自分はどこにいたか。考えたことある？</p>
@@ -2277,16 +2307,16 @@
 
             <!-- #region @@@40 -->
             <details>
-                <summary class="grid small-space" id="thread-40">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
+                <summary class="grid" id="thread-40">
+                    <div class="s2 m2 l1 str-num">#40</div>
+                    <div class="s7 m7 l8 nobr str-title">ブリッジ ②　<wbr><span class="my-lblue font-small">／一生懸命なクマ</span></div>
+                    <div class="s3 m3 l3 nobr">
                         <img src="../../img/star.svg" class="title-i" width="18" height="18" alt="スター">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
+                        <wbr>
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">40　ブリッジ ②<wbr><span class="my-lblue font-small">　／一生懸命なクマ</span></div>
                 </summary>
                 <blockquote class="nocite">
                     <p>下であれを見た後で、なんでまだ私を助けたいと思える？<br>絶対に立ち去ると思ってた。<br>でも、君はここにいる。</p>
@@ -2335,16 +2365,16 @@
 
             <!-- #region @@@41 -->
             <details>
-                <summary class="grid small-space" id="thread-41">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
+                <summary class="grid" id="thread-41">
+                    <div class="s2 m2 l1 str-num">#41</div>
+                    <div class="s7 m7 l8 nobr str-title">ブリッジ ③　<wbr><span class="my-lblue font-small">／辿り着いた先</span></div>
+                    <div class="s3 m3 l3 nobr">
                         <img src="../../img/star.svg" class="title-i" width="18" height="18" alt="スター">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
+                        <wbr>
                         <img src="../../img/anchor.svg" class="title-i" width="18" height="18" alt="宇宙">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">41　ブリッジ ③<wbr><span class="my-lblue font-small"><wbr>　／辿り着いた先</span></div>
                 </summary>
                 <blockquote class="nocite">
                     <p>こんな仕事、引き受けなければよかった。</p>
@@ -2428,15 +2458,16 @@
 
             <!-- #region @@@42 -->
             <details>
-                <summary class="grid small-space" id="thread-42">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
+                <summary class="grid" id="thread-42">
+                    <div class="s2 m2 l1 str-num">#42</div>
+                    <div class="s7 m7 l8 nobr str-title">ブリッジ ④　<wbr><span class="my-lblue font-small">／引き返せ</span></div>
+                    <div class="s3 m3 l3 nobr">
                         <img src="../../img/star.svg" class="title-i" width="18" height="18" alt="スター">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
+                        <wbr>
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                     </div>
-                    <div class="s5 m8 l8 nobr">42　ブリッジ ④<wbr><span class="my-lblue font-small">　／引き返せ</span></div>
                 </summary>
                 <blockquote class="nocite">
                     <p>こんなこと言うのは遅すぎるかもしれないけど、私なんて、助ける価値はないのかもしれない。</p>
@@ -2505,16 +2536,16 @@
 
             <!-- #region @@@43 -->
             <details>
-                <summary class="grid small-space" id="thread-43">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
+                <summary class="grid" id="thread-43">
+                    <div class="s2 m2 l1 str-num">#43</div>
+                    <div class="s7 m7 l8 nobr str-title">ブリッジ ⑤　<wbr><span class="my-lblue font-small">／報い</span></div>
+                    <div class="s3 m3 l3 nobr">
                         <img src="../../img/star.svg" class="title-i" width="18" height="18" alt="スター">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
+                        <wbr>
                         <img src="../../img/anchor.svg" class="title-i" width="18" height="18" alt="宇宙">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">43　ブリッジ ⑤<wbr><span class="my-lblue font-small">　／報い</span></div>
                 </summary>
                 <blockquote class="nocite">
                     <p>おい、見てみろよ。もうあと一歩だ。</p>
@@ -2649,16 +2680,16 @@
 
             <!-- #region @@@44 -->
             <details>
-                <summary class="grid small-space" id="thread-44">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
+                <summary class="grid" id="thread-44">
+                    <div class="s2 m2 l1 str-num">#44</div>
+                    <div class="s7 m7 l8 nobr str-title">コックピット　<wbr><span class="my-lblue font-small">／身勝手</span></div>
+                    <div class="s3 m3 l3 nobr">
                         <img src="../../img/star.svg" class="title-i" width="18" height="18" alt="スター">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
+                        <wbr>
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">44　コックピット<wbr><span class="my-lblue font-small">　／身勝手</span></div>
                 </summary>
                 <blockquote class="nocite">
                     <p>わかった。</p>
@@ -2885,15 +2916,16 @@
 
             <!-- #region @@@45 -->
             <details>
-                <summary class="grid small-space" id="thread-45">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="title-i" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
+                <summary class="grid" id="thread-45">
+                    <div class="s2 m2 l1 str-num">おまけ</div>
+                    <div class="s7 m7 l8 nobr str-title">名もなき地球人</div>
+                    <div class="s3 m3 l3 nobr">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/earth.svg" class="title-i" width="18" height="18" alt="地球">
+                        <wbr>
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                         <img src="../../img/trans.png" class="title-i" width="18" height="18" alt="" aria-hidden="true">
                     </div>
-                    <div class="s5 m8 l8 nobr">おまけ　<wbr>名もなき地球人</div>
                 </summary>
 
                 <img class="zukai" src="img/official-header.webp" width="616" height="353" alt="ゲームのHeader" style="max-inline-size: 616px;">
@@ -2933,11 +2965,9 @@
             </details>
             <!-- #endregion -->
         </div>
-
-        <div class="mt-4"></div>
     </main>
 
-    <footer class="center-align">
+    <footer class="center-align mt-4">
         <small>&copy;
             <script>document.write(new Date().getFullYear());</script> 怪物であそぼう
         </small>
