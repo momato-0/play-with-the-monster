@@ -26,8 +26,18 @@
          }
 
          /*-- details --*/
-         blockquote p {
+         .mail-txt blockquote p {
              margin: 1rem .5rem 1rem 0;
+         }
+
+         .lbd-c,
+         .lbd-v,
+         .lbd-j,
+         .lbd-p,
+         .lbd-m,
+         .lbd-a,
+         .lbd-s {
+             color: var(--on-surface);
          }
 
          .ship-day-sub {
