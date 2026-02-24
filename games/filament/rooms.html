@@ -9,29 +9,58 @@
     <script type="module" src="https://cdn.jsdelivr.net/npm/beercss@3.4.4/dist/cdn/beer.min.js"></script>
     <link rel="stylesheet" href="../../style.css" type="text/css">
     <style>
-        .s1.m1.l1 img {
-            filter: invert(1);
-            left: -3px;
-            inline-size: 16px;
-            block-size: 16px;
-        }
-
         .s3.m3.l3 img {
             background-color: #000000aa;
             padding: 5px;
             border: 1px solid #494949;
         }
 
-        .s-icon {
+        .summary-i {
             vertical-align: -3px;
             padding: 0 2px;
             inline-size: 26px;
             block-size: 26px;
         }
 
+        details blockquote:first-of-type {
+            color: var(--on-surface);
+        }
+
         .chip {
             background: url("../../img/comment.svg") no-repeat center;
-            padding: 0 4px !important;
+            padding: 0 !important;
+            margin: 0 .5rem;
+            border-radius: 0;
+            vertical-align: -1px !important;
+        }
+
+        .ch-k {
+            margin-left: -.2rem;
+        }
+
+        .jel-2 {
+            margin: 0 1rem;
+            inline-size: 1.5rem;
+            block-size: 1.5rem;
+        }
+
+        .member-icons {
+            max-inline-size: 80%;
+            border: 1px solid #ffffff75;
+            border-radius: .2rem;
+            padding: .5rem;
+        }
+
+        .str-num {
+            font-size: var(--size-13px);
+            font-weight: 500;
+            margin: auto 0;
+        }
+
+        .str-title {
+            margin: auto 0;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
     </style>
 </head>
@@ -50,28 +79,28 @@
             <h1>FILAMENT<br><span style="color: #c9b7ff;">ルーム案内</span></h1>
         </div>
 
-        <p class="font-small">
-            <img src="../../img/star.svg" width="16" height="16">：だいじ<br>
-            <img src="../../img/earth.svg" width="16" height="16">：地球に関係<br>
-            <img src="../../img/pencil.svg" width="16" height="16">：コメントあり
-        </p>
+        <div class="grid gap-small font-small center member-icons">
+            <div class="s12 m6 l4"><img src="../../img/star.svg" width="16" height="16" alt="スター">：だいじ</div>
+            <div class="s12 m6 l4"><img src="../../img/earth.svg" width="16" height="16" alt="地球">：地球に関係</div>
+            <div class="s12 m6 l4"><img src="../../img/pencil.svg" width="16" height="16" alt="鉛筆">：ほか、コメントあり</div>
+        </div>
 
         <div class="color-change">
 
-
+            <!-- #region @@@0 -->
             <details class="mt-4">
-                <summary class="grid small-space" id="thread-0">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
+                <summary class="grid" id="thread-0">
+                    <div class="s2 m2 l1 str-num">00</div>
+                    <div class="s7 m7 l8 nobr str-title">エアーロック 右</div>
+                    <div class="s3 m3 l3 nobr">
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
+                        <wbr>
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">00　エアーロック 右</div>
                 </summary>
                 <blockquote class="nocite">
-                    <p>あ！　ここは、私がアラバスターに乗って、最初の数歩を踏みしめた場所だ。<br>
+                    <p>あ！ ここは、私がアラバスターに乗って、最初の数歩を踏みしめた場所だ。<br>
                         実は、フィラメント社の船に乗るのも初めてでさ。</p>
                     <p> ピスタチオと一緒に乗り込んだんだ。<br>荷物抱えてタラップを上がりながら、少し世間話したっけな。</p>
                     <p> ふたりともファーマメント出身なんだけど、任務前は互いを知らなかった。<br>
@@ -82,18 +111,20 @@
                     <p>close</p>
                 </a><a title="閉じる" href="#thread-0" class="close-details right" onclick="document.getElementById('thread-0').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
+            <!-- #endregion -->
 
 
+            <!-- #region @@@1 -->
             <details>
-                <summary class="grid small-space" id="thread-1">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
+                <summary class="grid" id="thread-1">
+                    <div class="s2 m2 l1 str-num">01</div>
+                    <div class="s7 m7 l8 nobr str-title">中庭</div>
+                    <div class="s3 m3 l3 nobr">
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
+                        <wbr>
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">01　中庭</div>
                 </summary>
                 <blockquote class="nocite">
                     <p>このちょっとした休憩スペース、大好きなんだけど、長居はケツがそわそわしたな。<br>開放的すぎて。</p>
@@ -107,44 +138,54 @@
                     <p>close</p>
                 </a><a title="閉じる" href="#thread-1" class="close-details right" onclick="document.getElementById('thread-1').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
+            <!-- #endregion -->
 
 
+            <!-- #region @@@2 -->
             <details>
-                <summary class="grid small-space" id="thread-2">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
-                        <img src="../../img/pencil.svg" class="s-icon" width="18" height="18" alt="鉛筆">
+                <summary class="grid" id="thread-2">
+                    <div class="s2 m2 l1 str-num">02</div>
+                    <div class="s7 m7 l8 nobr str-title">ナスの寝室　<wbr><span class="my-lblue font-small">／牛倒し</span></div>
+                    <div class="s3 m3 l3 nobr">
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
+                        <img src="../../img/earth.svg" class="summary-i" width="18" height="18" alt="地球">
+                        <wbr>
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">02　ナスの寝室<wbr><span class="my-lblue font-small">　／牛倒し</span></div>
                 </summary>
                 <blockquote class="nocite">
                     <p>うわっ⋯ こりゃヤバい、ここに入るのは初めて。<br>
                         カナリアがこの惨状を見つけたら、ブチ切れて⋯</p>
-                    <p>待て、あいつベッドに何したんだ！？<br>どう寝てたんだよ？</p>
+                    <p>待て、あいつベッドに何したんだ！？ どう寝てたんだよ？</p>
                     <p>この男、謎だ⋯</p>
-                    <p>そういや、地球にはウシって生物がいるってね。<br>家畜で、立ったまま寝るらしい。<br>ナスも同じだったのか。足、デバイスだし。</p>
+                    <p>そういや、地球にはウシって生物がいるってね。家畜で、立ったまま寝るらしい。<br>
+                        ナスも同じだったのか。足、デバイスだし。</p>
                     <p>地球人は気晴らしに、寝てるそいつを突き飛ばして遊ぶんだと。</p>
                     <p>猛烈に後悔してきた。<br>ナスにやってたらどうなってたかな、想像しちゃうな。</p>
                 </blockquote>
+
+                <h4>カウ・ティッピング<img class="jel-2" src="../../img/earth.svg" width="18" height="18" alt="地球"></h4>
+                <p>海外では、「牛は立ったまま寝るので、そのスキに横から小突いて遊んでやろう」という都市伝説・イタズラ（<a href="https://ja.wikipedia.org/wiki/%E3%82%AB%E3%82%A6%E3%83%BB%E3%83%86%E3%82%A3%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0" target="_blank">カウ・ティッピング - Wikipedia</a><img class="mini-icon" src="../../img/box-arrow-up-right.svg" width="13" height="13" alt="新しいウィンドウで開く">）があるらしい。</p>
+                <p>日本人には馴染みがなさそうなので、わかりやすく「ウシ」という単語を出した。<br>原文にその単語はない。</p>
+
                 <a title="閉じる" href="#thread-2" class="close-details" onclick="document.getElementById('thread-2').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
                 </a><a title="閉じる" href="#thread-2" class="close-details right" onclick="document.getElementById('thread-2').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
+            <!-- #endregion -->
 
 
+            <!-- #region @@@3 -->
             <details>
-                <summary class="grid small-space" id="thread-3">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
+                <summary class="grid" id="thread-3">
+                    <div class="s2 m2 l1 str-num">03</div>
+                    <div class="s7 m7 l8 nobr str-title">カナリアの寝室　<wbr><span class="my-lblue font-small">／クトゥルフとソラリス</span></div>
+                    <div class="s3 m3 l3 nobr">
+                        <img src="../../img/star.svg" class="summary-i" width="18" height="18" alt="スター">
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
+                        <wbr>
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">03　カナリアの寝室</div>
                 </summary>
                 <blockquote class="nocite">
                     <p>うげ、虚無。<br>まるで病院だ。なんで全部こんなに整列してる？</p>
@@ -153,22 +194,45 @@
                     <p>冷血でウロコまみれ、虚ろで無表情な目。<br>いつもパクパク開閉してるくせに、価値あるものは何ひとつ出てこない口、とかな？</p>
                     <p>⋯冗談だよ。彼女は悪い奴じゃなかった。</p>
                 </blockquote>
+
+
+                <h4>『クトゥルフ』への目配せ</h4>
+                <p>「冷血でウロコまみれ……」この悪口はまさに<span class="my-b">「インスマス<ruby>面<rt>づら</rt></ruby>」</span>だ。<br>宇宙が舞台だし、作品テーマからするとクトゥルフ神話はまったく無関係ではない。</p>
+
+                <h4>『クトゥルフ』と『ソラリス』</h4>
+                <p>このゲームは、<a href="https://ja.wikipedia.org/wiki/%E3%82%BD%E3%83%A9%E3%83%AA%E3%82%B9%E3%81%AE%E9%99%BD%E3%81%AE%E3%82%82%E3%81%A8%E3%81%AB" target="_blank">スタニスワフ・レム著『ソラリス』</a><img class="mini-icon" src="../../img/box-arrow-up-right.svg" width="13" height="13" alt="新しいウィンドウで開く">へのアンサーを全身全霊で打ち出している。「ただ在るだけでいい」「在ることを認めるだけでいい」というのがそうだ。</p>
+
+                <p>『ソラリス』は興味深いテーマを色々内包するが、焦点はそのひとつ<span class="my-b">「人知の限界」。</span><br>人類は数世紀かけて、遠方にある惑星の「知的な海」とコンタクトを果たそう、何者か理解しようと研究を重ねてきたが、結局叶っていない。</p>
+                <p><span class="my-b">「理解」</span>というのは、自分の捉え方や枠組みに「対象を当てはめる」ことだ。<br>もし目の前に、どうやってもハマらない対象がいたら？</p>
+                <p>そいつはそもそも理解不可能なものだし、そこにリソースを割いた数世紀は、まったくの徒労に終わるだろう。『ソラリス』はそれを、立ち現れては消える知の流行や学派のパロディを交えて、悲哀とともに見せた。</p>
+                <p>物語は「人知／宇宙の知」を対比するけど、実は人間同士でも同じことが起きてると思う。</p>
+                <p class="font-small talk">（それでいうと、『ソラリス』ってボルヘスの『トレーン・ウクバール……』『メルヴのハキム』の有名な一節「鏡と父性はそれを増殖させ肯定するが故に忌まわしい」を意識してんじゃないかな。海は人間を映す鏡、人間のパロディを無限に生み出す、グノーシス的欠陥のある神、架空の書物群、そしてなにより、おエラい学者さんたちの仕事が「海の現象へのラベル貼りにしかならない」という皮肉は、ボルヘスがトレーンで描いた反・名詞とまったく一緒。だからこそ最後ケルヴィンは海を頭で捉えるんじゃなく、目の前にある生の海に直接 "触れた"……）</p>
+                <p class="mt-4">……話を軌道に戻す。</p>
+                <p>そして、宇宙を舞台にした「人知<ruby>矮<rt>わい</rt></ruby>小化」のもうひとつの巨塔といえば、<span class="my-b">クトゥルフ神話。</span></p>
+                <p>こっちは『ソラリス』のように人類を透徹した「if シミュレーション」ではなく、小部屋の一室に閉じ込めて「外には恐ろしい真実が待ち構えている！ それ以上知るな、扉を開けるな！」とラヴクラフトの強迫レコードを延々聞かせるような作品群だけど、これまた「人知の限界」に手を伸ばしている。</p>
+                <p>『Filament』のゲームシナリオを書いた人はその共通点に気づいていて、『ソラリス』だけじゃなく『クトゥルフ神話』にも挨拶した……そう思うのは、考えすぎかな。</p>
+                <p>ちなみに『Filament』が描くのは、コミュニケーションのベースを「相手を理解しようとする」から、そのもっと手前、「在るがままの受容」にしたら……という<span class="my-b">「if シミュレーション」</span>だ。これは『ソラリス』の最後でも描かれていると私は思うけど、あの鏡のような作品について人が思うことはバラバラだろうから、『Filament』がこのアンサーを後押しする意義はすごく大きいと思う。
+                </p>
+                <p class="right-align font-smaller">2026/02/24</p>
+
                 <a title="閉じる" href="#thread-3" class="close-details" onclick="document.getElementById('thread-3').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
                 </a><a title="閉じる" href="#thread-3" class="close-details right" onclick="document.getElementById('thread-3').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
+            <!-- #endregion -->
 
 
+            <!-- #region @@@4 -->
             <details>
-                <summary class="grid small-space" id="thread-4">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
-                        <img src="../../img/pencil.svg" class="s-icon" width="18" height="18" alt="鉛筆">
+                <summary class="grid" id="thread-4">
+                    <div class="s2 m2 l1 str-num">04</div>
+                    <div class="s7 m7 l8 nobr str-title">ジュニパーの寝室</div>
+                    <div class="s3 m3 l3 nobr">
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
+                        <wbr>
+                        <img src="../../img/pencil.svg" class="summary-i" width="18" height="18" alt="鉛筆">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">04　ジュニパーの寝室</div>
                 </summary>
                 <blockquote class="nocite">
                     <p>あ？　おっと、マジか？　入らなきゃいけなかったか？<br>散らかってるよ。悪いね。</p>
@@ -185,18 +249,20 @@
                     <p>close</p>
                 </a><a title="閉じる" href="#thread-4" class="close-details right" onclick="document.getElementById('thread-4').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
+            <!-- #endregion -->
 
 
+            <!-- #region @@@5 -->
             <details>
-                <summary class="grid small-space" id="thread-5">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
+                <summary class="grid" id="thread-5">
+                    <div class="s2 m2 l1 str-num">05</div>
+                    <div class="s7 m7 l8 nobr str-title">ママレードの寝室</div>
+                    <div class="s3 m3 l3 nobr">
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
+                        <wbr>
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">05　ママレードの寝室</div>
                 </summary>
                 <blockquote class="nocite">
                     <p>ここはすっごく居心地いいんだ。<br>バニラの香りのキャンドルなんかあったら、似合いすぎてヤバいよな？</p>
@@ -208,18 +274,20 @@
                     <p>close</p>
                 </a><a title="閉じる" href="#thread-5" class="close-details right" onclick="document.getElementById('thread-5').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
+            <!-- #endregion -->
 
 
+            <!-- #region @@@6 -->
             <details>
-                <summary class="grid small-space" id="thread-6">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
+                <summary class="grid" id="thread-6">
+                    <div class="s2 m2 l1 str-num">06</div>
+                    <div class="s7 m7 l8 nobr str-title">ピスタチオの寝室</div>
+                    <div class="s3 m3 l3 nobr">
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
+                        <wbr>
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">06　ピスタチオの寝室</div>
                 </summary>
                 <blockquote class="nocite">
                     <p>え？　ああ⋯。<br>私は⋯ その話はしたくないと思う。<br>今は⋯、たぶん、もう二度と。</p>
@@ -228,18 +296,20 @@
                     <p>close</p>
                 </a><a title="閉じる" href="#thread-6" class="close-details right" onclick="document.getElementById('thread-6').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
+            <!-- #endregion -->
 
 
+            <!-- #region @@@7 -->
             <details>
-                <summary class="grid small-space" id="thread-7">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
-                        <img src="../../img/earth.svg" class="s-icon" width="18" height="18" alt="地球">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
+                <summary class="grid" id="thread-7">
+                    <div class="s2 m2 l1 str-num">07</div>
+                    <div class="s7 m7 l8 nobr str-title">バーミリオンの寝室</div>
+                    <div class="s3 m3 l3 nobr">
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
+                        <img src="../../img/earth.svg" class="summary-i" width="18" height="18" alt="地球">
+                        <wbr>
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">07　バーミリオンの寝室</div>
                 </summary>
                 <blockquote class="nocite">
                     <p>ああ、バーミリオン⋯。<br>爺さん、会いたいな。彼には何ていうか、温かみがあってさ。</p>
@@ -252,18 +322,20 @@
                     <p>close</p>
                 </a><a title="閉じる" href="#thread-7" class="close-details right" onclick="document.getElementById('thread-7').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
+            <!-- #endregion -->
 
 
+            <!-- #region @@@8 -->
             <details>
-                <summary class="grid small-space" id="thread-8">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
-                        <img src="../../img/earth.svg" class="s-icon" width="18" height="18" alt="地球">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
+                <summary class="grid" id="thread-8">
+                    <div class="s2 m2 l1 str-num">08</div>
+                    <div class="s7 m7 l8 nobr str-title">ピスタチオの花</div>
+                    <div class="s3 m3 l3 nobr">
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
+                        <img src="../../img/earth.svg" class="summary-i" width="18" height="18" alt="地球">
+                        <wbr>
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">08　ピスタチオの花</div>
                 </summary>
                 <blockquote class="nocite">
                     <p>ピスタチオの花が⋯ 咲いてる⋯。</p>
@@ -274,18 +346,20 @@
                     <p>close</p>
                 </a><a title="閉じる" href="#thread-8" class="close-details right" onclick="document.getElementById('thread-8').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
+            <!-- #endregion -->
 
 
+            <!-- #region @@@9 -->
             <details>
-                <summary class="grid small-space" id="thread-9">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
-                        <img src="../../img/earth.svg" class="s-icon" width="18" height="18" alt="地球">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
+                <summary class="grid" id="thread-9">
+                    <div class="s2 m2 l1 str-num">09</div>
+                    <div class="s7 m7 l8 nobr str-title">貨物室　<wbr><span class="my-lblue font-small">／お茶</span></div>
+                    <div class="s3 m3 l3 nobr">
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
+                        <img src="../../img/earth.svg" class="summary-i" width="18" height="18" alt="地球">
+                        <wbr>
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">09　貨物室<wbr><span class="my-lblue font-small">　／お茶</span></div>
                 </summary>
                 <blockquote class="nocite">
                     <p>見て、この荷物の山。<br>これじゃ星間規模で、着の身着のまま生活してるようなもんだ。</p>
@@ -296,18 +370,20 @@
                     <p>close</p>
                 </a><a title="閉じる" href="#thread-9" class="close-details right" onclick="document.getElementById('thread-9').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
+            <!-- #endregion -->
 
 
+            <!-- #region @@@10 -->
             <details>
-                <summary class="grid small-space" id="thread-10">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
+                <summary class="grid" id="thread-10">
+                    <div class="s2 m2 l1 str-num">10</div>
+                    <div class="s7 m7 l8 nobr str-title">居住区画　<wbr><span class="my-lblue font-small">／コーヒー</span></div>
+                    <div class="s3 m3 l3 nobr">
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
+                        <wbr>
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">10　居住区画<wbr><span class="my-lblue font-small">　／コーヒー</span></div>
                 </summary>
                 <blockquote class="nocite">
                     <p>ここで消費されるコーヒーの量は、計り知れない。<br>
@@ -321,18 +397,20 @@
                     <p>close</p>
                 </a><a title="閉じる" href="#thread-10" class="close-details right" onclick="document.getElementById('thread-10').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
+            <!-- #endregion -->
 
 
+            <!-- #region @@@11 -->
             <details>
-                <summary class="grid small-space" id="thread-11">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
-                        <img src="../../img/earth.svg" class="s-icon" width="18" height="18" alt="地球">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
+                <summary class="grid" id="thread-11">
+                    <div class="s2 m2 l1 str-num">11</div>
+                    <div class="s7 m7 l8 nobr str-title">エンジン区画　<wbr><span class="my-lblue font-small">／クマ</span></div>
+                    <div class="s3 m3 l3 nobr">
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
+                        <img src="../../img/earth.svg" class="summary-i" width="18" height="18" alt="地球">
+                        <wbr>
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">11　エンジン区画<wbr><span class="my-lblue font-small">　／クマ</span></div>
                 </summary>
                 <blockquote class="nocite">
                     <p>ここは船の燃料を貯蔵しておくとこで、隣のリアクターに送られるんだ。</p>
@@ -346,18 +424,20 @@
                     <p>close</p>
                 </a><a title="閉じる" href="#thread-11" class="close-details right" onclick="document.getElementById('thread-11').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
+            <!-- #endregion -->
 
 
+            <!-- #region @@@12 -->
             <details>
-                <summary class="grid small-space" id="thread-12">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
+                <summary class="grid" id="thread-12">
+                    <div class="s2 m2 l1 str-num">12</div>
+                    <div class="s7 m7 l8 nobr str-title">エンジンルーム　<wbr><span class="my-lblue font-small">／BAR</span></div>
+                    <div class="s3 m3 l3 nobr">
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
+                        <wbr>
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">12　エンジンルーム<wbr><span class="my-lblue font-small">　／BAR</span></div>
                 </summary>
                 <blockquote class="nocite">
                     <p>見つけたか⋯ アラバスター号、最大の秘密を。</p>
@@ -371,18 +451,20 @@
                     <p>close</p>
                 </a><a title="閉じる" href="#thread-12" class="close-details right" onclick="document.getElementById('thread-12').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
+            <!-- #endregion -->
 
 
+            <!-- #region @@@13 -->
             <details>
-                <summary class="grid small-space" id="thread-13">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
-                        <img src="../../img/pencil.svg" class="s-icon" width="18" height="18" alt="鉛筆">
+                <summary class="grid" id="thread-13">
+                    <div class="s2 m2 l1 str-num">13</div>
+                    <div class="s7 m7 l8 nobr str-title">娯楽室</div>
+                    <div class="s3 m3 l3 nobr">
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
+                        <wbr>
+                        <img src="../../img/pencil.svg" class="summary-i" width="18" height="18" alt="鉛筆">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">13　娯楽室</div>
                 </summary>
                 <blockquote class="nocite">
                     <p>この古いゲーム機をリクエストしたの、私なんだ。<br>
@@ -400,18 +482,20 @@
                     <p>close</p>
                 </a><a title="閉じる" href="#thread-13" class="close-details right" onclick="document.getElementById('thread-13').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
+            <!-- #endregion -->
 
 
+            <!-- #region @@@14 -->
             <details>
-                <summary class="grid small-space" id="thread-14">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <img src="../../img/star.svg" class="s-icon" width="18" height="18" alt="だいじ">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
+                <summary class="grid" id="thread-14">
+                    <div class="s2 m2 l1 str-num">14</div>
+                    <div class="s7 m7 l8 nobr str-title">重力</div>
+                    <div class="s3 m3 l3 nobr">
+                        <img src="../../img/star.svg" class="summary-i" width="18" height="18" alt="スター">
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
+                        <wbr>
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">14　重力</div>
                 </summary>
                 <blockquote class="nocite">
                     <p>へえ、重力の源を発見したってわけか。イカすだろ？</p>
@@ -457,18 +541,20 @@
                     <p>close</p>
                 </a><a title="閉じる" href="#thread-14" class="close-details right" onclick="document.getElementById('thread-14').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
+            <!-- #endregion -->
 
 
+            <!-- #region @@@15 -->
             <details>
-                <summary class="grid small-space" id="thread-15">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
-                        <img src="../../img/earth.svg" class="s-icon" width="18" height="18" alt="地球">
-                        <img src="../../img/pencil.svg" class="s-icon" width="18" height="18" alt="鉛筆">
+                <summary class="grid" id="thread-15">
+                    <div class="s2 m2 l1 str-num">15</div>
+                    <div class="s7 m7 l8 nobr str-title">温室</div>
+                    <div class="s3 m3 l3 nobr">
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
+                        <img src="../../img/earth.svg" class="summary-i" width="18" height="18" alt="地球">
+                        <wbr>
+                        <img src="../../img/pencil.svg" class="summary-i" width="18" height="18" alt="鉛筆">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">15　温室</div>
                 </summary>
                 <blockquote class="nocite">
                     <p>私も、この空気には度肝を抜かれた。<br>湿った？　空気は、初めてでさ。</p>
@@ -480,14 +566,9 @@
                     <p>あれ、私どこまで⋯ 行ったっけ。<br>我を忘れちゃった。</p>
                 </blockquote>
 
-
                 <h4 class="small">我を忘れた</h4>
-                <p>
-                    I err, where was I again? I lost myself for a moment there.
-                </p>
-                <p>
-                    一見コミカルな話なのに、悲劇の予兆がふたつも埋め込まれてる。
-                </p>
+                <p class="font-small">I err, where was I again? I lost myself for a moment there.</p>
+                <p>一見コミカルな話なのに、悲劇の予兆がふたつも埋め込まれてる。</p>
                 <ol class="lbd">
                     <li>
                         <p>"Where was I again?"</p>
@@ -500,30 +581,26 @@
                             見捨てのテーマ。全てを捨てた彼女は、最後に自分さえ見失ってしまう。</p>
                     </li>
                 </ol>
-                <p>
-                    逆に言うと。<br>夢中で大好きなケーキのことを語ってる間だけは、　居場所がある／自分がちゃんといる　ということ。<br>
-                    私はこのケーキを、彼女がまだ地球にいた頃の、思い出の味だと考えてる。<br>
-                    もしそうなら、彼女が捨て去った過去の中に、彼女に居場所を与えるもの、彼女に「ここにいていいよ」と言ってくれる、あったかい何かもあった（でも捨てた）、ということになるんじゃないかな。
-                </p>
-
-
+                <p>逆に言うと。<br>夢中で大好きなケーキのことを語ってる間だけは、　居場所がある／自分がちゃんといる　ということ。<br>私はこのケーキを、彼女がまだ地球にいた頃の、思い出の味だと考えてる。<br>もしそうなら、彼女が捨て去った過去の中に、彼女に居場所を与えるもの、彼女に「ここにいていいよ」と言ってくれる、あったかい何かもあった（でも捨てた）、ということになるんじゃないかな。</p>
 
                 <a title="閉じる" href="#thread-15" class="close-details" onclick="document.getElementById('thread-15').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
                 </a><a title="閉じる" href="#thread-15" class="close-details right" onclick="document.getElementById('thread-15').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
+            <!-- #endregion -->
 
 
+            <!-- #region @@@16 -->
             <details>
-                <summary class="grid small-space" id="thread-16">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
+                <summary class="grid" id="thread-16">
+                    <div class="s2 m2 l1 str-num">16</div>
+                    <div class="s7 m7 l8 nobr str-title">ジム</div>
+                    <div class="s3 m3 l3 nobr">
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
+                        <wbr>
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">16　ジム</div>
                 </summary>
                 <blockquote class="nocite">
                     <p>いいか、健康維持は大切だ。本当に。<br>でもバーミリオンの強制トレーニングの日課は、魂の重荷だった。</p>
@@ -537,18 +614,20 @@
                     <p>close</p>
                 </a><a title="閉じる" href="#thread-16" class="close-details right" onclick="document.getElementById('thread-16').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
+            <!-- #endregion -->
 
 
+            <!-- #region @@@17 -->
             <details>
-                <summary class="grid small-space" id="thread-17">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
-                        <img src="../../img/earth.svg" class="s-icon" width="18" height="18" alt="地球">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
+                <summary class="grid" id="thread-17">
+                    <div class="s2 m2 l1 str-num">17</div>
+                    <div class="s7 m7 l8 nobr str-title">キッチン</div>
+                    <div class="s3 m3 l3 nobr">
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
+                        <img src="../../img/earth.svg" class="summary-i" width="18" height="18" alt="地球">
+                        <wbr>
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">17　キッチン</div>
                 </summary>
                 <blockquote class="nocite">
                     <p>私はこれまで食に興味なくて、必要だから取ってるだけのことだった。</p>
@@ -561,18 +640,20 @@
                     <p>close</p>
                 </a><a title="閉じる" href="#thread-17" class="close-details right" onclick="document.getElementById('thread-17').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
+            <!-- #endregion -->
 
 
+            <!-- #region @@@18 -->
             <details>
-                <summary class="grid small-space" id="thread-18">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
+                <summary class="grid" id="thread-18">
+                    <div class="s2 m2 l1 str-num">18</div>
+                    <div class="s7 m7 l8 nobr str-title">図書室</div>
+                    <div class="s3 m3 l3 nobr">
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
+                        <wbr>
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">18　図書室</div>
                 </summary>
                 <blockquote class="nocite">
                     <p>宇宙で働くってのは、君もそうだと思うけど。</p>
@@ -587,18 +668,20 @@
                     <p>close</p>
                 </a><a title="閉じる" href="#thread-18" class="close-details right" onclick="document.getElementById('thread-18').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
+            <!-- #endregion -->
 
 
+            <!-- #region @@@19 -->
             <details>
-                <summary class="grid small-space" id="thread-19">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
+                <summary class="grid" id="thread-19">
+                    <div class="s2 m2 l1 str-num">19</div>
+                    <div class="s7 m7 l8 nobr str-title">リビングルーム</div>
+                    <div class="s3 m3 l3 nobr">
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
+                        <wbr>
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">19　リビングルーム</div>
                 </summary>
                 <blockquote class="nocite">
                     <p>ああ、作戦室だ。<br>少なくとも最初のゲームナイトの後からは、そう呼んでる。</p>
@@ -612,18 +695,20 @@
                     <p>close</p>
                 </a><a title="閉じる" href="#thread-19" class="close-details right" onclick="document.getElementById('thread-19').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
+            <!-- #endregion -->
 
 
+            <!-- #region @@@20 -->
             <details>
-                <summary class="grid small-space" id="thread-20">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
+                <summary class="grid" id="thread-20">
+                    <div class="s2 m2 l1 str-num">20</div>
+                    <div class="s7 m7 l8 nobr str-title">医務室</div>
+                    <div class="s3 m3 l3 nobr">
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
+                        <wbr>
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">20　医務室</div>
                 </summary>
                 <blockquote class="nocite">
                     <p>プルート、私はこの部屋で、もう一生分の時間を過ごしたと思うよ。<br>
@@ -636,18 +721,20 @@
                     <p>close</p>
                 </a><a title="閉じる" href="#thread-20" class="close-details right" onclick="document.getElementById('thread-20').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
+            <!-- #endregion -->
 
 
+            <!-- #region @@@21 -->
             <details>
-                <summary class="grid small-space" id="thread-21">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
-                        <img src="../../img/earth.svg" class="s-icon" width="18" height="18" alt="地球">
-                        <img src="../../img/pencil.svg" class="s-icon" width="18" height="18" alt="鉛筆">
+                <summary class="grid" id="thread-21">
+                    <div class="s2 m2 l1 str-num">21</div>
+                    <div class="s7 m7 l8 nobr str-title">Mez</div>
+                    <div class="s3 m3 l3 nobr">
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
+                        <img src="../../img/earth.svg" class="summary-i" width="18" height="18" alt="地球">
+                        <wbr>
+                        <img src="../../img/pencil.svg" class="summary-i" width="18" height="18" alt="鉛筆">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">21　Mez</div>
                 </summary>
                 <blockquote class="nocite">
                     <p>お、私の隠れ家を見つけたね。居心地いいだろ？</p>
@@ -660,18 +747,20 @@
                     <p>close</p>
                 </a><a title="閉じる" href="#thread-21" class="close-details right" onclick="document.getElementById('thread-21').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
+            <!-- #endregion -->
 
 
+            <!-- #region @@@22 -->
             <details>
-                <summary class="grid small-space" id="thread-22">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
-                        <img src="../../img/earth.svg" class="s-icon" width="18" height="18" alt="地球">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
+                <summary class="grid" id="thread-22">
+                    <div class="s2 m2 l1 str-num">22</div>
+                    <div class="s7 m7 l8 nobr str-title">プール</div>
+                    <div class="s3 m3 l3 nobr">
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
+                        <img src="../../img/earth.svg" class="summary-i" width="18" height="18" alt="地球">
+                        <wbr>
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">22　プール</div>
                 </summary>
                 <blockquote class="nocite">
                     <p>よし⋯ ちょっと付き合ってくれ。<br>愚痴らないと気が済まない。</p>
@@ -679,25 +768,27 @@
                     <p>フィラメント社はかなり融通を利かせてくれたんだが、私のダンスフロアは却下された。<br>欲しかったんだよ、カラフルなタイルと、ライトがピカピカ光るやつ。</p>
                     <p>ダメ元ではあった。士気向上を考えたらワンチャン。<br>案の定、リクエストは却下された。<br>まあいいさ、それで構わなかったんだ。</p>
                     <p>ところがだ。船に乗ったら、カナリアにはプールを丸々ひとつ与えてた！<br>君はこう考えてるね？ 「プールなんてただの穴だろ」って。</p>
-                    <p>その通りさ、ただの穴だ。<span class="num">４００</span>ガロンもの水が入った穴！<br>それがどれだけ重いかわかるか！？</p>
+                    <p>その通りさ、ただの穴だ。400ガロンもの水が入った穴！<br>それがどれだけ重いかわかるか！？</p>
                     <p>ダンスフロアよりずっと重い！<br>それにダンスフロアはこぼれたりしない！</p>
                 </blockquote>
                 <a title="閉じる" href="#thread-22" class="close-details" onclick="document.getElementById('thread-22').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
                 </a><a title="閉じる" href="#thread-22" class="close-details right" onclick="document.getElementById('thread-22').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
+            <!-- #endregion -->
 
 
+            <!-- #region @@@23 -->
             <details>
-                <summary class="grid small-space" id="thread-23">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
+                <summary class="grid" id="thread-23">
+                    <div class="s2 m2 l1 str-num">23</div>
+                    <div class="s7 m7 l8 nobr str-title">サーバールーム</div>
+                    <div class="s3 m3 l3 nobr">
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
+                        <wbr>
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">23　サーバールーム</div>
                 </summary>
                 <blockquote class="nocite">
                     <p>ああ、ナスの洞窟を見つけたんだな。<br>部屋に引きこもってない時は、決まってここにいたよ。</p>
@@ -710,18 +801,20 @@
                     <p>close</p>
                 </a><a title="閉じる" href="#thread-23" class="close-details right" onclick="document.getElementById('thread-23').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
+            <!-- #endregion -->
 
 
+            <!-- #region @@@24 -->
             <details>
-                <summary class="grid small-space" id="thread-24">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
+                <summary class="grid" id="thread-24">
+                    <div class="s2 m2 l1 str-num">24</div>
+                    <div class="s7 m7 l8 nobr str-title">シャワー室</div>
+                    <div class="s3 m3 l3 nobr">
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
+                        <wbr>
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">24　シャワー室</div>
                 </summary>
                 <blockquote class="nocite">
                     <p>あのさ、私はこれまで、シャワー関連でかなり悲惨な問題を抱えた船に乗ってきたんだ。</p>
@@ -733,18 +826,20 @@
                     <p>close</p>
                 </a><a title="閉じる" href="#thread-24" class="close-details right" onclick="document.getElementById('thread-24').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
+            <!-- #endregion -->
 
 
+            <!-- #region @@@25 -->
             <details>
-                <summary class="grid small-space" id="thread-25">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
-                        <img src="../../img/earth.svg" class="s-icon" width="18" height="18" alt="地球">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
+                <summary class="grid" id="thread-25">
+                    <div class="s2 m2 l1 str-num">25</div>
+                    <div class="s7 m7 l8 nobr str-title">更衣室</div>
+                    <div class="s3 m3 l3 nobr">
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
+                        <img src="../../img/earth.svg" class="summary-i" width="18" height="18" alt="地球">
+                        <wbr>
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">25　更衣室</div>
                 </summary>
                 <blockquote class="nocite">
                     <p>この宇宙服のいくつかに、手足が１、２本ないって気づいたかもね。<br>
@@ -756,18 +851,20 @@
                     <p>close</p>
                 </a><a title="閉じる" href="#thread-25" class="close-details right" onclick="document.getElementById('thread-25').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
+            <!-- #endregion -->
 
 
+            <!-- #region @@@26 -->
             <details>
-                <summary class="grid small-space" id="thread-26">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
+                <summary class="grid" id="thread-26">
+                    <div class="s2 m2 l1 str-num">26</div>
+                    <div class="s7 m7 l8 nobr str-title">手術室</div>
+                    <div class="s3 m3 l3 nobr">
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
+                        <wbr>
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">26　手術室</div>
                 </summary>
                 <blockquote class="nocite">
                     <p>ちょっと怖くないか？<br>こんな機械に身を委ねて、体が治るなんて信じがたいよな。</p>
@@ -781,18 +878,20 @@
                     <p>close</p>
                 </a><a title="閉じる" href="#thread-26" class="close-details right" onclick="document.getElementById('thread-26').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
+            <!-- #endregion -->
 
 
+            <!-- #region @@@27 -->
             <details>
-                <summary class="grid small-space" id="thread-27">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
+                <summary class="grid" id="thread-27">
+                    <div class="s2 m2 l1 str-num">27</div>
+                    <div class="s7 m7 l8 nobr str-title">倉庫</div>
+                    <div class="s3 m3 l3 nobr">
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
+                        <wbr>
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">27　倉庫</div>
                 </summary>
                 <blockquote class="nocite">
                     <p>こんなとこでどう探し物ができるのか、理解不能だね。<br>箱の見分けつかないし。</p>
@@ -805,22 +904,23 @@
                     <p>close</p>
                 </a><a title="閉じる" href="#thread-27" class="close-details right" onclick="document.getElementById('thread-27').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
+            <!-- #endregion -->
 
 
+            <!-- #region @@@28 -->
             <details>
-                <summary class="grid small-space" id="thread-28">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
+                <summary class="grid" id="thread-28">
+                    <div class="s2 m2 l1 str-num">28</div>
+                    <div class="s7 m7 l8 nobr str-title">作業場 大</div>
+                    <div class="s3 m3 l3 nobr">
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
+                        <wbr>
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">28　作業場 大</div>
                 </summary>
                 <blockquote class="nocite">
-                    <p>ここが、私たちがアンカーを作った場所だよ。<br>
-                        つっても、担当したのはママレードとナスだけど。</p>
+                    <p>ここが、私たちがアンカーを作った場所だよ。<br>つっても、担当したのはママレードとナスだけど。</p>
                     <p>文明圏から遠くにいる数少ないメリットのひとつは、何か壊れた時に備えて、予備を製造する設備が万全なこと。</p>
                     <p>もちろん、常識の範囲内でね。</p>
                     <p>聞けば、アンカー建造は至って簡単だったらしい。<br>奥のすみっこにある機械が、ガンガン作ってたんだと。</p>
@@ -829,41 +929,42 @@
                     <p>close</p>
                 </a><a title="閉じる" href="#thread-28" class="close-details right" onclick="document.getElementById('thread-28').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
+            <!-- #endregion -->
 
 
+            <!-- #region @@@29 -->
             <details>
-                <summary class="grid small-space" id="thread-29">
-                    <div class="s1 m1 l1"><img src="../../img/point-r.svg" class="s-icon" width="18" height="18" alt="" aria-hidden="true"></div>
-                    <div class="s3 m3 l3">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
-                        <img src="../../img/trans.png" class="s-icon" width="18" height="18" alt="" aria-hidden="true">
-                        <img src="../../img/pencil.svg" class="s-icon" width="18" height="18" alt="鉛筆">
+                <summary class="grid" id="thread-29">
+                    <div class="s2 m2 l1 str-num">29</div>
+                    <div class="s7 m7 l8 nobr str-title">作業場 小</div>
+                    <div class="s3 m3 l3 nobr">
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
+                        <img src="../../img/trans.png" class="summary-i" width="18" height="18" alt="" aria-hidden="true">
+                        <wbr>
+                        <img src="../../img/pencil.svg" class="summary-i" width="18" height="18" alt="鉛筆">
                     </div>
-
-                    <div class="s5 m8 l8 nobr">29　作業場 小</div>
                 </summary>
                 <blockquote class="nocite">
-                    <p>これは最初のランタン2号が失敗した後、取りかかった２機目。<br>
-                        私は「ランタン３号」と呼ぶ提案をしたけど、カナリアが⋯ まあね。</p>
+                    <p>これは最初のランタン2号が失敗した後、取りかかった2機目。<br>私は「ランタン3号」と呼ぶ提案をしたけど、カナリアが⋯ まあね。</p>
                     <p>結局未完だったけどね。<br>ちょうど、何もかもうまくいかない時期でさ。<br>打ち上げならずは残念だ、ちょっとイイ機能が付いてたのに。</p>
                     <p>最初の機体に起きたことは、未だに理解できない。<br>でも私が操縦してたし、失敗原因は「着陸できなかったこと」だから、少し責任を感じるよ。</p>
                     <p>でも、機体の挙動はマジでおかしかった。<br>着陸のために、私に何かできたとは思えないな。</p>
                 </blockquote>
 
                 <h4 class="small">メールと矛盾</h4>
-                <p>失敗原因は自分だと、背負い込んでいた彼女の言葉とは思えない<button class="chip">
+                <p>失敗原因は自分だと、背負い込んでいた彼女の言葉とは思えない。<button class="chip ch-k">
                         <div class="tooltip max">
-                            <p><b>《メール》ジュニパー 6週<br>　元気出せ</b></p>
+                            <p><b>【メール 6週】ジュニパー<br>　元気出せ</b></p>
                             <p class="talk">「墜落だろ？ あの糞ったれを操縦してたのは私だ。なら、私のせいだ」</p>
                         </div>
-                    </button>。</p>
-
-
+                    </button></p>
 
                 <a title="閉じる" href="#thread-29" class="close-details" onclick="document.getElementById('thread-29').scrollIntoView({ behavior:'smooth', block:'center'});">
                     <p>close</p>
                 </a><a title="閉じる" href="#thread-29" class="close-details right" onclick="document.getElementById('thread-29').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
             </details>
+            <!-- #endregion -->
+
         </div>
     </main>
 

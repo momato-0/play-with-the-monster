@@ -25,6 +25,11 @@
              color: #fff;
          }
 
+         .current-page {
+             color: #222 !important;
+             background-color: #ffe664 !important;
+         }
+
          /*-- details --*/
          .mail-txt blockquote p {
              margin: 1rem .5rem 1rem 0;
