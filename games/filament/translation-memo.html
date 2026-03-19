@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta property="og:title" content="Unreal Engine 4製ゲームの字幕テキストを翻訳・修正する方法 - 怪物であそぼう" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://momato-0.github.io/play-with-the-monster/games/filament/translation-memo.html" />
+    <meta property="og:image" content="" />
+    <meta property="og:description" content="UE4製ゲームで、.locresなし、アセット（.uasset）に組み込まれている字幕テキストを修正したときのメモ。FModelで.pakの中身を見る・JSON抽出、Inazuma Searchで全文検索、UAssetGUIで編集、UnrealPakで再パック、Mod配布、の流れをまとめています。" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <title>翻訳メモ - 怪物であそぼう</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/beercss@3.4.4/dist/cdn/beer.min.css" />
+    <link rel="stylesheet" href="../../style.css" type="text/css" />
+    <script type="module" src="https://cdn.jsdelivr.net/npm/beercss@3.4.4/dist/cdn/beer.min.js"></script>
+    <style>
+        .jel {
+            filter: brightness(0) saturate(100%) invert(90%) sepia(6%) saturate(3812%) hue-rotate(180deg) brightness(102%) contrast(101%);
+        }
+
+        .attention {
+            padding: 0 1rem;
+        }
+    </style>
+</head>
+
+<body class="dark">
+    <div id="global-nav"></div>
+
+    <header class="fixed pankuz">
+        <p class="font-smaller"><a href="../../index.html">HOME</a> > UE4製ゲームの字幕を翻訳・修正</p>
+    </header>
+
+    <main class="responsive">
+        <!-- title -->
+        <div class="h1-wrapp nobr">
+            <h1>UE4ゲームの<wbr>字幕テキストを<br />翻訳・修正する方法<br><span style="font-size: 80%;">（.locresなし）</span></h1>
+        </div>
+
+        <!-- #region intro -->
+        <p class="font-smaller">2026/03/10</p>
+        <p><span class="my-lblue">『Filament』</span>というUE4製ゲームの機械翻訳を、自然な日本語に修正したときの手順です。<br />有志翻訳Modderの参考になれば幸いです。ゲームの概要はこんな感じ：</p>
+        <ul class="lbd">
+            <li>Unreal Engine 4.24 製</li>
+            <li>ローカライズファイル（.locres）なし</li>
+            <li>アセット（.uasset）に字幕テキストが組み込まれてる</li>
+        </ul>
+        <!-- #endregion -->
+
+        <div class="h2-wrapp">
+            <h2>作業の流れ</h2>
+        </div>
+
+        <div class="color-change">
+
+
+            <!-- #region 00 -->
+            <details>
+                <summary id="thread-00" class="grid">
+                    <div class="s2 m2 l1 str-num">tips.</div>
+                    <div class="s10 m10 l11 str-title"><b class="my-lblue"><img class="jel" src="../../img/folder.svg" width="18" height="18" alt="" aria-hidden="true" />ゲームフォルダ</b> はどこ？</div>
+                </summary>
+
+                <p>何かと使うので、簡単にメモ。</p>
+
+                <ol class="bd mt-4">
+                    <li>
+                        Steamのライブラリ　>　歯車マーク<br /><img class="zukai" style="max-inline-size: 721px" src="img/SS-steam-01.webp" width="721" height="344" alt="Steamのライブラリページ。「プレイ」ボタンの右側に歯車マークがある" />
+                    </li>
+                    <li class="no-border">
+                        <p>管理　>　ローカルファイルを閲覧</p>
+                        <img class="zukai" style="max-inline-size: 422px" src="img/SS-steam-02.webp" width="422" height="349" alt="歯車マークを押したあと、管理 &gt; ローカルファイルを閲覧　と進む" />
+                        <p class="mt-3">……で出てくるのが、<b class="my-lblue"><img class="jel" src="../../img/folder.svg" width="18" height="18" alt="" aria-hidden="true" />ゲームフォルダ</b>。</p>
+
+                    </li>
+                </ol>
+
+                <a title="閉じる" href="#thread-00" class="close-details" onclick="document.getElementById('thread-00').scrollIntoView({ behavior: 'smooth', block: 'center' })">
+                    <p>close</p>
+                </a><a title="閉じる" href="#thread-00" class="close-details right" onclick="document.getElementById('thread-00').scrollIntoView({ behavior: 'smooth', block: 'center' })"></a>
+            </details>
+            <!-- #endregion -->
+
+
+            <!-- #region 01 -->
+            <details class="mt-4">
+                <summary id="thread-01" class="grid">
+                    <div class="s2 m2 l1 str-num">1</div>
+                    <div class="s10 m10 l11 str-title">ゲームエンジンを調べよう</div>
+                </summary>
+                <ul class="bd">
+                    <li><span class="my-lblue">Unreal Engine</span> か、<span class="my-lblue">Unity</span> か、はたまた別か？</li>
+                    <li>
+                        <b class="my-lblue"><img class="jel" src="../../img/folder.svg" width="18" height="18" alt="" aria-hidden="true" />ゲームフォルダ</b> からゲームの実行ファイル（.exe）を右クリックして、プロパティで調べた。<span class="my-b">UE 4.24</span>だった。
+                    </li>
+                </ul>
+
+                <a title="閉じる" href="#thread-01" class="close-details" onclick="document.getElementById('thread-01').scrollIntoView({ behavior: 'smooth', block: 'center' })">
+                    <p>close</p>
+                </a><a title="閉じる" href="#thread-01" class="close-details right" onclick="document.getElementById('thread-01').scrollIntoView({ behavior: 'smooth', block: 'center' })"></a>
+            </details>
+            <!-- #endregion -->
+
+
+            <!-- #region 02 -->
+            <details>
+                <summary id="thread-02" class="grid">
+                    <div class="s2 m2 l1 str-num">2</div>
+                    <div class="s10 m10 l11 str-title">.pak を探そう</div>
+                </summary>
+                <ul class="bd">
+                    <li>
+                        ゲーム内のコンテンツは、パッケージ・ファイル（<span class="my-lblue">.pak</span>）にまとめられている。　<span class="font-small">※ .ucas/.utoc の場合あり</span>
+                    </li>
+                    <li>
+                        <b class="my-lblue"><img class="jel" src="../../img/folder.svg" width="18" height="18" alt="" aria-hidden="true" />ゲームフォルダ</b> 直下か、「ゲーム名/Content/」から <b class="my-lblue"><img class="jel" src="../../img/folder.svg" width="18" height="18" alt="" aria-hidden="true" />Paks</b> フォルダを探そう。<br>ここに .pak が入っている。
+                    </li>
+                    <li class="no-border">
+                        <p>.pak はそのままじゃ開けない。<br>容量もデカいので、まずは中身を見るツールで、<span class="my-lblue">ゲーム内テキストや翻訳</span>がどのファイルに入ってるか探す。<br>今回は <a href="https://fmodel.app/" target="_blank"><b>FModel</b></a><img class="mini-icon" src="../../img/box-arrow-up-right.svg" width="13" height="13" alt="新しいウィンドウで開く" /> を使った。</p>
+                        <div class="attention mt-3 font-small">
+                            <p>📌 FModelでできること …… .pak (.ucas/.utoc) の中を見る、ファイル名検索、.json出力、.uasset出力</p>
+                        </div>
+
+                    </li>
+                </ul>
+
+                <a title="閉じる" href="#thread-02" class="close-details" onclick="document.getElementById('thread-02').scrollIntoView({ behavior: 'smooth', block: 'center' })">
+                    <p>close</p>
+                </a><a title="閉じる" href="#thread-02" class="close-details right" onclick="document.getElementById('thread-02').scrollIntoView({ behavior: 'smooth', block: 'center' })"></a>
+            </details>
+            <!-- #endregion -->
+
+
+            <!-- #region 03 -->
+            <details>
+                <summary id="thread-02a" class="grid">
+                    <div class="s2 m2 l1 str-num">3</div>
+                    <div class="s10 m10 l11 str-title">.pak の中を見てみる　<span class="my-lblue font-small">／ツール - FModel</span></div>
+                </summary>
+                <ol class="bd">
+                    <li>
+                        <a href="https://fmodel.app/" target="_blank"><b>FModel</b></a><img class="mini-icon" src="../../img/box-arrow-up-right.svg" width="13" height="13" alt="新しいウィンドウで開く" /> を起動すると、ゲームを自動検知してくれる。<br>見つからない時は<span style="color:#f7fa98;">手動入力</span>。適当な設定名をつけて、<b class="my-lblue"><img class="jel" src="../../img/folder.svg" width="18" height="18" alt="" aria-hidden="true" />Paks</b> フォルダのパスを入れる。
+
+                        <img class="zukai" src="img/fmodel-SS02.webp" width="1000" height="813" alt="Fmodel 初期画面" style="max-inline-size: 700px" />
+                        <p class="font-small mt-0 center-align"><a href="img/fmodel-SS02.webp" target="_blank">拡大</a><img class="mini-icon emoji" src="../../img/box-arrow-up-right.svg" width="13" height="13" alt="新しいウィンドウで開く"></p>
+                    </li>
+                    <li>
+                        <p>
+                            <b class="my-lblue"><img class="jel" src="../../img/folder.svg" width="18" height="18" alt="" aria-hidden="true" />Paks</b> フォルダの中身の画面になる。
+                        </p>
+                        <ul class="lbd mt-3">
+                            <li>Archives タブ　>　Loading Mode　>　<span class="my-b">All</span>　にする。</li>
+                            <li class="no-border"><span class="my-b">Load</span>ボタンを押すと、.pak が全部読み込まれる。</li>
+                        </ul>
+
+                        <img class="zukai" src="img/fmodel-SS03.webp" width="1000" height="787" alt="Fmodel 読み込む.pakファイルを選択" style="max-inline-size: 700px" />
+                        <p class="font-small mt-0 center-align"><a href="img/fmodel-SS03.webp" target="_blank">拡大</a><img class="mini-icon emoji" src="../../img/box-arrow-up-right.svg" width="13" height="13" alt="新しいウィンドウで開く"></p>
+
+                        <div class="attention font-small mt-3">
+                            <p><b>📌 Loading Mode</b></p>
+                            <p>- Multiple :　選択した .pak だけ読み込む（複数可）<br>
+                                - All :　全部読み込む</p>
+                        </div>
+                    </li>
+                    <li class="no-border">
+                        <p><b class="my-lblue">Folders タブ</b>へ。</p>
+                        <ul class="bd mt-3">
+                            <li>
+                                ここが .pak の中身。フォルダ・ファイルが一覧になって出てくる。
+                            </li>
+                            <li>
+                                <b class="my-lblue"><img class="jel" src="../../img/folder.svg" width="18" height="18" alt="" aria-hidden="true" />ゲーム名</b> のフォルダ（ルートフォルダ）を選んで、検索 <span class="my-b">Ctrl + Shift + P</span> をかけてみよう。
+
+                                <ul class="lbd mt-3 font-small">
+                                    <li>今回は公式訳があるゲームなので、<span class="my-lblue">.locres</span>（ローカライズの翻訳ファイル）を探した。→ 無し</li>
+                                    <li>local　log　message　text　jp　など字幕に関係しそうなファイル名で探す。→ .uassetがいくつかヒット</li>
+                                    <li class="no-border">検索結果からファイルサイズ 800kb-1Mb あたりのものを内容確認したが、肝心なメインストーリーのテキストが見つからない。→ 全文検索へ</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <span class="my-lblue">.locres</span> がある場合は、こちらが参考になりそう：　<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3242343757" target="_blank">翻訳Modderの為の忘備録 - Yararezon</a><img class="mini-icon emoji" src="../../img/box-arrow-up-right.svg" width="13" height="13" alt="新しいウィンドウで開く">
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+
+                <a title="閉じる" href="#thread-02a" class="close-details" onclick="document.getElementById('thread-02a').scrollIntoView({ behavior: 'smooth', block: 'center' })">
+                    <p>close</p>
+                </a><a title="閉じる" href="#thread-02a" class="close-details right" onclick="document.getElementById('thread-02a').scrollIntoView({ behavior: 'smooth', block: 'center' })"></a>
+            </details>
+            <!-- #endregion -->
+
+
+            <!-- #region 04 -->
+            <details>
+                <summary id="thread-03" class="grid">
+                    <div class="s2 m2 l1 str-num">4</div>
+                    <div class="s10 m10 l11 str-title">全文検索したい　<span class="my-lblue font-small">／ツール - Inazuma Search</span></div>
+                </summary>
+
+
+                <ul class="bd">
+                    <li>FModel の検索で、ゲームテキストがいくつかのファイルに分かれてるとわかった。<br>ファイル名検索だけじゃ探しきれない。</li>
+                    <li>今のところ、<span class="my-lblue">FModel は全文検索ができない</span>。<br>.pak を全部 JSON で取り出して、テキスト用の全文検索ツールで探すことにした。今回は <a href="https://inazumaapps.info/inazumasearch/" target="_blank"><b>Inazuma Search</b></a><img class="mini-icon" src="../../img/box-arrow-up-right.svg" width="13" height="13" alt="新しいウィンドウで開く" /> を使う。</li>
+                </ul>
+
+
+                <h4>FModel で JSON出力</h4>
+                <ol class="lbd mt-3">
+                    <li>
+                        まずは FModel。<br>
+                        上部メニュー <span class="my-b">Setting　>　General　>　Output Directory</span> で出力先を決めておこう。
+                    </li>
+                    <li>
+                        <b class="my-lblue"><img class="jel" src="../../img/folder.svg" width="18" height="18" alt="" aria-hidden="true" />ゲーム名</b> のフォルダ（ルートフォルダ）を右クリック　>　<span class="my-b">（.json）</span>で出力。
+
+                        <img class="zukai" src="img/fmodel-SS04.webp" width="1000" height="673" alt="Fmodel 右クリックで抽出できる" style="max-inline-size: 700px" />
+                        <p class="font-small mt-0 center-align"><a href="img/fmodel-SS04.webp" target="_blank">拡大</a><img class="mini-icon emoji" src="../../img/box-arrow-up-right.svg" width="13" height="13" alt="新しいウィンドウで開く"></p>
+                    </li>
+                </ol>
+
+
+                <h4>Inazuma Search で全文検索</h4>
+                <ol class="lbd mt-3">
+                    <li>
+                        <p>つぎに Inazuma Search を起動。</p>
+
+                        <ul class="bd mt-3">
+                            <li>右上の設定　>　<span class="my-b">検索対象フォルダ</span>を追加する。出力したJSONが入ったフォルダだ。</li>
+                            <li>そのまま、右下にある<span class="my-b">「詳細設定と特殊機能」</span>へ進む。</li>
+                        </ul>
+
+                        <img class="zukai" src="img/inazuma-SS02.webp" width="867" height="701" alt="inazuma search 設定画面" style="max-inline-size: 600px" />
+                        <p class="font-small mt-0 center-align"><a href="img/inazuma-SS02.webp" target="_blank">拡大</a><img class="mini-icon emoji" src="../../img/box-arrow-up-right.svg" width="13" height="13" alt="新しいウィンドウで開く"></p>
+
+                    </li>
+                    <li>
+                        <p>ここで<span class="my-b">.json</span>を追加すると、JSONファイルの全文検索ができるようになる。</p>
+                        <img class="zukai" src="img/inazuma-SS01.webp" width="1000" height="823" alt="inazuma search jsonを登録" style="max-inline-size: 600px" />
+                        <p class="font-small mt-0 center-align"><a href="img/inazuma-SS01.webp" target="_blank">拡大</a><img class="mini-icon emoji" src="../../img/box-arrow-up-right.svg" width="13" height="13" alt="新しいウィンドウで開く"></p>
+                    </li>
+                    <li>
+                        あとは最初の画面に戻って、<span class="my-b">クロール</span>ボタンを押し、しばらく待つ。<br>
+                        クロールが終わったら、ゲーム内の固有名詞・セリフなどで検索。ゲーム内テキストが入ったファイルを全部特定する。
+                        特定したファイル名とパスはメモっておく。
+                    </li>
+                </ol>
+
+
+                <div class="attention mt-3 font-small">
+                    <p>今回のゲームは、メインストーリーのテキストが3つのファイルに入っていて（.uasset、<span class="my-b">.umap</span>）、どれが実際にゲーム内に影響を与えてるのか確認しないといけなかった。<br>
+                        【6 .uasset編集】で「これは」「これハ」「これワ」とわざと変えて保存し、ゲーム内でその文章を確認して突き止めた。</p>
+                </div>
+
+
+                <a title="閉じる" href="#thread-03" class="close-details" onclick="document.getElementById('thread-03').scrollIntoView({ behavior: 'smooth', block: 'center' })">
+                    <p>close</p>
+                </a><a title="閉じる" href="#thread-03" class="close-details right" onclick="document.getElementById('thread-03').scrollIntoView({ behavior: 'smooth', block: 'center' })"></a>
+            </details>
+            <!-- #endregion -->
+
+
+            <!-- #region 05 -->
+            <details>
+                <summary id="thread-04" class="grid">
+                    <div class="s2 m2 l1 str-num">5</div>
+                    <div class="s10 m10 l11 str-title">.pak から .uasset を取り出そう</div>
+                </summary>
+
+
+                <p>
+                    <b class="my-lblue">FModel</b> に戻る。<br>
+                    さっき突き止めたファイル名で検索。ヒットしたファイルを右クリック　>　<span class="my-b">（.uasset）</span>で出力。
+                </p>
+
+
+                <div class="attention mt-3 font-small">
+                    <p>
+                        📌 場合によっては .uasset と .uexp がセットなこともある（.uasset がヘッダー、.uexp が実データ）。<br>
+                        その場合は一緒に出力してくれるらしい。<span class="my-lblue">UAssetGUI</span> での編集や <span class="my-lblue">.pak化</span>するときも、セットで入れる必要がある。<br>
+                    </p>
+                </div>
+                <div class="attention mt-3 font-small">
+                    <p>
+                        📌 今回は、メインストーリーのファイルだけ<span class="my-b">.umap</span>だった。<br>
+                        でも .uasset と同じように扱っていいみたい。出力も編集も同じ方法でできた。
+                    </p>
+                </div>
+
+
+                <a title="閉じる" href="#thread-04" class="close-details" onclick="document.getElementById('thread-04').scrollIntoView({ behavior: 'smooth', block: 'center' })">
+                    <p>close</p>
+                </a><a title="閉じる" href="#thread-04" class="close-details right" onclick="document.getElementById('thread-04').scrollIntoView({ behavior: 'smooth', block: 'center' })"></a>
+            </details>
+            <!-- #endregion -->
+
+
+            <!-- #region 06 -->
+            <　details>
+                <summary id="thread-06" class="grid">
+                    <div class="s2 m2 l1 str-num">6</div>
+                    <div class="s10 m10 l11 str-title">.uasset を編集しよう（翻訳作業）　<span class="my-lblue font-small">／ツール - UAssetGUI</span></div>
+                </summary>
+
+
+                <p>やっと翻訳作業だ。私の手順はこんな感じ：</p>
+
+                <ol class="lbd">
+                    <li>英語原文をコピー</li>
+                    <li>AI／機械翻訳をかける</li>
+                    <li>都度細かいニュアンスを深掘り、修正</li>
+                    <li>修正した訳をオリジナルと置き換える</li>
+                </ol>
+
+                <p>1と4に、<a href="https://github.com/atenfyr/UAssetGUI" target="_blank"><b class="my-lblue">UAssetGUI</b></a><img class="mini-icon" src="../../img/box-arrow-up-right.svg" width="13" height="13" alt="新しいウィンドウで開く" />  を使った。</p>
+
+                <img class="zukai" src="img/uassetgui-SS01.png" width="683" height="569" alt="Fmodel 初期画面" style="max-inline-size: 683px" />
+                <p class="font-small mt-0 center-align"><a href="img/uassetgui-SS01.png" target="_blank">拡大</a><img class="mini-icon emoji" src="../../img/box-arrow-up-right.svg" width="13" height="13" alt="新しいウィンドウで開く"></p>
+                <p><span class="my-lblue">UEバージョンをちゃんと入れさえすれば</span>、あとは .uasset ファイルを開くだけ。<br>
+                    左のリストの <span class="my-lblue">Export 1, 2, </span>....にデータが色々入ってるので、まず目当ての場所を探す。見つかったらコピーなり置換なりして、保存。<br>
+                    データが多い時は検索も使うとよし（結構時間かかるけど）。</p>
+
+                <div class="attention mt-3 font-small">
+                </div>
+
+                <a title="閉じる" href="#thread-06" class="close-details" onclick="document.getElementById('thread-06').scrollIntoView({ behavior: 'smooth', block: 'center' })">
+                    <p>close</p>
+                </a><a title="閉じる" href="#thread-06" class="close-details right" onclick="document.getElementById('thread-06').scrollIntoView({ behavior: 'smooth', block: 'center' })"></a>
+                </details>
+                <!-- #endregion -->
+
+
+                <!-- #region 07 -->
+                <details>
+                    <summary id="thread-07" class="grid">
+                        <div class="s2 m2 l1 str-num">7</div>
+                        <div class="s10 m10 l11 str-title">.pak にまとめて配布</div>
+                    </summary>
+                    <p></p>
+                    <a title="閉じる" href="#thread-07" class="close-details" onclick="document.getElementById('thread-07').scrollIntoView({ behavior: 'smooth', block: 'center' })">
+                        <p>close</p>
+                    </a><a title="閉じる" href="#thread-07" class="close-details right" onclick="document.getElementById('thread-07').scrollIntoView({ behavior: 'smooth', block: 'center' })"></a>
+                </details>
+                <!-- #endregion -->
+        </div>
+
+
+        <div class="h2-wrapp">
+            <h2>使用ツール</h2>
+        </div>
+        <p></p>
+        <ul class="lbd">
+            <li><span class="my-b">FModel</span> -- .pakの中身を見る・タイトル検索・.jsonで抽出</li>
+            <li><span class="my-b">Inazuma Search</span> -- .jsonで抽出したテキストを全文検索</li>
+            <li><span class="my-b">UAssetGUI</span> -- .uasset ファイルのテキストを書き換え</li>
+            <li><span class="my-b">UE_4.24 (UnrealPak)</span> -- .pak にパッキング</li>
+        </ul>
+    </main>
+
+    <footer class="center-align">
+        <small>&copy;
+            <script>
+                document.write(new Date().getFullYear());
+            </script>
+            怪物であそぼう
+        </small>
+    </footer>
+
+    <script src="../../global.js"></script>
+</body>
+
+</html>

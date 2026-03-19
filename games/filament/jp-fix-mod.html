@@ -1,10 +1,9 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="謎がさらに深まり、ほどけなくなってしまう公式日本語訳を、私の翻訳に変更するMODです。ダウンロード先＆インストール方法の説明あり。">
+    <meta name="description" content="謎がさらに深まり、ほどけなくなってしまう公式日本語訳を、私の翻訳に変更するMODです。ダウンロード先＆インストール方法の説明あり。" />
     <meta property="og:title" content="【FILAMENT】有志翻訳MOD - 怪物であそぼう" />
     <meta property="og:type" content="article" />
     <meta property="og:url" content="https://momato-0.github.io/play-with-the-monster/games/filament/jp-fix-mod.html" />
@@ -13,218 +12,233 @@
     <meta name="twitter:card" content="summary_large_image" />
     <title>【FILAMENT】有志翻訳MOD - 怪物であそぼう</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/beercss@3.4.4/dist/cdn/beer.min.css" />
-    <link rel="stylesheet" href="../../style.css" type="text/css">
+    <link rel="stylesheet" href="../../style.css" type="text/css" />
     <script type="module" src="https://cdn.jsdelivr.net/npm/beercss@3.4.4/dist/cdn/beer.min.js"></script>
     <style>
-        .jel {
-            filter: brightness(0) saturate(100%) invert(90%) sepia(6%) saturate(3812%) hue-rotate(180deg) brightness(102%) contrast(101%);
-        }
+      .jel {
+        filter: brightness(0) saturate(100%) invert(90%) sepia(6%) saturate(3812%) hue-rotate(180deg) brightness(102%) contrast(101%);
+      }
 
-        .color-y,
-        h2 {
-            color: #ffe664;
-        }
+      .color-y,
+      h2 {
+        color: #ffe664;
+      }
 
-        .h2-wrapp::before {
-            filter: grayscale(100%) hue-rotate(120deg);
-        }
+      .h2-wrapp::before {
+        filter: grayscale(100%) hue-rotate(120deg);
+      }
     </style>
-</head>
+  </head>
 
-<body class="dark">
+  <body class="dark">
     <div id="global-nav"></div>
 
     <header class="fixed pankuz">
-        <p class="font-smaller"><a href="../../index.html">HOME</a> > <a href="filament-guide.html">FILAMENT</a> > 有志翻訳MOD</p>
+      <p class="font-smaller"><a href="../../index.html">HOME</a> > <a href="filament-guide.html">FILAMENT</a> > 有志翻訳MOD</p>
     </header>
 
     <main class="responsive">
-        <div class="h1-wrapp">
-            <h1>FILAMENT<br><span class="color-y">有志翻訳 MOD</span></h1>
+      <div class="h1-wrapp">
+        <h1>FILAMENT<br /><span class="color-y">有志翻訳 MOD</span></h1>
+      </div>
+
+      <p>
+        謎がさらに深まり、<ruby>解<rt>ほど</rt></ruby
+        >けなくなってしまう公式日本語訳を、私の翻訳に変更するMODです：
+      </p>
+      <blockquote class="nocite">
+        <p>
+          原文：　I mean, who wouldn’t want to be a part of that? Sounds great... Right?<br />
+          元訳：　人類革新の一員、偉いすぎで誰でも参加したくなるでしょう
+        </p>
+        <p><span style="color: var(--on-surface)">私の：　そんな計画に参加したくない奴いるか？ 最高だろ？</span></p>
+      </blockquote>
+
+      <details>
+        <summary id="history">更新履歴</summary>
+        <div class="font-small">
+          <p class="talk">2026/02/21 …… 誤字修正</p>
+          <p class="talk">2026/02/04 …… 翻訳微調整</p>
+          <p class="talk">2026/01/30 …… 日本語フォント（Noto Sans JP）導入</p>
+          <p class="talk">2026/01/28 …… 翻訳・MOD化すべて終了</p>
+          <p class="talk">
+            2026/01/09 …… 一部MOD化<br />
+            終了：　ストーリー、ルーム、UI<br />
+            まだ：　メール、破損（翻訳済）、日誌（翻訳中）
+          </p>
+          <p class="talk">2025/08/16 …… 翻訳開始</p>
         </div>
+        <a title="閉じる" href="#history" class="close-details" onclick="document.getElementById('history').scrollIntoView({ behavior: 'smooth', block: 'center' })">
+          <p>close</p> </a
+        ><a title="閉じる" href="#history" class="close-details right" onclick="document.getElementById('history').scrollIntoView({ behavior: 'smooth', block: 'center' })"></a>
+      </details>
 
+      <div class="h2-wrapp">
+        <h2 class="no-count">インストール方法</h2>
+      </div>
 
-        <p>謎がさらに深まり、<ruby>解<rt>ほど</rt></ruby>けなくなってしまう公式日本語訳を、私の翻訳に変更するMODです：</p>
-        <blockquote class="nocite">
-            <p>原文：　I mean, who wouldn’t want to be a part of that? Sounds great... Right?<br>
-                元訳：　人類革新の一員、偉いすぎで誰でも参加したくなるでしょう</p>
-            <p><span style="color: var(--on-surface);">私の：　そんな計画に参加したくない奴いるか？ 最高だろ？</span>
-            </p>
-        </blockquote>
-
-
+      <div class="color-change">
         <details>
-            <summary id=history>更新履歴</summary>
-            <div class="font-small">
-                <p class="talk">
-                    2026/02/21 …… 誤字修正
-                </p>
-                <p class="talk">
-                    2026/02/04 …… 翻訳微調整
-                </p>
-                <p class="talk">
-                    2026/01/30 …… 日本語フォント（Noto Sans JP）導入
-                </p>
-                <p class="talk">
-                    2026/01/28 …… 翻訳・MOD化すべて終了
-                </p>
-                <p class="talk">
-                    2026/01/09 …… 一部MOD化<br>
-                    終了：　ストーリー、ルーム、UI<br>
-                    まだ：　メール、破損（翻訳済）、日誌（翻訳中）
-                </p>
-                <p class="talk">
-                    2025/08/16 …… 翻訳開始
-                </p>
-            </div>
-            <a title="閉じる" href="#history" class="close-details" onclick="document.getElementById('history').scrollIntoView({ behavior:'smooth', block:'center'});">
-                <p>close</p>
-            </a><a title="閉じる" href="#history" class="close-details right" onclick="document.getElementById('history').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
+          <summary id="howto-01">　1　翻訳ファイル（zip）をダウンロード</summary>
+
+          <p>
+            ダウンロード：　<a href="https://drive.google.com/file/d/1Ddzm5uH24c9YSdATGc6SxtnxQw8-Y_Gi/view?usp=sharing" target="_blank">Googleドライブ</a
+            ><img class="mini-icon emoji" src="../../img/box-arrow-up-right.svg" width="16" height="16" alt="新しいウィンドウで開く" />
+          </p>
+
+          <a title="閉じる" href="#howto-01" class="close-details" onclick="document.getElementById('howto-01').scrollIntoView({ behavior: 'smooth', block: 'center' })">
+            <p>close</p> </a
+          ><a title="閉じる" href="#howto-01" class="close-details right" onclick="document.getElementById('howto-01').scrollIntoView({ behavior: 'smooth', block: 'center' })"></a>
         </details>
 
+        <details>
+          <summary id="howto-02">　2　翻訳ファイル（zip）を解凍</summary>
 
-        <div class="h2-wrapp">
-            <h2 class="no-count">インストール方法</h2>
-        </div>
+          <p>ZIPを解凍する。中身はふたつ：</p>
+          <ul class="lbd">
+            <li>
+              <b class="my-lblue"><img class="jel" src="../../img/file-text.svg" width="18" height="18" alt="" aria-hidden="true" /> ReadMe.txt</b>
+            </li>
+            <li>
+              <b class="my-lblue"><img class="jel" src="../../img/folder.svg" width="18" height="18" alt="" aria-hidden="true" /> Filament フォルダ</b>
+            </li>
+          </ul>
 
+          <a title="閉じる" href="#howto-02" class="close-details" onclick="document.getElementById('howto-02').scrollIntoView({ behavior: 'smooth', block: 'center' })">
+            <p>close</p> </a
+          ><a title="閉じる" href="#howto-02" class="close-details right" onclick="document.getElementById('howto-02').scrollIntoView({ behavior: 'smooth', block: 'center' })"></a>
+        </details>
 
-        <div class="color-change">
-            <details>
-                <summary id="howto-01">　1　翻訳ファイル（zip）をダウンロード</summary>
+        <details>
+          <summary id="howto-03">　3　ゲームフォルダを探す</summary>
 
-                <p>ダウンロード：　<a href="https://drive.google.com/file/d/1Ddzm5uH24c9YSdATGc6SxtnxQw8-Y_Gi/view?usp=sharing" target="_blank">Googleドライブ</a><img class="mini-icon emoji" src="../../img/box-arrow-up-right.svg" width="16" height="16" alt="新しいウィンドウで開く"></p>
+          <p>自分のローカルファイルから、Filament のゲームフォルダを探す：</p>
 
-                <a title="閉じる" href="#howto-01" class="close-details" onclick="document.getElementById('howto-01').scrollIntoView({ behavior:'smooth', block:'center'});">
-                    <p>close</p>
-                </a><a title="閉じる" href="#howto-01" class="close-details right" onclick="document.getElementById('howto-01').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
-            </details>
+          <ol class="lbd">
+            <li>Steamを起動し、ライブラリへ。</li>
+            <li>
+              右側の歯車マークを押す。<br />
+              <img class="zukai" style="max-inline-size: 721px" src="img/SS-steam-01.webp" width="721" height="344" alt="Steamのライブラリページ。「プレイ」ボタンの右側に歯車マークがある" />
+            </li>
+            <li>
+              管理　>　ローカルファイルを閲覧<br />
+              <img class="zukai" style="max-inline-size: 422px" src="img/SS-steam-02.webp" width="422" height="349" alt="歯車マークを押したあと、管理 > ローカルファイルを閲覧　と進む" />
+            </li>
+            <li class="no-border">
+              \SteamLibrary\steamapps\common\Filament　が開く。<br />これがゲームフォルダ。<br /><br />
+              <b class="my-lblue">Filament.exe</b> があるのを確認。<br />
+              <img class="zukai" style="max-inline-size: 352px" src="img/SS-steam-03.webp" width="352" height="149" alt="ゲームフォルダの中身" />
+            </li>
+          </ol>
 
+          <a title="閉じる" href="#howto-03" class="close-details" onclick="document.getElementById('howto-03').scrollIntoView({ behavior: 'smooth', block: 'center' })">
+            <p>close</p> </a
+          ><a title="閉じる" href="#howto-03" class="close-details right" onclick="document.getElementById('howto-03').scrollIntoView({ behavior: 'smooth', block: 'center' })"></a>
+        </details>
 
-            <details>
-                <summary id="howto-02">　2　翻訳ファイル（zip）を解凍</summary>
+        <details>
+          <summary id="howto-04">　4　ゲームフォルダにコピペ</summary>
+          <img class="zukai" style="max-inline-size: 352px" src="img/SS-steam-03.webp" width="352" height="149" alt="ゲームフォルダの中身" />
+          <p>
+            <b class="my-lblue">Filament.exe</b> があるとこに、解凍した<b class="my-lblue"
+              ><img class="jel" src="../../img/folder.svg" width="18" height="18" alt="" aria-hidden="true" />Filament フォルダ</b
+            >
+            をコピペする。
+          </p>
+          <p class="font-small talk">
+            ※コピペすると、<br />
+            <span class="my-lblue">ゲームフォルダ\Filament\Content\Paks</span><br />
+            の中に<span class="my-lblue">「~mods」</span>というフォルダができて、その中に翻訳modが入る。<br />
+            元のファイルに変化なし。
+          </p>
 
-                <p>ZIPを解凍する。中身はふたつ：</p>
-                <ul class="lbd">
-                    <li><b class="my-lblue"><img class="jel" src="../../img/file-text.svg" width="18" height="18" alt="" aria-hidden="true"> ReadMe.txt</b></li>
-                    <li><b class="my-lblue"><img class="jel" src="../../img/folder.svg" width="18" height="18" alt="" aria-hidden="true"> Filament フォルダ</b></li>
-                </ul>
+          <a title="閉じる" href="#howto-04" class="close-details" onclick="document.getElementById('howto-04').scrollIntoView({ behavior: 'smooth', block: 'center' })">
+            <p>close</p> </a
+          ><a title="閉じる" href="#howto-04" class="close-details right" onclick="document.getElementById('howto-04').scrollIntoView({ behavior: 'smooth', block: 'center' })"></a>
+        </details>
 
-                <a title="閉じる" href="#howto-02" class="close-details" onclick="document.getElementById('howto-02').scrollIntoView({ behavior:'smooth', block:'center'});">
-                    <p>close</p>
-                </a><a title="閉じる" href="#howto-02" class="close-details right" onclick="document.getElementById('howto-02').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
-            </details>
+        <details>
+          <summary id="howto-05">　5　Steamで確認</summary>
+          <ul class="lbd">
+            <li>Steamからゲームを通常起動して確認。</li>
+            <li>mod入れたてはエラーが出ることも。ゲームを終了して、もう一度起動してみて下さい。</li>
+            <li>私の環境で起動確認はしていますが、うまくいかない人向けに、このサイトでも翻訳テキストを載せています。</li>
+          </ul>
+          <a title="閉じる" href="#howto-05" class="close-details" onclick="document.getElementById('howto-05').scrollIntoView({ behavior: 'smooth', block: 'center' })">
+            <p>close</p> </a
+          ><a title="閉じる" href="#howto-05" class="close-details right" onclick="document.getElementById('howto-05').scrollIntoView({ behavior: 'smooth', block: 'center' })"></a>
+        </details>
 
+        <details>
+          <summary id="howto-06">　6　<img class="dash" src="../../img/dash.svg" width="64" height="16" alt="――" />削除する</summary>
 
-            <details>
-                <summary id="howto-03">　3　ゲームフォルダを探す</summary>
+          <p>
+            <span class="my-lblue">ゲームフォルダ\Filament\Content\Paks\~mods</span><br />
+            の中の翻訳mod（.pak）を削除すればOK。
+          </p>
 
-                <p>自分のローカルファイルから、Filament のゲームフォルダを探す：</p>
+          <a title="閉じる" href="#howto-06" class="close-details" onclick="document.getElementById('howto-06').scrollIntoView({ behavior: 'smooth', block: 'center' })">
+            <p>close</p> </a
+          ><a title="閉じる" href="#howto-06" class="close-details right" onclick="document.getElementById('howto-06').scrollIntoView({ behavior: 'smooth', block: 'center' })"></a>
+        </details>
+      </div>
 
-                <ol class="lbd">
-                    <li>Steamを起動し、ライブラリへ。</li>
-                    <li>右側の歯車マークを押す。<br>
-                        <img class="zukai" style="max-inline-size: 721px;" src="img/SS-steam-01.webp" width="721" height="344" alt="Steamのライブラリページ。「プレイ」ボタンの右側に歯車マークがある">
-                    </li>
-                    <li>管理　>　ローカルファイルを閲覧<br>
-                        <img class="zukai" style="max-inline-size: 422px;" src="img/SS-steam-02.webp" width="422" height="349" alt="歯車マークを押したあと、管理 > ローカルファイルを閲覧　と進む">
-                    </li>
-                    <li class="no-border">\SteamLibrary\steamapps\common\Filament　が開く。<br>これがゲームフォルダ。<br><br>
-                        <b class="my-lblue">Filament.exe</b> があるのを確認。<br>
-                        <img class="zukai" style="max-inline-size: 352px;" src="img/SS-steam-03.webp" width="352" height="149" alt="ゲームフォルダの中身">
-                    </li>
-                </ol>
-
-
-                <a title="閉じる" href="#howto-03" class="close-details" onclick="document.getElementById('howto-03').scrollIntoView({ behavior:'smooth', block:'center'});">
-                    <p>close</p>
-                </a><a title="閉じる" href="#howto-03" class="close-details right" onclick="document.getElementById('howto-03').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
-            </details>
-
-
-            <details>
-                <summary id="howto-04">　4　ゲームフォルダにコピペ</summary>
-                <img class="zukai" style="max-inline-size: 352px;" src="img/SS-steam-03.webp" width="352" height="149" alt="ゲームフォルダの中身">
-                <p>
-                    <b class="my-lblue">Filament.exe</b> があるとこに、解凍した<b class="my-lblue"><img class="jel" src="../../img/folder.svg" width="18" height="18" alt="" aria-hidden="true">Filament フォルダ</b> をコピペする。
-                </p>
-                <p class="font-small talk">※コピペすると、<br>
-                    <span class="my-lblue">ゲームフォルダ\Filament\Content\Paks</span><br>
-                    の中に<span class="my-lblue">「~mods」</span>というフォルダができて、その中に翻訳modが入る。<br>
-                    元のファイルに変化なし。
-                </p>
-
-                <a title="閉じる" href="#howto-04" class="close-details" onclick="document.getElementById('howto-04').scrollIntoView({ behavior:'smooth', block:'center'});">
-                    <p>close</p>
-                </a><a title="閉じる" href="#howto-04" class="close-details right" onclick="document.getElementById('howto-04').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
-            </details>
-
-
-            <details>
-                <summary id="howto-05">　5　Steamで確認</summary>
-                <ul class="lbd">
-                    <li>Steamからゲームを通常起動して確認。</li>
-                    <li>mod入れたてはエラーが出ることも。ゲームを終了して、もう一度起動してみて下さい。</li>
-                    <li>私の環境で起動確認はしていますが、うまくいかない人向けに、このサイトでも翻訳テキストを載せています。</li>
-                </ul>
-                <a title="閉じる" href="#howto-05" class="close-details" onclick="document.getElementById('howto-05').scrollIntoView({ behavior:'smooth', block:'center'});">
-                    <p>close</p>
-                </a><a title="閉じる" href="#howto-05" class="close-details right" onclick="document.getElementById('howto-05').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
-            </details>
-
-
-            <details>
-                <summary id="howto-06">　6　<img class="dash" src="../../img/dash.svg" width="64" height="16" alt="――">削除する</summary>
-
-                <p><span class="my-lblue">ゲームフォルダ\Filament\Content\Paks\~mods</span><br>
-                    の中の翻訳mod（.pak）を削除すればOK。</p>
-
-                <a title="閉じる" href="#howto-06" class="close-details" onclick="document.getElementById('howto-06').scrollIntoView({ behavior:'smooth', block:'center'});">
-                    <p>close</p>
-                </a><a title="閉じる" href="#howto-06" class="close-details right" onclick="document.getElementById('howto-06').scrollIntoView({ behavior:'smooth', block:'center'});"></a>
-            </details>
-        </div>
-
-
-
-
-        <div class="h2-wrapp">
-            <h2 class="no-count">翻訳こぼれ話</h2>
-        </div>
-        <ul class="lbd">
-            <!--<li>
+      <div class="h2-wrapp">
+        <h2 class="no-count">翻訳こぼれ話</h2>
+      </div>
+      <ul class="lbd">
+        <!--<li>
                 翻訳方法については別ページ参照。<br>このゲームは Unreal Engine 4.24 製。ローカライズ（.locres ）なし、アセット（.uasset）に字幕が収まってる。
             </li>-->
-            <li>セリフ音声が早いので、短く削って読みやすいようにした。</li>
-            <li><ruby>頻出<rt>ひんしゅつ</rt></ruby>用語<br>
-                （原文 ... 元訳 ... 私の訳）
-                <ul class="mt-3">
-                    <li>
-                        <p><span class="my-lblue">The Firmament　...　スカイ・ステーション　...　ファーマメント</span></p>
-                        <p>キリスト教『創世記』が由来。<br>
-                            世界は水で満ち、<ruby>茫洋<rt>ぼうよう</rt></ruby>としていた。神は上下を分け、空と海を創った。このとき上の水（空）を支えたのがファーマメント。<ruby>天蓋<rt>てんがい</rt></ruby>。</p>
-                        <p>フィラメント（糸）とファーマメント（天蓋）。<br>字が似ててややこしいが、「糸みたいな<ruby>些末<rt>さまつ</rt></ruby>なもんが神に成り代わろうとしてる」という皮肉・言葉遊びになっている。また、　神<img class="dash" src="../../img/dash.svg" width="64" height="16" alt="――">運命<img class="dash" src="../../img/dash.svg" width="64" height="16" alt="――">運命の糸　と重要ワードへ連想を<ruby>誘<rt>いざな</rt></ruby>う<span class="my-b">糸</span>口となる。</p>
-                    </li>
-                    <li>
-                        <p><span class="my-lblue">an augment, augmentations　...　バイオニック・デバイス　...　〃</span></p>
-                        <p>「デバイス」という略が使いやすかったのでそのまま。</p>
-                    </li>
-                    <li class="no-border">
-                        <p><span class="my-lblue">Canary　...　カナリ　...　カナリア</span></p>
-                        <p>鳥のカナリア。</p>
-                    </li>
-                </ul>
+        <li>セリフ音声が早いので、短く削って読みやすいようにした。</li>
+        <li>
+          <ruby>頻出<rt>ひんしゅつ</rt></ruby
+          >用語について　<span class="font-small my-lblue">（原文 ... 元訳 ... 私の訳）</span>
+          <ul class="mt-3">
+            <li>
+              <p><span class="my-lblue">The Firmament　...　スカイ・ステーション　...　ファーマメント</span></p>
+              <p>
+                キリスト教『創世記』が由来。<br />
+                世界は水で満ち、<ruby>茫洋<rt>ぼうよう</rt></ruby
+                >としていた。神は上下を分け、空と海を創った。このとき上の水（空）を支えたのがファーマメント。<ruby>天蓋<rt>てんがい</rt></ruby
+                >。
+              </p>
+              <p>
+                フィラメント（糸）とファーマメント（天蓋）。<br />字が似ててややこしいが、「糸みたいな<ruby>些末<rt>さまつ</rt></ruby
+                >なもんが神に成り代わろうとしてる」という皮肉・言葉遊びになっている。また、　神<img class="dash" src="../../img/dash.svg" width="64" height="16" alt="――" />運命<img
+                  class="dash"
+                  src="../../img/dash.svg"
+                  width="64"
+                  height="16"
+                  alt="――"
+                />運命の糸　と重要ワードへ連想を<ruby>誘<rt>いざな</rt></ruby
+                >う<span class="my-b">糸</span>口となる。
+              </p>
             </li>
-        </ul>
-        <div class="mt-4"></div>
+            <li>
+              <p><span class="my-lblue">an augment, augmentations　...　バイオニック・デバイス　...　〃</span></p>
+              <p>「デバイス」という略が使いやすかったのでそのまま。</p>
+            </li>
+            <li class="no-border">
+              <p><span class="my-lblue">Canary　...　カナリ　...　カナリア</span></p>
+              <p>鳥のカナリア。</p>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <div class="mt-4"></div>
     </main>
 
     <footer class="center-align">
-        <small>&copy;
-            <script>document.write(new Date().getFullYear());</script> 怪物であそぼう
-        </small>
+      <small
+        >&copy;
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        怪物であそぼう
+      </small>
     </footer>
 
     <script src="../../global.js"></script>
-</body>
-
+  </body>
 </html>
