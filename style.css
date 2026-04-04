@@ -24,7 +24,7 @@ body.dark {
 
     /* -----　　🏠 Base　　　----- */
     font-size: 1rem;
-    font-size: clamp(0.96rem, 0.913rem + 0.23vw, 1.1rem);
+    font-size: clamp(0.96rem, 0.866rem + 0.42vw, 1.2rem);
     line-height: 1.8;
     letter-spacing: 0.06em;
     counter-reset: h2-counter;

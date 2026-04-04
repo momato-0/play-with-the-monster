@@ -1,0 +1,7 @@
+# 画像サイズ変換に使用
+img-resize/
+img-gen.js
+img-gen.bat
+
+#下書き
+articles-draft.json
