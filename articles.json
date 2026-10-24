@@ -70,6 +70,213 @@
         "author": "momato"
     },
     {
+        "title": "🎬【ネタバレ感想】ゴーン・ガール／デヴィッド・フィンチャー",
+        "priority": 5,
+        "thumbnail": "books/img/gone-girl-01.webp",
+        "url": "books/gone-girl-movie.html",
+        "tags": [
+            "映画",
+            "ミステリー",
+            "考察"
+        ],
+        "categories": [
+            "本",
+            "映画"
+        ],
+        "datePublished": "2014-12-24",
+        "dateModified": "2026-10-24",
+        "excerpt": {
+            "short": "それが結婚よ。",
+            "full": "失踪した妻エイミー、追い詰められる夫ニック。デヴィッド・フィンチャーが仕掛けた「結婚」という名の地獄を食らえ。"
+        },
+        "slug": "gone-girl-movie",
+        "author": "momato"
+    },
+    {
+        "title": "📚【ポーの良心シリーズ①】告げ口心臓／エドガー・アラン・ポー",
+        "priority": 5,
+        "thumbnail": "books/img/poe-tell-tale-heart-01.webp",
+        "url": "books/poe-tell-tale-heart.html",
+        "tags": [
+            "本",
+            "海外文学",
+            "考察"
+        ],
+        "categories": [
+            "本",
+            "海外文学"
+        ],
+        "datePublished": "2015-10-02",
+        "dateModified": "2026-10-24",
+        "excerpt": {
+            "short": "心臓の音が、秘密を暴く。",
+            "full": "なぜ語り手は老人の「眼」をあんなに怖がったのか？　意味不明な夜ごとの儀式、罪悪感のない殺人、そして自白。論文をたよりに、ポーが仕掛けた「良心」の正体に迫る。"
+        },
+        "slug": "poe-tell-tale-heart",
+        "author": "momato"
+    },
+    {
+        "title": "📚【ポーの良心シリーズ②】黒猫／エドガー・アラン・ポー",
+        "priority": 5,
+        "thumbnail": "books/img/poe-black-cat-01.webp",
+        "url": "books/poe-black-cat.html",
+        "tags": [
+            "本",
+            "海外文学",
+            "考察"
+        ],
+        "categories": [
+            "本",
+            "海外文学"
+        ],
+        "datePublished": "2015-10-15",
+        "dateModified": "2026-10-24",
+        "excerpt": {
+            "short": "自分を破滅させるからこそ、やる。",
+            "full": "涙を流しながら猫を吊るす男、完全犯罪を自ら暴く男。作品の鍵をにぎる「天邪鬼」とは何なのか？　自分を追いつめる衝動を「良心」と呼んでいいのか、悩みながら読み解く。"
+        },
+        "slug": "poe-black-cat",
+        "author": "momato"
+    },
+    {
+        "title": "📚【ポーの良心シリーズ③】ウィリアム・ウィルソン＆天邪鬼／エドガー・アラン・ポー",
+        "priority": 5,
+        "thumbnail": "books/img/poe-imp-of-the-perverse-01.webp",
+        "url": "books/poe-imp-of-the-perverse.html",
+        "tags": [
+            "本",
+            "海外文学",
+            "考察"
+        ],
+        "categories": [
+            "本",
+            "海外文学"
+        ],
+        "datePublished": "2015-10-19",
+        "dateModified": "2026-10-24",
+        "excerpt": {
+            "short": "勝利は影に決まっている。",
+            "full": "もう一人の自分を追いつめた衝動の正体とは？　『天邪鬼』の一文で、ずっと悩んでいた謎がついに解けた。善が悪に変身する、ポーの良心シリーズ完結編。"
+        },
+        "slug": "poe-imp-of-the-perverse",
+        "author": "momato"
+    },
+    {
+        "title": "📚【パノラマ島の源流】アルンハイムの地所／エドガー・アラン・ポー",
+        "priority": 5,
+        "thumbnail": "books/img/poe-domain-of-arnheim-00.webp",
+        "url": "books/poe-domain-of-arnheim.html",
+        "tags": [
+            "本",
+            "海外文学",
+            "感想"
+        ],
+        "categories": [
+            "本",
+            "海外文学"
+        ],
+        "datePublished": "2016-10-08",
+        "dateModified": "2026-10-24",
+        "excerpt": {
+            "short": "造園家こそ、詩人である。",
+            "full": "莫大な財産を手にした青年エリソンが、全力で創り上げた理想の楽園。それはもしかして「死後の世界」？　乱歩『パノラマ島綺譚』とくらべながら、続編『ランダーの別荘』もあわせて読む。"
+        },
+        "slug": "poe-domain-of-arnheim",
+        "author": "momato"
+    },
+    {
+        "title": "📚【本の感想】冥王星を殺したのは私です／マイク・ブラウン",
+        "priority": 5,
+        "thumbnail": "books/img/how-i-killed-pluto-01.webp",
+        "url": "books/how-i-killed-pluto.html",
+        "tags": [
+            "本",
+            "科学",
+            "感想"
+        ],
+        "categories": [
+            "本",
+            "科学"
+        ],
+        "datePublished": "2016-01-24",
+        "dateModified": "2026-10-24",
+        "excerpt": {
+            "short": "「冥王星は死にました」",
+            "full": "幻の第10惑星を見つけた天文学者は、その星を道連れに冥王星を惑星の座から引きずり下ろした。宇宙は何も変わっていないのに、なぜ世界は変わるのか？　描き直されつづける「地図」の話。"
+        },
+        "slug": "how-i-killed-pluto",
+        "author": "momato"
+    },
+    {
+        "title": "📚【本の感想】謎解き父さん／伴田良輔",
+        "priority": 5,
+        "thumbnail": "books/img/nazotoki-tousan-01.webp",
+        "url": "books/nazotoki-tousan.html",
+        "tags": [
+            "本",
+            "数学",
+            "パズル"
+        ],
+        "categories": [
+            "本",
+            "数学"
+        ],
+        "datePublished": "2015-11-05",
+        "dateModified": "2026-10-24",
+        "excerpt": {
+            "short": "答えがわかっても、やっぱり不思議！",
+            "full": "マッチ棒のお父さんが出す、手品のような12の問題。無限ホテル、一筆書き、ありえない立体……。数式なしで楽しめる問題の裏にある数学の話題を、ひとつずつ調べてみた。"
+        },
+        "slug": "nazotoki-tousan",
+        "author": "momato"
+    },
+    {
+        "title": "📚【本の感想】怨霊になった天皇／竹田恒泰",
+        "priority": 5,
+        "thumbnail": "books/img/onryo-tenno-01.webp",
+        "url": "books/onryo-tenno.html",
+        "tags": [
+            "本",
+            "日本史",
+            "感想"
+        ],
+        "categories": [
+            "本",
+            "歴史"
+        ],
+        "datePublished": "2014-12-26",
+        "dateModified": "2026-10-24",
+        "excerpt": {
+            "short": "怨霊は、生者がつくりだす。",
+            "full": "崇徳天皇を中心に、天皇が「怨霊」となるいきさつをたどる一冊。「怖いもの」を怖がる心が、どれほど日本人の礎を築いてきたのか。南朝の末裔の話にもびっくり。"
+        },
+        "slug": "onryo-tenno",
+        "author": "momato"
+    },
+    {
+        "title": "📚【本の感想】ウェイクフィールド／ナサニエル・ホーソーン",
+        "priority": 5,
+        "thumbnail": "books/img/hawthorne-wakefield-01.webp",
+        "url": "books/hawthorne-wakefield.html",
+        "tags": [
+            "本",
+            "海外文学",
+            "感想"
+        ],
+        "categories": [
+            "本",
+            "海外文学"
+        ],
+        "datePublished": "2015-10-24",
+        "dateModified": "2026-10-24",
+        "excerpt": {
+            "short": "自分がいなくても、世界は回る。",
+            "full": "ある日ふらりと家を出て、すぐ近くに住みつづけた男。一度離れたら、戻るに戻れない。愛情の亀裂は、あっという間にふたたび閉じてしまう――ホーソーンの不思議な短篇。"
+        },
+        "slug": "hawthorne-wakefield",
+        "author": "momato"
+    },
+    {
         "title": "【JavaScript】YouTubeのドラフトを一括公開するコード（2025年3月）",
         "priority": 5,
         "thumbnail": "img/youtube-draft-publish-00.webp",

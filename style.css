@@ -769,6 +769,11 @@ p.font-larger {
     background-color: #111;
 }
 
+/* 本の表紙：スマホで横いっぱいに広がらないように */
+.zukai.cover {
+    max-inline-size: 280px;
+}
+
 .i-window,
 .dash {
     margin: 0 .4rem;
