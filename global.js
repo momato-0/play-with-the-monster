@@ -1,9 +1,3 @@
-fetch('https://momato-0.github.io/play-with-the-monster/nav.html')
-    .then(res => res.text())
-    .then(html => {
-        document.getElementById('global-nav').innerHTML = html;
-    });
-
 // tooltip mobile
 const mq = window.matchMedia('(max-width: 600px)');
 

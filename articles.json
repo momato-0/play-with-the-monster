@@ -20,7 +20,8 @@
             "full": "言葉にかかる二重三重の意味、《糸 フィラメント》に絡めとられた行間を解きほぐす。ギリシャ神話のアリアドネ、置き去りにされた色彩豊かな地球の記憶。ディストピアの果てに彼女の「救い」はあったのか？"
         },
         "slug": "filament-guide",
-        "author": "momato"
+        "author": "momato",
+        "description": "難解パズルの真実を追え！ ディストピアの果てに彼女の救いはあったのか？ 物語にかかる二重三重の意味、《糸 フィラメント》に絡めとられた行間を解きほぐす。有志翻訳 MODも配布中！"
     },
     {
         "title": "🎮【ハイマー2000】深掘り考察・コピーの呪いを解け！",
@@ -48,7 +49,7 @@
     {
         "title": "📚【じっくり読み解く】木曜日だった男／チェスタトン",
         "priority": 5,
-        "thumbnail": "books/thursday-01b.webp",
+        "thumbnail": "books/img/thursday-01b.webp",
         "url": "books/the-man-who-was-thursday-review.html",
         "tags": [
             "本",

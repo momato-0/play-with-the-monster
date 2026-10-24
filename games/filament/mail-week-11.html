@@ -12,7 +12,45 @@
 </head>
 
 <body class="dark">
-    <div id="global-nav"></div>
+    <!-- build:nav -->
+<div id="global-nav">
+<nav class="menu-nav top s">
+    <button class="circle transparent" id="home-button" aria-label="Home Button">
+        <a href="../../index.html"><img class="responsive" src="../../img/momato_icon_40.svg" width="32" height="32" alt="ホームボタン"></a>
+    </button>
+    <h5 class="max center-align bold responsive">怪物であそぼう</h5>
+    <button class="circle transparent" data-ui="#mobile-menu" aria-label="Menu Button">
+        <i>menu</i>
+        <menu class="max" id="mobile-menu" data-ui="#mobile-menu">
+            <li><a href="../../books.html">本</a></li>
+            <li><a href="../../games.html">ゲーム</a></li>
+            <li><a href="../../about.html">ABOUT</a></li>
+        </menu>
+    </button>
+</nav>
+
+
+<nav class="menu-nav left l m">
+    <h6 class="small center-align bold nobr">怪物で<wbr>あそぼう</h6>
+    <a href="../../index.html">
+        <img src="../../img/momato_icon_40.svg" width="32" height="32" alt="" aria-hidden="true">
+        <span>HOME</span>
+    </a>
+    <a href="../../books.html">
+        <img src="../../img/emoji-line-book.svg" width="32" height="32" alt="" aria-hidden="true">
+        <span>本</span>
+    </a>
+    <a href="../../games.html">
+        <img src="../../img/emoji-line-puzzle.svg" width="32" height="32" alt="" aria-hidden="true">
+        <span>ゲーム</span>
+    </a>
+    <a href="../../about.html">
+        <img src="../../img/emoji-line-munya.svg" width="32" height="32" alt="" aria-hidden="true">
+        <span>ABOUT</span>
+    </a>
+</nav>
+</div>
+<!-- /build:nav -->
 
     <header class="fixed pankuz">
         <p class="font-smaller"><a href="../../index.html">HOME</a> > <a href="filament-guide.html">FILAMENT</a> > メール 11週目</p>
@@ -71,7 +109,7 @@
 
     <footer class="center-align">
         <small>&copy;
-            <script>document.write(new Date().getFullYear());</script> 怪物であそぼう
+            <!-- build:year -->2026<!-- /build:year --> 怪物であそぼう
         </small>
     </footer>
 

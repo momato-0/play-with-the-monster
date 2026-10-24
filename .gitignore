@@ -5,3 +5,5 @@ img-gen.bat
 
 #下書き
 articles-draft.json
+# Blogger から移す元データ（公開しない）
+books/_import/
