@@ -185,6 +185,52 @@
         "author": "momato"
     },
     {
+        "title": "📚【本の感想】パノラマ島綺譚／江戸川乱歩",
+        "priority": 5,
+        "thumbnail": "books/img/ranpo-panorama-island-01.webp",
+        "url": "books/ranpo-panorama-island.html",
+        "tags": [
+            "本",
+            "日本文学",
+            "感想"
+        ],
+        "categories": [
+            "本",
+            "日本文学"
+        ],
+        "datePublished": "2016-10-04",
+        "dateModified": "2026-10-24",
+        "excerpt": {
+            "short": "「幻想」は、探偵に終わらされた。",
+            "full": "人見廣介が何年も思い描いた夢の島。しつこいほどの描写は、彼の執念そのもの。なのに終盤、探偵の登場で一気に興ざめ……？　幻想と理性、乱歩の魅力が裏目に出た一作を読む。"
+        },
+        "slug": "ranpo-panorama-island",
+        "author": "momato"
+    },
+    {
+        "title": "📚【パノラマ島の源流】金色の死／谷崎潤一郎",
+        "priority": 5,
+        "thumbnail": "books/img/tanizaki-golden-death-01.webp",
+        "url": "books/tanizaki-golden-death.html",
+        "tags": [
+            "本",
+            "日本文学",
+            "感想"
+        ],
+        "categories": [
+            "本",
+            "日本文学"
+        ],
+        "datePublished": "2016-10-10",
+        "dateModified": "2026-10-24",
+        "excerpt": {
+            "short": "このくらい美しい人間の死体を、見たことがない。",
+            "full": "財産をつぎこんだ肉体美の庭園と、金箔に包まれた最期。岡村君は死によって自分の芸術を完成させたのか？　レッシングの芸術論とくらべながら、『パノラマ島綺譚』への影響を探る。"
+        },
+        "slug": "tanizaki-golden-death",
+        "author": "momato"
+    },
+    {
         "title": "📚【本の感想】冥王星を殺したのは私です／マイク・ブラウン",
         "priority": 5,
         "thumbnail": "books/img/how-i-killed-pluto-01.webp",
@@ -274,6 +320,52 @@
             "full": "ある日ふらりと家を出て、すぐ近くに住みつづけた男。一度離れたら、戻るに戻れない。愛情の亀裂は、あっという間にふたたび閉じてしまう――ホーソーンの不思議な短篇。"
         },
         "slug": "hawthorne-wakefield",
+        "author": "momato"
+    },
+    {
+        "title": "📚【本の感想】アメリカン・サイコ／ブレット・イーストン・エリス",
+        "priority": 5,
+        "thumbnail": "books/img/ellis-american-psycho-01.webp",
+        "url": "books/ellis-american-psycho.html",
+        "tags": [
+            "本",
+            "海外文学",
+            "感想"
+        ],
+        "categories": [
+            "本",
+            "海外文学"
+        ],
+        "datePublished": "2013-11-04",
+        "dateModified": "2026-10-24",
+        "excerpt": {
+            "short": "ここからは出られません。",
+            "full": "ウォール街のエリートにして殺人鬼、パトリック・ベイトマン。ブランド名の羅列と生々しい殺人、なのにどこかコメディじみている。頭がおかしいのは、はたして主人公だけだろうか？"
+        },
+        "slug": "ellis-american-psycho",
+        "author": "momato"
+    },
+    {
+        "title": "📚【本の感想】ロリータ、ロリータ、ロリータ／若島正",
+        "priority": 5,
+        "thumbnail": "books/img/lolita-lolita-lolita-01.webp",
+        "url": "books/lolita-lolita-lolita.html",
+        "tags": [
+            "本",
+            "海外文学",
+            "読書ノート"
+        ],
+        "categories": [
+            "本",
+            "海外文学"
+        ],
+        "datePublished": "2012-12-31",
+        "dateModified": "2026-10-24",
+        "excerpt": {
+            "short": "「霜の針」を、愛おしい手つきで拾い上げる。",
+            "full": "ナボコフ『ロリータ』を再読するときのヒントになる一冊の読書ノート。見えないロリータ探し、Cの氾濫、クィルティの影。美しいと評判の書き出しは、本当に手放しで褒めていいのか？"
+        },
+        "slug": "lolita-lolita-lolita",
         "author": "momato"
     },
     {

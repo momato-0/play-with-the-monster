@@ -5,7 +5,7 @@ document.querySelectorAll('.chip').forEach(chip => {
     const tip = chip.querySelector('.tooltip');
 
     chip.addEventListener('mouseenter', () => {
-        if (!mq.matches) return;
+        if (!tip || !mq.matches) return;
 
         const r = chip.getBoundingClientRect();
         tip.style.top = `${r.top}px`;

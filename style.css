@@ -774,6 +774,20 @@ p.font-larger {
     max-inline-size: 280px;
 }
 
+/* ネタバレ・クイズの答え：タップ・ホバーで表示 */
+.spoiler {
+    background-color: #444;
+    color: transparent;
+    border-radius: .2rem;
+    cursor: pointer;
+    transition: color .2s;
+}
+
+.spoiler:hover,
+.spoiler:focus {
+    color: inherit;
+}
+
 .i-window,
 .dash {
     margin: 0 .4rem;
